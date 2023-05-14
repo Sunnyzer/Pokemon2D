@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d241c0619559fc4e81f2d8cf31093a6, type: 3}
+  m_Name: RockData
+  m_EditorClassIdentifier: 
+  grassTile: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRight: {fileID: 1467578045, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileUp: {fileID: -1196938567, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileLeft: {fileID: 1392513796, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileDown: {fileID: 123318620, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightDown: {fileID: -1931495590, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightUp: {fileID: 748678220, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileLeftDown: {fileID: -525443243, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileLeftUp: {fileID: 143917677, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightLeft: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightLeftDown: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightLeftUp: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileDownUp: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightDownUp: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileLeftDownUp: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileLeftRightDownRight: {fileID: 1006438498, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassSpriteDRightUp: {fileID: 773848353, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassSpriteDLeftUp: {fileID: 1014290501, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassSpriteDRightDown: {fileID: -2144761389, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassSpriteDLeftDown: {fileID: 830798658, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
