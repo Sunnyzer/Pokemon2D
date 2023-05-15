@@ -21,13 +21,13 @@ MonoBehaviour:
   grassTileRightUp: {fileID: 1212045861, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
   grassTileLeftDown: {fileID: 571130373, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
   grassTileLeftUp: {fileID: -344425605, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
-  grassTileRightLeft: {fileID: 0}
-  grassTileRightLeftDown: {fileID: 0}
-  grassTileRightLeftUp: {fileID: 0}
-  grassTileDownUp: {fileID: 0}
-  grassTileRightDownUp: {fileID: 0}
-  grassTileLeftDownUp: {fileID: 0}
-  grassTileLeftRightDownRight: {fileID: 0}
+  grassTileRightLeft: {fileID: 1855530542, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightLeftDown: {fileID: 1855530542, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightLeftUp: {fileID: 1855530542, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileDownUp: {fileID: 1855530542, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileRightDownUp: {fileID: 1855530542, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileLeftDownUp: {fileID: 1855530542, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
+  grassTileLeftRightDownRight: {fileID: 1855530542, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
   grassSpriteDRightUp: {fileID: -73043963, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
   grassSpriteDLeftUp: {fileID: 539052273, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}
   grassSpriteDRightDown: {fileID: 732759686, guid: 1aa132fd32190494ca2f31120cb94853, type: 3}

@@ -1,5 +1,32 @@
+using JetBrains.Annotations;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
+public class InputBool
+{
+    bool value;
+    public Vector2 direction;
+    public float time = 0;
+    public bool Value
+    {
+        get
+        {
+            return Input.GetKey(key);
+        }
+    }
+    public KeyCode key;
+    public void Update(float _deltaTime)
+    {
+        time += _deltaTime;
+    }
+    public InputBool(KeyCode _key, Vector2 _direction)
+    {
+        key = _key;
+        direction = _direction;
+    }
+}
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 1;
@@ -10,107 +37,125 @@ public class CharacterMovement : MonoBehaviour
     float axisX;
     float axisY;
     [SerializeField] bool canMove = true;
+    [SerializeField] float ratioSpeedSprint = 1.5f;
+    [SerializeField] float inputSensibility = 0.1f;
+    [SerializeField] List<InputBool> bools = new List<InputBool>();
+    void SetEyeDirectionX(int _eyeDirectionX)
+    {
+        if (_eyeDirectionX == 0) return;
+        directionEye.x = _eyeDirectionX;
+        animator.SetFloat("directionEyeX", _eyeDirectionX);
+        directionEye.y = 0;
+        animator.SetFloat("directionEyeY", 0);
+    }
+    void SetEyeDirectionY(int _eyeDirectionY)
+    {
+        if (_eyeDirectionY == 0) return;
+        directionEye.y = _eyeDirectionY;
+        animator.SetFloat("directionEyeY", _eyeDirectionY);
+        directionEye.x = 0;
+        animator.SetFloat("directionEyeX", 0);
+    }
     private void Start()
     {
         nextPosition = transform.position;
+        directionEye = new Vector2(0, -1);
+    }
+    void InputKey(KeyCode _key, Vector2 _direction)
+    {
+        SetEyeDirectionX((int)_direction.x);
+        SetEyeDirectionY((int)_direction.y);
+        bools.Insert(0, new InputBool(_key, _direction));
+        if (bools.Count > 4)
+            bools.RemoveAt(4);
+    }
+    void Idle()
+    {
+        animator.SetFloat("axisX", 0);
+        animator.SetFloat("axisY", 0);
+        animator.SetBool("isWalking", false);
     }
     void Update()
+    {
+        Sprint();
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            InputKey(KeyCode.W, new Vector2(0, 1));
+        }
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            InputKey(KeyCode.S, new Vector2(0, -1));
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            InputKey(KeyCode.D, new Vector2(1, 0));
+        }
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            InputKey(KeyCode.A, new Vector2(-1, 0));
+        }
+        //if (!canMove) return;
+        transform.position = Vector3.MoveTowards(transform.position, nextPosition, moveSpeed * Time.deltaTime);
+        if (Vector3.Distance(nextPosition, transform.position) > 0f) return;
+        for (int i = 0; i < bools.Count; i++)
+        {
+            bools[i].Update(Time.deltaTime);
+        }
+        int x = 0;
+        if (bools.Count == 0)
+            Idle();
+        while (bools.Count > 0 && x < 4)
+        {
+            x++;
+            InputBool _input = bools[0];
+            if (!_input.Value)
+            {
+                bools.RemoveAt(0);
+                continue;
+            }
+            if (_input.time <= inputSensibility && bools.Count == 1)
+            {
+                Idle();
+                break;
+            }
+            animator.SetFloat("axisX", _input.direction.x);
+            animator.SetFloat("axisY", _input.direction.y);
+            animator.SetBool("isWalking", true);
+            Vector3 _eyeDirection = _input.direction;
+            SetEyeDirectionX((int)_input.direction.x);
+            SetEyeDirectionY((int)_input.direction.y);
+            Vector3 _nextPosition = transform.position + _eyeDirection;
+            RaycastHit2D raycastHit2D = Physics2D.CircleCast(_nextPosition, 0.1f, Vector3.forward);
+            if(!raycastHit2D || raycastHit2D.collider.isTrigger)
+            {
+                nextPosition = _nextPosition;
+            }
+        }
+    }
+    void Sprint()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             isSprinting = true;
-            moveSpeed *= 2;
+            animator.SetBool("isSprinting", isSprinting);
+            moveSpeed *= ratioSpeedSprint;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            isSprinting = true;
-            moveSpeed /= 2;
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            directionEye.x = 1;
-            animator.SetFloat("directionEyeX", (int)directionEye.x);
-            directionEye.y = 0;
-            animator.SetFloat("directionEyeY", 0);
-            animator.GetComponent<SpriteRenderer>().flipX = false;
-            canMove = false;
-            CancelInvoke();
-            Invoke(nameof(ActiveMovement), 0.1f);
-            return;
-        }
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            directionEye.y = 1;
-            animator.SetFloat("directionEyeY", (int)directionEye.y);
-            directionEye.x = 0;
-            animator.SetFloat("directionEyeX", 0);
-            animator.GetComponent<SpriteRenderer>().flipX = false;
-            canMove = false;
-            CancelInvoke();
-            Invoke(nameof(ActiveMovement), 0.1f);
-            return;
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            directionEye.y = -1;
-            animator.SetFloat("directionEyeY", (int)directionEye.y);
-            directionEye.x = 0;
-            animator.SetFloat("directionEyeX", 0);
-            animator.GetComponent<SpriteRenderer>().flipX = false;
-            canMove = false;
-            CancelInvoke();
-            Invoke(nameof(ActiveMovement), 0.1f);
-            return;
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            directionEye.x = -1;
-            animator.SetFloat("directionEyeX", (int)directionEye.x);
-            directionEye.y = 0;
-            animator.SetFloat("directionEyeY", 0);
-            animator.GetComponent<SpriteRenderer>().flipX = true;
-            canMove = false;
-            CancelInvoke();
-            Invoke(nameof(ActiveMovement), 0.1f);
-            return;
-        }
-        if (!canMove) return;
-        transform.position = Vector3.MoveTowards(transform.position, nextPosition, moveSpeed * Time.deltaTime);
-        if (Vector3.Distance(nextPosition, transform.position) > 0f) return;
-
-        axisX = Input.GetAxisRaw("Horizontal");
-        axisY = Input.GetAxisRaw("Vertical");
-        if (axisX != 0)
-        {
-            directionEye.x = axisX;
-            animator.SetFloat("directionEyeX", (int)directionEye.x);
-            directionEye.y = 0;
-            animator.SetFloat("directionEyeY", 0);
-        }
-        if (axisY != 0)
-        {
-            directionEye.y = axisY;
-            animator.SetFloat("directionEyeY", (int)directionEye.y);
-            directionEye.x = 0;
-            animator.SetFloat("directionEyeX", 0);
-        }
-        
-        animator.SetFloat("axisX", Mathf.Abs(axisX));
-        animator.SetFloat("axisY", axisY);
-
-        animator.GetComponent<SpriteRenderer>().flipX = axisX == -1;
-        Vector3 _direction = new Vector3(axisX, axisY, 0);
-
-        if (_direction == Vector3.zero) return;
-        Vector3 _nextPosition = transform.position + _direction;
-        RaycastHit2D raycastHit2D = Physics2D.CircleCast(_nextPosition, 0.1f, Vector3.forward);
-        if(!raycastHit2D || raycastHit2D.collider.isTrigger)
-        {
-            nextPosition = _nextPosition;
+            isSprinting = false;
+            animator.SetBool("isSprinting", isSprinting);
+            moveSpeed /= ratioSpeedSprint;
         }
     }
     void ActiveMovement()
     {
         canMove = true;
+    }
+    private void OnDrawGizmos()
+    {
+        Vector3 _d = directionEye;
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + _d);
     }
 }
