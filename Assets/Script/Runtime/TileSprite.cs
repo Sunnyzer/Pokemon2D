@@ -53,7 +53,7 @@ public class TileSprite : MonoBehaviour
             return spriteRenderer;
         }
     }
-    public Collider2D BoxCollider
+    public Collider2D BoxCollider2
     {
         get
         {
@@ -67,7 +67,9 @@ public class TileSprite : MonoBehaviour
             return boxCollider;
         }
     }
+    public bool destroyCollisionAtStart = false;
     #if UNITY_EDITOR
+    public SpriteDataSO spriteData;
     public bool right;
     public bool left;
     public bool up;
@@ -121,6 +123,8 @@ public class TileSprite : MonoBehaviour
             ActiveTrigger();
         if (_ID == 0 && !_settings.collisionInside)
             ActiveTrigger();
+        if (_ID == 0 && _settings.collisionInside)
+            destroyCollisionAtStart = true;
         SpriteRenderer.sortingOrder = _settings.layer;
         SpriteRenderer.sprite = _grassData.GrassSprite[_ID];
     }
@@ -193,21 +197,28 @@ public class TileSprite : MonoBehaviour
             return (TileSprite)_collider.GetComponent(GetType());
         return null;
     }
-#endif
+    #endif
+    private void Start()
+    {
+        if(destroyCollisionAtStart)
+            Destroy(BoxCollider2);
+    }
     public void SetSprite(Sprite _sprite)
     {
         SpriteRenderer.sprite = _sprite;
     }
     public void DeleteCollider()
     {
-        Destroy(BoxCollider);
+        Destroy(BoxCollider2);
     }
     public void ActiveTrigger()
     {
-        BoxCollider.isTrigger = true;
+        BoxCollider2.isTrigger = true;
+        destroyCollisionAtStart = false;
     }
     public void DeactiveTrigger()
     {
-        BoxCollider.isTrigger = false;
+        BoxCollider2.isTrigger = false;
+        destroyCollisionAtStart = false;
     }
 }

@@ -7,12 +7,11 @@ using UnityEngine;
 public class GrassGeneratorEditor : EditorWindow
 {
     static GrassGeneratorEditor instance;
-    SpriteDataSO SpriteData;
     TileSprite tileSpritePrefab;
     SceneView sceneView;
     Vector3 cellPosition;
     
-    KeyCode keyDelete = KeyCode.H;
+    KeyCode keyDelete = KeyCode.C;
     KeyCode keyPaint = KeyCode.F;
 
     CellSettings settings = new CellSettings();
@@ -70,7 +69,7 @@ public class GrassGeneratorEditor : EditorWindow
 
         UpdateGrassAroundPosition(_position);
         _tileSprite.ModifCell();
-        _tileSprite.UpdateCell(SpriteData, settings);
+        _tileSprite.UpdateCell(tileSpritePrefab.spriteData, settings);
     }
     public void Paint()
     {
@@ -124,7 +123,7 @@ public class GrassGeneratorEditor : EditorWindow
         {
             TileSprite tileSprite = DetectTileSprite(_p + item.Value);
             tileSprite?.ModifCellFromDirection(item.Key, !_fill);
-            tileSprite?.UpdateCell(SpriteData, settings);
+            tileSprite?.UpdateCell(tileSpritePrefab.spriteData, settings);
         }
     }
     public void SetGridCellPosition() 
@@ -158,7 +157,6 @@ public class GrassGeneratorEditor : EditorWindow
         SetGridCellPosition();
         Repaint();
 
-        SpriteData = (SpriteDataSO)EditorGUILayout.ObjectField("grassData", SpriteData, typeof(SpriteDataSO), true);
         tileSpritePrefab = (TileSprite)EditorGUILayout.ObjectField("grass", tileSpritePrefab, typeof(TileSprite), true);
         keyDelete = (KeyCode)EditorGUILayout.EnumPopup("keyDelete",keyDelete);
         keyPaint = (KeyCode)EditorGUILayout.EnumPopup("keyPaint", keyPaint);

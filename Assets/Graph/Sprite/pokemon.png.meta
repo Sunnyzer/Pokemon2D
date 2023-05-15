@@ -756,7 +756,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pokemon_31
+      name: rock
       rect:
         serializedVersion: 2
         x: 112
@@ -31667,6 +31667,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tree
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3152
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e9591cb93c5cf42bde791bce75a4ba
+      internalID: -1649400026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -32553,7 +32574,6 @@ TextureImporter:
       pokemon_696: 1459938792
       pokemon_189: -13082272
       pokemon_875: -2026517492
-      pokemon_31: -1423442110
       pokemon_390: -210485335
       pokemon_1486: -292481755
       pokemon_989: -1051851537
@@ -32606,6 +32626,7 @@ TextureImporter:
       pokemon_229: 1034208342
       pokemon_779: 419421141
       pokemon_1157: 413374131
+      rock: -1423442110
       pokemon_220: 1853765703
       pokemon_406: 809882089
       pokemon_1325: -628865129
@@ -32805,8 +32826,9 @@ TextureImporter:
       pokemon_1144: -2076498169
       pokemon_992: -2072369167
       pokemon_348: 919776864
-      pokemon_690: -446640275
+      Tree: -1649400026
       pokemon_1124: 1099972024
+      pokemon_690: -446640275
       pokemon_1269: 1028403736
       pokemon_155: -933756634
       pokemon_1011: 1688304595

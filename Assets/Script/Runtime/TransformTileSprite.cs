@@ -23,10 +23,14 @@ public class TransformTileSprite : MonoBehaviour
             TileSprite _child = tileSprites[i];
             if (!_child) continue;
             Vector3 _childPos = _child.transform.position;
-            if (Vector2.Distance(_sceneViewPos, _childPos) > 15)
+            if (Vector2.Distance(_sceneViewPos, _childPos) > 17)
                 continue;
-            Handles.color = _child.BoxCollider.isTrigger ? Color.green : Color.red;
-            Handles.DrawWireCube(_childPos, Vector3.one * 0.9f);
+            if (!_child.BoxCollider2 || _child.destroyCollisionAtStart) continue;
+            Handles.color = _child.BoxCollider2.isTrigger ? Color.green : Color.red;
+            if(_child.BoxCollider2.bounds.size == new Vector3(1,1,0))
+                Handles.DrawWireCube(_childPos, Vector3.one * 0.9f);
+            else
+                Handles.DrawWireCube(_childPos, _child.BoxCollider2.bounds.size);
         }
     }
 }

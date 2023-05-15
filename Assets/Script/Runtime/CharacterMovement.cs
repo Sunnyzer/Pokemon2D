@@ -95,13 +95,13 @@ public class CharacterMovement : MonoBehaviour
         {
             InputKey(KeyCode.A, new Vector2(-1, 0));
         }
-        //if (!canMove) return;
+        if (!canMove) return;
         transform.position = Vector3.MoveTowards(transform.position, nextPosition, moveSpeed * Time.deltaTime);
         if (Vector3.Distance(nextPosition, transform.position) > 0f) return;
+        
         for (int i = 0; i < bools.Count; i++)
-        {
             bools[i].Update(Time.deltaTime);
-        }
+
         int x = 0;
         if (bools.Count == 0)
             Idle();
@@ -119,18 +119,20 @@ public class CharacterMovement : MonoBehaviour
                 Idle();
                 break;
             }
+            Vector3 _eyeDirection = _input.direction;
+            Vector3 _nextPosition = transform.position + _eyeDirection;
+            RaycastHit2D raycastHit2D = Physics2D.CircleCast(_nextPosition, 0.1f, Vector3.forward);
+            SetEyeDirectionX((int)_input.direction.x);
+            SetEyeDirectionY((int)_input.direction.y);
+            if (raycastHit2D && !raycastHit2D.collider.isTrigger)
+            {
+                Idle();
+                return;
+            }
             animator.SetFloat("axisX", _input.direction.x);
             animator.SetFloat("axisY", _input.direction.y);
             animator.SetBool("isWalking", true);
-            Vector3 _eyeDirection = _input.direction;
-            SetEyeDirectionX((int)_input.direction.x);
-            SetEyeDirectionY((int)_input.direction.y);
-            Vector3 _nextPosition = transform.position + _eyeDirection;
-            RaycastHit2D raycastHit2D = Physics2D.CircleCast(_nextPosition, 0.1f, Vector3.forward);
-            if(!raycastHit2D || raycastHit2D.collider.isTrigger)
-            {
-                nextPosition = _nextPosition;
-            }
+            nextPosition = _nextPosition;
         }
     }
     void Sprint()

@@ -124,7 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ce56476c16b4c4cbf9fad38aaa975f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: -8755553835959865576}
+  destroyCollisionAtStart: 0
+  spriteData: {fileID: 11400000, guid: 6274176d79782d9499c51ed066221e02, type: 2}
   right: 0
   left: 0
   up: 0
