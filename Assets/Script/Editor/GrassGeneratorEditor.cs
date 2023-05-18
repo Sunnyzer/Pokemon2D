@@ -48,7 +48,10 @@ public class GrassGeneratorEditor : EditorWindow
     void InputToggle(KeyCode _inputKey, Action _callback)
     {
         if (Event.current.type == EventType.KeyDown && Event.current.keyCode == _inputKey)
+        {
+            Selection.activeGameObject = null;
             _callback?.Invoke();
+        }
     }
 
     public void CreateTileSprite(TileSprite _tileSpritePrefab, Vector3 _position)
@@ -79,7 +82,13 @@ public class GrassGeneratorEditor : EditorWindow
             for (int j = 0; j < paintSize; j++)
             {
                 Vector3 _pos = cellPosition + new Vector3(i, j);
-                if (Detect(_pos) != null) continue;
+                bool _hit = Physics2D.CircleCast(_pos, 0.1f, Vector3.forward).collider;
+                if (_hit)
+                {
+                    TileSprite _tileSprite = Physics2D.CircleCast(_pos, 0.1f, Vector3.forward).collider.GetComponent<TileSprite>();
+                    if(_tileSprite)
+                        DestroyImmediate(_tileSprite.gameObject);
+                }
                 CreateTileSprite(tileSpritePrefab, _pos);
             }
         }
@@ -126,15 +135,13 @@ public class GrassGeneratorEditor : EditorWindow
             tileSprite?.UpdateCell(tileSpritePrefab.spriteData, settings);
         }
     }
-    public void SetGridCellPosition() 
+    public void SetGridCellPosition()
     {
         Vector2 mousePosition = Event.current.mousePosition + instance.position.position - sceneView.position.position + new Vector2(0, 19 - 45);
         mousePosition.x *= EditorGUIUtility.pixelsPerPoint;
         mousePosition.y = sceneView.camera.pixelHeight - mousePosition.y * EditorGUIUtility.pixelsPerPoint;
         cellPosition = sceneView.camera.ScreenToWorldPoint(mousePosition);
-        cellPosition.x = Mathf.FloorToInt(cellPosition.x) + 0.5f;
-        cellPosition.y = Mathf.FloorToInt(cellPosition.y) + 0.5f;
-        cellPosition.z = 0;
+        cellPosition = GridCell.GetCellPositionWithWorldPosition(cellPosition);
     }
 
     private void OnEnable()

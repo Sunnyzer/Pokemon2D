@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -11,6 +9,7 @@ public class PrefabGridPlacer : EditorWindow
     KeyCode keyPaint = KeyCode.F;
     Vector3 cellPosition;
     SceneView sceneView;
+    TransformGrid grid = null;
     static PrefabGridPlacer instance;
 
     [MenuItem("PokemonTools/GridPlacer")]
@@ -19,7 +18,16 @@ public class PrefabGridPlacer : EditorWindow
         if (!instance)
         {
             instance = GetWindow<PrefabGridPlacer>("GridPlacer");
-            instance.sceneView = SceneView.lastActiveSceneView;
+            instance.Init();
+        }
+    }
+    private void Init()
+    {
+        sceneView = SceneView.lastActiveSceneView;
+        grid = FindObjectOfType<TransformGrid>();
+        if(!grid)
+        {
+            grid = new GameObject("TransformGrid").AddComponent<TransformGrid>();
         }
     }
     private void OnEnable()
@@ -35,7 +43,7 @@ public class PrefabGridPlacer : EditorWindow
         if (!instance)
         {
             instance = this;
-            instance.sceneView = SceneView.lastActiveSceneView;
+            Init();
         }
 
         SetGridCellPosition();
@@ -54,7 +62,7 @@ public class PrefabGridPlacer : EditorWindow
     {
         if (!prefab) return;
         if (Physics2D.CircleCast(cellPosition, 0.1f, Vector3.forward)) return;
-        GridPrefab _gridPrefab = Instantiate(prefab, cellPosition, Quaternion.identity);
+        GridPrefab _gridPrefab = Instantiate(prefab, cellPosition, Quaternion.identity, grid.transform);
     }
     public void Delete()
     {
@@ -68,14 +76,11 @@ public class PrefabGridPlacer : EditorWindow
         mousePosition.x *= EditorGUIUtility.pixelsPerPoint;
         mousePosition.y = sceneView.camera.pixelHeight - mousePosition.y * EditorGUIUtility.pixelsPerPoint;
         cellPosition = sceneView.camera.ScreenToWorldPoint(mousePosition);
-        cellPosition.x = Mathf.FloorToInt(cellPosition.x) + 0.5f;
-        cellPosition.y = Mathf.FloorToInt(cellPosition.y) + 0.5f;
-        cellPosition.z = 0;
+        cellPosition = GridCell.GetCellPositionWithWorldPosition(cellPosition);
     }
     private void OnSceneGUI(SceneView sc)
     {
         InputToggle(keyPaint, Paint);
         InputToggle(keyDelete, Delete);
-
     }
 }
