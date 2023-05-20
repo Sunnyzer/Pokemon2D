@@ -11,7 +11,7 @@ public class ControllerManager : Singleton<ControllerManager>
     public Controller CurrentController => currentController;
     #if UNITY_EDITOR
     public int indexController;
-#endif
+    #endif
     private void Update()
     {
         currentController?.UpdateController(Time.deltaTime);

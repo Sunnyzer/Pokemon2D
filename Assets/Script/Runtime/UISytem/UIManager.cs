@@ -15,6 +15,8 @@ public class UIManager : Singleton<UIManager>
     {
         currentUI?.DeactivateUI();
         currentUI = _ui;
+        if (currentUI == null)
+            ControllerManager.Instance.TakeControlOnMainController();
         currentUI?.ActivateUI();
         OnUIChange?.Invoke(currentUI);
     }
@@ -28,12 +30,21 @@ public class UIManager : Singleton<UIManager>
     }
     public void ClearUIQueue()
     {
-        ChangeUI(uiQueue[0]);
-        uiQueue.Clear();
+        if (uiQueue.Count > 0)
+        {
+            ChangeUI(uiQueue[0]);
+            uiQueue.Clear();
+            return;
+        }
+        ChangeUI(null);
     }
     public bool RemoveQueueSetPreviousUI()
     {
-        if (uiQueue.Count <= 0) return false;
+        if (uiQueue.Count <= 0)
+        {
+            ChangeUI(null);
+            return false;
+        }
         currentUI?.DeactivateUI();
         if (uiQueue.Count > 0)
         {
