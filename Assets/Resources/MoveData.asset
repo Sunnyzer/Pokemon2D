@@ -1,0 +1,3688 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8577ab28176d4438cae007f7a8d552, type: 3}
+  m_Name: MoveData
+  m_EditorClassIdentifier: 
+  allMoves:
+    moves:
+    - accuracy: 100
+      ename: Pound
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Karate Chop
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Double Slap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Comet Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mega Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Pay Day
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fire Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ice Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thunder Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Scratch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Vice Grip
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Guillotine
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Razor Wind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Swords Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Cut
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Gust
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wing Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Whirlwind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fly
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Slam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Vine Whip
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Stomp
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Double Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mega Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Jump Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rolling Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sand Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Headbutt
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Horn Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fury Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Horn Drill
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Tackle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Body Slam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wrap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Take Down
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thrash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Double-Edge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Tail Whip
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Poison Sting
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Twineedle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Pin Missile
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Leer
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bite
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Growl
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Roar
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sing
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Supersonic
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sonic Boom
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Disable
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Acid
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ember
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flamethrower
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mist
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Water Gun
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hydro Pump
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Surf
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ice Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Blizzard
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psybeam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bubble Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aurora Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hyper Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Peck
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Drill Peck
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Submission
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Low Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Counter
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Seismic Toss
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Strength
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Absorb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mega Drain
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Leech Seed
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Growth
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Razor Leaf
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Solar Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Poison Powder
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Stun Spore
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sleep Powder
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Petal Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: String Shot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dragon Rage
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fire Spin
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thunder Shock
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thunderbolt
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thunder Wave
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thunder
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Throw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Earthquake
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fissure
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dig
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Toxic
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Confusion
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psychic
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hypnosis
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Meditate
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Agility
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Quick Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rage
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Teleport
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Night Shade
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mimic
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Screech
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Double Team
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Recover
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Harden
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Minimize
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Smokescreen
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Confuse Ray
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Withdraw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Defense Curl
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Barrier
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Light Screen
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Haze
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Reflect
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Focus Energy
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bide
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Metronome
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mirror Move
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Self-Destruct
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Egg Bomb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Lick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Smog
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sludge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bone Club
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fire Blast
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Waterfall
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Clamp
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Swift
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Skull Bash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spike Cannon
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Constrict
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Amnesia
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Kinesis
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Soft-Boiled
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: High Jump Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Glare
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dream Eater
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Poison Gas
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Barrage
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Leech Life
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Lovely Kiss
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sky Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Transform
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bubble
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dizzy Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spore
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psywave
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Splash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Acid Armor
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Crabhammer
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Explosion
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fury Swipes
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bonemerang
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rest
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Slide
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hyper Fang
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sharpen
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Conversion
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Tri Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Super Fang
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Slash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Substitute
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Struggle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sketch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Triple Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thief
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spider Web
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mind Reader
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Nightmare
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flame Wheel
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Snore
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Curse
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flail
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Conversion 2
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aeroblast
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Cotton Spore
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Reversal
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spite
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Powder Snow
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Protect
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mach Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Scary Face
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Feint Attack
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sweet Kiss
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Belly Drum
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sludge Bomb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mud-Slap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Octazooka
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spikes
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Zap Cannon
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Foresight
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Destiny Bond
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Perish Song
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Icy Wind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Detect
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bone Rush
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Lock-On
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Outrage
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sandstorm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Giga Drain
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Endure
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Charm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rollout
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: False Swipe
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Swagger
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Milk Drink
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spark
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fury Cutter
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Steel Wing
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mean Look
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Attract
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sleep Talk
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heal Bell
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Return
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Present
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Frustration
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Safeguard
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Pain Split
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sacred Fire
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magnitude
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dynamic Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Megahorn
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dragon Breath
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Baton Pass
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Encore
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Pursuit
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rapid Spin
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sweet Scent
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Iron Tail
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Metal Claw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Vital Throw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Morning Sun
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Synthesis
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Moonlight
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hidden Power
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Cross Chop
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Twister
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rain Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sunny Day
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Crunch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mirror Coat
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psych Up
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Extreme Speed
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ancient Power
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shadow Ball
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Future Sight
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Smash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Whirlpool
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Beat Up
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fake Out
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Uproar
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Stockpile
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spit Up
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Swallow
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heat Wave
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hail
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Torment
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flatter
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Will-O-Wisp
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Memento
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Facade
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Focus Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Smelling Salts
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Follow Me
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Nature Power
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Charge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Taunt
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Helping Hand
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Trick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Role Play
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wish
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Assist
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ingrain
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Superpower
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magic Coat
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Recycle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Revenge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Brick Break
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Yawn
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Knock Off
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Endeavor
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Eruption
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Skill Swap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Imprison
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Refresh
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Grudge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Snatch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Secret Power
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dive
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Arm Thrust
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Camouflage
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Tail Glow
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Luster Purge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mist Ball
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Feather Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Teeter Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Blaze Kick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mud Sport
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ice Ball
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Needle Arm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Slack Off
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hyper Voice
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Poison Fang
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Crush Claw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Blast Burn
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hydro Cannon
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Meteor Mash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Astonish
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Weather Ball
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aromatherapy
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fake Tears
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Air Cutter
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Overheat
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Odor Sleuth
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Tomb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Silver Wind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Metal Sound
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Grass Whistle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Tickle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Cosmic Power
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Water Spout
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Signal Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shadow Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Extrasensory
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sky Uppercut
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sand Tomb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sheer Cold
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Muddy Water
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bullet Seed
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aerial Ace
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Icicle Spear
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Iron Defense
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Block
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Howl
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dragon Claw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Frenzy Plant
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bulk Up
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bounce
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mud Shot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Poison Tail
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Covet
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Volt Tackle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magical Leaf
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Water Sport
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Calm Mind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Leaf Blade
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dragon Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Blast
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shock Wave
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Water Pulse
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Doom Desire
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psycho Boost
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Roost
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Gravity
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Miracle Eye
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wake-Up Slap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hammer Arm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Gyro Ball
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Healing Wish
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Brine
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Natural Gift
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Feint
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Pluck
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Tailwind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Acupressure
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Metal Burst
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: U-turn
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Close Combat
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Payback
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Assurance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Embargo
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fling
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psycho Shift
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Trump Card
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heal Block
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wring Out
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Power Trick
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Gastro Acid
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Lucky Chant
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Me First
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Copycat
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Power Swap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Guard Swap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Punishment
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Last Resort
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Worry Seed
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sucker Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Toxic Spikes
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heart Swap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aqua Ring
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magnet Rise
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flare Blitz
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Force Palm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aura Sphere
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Polish
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Poison Jab
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dark Pulse
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Night Slash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aqua Tail
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Seed Bomb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Air Slash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: X-Scissor
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bug Buzz
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dragon Pulse
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dragon Rush
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Power Gem
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Drain Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Vacuum Wave
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Focus Blast
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Energy Ball
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Brave Bird
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Earth Power
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Switcheroo
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Giga Impact
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Nasty Plot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bullet Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Avalanche
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ice Shard
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shadow Claw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Thunder Fang
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ice Fang
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fire Fang
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shadow Sneak
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mud Bomb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psycho Cut
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Zen Headbutt
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mirror Shot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flash Cannon
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Climb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Defog
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Trick Room
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Draco Meteor
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Discharge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Lava Plume
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Leaf Storm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Power Whip
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rock Wrecker
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Cross Poison
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Gunk Shot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Iron Head
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magnet Bomb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Stone Edge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Captivate
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Stealth Rock
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Grass Knot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Chatter
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Judgment
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bug Bite
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Charge Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wood Hammer
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aqua Jet
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Attack Order
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Defend Order
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heal Order
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Head Smash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Double Hit
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Roar of Time
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spacial Rend
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Lunar Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Crush Grip
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magma Storm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dark Void
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Seed Flare
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ominous Wind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shadow Force
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hone Claws
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wide Guard
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Guard Split
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Power Split
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wonder Room
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psyshock
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Venoshock
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Autotomize
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rage Powder
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Telekinesis
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magic Room
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Smack Down
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Storm Throw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flame Burst
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sludge Wave
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Quiver Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heavy Slam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Synchronoise
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Electro Ball
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Soak
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flame Charge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Coil
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Low Sweep
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Acid Spray
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Foul Play
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Simple Beam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Entrainment
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: After You
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Round
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Echoed Voice
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Chip Away
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Clear Smog
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Stored Power
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Quick Guard
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ally Switch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Scald
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shell Smash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heal Pulse
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hex
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sky Drop
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Shift Gear
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Circle Throw
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Incinerate
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Quash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Acrobatics
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Reflect Type
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Retaliate
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Final Gambit
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bestow
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Inferno
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Water Pledge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fire Pledge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Grass Pledge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Volt Switch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Struggle Bug
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bulldoze
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Frost Breath
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dragon Tail
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Work Up
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Electroweb
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Wild Charge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Drill Run
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dual Chop
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heart Stamp
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Horn Leech
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sacred Sword
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Razor Shell
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Heat Crash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Leaf Tornado
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Steamroller
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Cotton Guard
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Night Daze
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Psystrike
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Tail Slap
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hurricane
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Head Charge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Gear Grind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Searing Shot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Techno Blast
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Relic Song
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Secret Sword
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Glaciate
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Bolt Strike
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Blue Flare
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fiery Dance
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Freeze Shock
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ice Burn
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Snarl
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Icicle Crash
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: V-create
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fusion Flare
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fusion Bolt
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flying Press
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mat Block
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Belch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Rototiller
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Sticky Web
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fell Stinger
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Phantom Force
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Trick-or-Treat
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Noble Roar
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Ion Deluge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Parabolic Charge
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Forest's Curse
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Petal Blizzard
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Freeze-Dry
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Disarming Voice
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Parting Shot
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Topsy-Turvy
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Draining Kiss
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Crafty Shield
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Flower Shield
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Grassy Terrain
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Misty Terrain
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Electrify
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Play Rough
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fairy Wind
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Moonblast
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Boomburst
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Fairy Lock
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: King's Shield
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Play Nice
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Confide
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Water Shuriken
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Mystical Fire
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Spiky Shield
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Aromatic Mist
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Eerie Impulse
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Venom Drench
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Powder
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Geomancy
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Magnetic Flux
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Happy Hour
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Electric Terrain
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Dazzling Gleam
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Celebration
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Baby-Doll Eyes
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Nuzzle
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Infestation
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Power-Up Punch
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Oblivion Wing
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Land's Wrath
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Diamond Storm
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Hyperspace Hole
+      id: 0
+      power: 40
+      pp: 35
+      type: 0
+    - accuracy: 100
+      ename: Steam Eruption
+      id: 0
+      power: 40
+      pp: 35
+      type: 0

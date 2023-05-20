@@ -3,12 +3,15 @@ using UnityEngine;
 public class PlayerPokemon : Player
 {
     CharacterMovement characterMovement;
+    PokemonTeam pokemonTeam;
     public CharacterMovement CharacterMovement => characterMovement;
+    public PokemonTeam PokemonTeam => pokemonTeam;
     [SerializeField] UI trainerPrefab;
     protected override void Start()
     {
         base.Start();
         characterMovement = GetComponent<CharacterMovement>();
+        pokemonTeam = GetComponent<PokemonTeam>();
     }
     public override void RemoveControl()
     {
