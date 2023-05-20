@@ -19,7 +19,7 @@ public class ControllerManager : Singleton<ControllerManager>
     public void TakeControl(Controller _currentController)
     {
         currentController?.RemoveControl();
-        Debug.Log("LoseControl of" + currentController?.name +"-> TakeControl of " + _currentController?.name);
+        //Debug.Log("LoseControl of" + currentController?.name +"-> TakeControl of " + _currentController?.name);
         currentController = _currentController;
         currentController?.AddControl();
         OnChangeController?.Invoke(currentController);

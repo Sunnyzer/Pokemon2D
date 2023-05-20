@@ -12,11 +12,13 @@ public class UIManagerEditor : Editor
     {
         uiManager = (UIManager)target;
         UI[] _uis = FindObjectsOfType<UI>(true);
-        uiManager.SetCurrentUIDisplay(_uis[uiManager.indexUI]);
+        if (_uis.Length > uiManager.indexUI)
+            serializedObject.FindProperty("currentUI").objectReferenceValue = _uis[uiManager.indexUI];
     }
 
     public override void OnInspectorGUI()
     {
+        base.OnInspectorGUI();
         UI[] _uis = FindObjectsOfType<UI>(true);
         int _indexUI = EditorGUILayout.Popup(uiManager.indexUI, _uis.Select(ui => ui.name).ToArray());
         if(_indexUI != uiManager.indexUI)

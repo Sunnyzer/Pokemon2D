@@ -86,8 +86,11 @@ public class GrassGeneratorEditor : EditorWindow
                 if (_hit)
                 {
                     TileSprite _tileSprite = Physics2D.CircleCast(_pos, 0.1f, Vector3.forward).collider.GetComponent<TileSprite>();
+                    if (_tileSprite.GetType() == tileSpritePrefab.GetType()) continue;
                     if(_tileSprite)
+                    {
                         DestroyImmediate(_tileSprite.gameObject);
+                    }
                 }
                 CreateTileSprite(tileSpritePrefab, _pos);
             }
@@ -105,6 +108,7 @@ public class GrassGeneratorEditor : EditorWindow
                 {
                     if (tileSpritePrefab.GetType() != _tileSprite.GetType()) continue;
                     UpdateGrassAroundPosition(_pos, false);
+                    transformList[_tileSprite.GetType()].Remove(_tileSprite);
                     DestroyImmediate(_tileSprite.gameObject);
                     continue;
                 }
