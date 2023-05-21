@@ -26,7 +26,7 @@ public class PokemonEncouterParameter
         return Random.Range(levelMinEncounter, levelMaxEncounter + 1);
     }
 }
-
+[System.Serializable]
 public class PokemonsInZoneByRarity
 {
     Rarity rarity = Rarity.VeryCommun;
@@ -37,14 +37,13 @@ public class PokemonsInZoneByRarity
 
 public class Zone : MonoBehaviour
 {
-    [SerializeField] string zoneName = string.Empty;
-    [SerializeField] BindingFlags BindingFlags;
     [SerializeField] Sprite zoneFont;
     [SerializeField] List<PokemonsInZoneByRarity> pokemonsByRarity = new List<PokemonsInZoneByRarity>();
     [SerializeField] float chanceToEncounterPokemon = 20;
 
-    public string ZoneName => zoneName;
+    public string ZoneName => name;
     public Sprite ZoneFont => zoneFont;
+
     private void Start()
     {
         ZoneManager.Instance.AddZone(this);
@@ -89,8 +88,8 @@ public class Zone : MonoBehaviour
     }
     void InitEncounterCell(EncounterCell _cell)
     {
-        if (_cell)
-            _cell.CurrentZone = this;
+        if (!_cell) return;
+        _cell.CurrentZone = this;
     }
     void EnterZone()
     {
