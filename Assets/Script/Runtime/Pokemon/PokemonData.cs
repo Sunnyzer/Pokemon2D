@@ -1,6 +1,4 @@
-using JetBrains.Annotations;
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
@@ -93,9 +91,5 @@ public class Pokemon
         data = _data;
         ivStat = _ivStat;
         nature.name = _nature;
-    }
-    public static Pokemon GetRandomPokemon(int _level, PokemonData _pokemonData)
-    {
-        return new Pokemon(_level, _pokemonData, Stat.GetRandomIV(), Nature.GetRandomNature());
     }
 }

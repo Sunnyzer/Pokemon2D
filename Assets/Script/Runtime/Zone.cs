@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
@@ -11,66 +10,94 @@ public enum Rarity
     Rare,
     VeryRare,
 }
-public class RarityPokemons
+
+[System.Serializable]
+public class PokemonEncouterParameter
 {
-    Rarity rarity;
-    PokemonChoice[] pokmChoices;
-    public RarityPokemons(Rarity _rarity, PokemonChoice[] _pokemon)
+    [SerializeField] PokemonChoice pokemon;
+    [SerializeField] int levelMinEncounter = 1;
+    [SerializeField] int levelMaxEncounter = 10;
+    [SerializeField] bool male = true;
+    [SerializeField] float chanceToEncounter = 10;
+    public PokemonChoice Pokemon => pokemon;
+    public float ChanceToEncounter => chanceToEncounter;
+    public int GetLevelBetweenMinMax()
     {
-        rarity = _rarity;
-        pokmChoices = _pokemon;
+        return Random.Range(levelMinEncounter, levelMaxEncounter + 1);
     }
 }
+
+public class PokemonsInZoneByRarity
+{
+    Rarity rarity = Rarity.VeryCommun;
+    PokemonEncouterParameter[] pokemonsEncounter;
+
+    public Rarity Rarity => rarity;
+}
+
 public class Zone : MonoBehaviour
 {
     [SerializeField] string zoneName = string.Empty;
     [SerializeField] BindingFlags BindingFlags;
-    [SerializeField] PokemonChoice[] veryCommun;
-    [SerializeField] PokemonChoice[] commun;
-    [SerializeField] PokemonChoice[] mediumRare;
-    [SerializeField] PokemonChoice[] rare;
-    [SerializeField] PokemonChoice[] veryRare;
-    Dictionary<Rarity, PokemonChoice[]> pokemonZone = new Dictionary<Rarity, PokemonChoice[]>()
-    {
-        { Rarity.VeryCommun, null },
-        { Rarity.Commun, null },
-        { Rarity.MediumRare, null },
-        { Rarity.Rare, null},
-        { Rarity.VeryRare, null},
-    };
+    [SerializeField] Sprite zoneFont;
+    [SerializeField] List<PokemonsInZoneByRarity> pokemonsByRarity = new List<PokemonsInZoneByRarity>();
+    [SerializeField] float chanceToEncounterPokemon = 20;
+
+    public string ZoneName => zoneName;
+    public Sprite ZoneFont => zoneFont;
     private void Start()
     {
-        pokemonZone[Rarity.VeryCommun] = veryCommun;
-        pokemonZone[Rarity.Commun] = commun;
-        pokemonZone[Rarity.MediumRare] = mediumRare;
-        pokemonZone[Rarity.Rare] = rare;
-        pokemonZone[Rarity.VeryRare] = veryRare;
-    }
-    public Pokemon GetPokemonEncounter(Rarity _rarity)
-    {
-        PokemonChoice[] pokemonChoices = pokemonZone[_rarity];
-        if (pokemonChoices.Length <= 0) return null;
-        int _index = Random.Range(0, pokemonChoices.Length);
-        Pokemon _pokemon = Pokemon.GetRandomPokemon(Random.Range(3, 7), PokemonDataSO.GetPokemon(pokemonChoices[_index]));
-        return _pokemon;
+        ZoneManager.Instance.AddZone(this);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerPokemon _playerPokemon = other.GetComponent<PlayerPokemon>();
-
         if (!_playerPokemon)
         {
             Grass _grass = other.GetComponent<Grass>();
-            if (!_grass) return;
-            _grass.GetType().GetField("currentZone", BindingFlags).SetValue(_grass, this);
+            InitGrass(_grass);
             return;
         }
-        Debug.Log("Enter " + zoneName);
+        EnterZone();
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         PlayerPokemon _playerPokemon = collision.GetComponent<PlayerPokemon>();
         if (!_playerPokemon) return;
-        Debug.Log("Exit " + zoneName);
+        ExitZone();
+    }
+    public PokemonsInZoneByRarity GetPokemonsByRarity(Rarity _rarity)
+    {
+        for (int i = 0; i < pokemonsByRarity.Count; i++)
+            if (pokemonsByRarity[i].Rarity == _rarity)
+                return pokemonsByRarity[i];
+        return null;
+    }
+    public Pokemon GetPokemonEncounter(Rarity _rarity)
+    {
+        //PokemonsInZoneByRarity _pokemonInZone = GetPokemonsByRarity(_rarity);
+        //PokemonParam[] _pokemonChoices = _pokemonInZone.po;
+        //if (_pokemonChoices.Length <= 0) return null;
+        //int _index = Random.Range(0, _pokemonChoices.Length);
+        //Pokemon _pokemon = PokemonManager.Instance.GeneratePokemon(_pokemonChoices[_index].GetLevelBetweenMinMax(), PokemonManager.Instance.GetPokemonData(pokemonChoices[_index].Pokemon));
+        //return _pokemon;
+        return null;
+    }
+    public PokemonData GetPokemonEncounter(PokemonEncouterParameter[] _pokemons)
+    {
+        return null;
+    }
+    void InitGrass(Grass _grass)
+    {
+        if(_grass)
+            _grass.GetType().GetField("currentZone", BindingFlags).SetValue(_grass, this);
+    }
+    void EnterZone()
+    {
+        ZoneManager.Instance.ChangeZone(this);
+    }
+    void ExitZone()
+    {
+        
     }
 }

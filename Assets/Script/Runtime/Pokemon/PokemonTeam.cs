@@ -11,6 +11,6 @@ public class PokemonTeam : MonoBehaviour
     }
     private void Start()
     {
-        pokemons[0] = Pokemon.GetRandomPokemon(10, PokemonDataSO.GetPokemon(pokemonsChoices[0]));
+        pokemons[0] = PokemonManager.Instance.GeneratePokemon(10, PokemonManager.Instance.GetPokemonData(pokemonsChoices[0]));
     }
 }

@@ -15,14 +15,14 @@ public class PokemonDataEditor : Editor
     }
     public override void OnInspectorGUI()
     {
-        //base.OnInspectorGUI();
         file = (TextAsset)Resources.Load("pokedex");
         if (GUILayout.Button("Generate Pokedex"))
         {
-            PokemonData[] allPokemons = JsonConvert.DeserializeObject<PokemonData[]>(file.text);
-            moveDataSO.allPokemon = allPokemons;
+            PokemonData[] _allPokemons = JsonConvert.DeserializeObject<PokemonData[]>(file.text);
+            for (int i = 0; i < _allPokemons.Length; i++)
+                serializedObject.FindProperty("allPokemon").GetArrayElementAtIndex(i).managedReferenceValue = _allPokemons[i];
         }
-        index = EditorGUILayout.Popup(index, moveDataSO.allPokemon.Select(p=> p.name.french).ToArray());
+        index = EditorGUILayout.Popup(index, moveDataSO.AllPokemon.Select(p=> p.name.french).ToArray());
         SerializedProperty _pokemonData = serializedObject.FindProperty("allPokemon").GetArrayElementAtIndex(index);
         EditorGUILayout.PropertyField(_pokemonData);
         serializedObject.ApplyModifiedProperties();
