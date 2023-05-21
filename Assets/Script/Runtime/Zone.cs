@@ -54,8 +54,8 @@ public class Zone : MonoBehaviour
         PlayerPokemon _playerPokemon = other.GetComponent<PlayerPokemon>();
         if (!_playerPokemon)
         {
-            Grass _grass = other.GetComponent<Grass>();
-            InitGrass(_grass);
+            EncounterCell _encounterCell = other.GetComponent<EncounterCell>();
+            InitEncounterCell(_encounterCell);
             return;
         }
         EnterZone();
@@ -87,10 +87,10 @@ public class Zone : MonoBehaviour
     {
         return null;
     }
-    void InitGrass(Grass _grass)
+    void InitEncounterCell(EncounterCell _cell)
     {
-        if(_grass)
-            _grass.GetType().GetField("currentZone", BindingFlags).SetValue(_grass, this);
+        if (_cell)
+            _cell.CurrentZone = this;
     }
     void EnterZone()
     {

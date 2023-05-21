@@ -5,6 +5,11 @@ using UnityEngine;
 public class EncounterCell : TileSprite
 {
     [SerializeField] Zone currentZone = null;
+    public Zone CurrentZone
+    {
+        get => currentZone;
+        set => currentZone = value;
+    }
     public static Dictionary<Rarity, float> rariryRatio = new Dictionary<Rarity, float>()
     {
         { Rarity.VeryRare, 1.25f/187.5f },
