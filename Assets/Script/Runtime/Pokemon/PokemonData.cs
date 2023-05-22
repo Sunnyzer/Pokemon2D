@@ -49,6 +49,11 @@ public class MoveByLevel
 public class PokemonChoice
 {
     [SerializeField] int indexPokemon;
+    public int IndexPokemon => indexPokemon;
+    public PokemonChoice(int _index)
+    {
+        indexPokemon = _index;
+    }
     public static implicit operator int(PokemonChoice _choice)
     {
         return _choice.indexPokemon;

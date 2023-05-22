@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa96e00adb2600c41a427af96b2fcb77, type: 3}
+  m_Name: ZoneData
+  m_EditorClassIdentifier: 
+  chanceToEncounterPokemon: 20
+  pokemonsInZoneByRarities:
+  - rarity: 0
+    pokemonsEncounter:
+    - pokemon:
+        indexPokemon: 18
+      levelMinEncounter: 3
+      levelMaxEncounter: 6
+      male: 0
+      chanceToEncounter: 30
+    - pokemon:
+        indexPokemon: 15
+      levelMinEncounter: 4
+      levelMaxEncounter: 7
+      male: 0
+      chanceToEncounter: 50
+    - pokemon:
+        indexPokemon: 22
+      levelMinEncounter: 2
+      levelMaxEncounter: 8
+      male: 0
+      chanceToEncounter: 20
+    rarityRate: 50
+  - rarity: 4
+    pokemonsEncounter:
+    - pokemon:
+        indexPokemon: 0
+      levelMinEncounter: 8
+      levelMaxEncounter: 10
+      male: 0
+      chanceToEncounter: 33.3
+    - pokemon:
+        indexPokemon: 3
+      levelMinEncounter: 8
+      levelMaxEncounter: 10
+      male: 0
+      chanceToEncounter: 33.3
+    - pokemon:
+        indexPokemon: 6
+      levelMinEncounter: 8
+      levelMaxEncounter: 10
+      male: 0
+      chanceToEncounter: 33.4
+    rarityRate: 5
+  - rarity: 3
+    pokemonsEncounter:
+    - pokemon:
+        indexPokemon: 16
+      levelMinEncounter: 7
+      levelMaxEncounter: 11
+      male: 0
+      chanceToEncounter: 100
+    rarityRate: 15

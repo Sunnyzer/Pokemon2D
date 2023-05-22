@@ -1,6 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
+
+[System.Serializable]
+public class RarityRate
+{
+    [SerializeField] Rarity rarity = Rarity.Commun;
+    [SerializeField, Range(0, 100)] float rate = 0;
+    public Rarity Rarity => rarity;
+    public float Rate => rate;
+    public RarityRate(Rarity _rarity, float _rate)
+    {
+        rarity = _rarity;
+        rate = _rate;
+    }
+}
 
 public class EncounterCell : TileSprite
 {
@@ -10,37 +25,47 @@ public class EncounterCell : TileSprite
         get => currentZone;
         set => currentZone = value;
     }
-    public static Dictionary<Rarity, float> rariryRatio = new Dictionary<Rarity, float>()
-    {
-        { Rarity.VeryRare, 1.25f/187.5f },
-        { Rarity.Rare, 3.33f/187.5f },
-        { Rarity.MediumRare, 6.75f/187.5f },
-        { Rarity.Commun, 8.5f/187.5f },
-        { Rarity.VeryCommun, 10f/187.5f },
-    };
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerPokemon _player = collision.GetComponent<PlayerPokemon>();
         if (!_player) return;
-        float _proba = Random.Range(0f, 100f);
-        if (_proba < 157.67f / 187.5f * 100) return;
-        Pokemon _pokemon = null;
-        foreach (var item in rariryRatio)
-        {
-            _pokemon = EncounterSuccess(Random.Range(0f, 29.83f / 187.5f * 100), item.Key);
-            if (_pokemon != null) break;
-        }
-        if (_pokemon == null) return;
-        BattleManager.Instance.StartBattle(_player, _pokemon);
+        EnterCell(_player);
     }
-
-    public Pokemon EncounterSuccess(float _proba, Rarity _rarity)
+    public bool EnterCell(PlayerPokemon _playerPokemon)
     {
-        if (_proba < rariryRatio[_rarity] * 100)
+        float _proba = Random.Range(0, 1000)/10f;
+        _playerPokemon.tryE++;
+        if (_proba > currentZone.ChanceToEncounterPokemon) return false;
+        Pokemon _pokemon = null;
+        float _chance = 0;
+        float _ratio = Random.Range(0, 1000)/10f;
+        RarityRate _rateMax = new RarityRate(Rarity.VeryCommun, 0);
+        foreach (var item in currentZone.RarityRate)
         {
-            Pokemon _pokemon = currentZone.GetPokemonEncounter(_rarity);
-            return _pokemon;
+            float _chanceToEncounter = item.Rate;
+            if (_rateMax.Rate < _chanceToEncounter)
+                _rateMax = item;
+            if (_ratio >= _chance && _ratio < _chance + _chanceToEncounter)
+            {
+                _pokemon = currentZone.GetPokemonEncounter(item.Rarity);
+                if (_pokemon != null)
+                {
+                    if (item.Rarity == Rarity.VeryRare)
+                    {
+                        _playerPokemon.encounterRare++;
+                    }
+                    break;
+                }
+                break;
+            }
+            _chance += _chanceToEncounter;
         }
-        return null;
-    }
+        if (_pokemon == null)
+            _pokemon = currentZone.GetPokemonEncounter(_rateMax.Rarity);
+        _playerPokemon.encounter++;
+        _playerPokemon.pokemonChoices.Add(new PokemonChoice(_pokemon.Data.id - 1));
+        //BattleManager.Instance.StartBattle(_playerPokemon, _pokemon);
+        return true;
+    }    
 }

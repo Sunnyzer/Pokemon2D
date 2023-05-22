@@ -31,7 +31,16 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] float ratioSpeedSprint = 1.5f;
     [SerializeField] float inputSensibility = 0.1f;
     List<InputBool> inputs = new List<InputBool>();
-
+    public Vector2 DirectionEye
+    {
+        get => directionEye;
+        set => directionEye = value;
+    }
+    public Vector3 NextPosition
+    {
+        get => nextPosition;
+        set => nextPosition = value;
+    }
     private void Start()
     {
         nextPosition = transform.position;
@@ -132,7 +141,7 @@ public class CharacterMovement : MonoBehaviour
     {
         return _input.time <= inputSensibility && inputs.Count == 1;
     }
-    bool IsMovingToNextPosition()
+    public bool IsMovingToNextPosition()
     {
         return Vector3.Distance(transform.position, nextPosition) > 0.0f;
     }

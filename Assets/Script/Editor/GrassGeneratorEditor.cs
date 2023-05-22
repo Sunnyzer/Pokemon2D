@@ -13,7 +13,7 @@ public class GrassGeneratorEditor : EditorWindow
     
     KeyCode keyDelete = KeyCode.C;
     KeyCode keyPaint = KeyCode.F;
-
+    LayerMask objectToIgnore;
     CellSettings settings = new CellSettings();
     
     int paintSize = 1;
@@ -82,15 +82,12 @@ public class GrassGeneratorEditor : EditorWindow
             for (int j = 0; j < paintSize; j++)
             {
                 Vector3 _pos = cellPosition + new Vector3(i, j);
-                bool _hit = Physics2D.CircleCast(_pos, 0.1f, Vector3.forward).collider;
-                if (_hit)
+                Collider2D _collider = Physics2D.CircleCast(_pos, 0.1f, Vector3.forward, 1f, 1 << objectToIgnore).collider;
+                if (_collider)
                 {
-                    TileSprite _tileSprite = Physics2D.CircleCast(_pos, 0.1f, Vector3.forward).collider.GetComponent<TileSprite>();
-                    if (_tileSprite.GetType() == tileSpritePrefab.GetType()) continue;
-                    if(_tileSprite)
-                    {
-                        DestroyImmediate(_tileSprite.gameObject);
-                    }
+                    TileSprite _tileSprite = _collider.GetComponent<TileSprite>();
+                    if(_tileSprite && tileSpritePrefab.GetType() == _tileSprite.GetType())
+                        return;
                 }
                 CreateTileSprite(tileSpritePrefab, _pos);
             }
@@ -118,7 +115,7 @@ public class GrassGeneratorEditor : EditorWindow
 
     public Collider2D Detect(Vector2 _position)
     {
-        RaycastHit2D _ray = Physics2D.CircleCast(_position, 0.1f, Vector3.forward, 0.1f);
+        RaycastHit2D _ray = Physics2D.CircleCast(_position, 0.1f, Vector3.forward, 0.1f, 1 << objectToIgnore);
         return _ray.collider;
     }
     public TileSprite DetectTileSprite(Vector2 _position)
@@ -171,6 +168,7 @@ public class GrassGeneratorEditor : EditorWindow
         tileSpritePrefab = (TileSprite)EditorGUILayout.ObjectField("grass", tileSpritePrefab, typeof(TileSprite), true);
         keyDelete = (KeyCode)EditorGUILayout.EnumPopup("keyDelete",keyDelete);
         keyPaint = (KeyCode)EditorGUILayout.EnumPopup("keyPaint", keyPaint);
+        objectToIgnore = EditorGUILayout.LayerField("ObjectToDetect", objectToIgnore);
 
         settings.collisionBorder = EditorGUILayout.Toggle("Border", settings.collisionBorder);
         settings.collisionInside = EditorGUILayout.Toggle("Inside", settings.collisionInside);

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -8755553835959865576}
   - component: {fileID: 5364590822927992293}
   - component: {fileID: -2679338770291534307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RockSup
   m_TagString: Untagged
   m_Icon: {fileID: 0}

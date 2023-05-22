@@ -192,7 +192,7 @@ public class TileSprite : MonoBehaviour
     }
     public virtual TileSprite DetectTileSprite(Vector3 _position)
     {
-        Collider2D _collider = Physics2D.CircleCast(_position, 0.1f, Vector3.forward, 0.1f).collider;
+        Collider2D _collider = Physics2D.CircleCast(_position, 0.1f, Vector3.forward, 0.1f, 1 << LayerMask.NameToLayer(nameof(TileSprite))).collider;
         if (_collider)
             return (TileSprite)_collider.GetComponent(GetType());
         return null;

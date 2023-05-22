@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Reflection;
 using UnityEngine;
 
 public enum Rarity
@@ -11,38 +10,14 @@ public enum Rarity
     VeryRare,
 }
 
-[System.Serializable]
-public class PokemonEncouterParameter
-{
-    [SerializeField] PokemonChoice pokemon;
-    [SerializeField] int levelMinEncounter = 1;
-    [SerializeField] int levelMaxEncounter = 10;
-    [SerializeField] bool male = true;
-    [SerializeField] float chanceToEncounter = 10;
-    public PokemonChoice Pokemon => pokemon;
-    public float ChanceToEncounter => chanceToEncounter;
-    public int GetLevelBetweenMinMax()
-    {
-        return Random.Range(levelMinEncounter, levelMaxEncounter + 1);
-    }
-}
-[System.Serializable]
-public class PokemonsInZoneByRarity
-{
-    Rarity rarity = Rarity.VeryCommun;
-    PokemonEncouterParameter[] pokemonsEncounter;
-
-    public Rarity Rarity => rarity;
-}
-
 public class Zone : MonoBehaviour
 {
     [SerializeField] Sprite zoneFont;
-    [SerializeField] List<PokemonsInZoneByRarity> pokemonsByRarity = new List<PokemonsInZoneByRarity>();
-    [SerializeField] float chanceToEncounterPokemon = 20;
-
+    [SerializeField] ZoneDataSO zoneData;
+    public RarityRate[] RarityRate => zoneData.RarityRate;
     public string ZoneName => name;
     public Sprite ZoneFont => zoneFont;
+    public float ChanceToEncounterPokemon => zoneData.ChanceToEncounterPokemon;
 
     private void Start()
     {
@@ -67,19 +42,31 @@ public class Zone : MonoBehaviour
     }
     public PokemonsInZoneByRarity GetPokemonsByRarity(Rarity _rarity)
     {
-        for (int i = 0; i < pokemonsByRarity.Count; i++)
-            if (pokemonsByRarity[i].Rarity == _rarity)
-                return pokemonsByRarity[i];
+        for (int i = 0; i < zoneData.PokemonsInZoneByRarities.Count; i++)
+            if (zoneData.PokemonsInZoneByRarities[i].Rarity == _rarity)
+                return zoneData.PokemonsInZoneByRarities[i];
         return null;
     }
     public Pokemon GetPokemonEncounter(Rarity _rarity)
     {
-        //PokemonsInZoneByRarity _pokemonInZone = GetPokemonsByRarity(_rarity);
-        //PokemonParam[] _pokemonChoices = _pokemonInZone.po;
-        //if (_pokemonChoices.Length <= 0) return null;
-        //int _index = Random.Range(0, _pokemonChoices.Length);
-        //Pokemon _pokemon = PokemonManager.Instance.GeneratePokemon(_pokemonChoices[_index].GetLevelBetweenMinMax(), PokemonManager.Instance.GetPokemonData(pokemonChoices[_index].Pokemon));
-        //return _pokemon;
+        PokemonsInZoneByRarity _pokemonInZone = GetPokemonsByRarity(_rarity);
+        if (_pokemonInZone == null) return null;
+        PokemonEncouterParameter[] _pokemonEncouterParameters = _pokemonInZone.PokemonsEncounter;
+        if (_pokemonEncouterParameters.Length <= 0) return null;
+        if (_pokemonEncouterParameters.Length == 1) return PokemonManager.Instance.GeneratePokemon(_pokemonEncouterParameters[0].GetLevelBetweenMinMax(), PokemonManager.Instance.GetPokemonData(_pokemonEncouterParameters[0].Pokemon));
+        float _proba = Random.Range(0, 1000)/10f;
+        float _chance = 0;
+        for (int i = 0; i < _pokemonEncouterParameters.Length; i++)
+        {
+            PokemonEncouterParameter _pokemonEncouterParameter = _pokemonEncouterParameters[i];
+            float _chanceToEncounter = _pokemonEncouterParameter.ChanceToEncounter;
+            if(_proba >= _chance && _proba <= _chance + _chanceToEncounter)
+            {
+                PokemonData _data = PokemonManager.Instance.GetPokemonData(_pokemonEncouterParameter.Pokemon);
+                return PokemonManager.Instance.GeneratePokemon(_pokemonEncouterParameter.GetLevelBetweenMinMax(), _data);
+            }
+            _chance += _chanceToEncounter;
+        }
         return null;
     }
     public PokemonData GetPokemonEncounter(PokemonEncouterParameter[] _pokemons)
