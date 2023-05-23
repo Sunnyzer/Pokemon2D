@@ -1155,7 +1155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_64
+      name: HerbizarreComplete
       rect:
         serializedVersion: 2
         x: 340
@@ -1197,7 +1197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_66
+      name: HerbizarreBack
       rect:
         serializedVersion: 2
         x: 489
@@ -1239,7 +1239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_68
+      name: FlorizarreCompleteM
       rect:
         serializedVersion: 2
         x: 650
@@ -1281,7 +1281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_70
+      name: FlorizarreBackM
       rect:
         serializedVersion: 2
         x: 811
@@ -1407,7 +1407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_76
+      name: SalamecheComplete
       rect:
         serializedVersion: 2
         x: 1319
@@ -1449,7 +1449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_78
+      name: SalamecheBack
       rect:
         serializedVersion: 2
         x: 1469
@@ -1491,7 +1491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_81
+      name: ReptincelComplete
       rect:
         serializedVersion: 2
         x: 1637
@@ -1533,7 +1533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_83
+      name: ReptincelBack
       rect:
         serializedVersion: 2
         x: 1789
@@ -1575,7 +1575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_85
+      name: DracaufeuComplete
       rect:
         serializedVersion: 2
         x: 1946
@@ -1617,7 +1617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_87
+      name: DracaufeuBack
       rect:
         serializedVersion: 2
         x: 2107
@@ -1659,7 +1659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_89
+      name: CarapuceComplete
       rect:
         serializedVersion: 2
         x: 2290
@@ -1701,7 +1701,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_91
+      name: CarapuceB
       rect:
         serializedVersion: 2
         x: 2443
@@ -1743,7 +1743,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_93
+      name: CarabaffeF
       rect:
         serializedVersion: 2
         x: 2605
@@ -1785,7 +1785,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_95
+      name: CarabaffeB
       rect:
         serializedVersion: 2
         x: 2758
@@ -1827,7 +1827,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_97
+      name: TortankF
       rect:
         serializedVersion: 2
         x: 2923
@@ -1869,7 +1869,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_99
+      name: TortankB
       rect:
         serializedVersion: 2
         x: 3080
@@ -1911,7 +1911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_101
+      name: BulbizarreCompleteShiny
       rect:
         serializedVersion: 2
         x: 23
@@ -1953,7 +1953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_103
+      name: BulbizarreBackShiny
       rect:
         serializedVersion: 2
         x: 171
@@ -1995,7 +1995,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_105
+      name: HerbizarreCompleteShiny
       rect:
         serializedVersion: 2
         x: 340
@@ -2037,7 +2037,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_107
+      name: HerbizarreBackShiny
       rect:
         serializedVersion: 2
         x: 489
@@ -2079,7 +2079,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_109
+      name: FlorizarreCompleteMShiny
       rect:
         serializedVersion: 2
         x: 650
@@ -2121,7 +2121,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_111
+      name: FlorizarreBackMShiny
       rect:
         serializedVersion: 2
         x: 811
@@ -2247,7 +2247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_117
+      name: SalamecheCompleteShiny
       rect:
         serializedVersion: 2
         x: 1319
@@ -2289,7 +2289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_119
+      name: SalamecheBackShiny
       rect:
         serializedVersion: 2
         x: 1469
@@ -2310,34 +2310,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_120
+      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_121
       rect:
         serializedVersion: 2
         x: 1545
         y: 3316
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55648ca5bdc695e4eb710040bb1c0327
-      internalID: 62132663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_121
-      rect:
-        serializedVersion: 2
-        x: 1566
-        y: 3318
-        width: 39
-        height: 53
+        width: 60
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2352,7 +2331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_122
+      name: ReptincelCompleteShiny
       rect:
         serializedVersion: 2
         x: 1637
@@ -2394,7 +2373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_124
+      name: ReptincelBackShiny
       rect:
         serializedVersion: 2
         x: 1789
@@ -2436,7 +2415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_126
+      name: DracaufeuCompleteShiny
       rect:
         serializedVersion: 2
         x: 1946
@@ -2478,7 +2457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_128
+      name: DracaufeuBackShiny
       rect:
         serializedVersion: 2
         x: 2107
@@ -2520,7 +2499,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_130
+      name: CarapuceCompleteShiny
       rect:
         serializedVersion: 2
         x: 2290
@@ -2562,7 +2541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_132
+      name: CarapuceBShiny
       rect:
         serializedVersion: 2
         x: 2443
@@ -2604,7 +2583,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_134
+      name: CarabaffeFShiny
       rect:
         serializedVersion: 2
         x: 2605
@@ -2646,7 +2625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_136
+      name: CarabaffeBShiny
       rect:
         serializedVersion: 2
         x: 2758
@@ -2688,7 +2667,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_138
+      name: TortankFShiny
       rect:
         serializedVersion: 2
         x: 2923
@@ -2730,7 +2709,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_140
+      name: TortankBShiny
       rect:
         serializedVersion: 2
         x: 3080
@@ -53582,10 +53561,12 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2378: -742881501
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2226: -2073085365
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2360: -1867116111
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1594: 1104209651
+      CarabaffeF: 138317773
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2176: 1475725415
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_719: 914437791
+      SalamecheBack: -2138080638
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_622: 1833321316
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_787: -245791551
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2156: -1857646798
@@ -53597,7 +53578,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_950: 196736798
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1950: 1259340383
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2459: 1838856727
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_136: 836372562
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1747: -900611022
       ChenipanBack: -221069391
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_692: -521112258
@@ -53660,6 +53640,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1571: -630539134
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2408: -1240708140
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2427: -1295367292
+      DracaufeuComplete: -123420026
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1203: 1389971127
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1504: -2098339081
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1806: -808802086
@@ -53683,7 +53664,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_639: 548550421
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1108: 1566911317
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1791: -762386380
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_124: 1722076741
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2158: -83292543
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2171: -1411570553
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_321: 488895683
@@ -53711,15 +53691,13 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1235: -1188729017
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_186: 1728190907
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2169: -1917478195
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_126: 667584657
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1230: 1964295681
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1047: -1084942320
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1284: -1828185810
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2563: 1370544819
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_70: -624588212
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_624: 80931930
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1729: 1624004119
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_803: 1357857709
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1729: 1624004119
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2460: -1823298510
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2121: -350351867
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1952: 1747806537
@@ -53737,7 +53715,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1378: -832238154
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_672: 1531705161
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1966: 508010094
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_101: -600779699
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_709: 1127553108
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2362: -541997316
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1056: -201632742
@@ -53758,7 +53735,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_832: -2119200510
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_907: 690943979
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2416: 1975773479
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_138: -687133708
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_702: -154374676
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1636: 1884927679
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2129: -2050636780
@@ -53773,6 +53749,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1913: -1511986981
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1101: 1390928753
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_781: -1845184941
+      HerbizarreCompleteShiny: -20468659
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1531: -656307803
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_262: -629609057
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2589: -1408783265
@@ -53954,6 +53931,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2212: 1836772951
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2356: 707758330
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1760: -1120676612
+      DracaufeuBack: 1958904172
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_295: 330744143
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2038: -437973256
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2373: 1747986061
@@ -54038,6 +54016,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_402: -891772887
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_455: 871611123
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2584: -1078166629
+      SalamecheCompleteShiny: -1331346597
       roucoupsComplete: -384008716
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1371: 1617720218
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2304: -601035705
@@ -54082,12 +54061,12 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1856: -1554467511
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2303: -1069477319
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_56: -1946306724
+      FlorizarreBackMShiny: -282727878
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2017: 1871216340
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2189: -289443360
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1759: -960341689
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1793: 2039989989
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_289: 1973886438
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_119: 429150935
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1255: -176819515
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1741: 617094389
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1457: -1973106688
@@ -54098,7 +54077,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1149: 1499006858
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2272: 1783328068
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1879: 1578707892
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_81: -1413158576
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_469: -229267704
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1881: -1143825731
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1039: -1343598094
@@ -54148,14 +54126,13 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1343: -2014431661
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1165: 1408954524
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1538: 1054775926
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_111: -282727878
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1112: 1402427961
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1727: 1312407772
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2232: 32545579
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1639: 1860473422
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_35: -1801821976
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_834: 2105562618
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1933: -1360764505
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1727: 1312407772
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1434: -1971791302
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_350: -421117365
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1843: -598969879
@@ -54163,7 +54140,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1769: 339481797
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_71: 433703037
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1925: 1307582478
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_76: -1344955497
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1664: 487956992
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2199: -2051997738
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2518: -1104080651
@@ -54192,9 +54168,9 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1967: 727349447
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1318: -182436486
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_955: 1683816674
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_30: 920556134
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_274: 1481097277
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2278: -1756297026
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_30: 920556134
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_693: -152418874
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1572: 458031418
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_584: 1583898246
@@ -54222,7 +54198,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1043: 1875700251
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1237: 1384219681
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1731: -672971126
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_99: -631951457
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1298: -1039217281
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_618: 1945406142
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2094: -1242249130
@@ -54230,6 +54205,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2210: 1838305706
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2031: 484066745
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_609: 2107102951
+      CarabaffeB: 1834257961
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1680: -1446125048
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1031: 794134079
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2243: -1506312243
@@ -54250,17 +54226,17 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1860: 779309365
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2062: 1009813457
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1954: 1259399584
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1085: 428734581
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2239: 1076692519
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2048: 394895639
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1085: 428734581
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_953: -669041018
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_358: 1449768442
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2400: 1631465778
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1530: 753473781
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_358: 1449768442
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1708: 1486232820
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_640: -242102395
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1020: 991923734
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1708: 1486232820
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2239: 1076692519
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1990: -193704368
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1020: 991923734
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2215: -201721041
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_937: -1622467482
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_168: 1287906547
@@ -54302,10 +54278,9 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2195: 1877766500
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_561: -1220395193
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1858: -522941780
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_132: -171543459
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1992: 1651997127
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1007: 1732570299
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2124: 894477952
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1007: 1732570299
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_615: -1700930257
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2060: -1507621725
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2221: 2104948011
@@ -54398,10 +54373,13 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2497: 792018967
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1310: -1631560282
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_648: -73401318
+      TortankF: -8020722
+      DracaufeuCompleteShiny: 667584657
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_887: 1470476992
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_330: 1735246376
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2044: 1895667175
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1455: -1740103352
+      TortankFShiny: -687133708
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1634: -1045650458
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_925: -534087908
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_576: -1697840640
@@ -54519,6 +54497,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_665: -611594653
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2123: 788433886
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1630: 1802933090
+      CarapuceComplete: 1767235409
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_166: -31934237
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1405: -1529291499
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_394: 1109934891
@@ -54645,6 +54624,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_349: 2098136709
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1400: -1815684571
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1542: 1166885849
+      CarapuceB: -440623314
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1489: 421048029
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2405: -237183737
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_795: -897509272
@@ -54663,13 +54643,13 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_193: 420758465
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1070: 376166291
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1991: -1600125861
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_95: 1834257961
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2402: 1674883311
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_607: 1928481166
       RattataBack: -1113503040
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_73: -91817094
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_898: 1942828624
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_884: -1522197410
+      TortankBShiny: -1037948142
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1824: -1661144078
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_540: 351330387
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1207: -591309061
@@ -54692,6 +54672,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1407: -856897266
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1430: -484165795
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_19: -895637011
+      DracaufeuBackShiny: -1322419969
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2053: -370438786
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1878: -1271527765
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2421: -1296997142
@@ -54725,6 +54706,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1373: -1891649627
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2581: -1693938647
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1977: -601089669
+      ReptincelBackShiny: 1722076741
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1825: -1831762438
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_683: -1444870046
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_527: 638777399
@@ -54860,28 +54842,29 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1923: 1359055147
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2205: -1457396313
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2026: -1740016018
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_85: -123420026
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_55: -1028753680
+      TortankB: -631951457
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2245: -1687942780
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1567: -252757852
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_150: 1761382649
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1023: 778428812
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_771: 998058502
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2162: 635593604
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_331: -760524164
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_221: -1356889155
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_476: -130467269
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1567: -252757852
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1602: -1155953763
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2162: 635593604
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_771: 998058502
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1514: 964008765
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1379: -1952115301
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1724: 1597993209
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_944: 307675740
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1010: 2104699089
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2012: -915577921
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_837: 1821545885
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1038: 753951860
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1052: 3510611
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1973: 784916241
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1379: -1952115301
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_476: -130467269
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_331: -760524164
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1010: 2104699089
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2012: -915577921
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1023: 778428812
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_150: 1761382649
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_944: 307675740
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_837: 1821545885
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_753: -1169704773
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1724: 1597993209
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_991: -130872209
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1321: -1412718004
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1484: -1199443581
@@ -54895,9 +54878,9 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2441: 1847942652
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_651: -659614737
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2103: -626977662
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1602: -1155953763
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2107: -599737343
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_232: 960673491
+      ReptincelBack: 733124832
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1648: -1334257591
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1865: 523528327
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_154: -2044960001
@@ -54910,6 +54893,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_504: -122528870
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_503: 481661646
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_764: -302814412
+      HerbizarreBack: 880089639
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2499: 397651902
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1976: 1147152491
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1888: -1408846028
@@ -54951,12 +54935,13 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1700: -81195297
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1508: 369339466
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1209: 566781210
+      FlorizarreCompleteMShiny: -631853256
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1587: -131488191
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_10: 586760694
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1345: 1258593236
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2160: 1171044105
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_65: 516418704
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1562: 1579801027
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1345: 1258593236
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_167: -873454936
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1826: 1521404317
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1924: 1989515046
@@ -55063,15 +55048,14 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_326: 1896532131
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1140: 1916887293
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2439: -146385667
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_122: 2021684497
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1232: 764555641
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_439: -1881486057
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_425: -255556962
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_952: 328724245
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_602: -1297685920
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1726: -1608428943
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1232: 764555641
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_487: 504644669
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1927: -1192284643
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_487: 504644669
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_570: -817924292
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2428: -1356476469
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2283: 644138863
@@ -55086,6 +55070,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1788: -399016930
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_825: 1836854946
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_708: -226996068
+      ReptincelCompleteShiny: 2021684497
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2271: 1005507556
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_673: 1742314893
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1717: -2034481800
@@ -55102,7 +55087,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1970: -543674530
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1583: -1999709047
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1183: -161414581
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_105: -20468659
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_208: -521088677
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1491: 353171211
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2325: 960423300
@@ -55119,7 +55103,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1807: -84045946
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1001: -114569355
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2219: 2074556127
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_134: -1014612785
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2451: 1725442152
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1777: 897562526
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1128: -330395297
@@ -55212,7 +55195,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1535: 1737584099
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1999: 884098576
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2409: 987325556
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_68: 1801410306
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2557: -420608305
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_533: 153159999
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1706: 220817317
@@ -55289,8 +55271,8 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1770: 1750942319
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2564: -1298274472
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_297: 1019052692
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_130: 838178836
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1604: -1997980451
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1719: -752576846
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_554: 1370789536
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_860: -2083600051
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_926: -789305371
@@ -55300,19 +55282,17 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1033: -1856381310
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1240: -307940219
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1239: -923751574
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1719: -752576846
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2483: -1228926632
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1570: -234080147
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_447: -1164241772
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2213: -75205515
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1176: 1360942063
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2065: -1755296269
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2483: -1228926632
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_603: 796150245
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_982: -2118592608
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1705: -77250209
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_637: -1033461965
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1757: -733579624
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_109: -631853256
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_360: -1653117064
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_874: 1638643059
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_626: 1563473993
@@ -55343,6 +55323,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_544: 1097128033
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2520: 1460560974
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_27: 253559715
+      FlorizarreBackM: -624588212
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_139: 2141867270
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_843: 397841622
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1772: 1194986720
@@ -55371,13 +55352,12 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_873: 1760894973
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2246: -436226285
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1116: -1755615245
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_93: 138317773
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_654: -67505765
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1547: -483055857
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1082: 241133754
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_563: -362659398
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_83: 733124832
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2116: -2008017261
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2521: -720969703
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1803: 1006837684
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_745: 701731816
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2320: -1978811121
@@ -55385,7 +55365,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2365: -2084892376
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1229: 77450682
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1011: 814427139
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2521: -720969703
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_592: -1393899829
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2310: -1505008424
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_698: -1942326208
@@ -55451,6 +55430,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1548: 525741017
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2559: -890274823
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_547: -895877741
+      BulbizarreBackShiny: -1355567264
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1402: 1661615643
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2015: 744886823
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_835: -1111195544
@@ -55524,13 +55504,12 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1578: 856748463
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1480: -696192761
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1316: 1363771215
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_89: 1767235409
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1668: -947496666
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1961: 1416777309
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2309: 1094576108
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_364: 675875311
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1668: -947496666
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2511: 721783712
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2556: -1612094656
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2511: 721783712
       aboBack: -1403279847
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_972: -91687502
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1543: -1084338794
@@ -55550,6 +55529,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_662: -1118417749
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2491: -1232557843
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2299: 1475005289
+      CarabaffeFShiny: -1014612785
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1244: -265355751
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_934: 651045984
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1931: 5080905
@@ -55557,15 +55537,15 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_943: 848623778
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1482: 2069562451
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2191: 1371179635
+      HerbizarreComplete: 1931688900
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_786: -1101933092
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1303: -527241268
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_230: -466243392
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_994: 903984240
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_114: -634862860
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_97: -8020722
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1498: -305084205
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1521: -316619976
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_404: 1049150919
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1498: -305084205
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2073: -568070144
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_146: 1329702458
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_670: 1224027035
@@ -55617,7 +55597,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2030: -1031449800
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_376: 872991499
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1784: -880352021
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_87: 1958904172
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1838: 1182645084
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1846: -2118358300
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_946: 1995751304
@@ -55644,11 +55623,10 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1971: -63277194
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2143: 1342479112
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_724: -2103948173
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_117: -1331346597
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2329: -1527436960
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_229: 843050042
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1745: -1250077675
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_152: 706086502
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2329: -1527436960
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1918: -372212341
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1086: -1080925909
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1818: 1477786243
@@ -55666,6 +55644,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1462: -1741326514
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_675: 284091126
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1363: -359264961
+      CarapuceCompleteShiny: 838178836
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_190: 973759650
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_305: -1385862151
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_203: -1213226597
@@ -55731,6 +55710,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2354: -690293797
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2113: -1656275520
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1406: 152435960
+      HerbizarreBackShiny: -23387323
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_228: -1910900353
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_760: -1327319654
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_318: 753309320
@@ -55762,7 +55742,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_996: 616527173
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2577: 1862440633
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_390: -1350783248
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_66: 880089639
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1533: 1448249235
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2208: 1585289149
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_418: 610338915
@@ -55855,16 +55834,15 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2406: 798497750
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2028: -2111023287
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1847: -1708455035
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_78: -2138080638
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1812: -922964656
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2358: -1559058965
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1285: -119320598
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_967: 389988929
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_329: 2019467124
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1857: 224544049
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_725: -1064638819
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_91: -440623314
+      BulbizarreComplete: -327138296
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1147: -435584721
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2358: -1559058965
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1029: -582977442
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_517: -14397721
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_276: 969932569
@@ -55875,7 +55853,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1305: -1033296815
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_559: -1104957646
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1723: 170810955
-      BulbizarreComplete: -327138296
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1522: -631756060
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1135: 1501852669
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1322: -949652496
@@ -55940,11 +55917,14 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2544: 1722293268
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_437: 1125925248
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2145: -2047173434
+      FlorizarreCompleteM: 1801410306
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1870: 1299246791
+      BulbizarreCompleteShiny: -600779699
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1698: -30180197
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_871: 1559594175
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2332: -265142465
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2587: 533560343
+      SalamecheComplete: -1344955497
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2580: -720117564
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_86: 1150724634
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1667: -1472331725
@@ -55976,8 +55956,8 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_945: 1568764124
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_115: 24847708
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_852: -1812104422
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_140: -1037948142
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1739: 1229788590
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2585: 916381868
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1380: 1066267004
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1167: 76065478
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1088: 2102728640
@@ -55986,13 +55966,11 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1512: 1310691454
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_596: 710906161
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1313: 399051831
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_103: -1355567264
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1024: -149748614
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1465: -418076339
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_858: 467587341
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1907: 1365572950
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2064: -494986219
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2585: 916381868
       ChenipanComplete: -1203587383
       AspicotBack: -2094907192
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2510: 1633396064
@@ -56004,6 +55982,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1823: 2089798635
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1478: -1525918507
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2432: 1628756293
+      SalamecheBackShiny: 429150935
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1017: 1376653757
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1226: 1809628660
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_237: -1796147192
@@ -56024,9 +56003,8 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1286: -336474695
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_256: 138685402
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_90: -1911537008
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_128: -1322419969
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_477: -2001653962
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2128: 591237950
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_477: -2001653962
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1460: 1583755330
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1337: 657519157
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1468: 526504943
@@ -56046,7 +56024,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2292: 1671183662
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1875: 1063284608
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_741: -1708533108
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_64: 1931688900
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_507: 661439232
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2340: 445611631
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1559: 733858068
@@ -56072,6 +56049,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_179: -663404309
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2151: -1523192461
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_328: 121676699
+      ReptincelComplete: -1413158576
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1775: -1443147486
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_160: -666016146
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_840: 4792190
@@ -56087,6 +56065,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_178: -639601417
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_839: 384602858
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_312: 1259409337
+      CarapuceBShiny: -171543459
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1606: 419178389
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2224: -1870541941
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1507: 1769580344
@@ -56098,6 +56077,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2353: -739443912
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_398: -262126782
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_54: -1766423222
+      CarabaffeBShiny: 836372562
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_870: 71783182
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1832: -1801233549
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_417: 747950747
@@ -56148,7 +56128,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1187: -606210266
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_112: -2068878088
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1911: 437675360
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_107: -23387323
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1123: 768613816
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2251: 79016787
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_655: -1599839682
@@ -56162,20 +56141,20 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2106: -875774133
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2019: 1093654745
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1022: 162000853
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_719: 914437791
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_586: 775920343
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_605: 1141205535
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2198: -1218461329
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_605: 1141205535
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_433: 574034964
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_98: -637951938
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1518: -854136903
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_902: 840175052
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2395: -1869770453
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_290: 2133548640
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_57: 829797521
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2226: -2073085365
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1673: 639423499
-      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_283: -1161727088
       DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1018: 521075898
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_2395: -1869770453
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_57: 829797521
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_1673: 639423499
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_98: -637951938
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_283: -1161727088
+      DS DSi - Pokemon Platinum - Pokemon 1st Generation-1.png_290: 2133548640
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

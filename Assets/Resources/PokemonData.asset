@@ -41,7 +41,7 @@ MonoBehaviour:
       SpDefense: 80
       Speed: 60
     courbeExpType: 0
-    completeSprite: {fileID: 516418704, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
+    completeSprite: {fileID: 1931688900, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
     backSprite: {fileID: 880089639, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
   - id: 3
     name:
@@ -86,8 +86,8 @@ MonoBehaviour:
       SpDefense: 65
       Speed: 80
     courbeExpType: 0
-    completeSprite: {fileID: 0}
-    backSprite: {fileID: 0}
+    completeSprite: {fileID: -1413158576, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
+    backSprite: {fileID: 733124832, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
   - id: 6
     name:
       french: Dracaufeu
@@ -101,8 +101,8 @@ MonoBehaviour:
       SpDefense: 85
       Speed: 100
     courbeExpType: 0
-    completeSprite: {fileID: 0}
-    backSprite: {fileID: 0}
+    completeSprite: {fileID: -123420026, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
+    backSprite: {fileID: 1958904172, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
   - id: 7
     name:
       french: Carapuce
@@ -131,8 +131,8 @@ MonoBehaviour:
       SpDefense: 80
       Speed: 58
     courbeExpType: 0
-    completeSprite: {fileID: 0}
-    backSprite: {fileID: 0}
+    completeSprite: {fileID: 138317773, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
+    backSprite: {fileID: 1834257961, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
   - id: 9
     name:
       french: Tortank
@@ -146,8 +146,8 @@ MonoBehaviour:
       SpDefense: 105
       Speed: 78
     courbeExpType: 0
-    completeSprite: {fileID: 0}
-    backSprite: {fileID: 0}
+    completeSprite: {fileID: -8020722, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
+    backSprite: {fileID: -631951457, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
   - id: 10
     name:
       french: Chenipan
@@ -266,8 +266,8 @@ MonoBehaviour:
       SpDefense: 50
       Speed: 71
     courbeExpType: 0
-    completeSprite: {fileID: 0}
-    backSprite: {fileID: 0}
+    completeSprite: {fileID: -384008716, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
+    backSprite: {fileID: 1878499947, guid: fe7a81a664f153c40920dabbf1850697, type: 3}
   - id: 18
     name:
       french: Roucarnage
