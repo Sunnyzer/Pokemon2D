@@ -18,34 +18,40 @@ MonoBehaviour:
     pokemonsEncounter:
     - pokemon:
         indexPokemon: 18
-      levelMinEncounter: 3
-      levelMaxEncounter: 3
+      levelMinEncounter: 6
+      levelMaxEncounter: 11
       male: 0
-      chanceToEncounter: 30
+      chanceToEncounter: 0
     - pokemon:
         indexPokemon: 15
       levelMinEncounter: 4
       levelMaxEncounter: 4
       male: 0
-      chanceToEncounter: 50
+      chanceToEncounter: 4
     - pokemon:
         indexPokemon: 22
       levelMinEncounter: 2
       levelMaxEncounter: 2
       male: 0
-      chanceToEncounter: 20
-    rarityRate: 45
+      chanceToEncounter: 2
+    rarityRate: 10
   - rarity: 1
     pokemonsEncounter:
     - pokemon:
-        indexPokemon: 0
-      levelMinEncounter: 50
+        indexPokemon: 20
+      levelMinEncounter: 30
       levelMaxEncounter: 100
       male: 0
       chanceToEncounter: 0
     rarityRate: 25
   - rarity: 2
-    pokemonsEncounter: []
+    pokemonsEncounter:
+    - pokemon:
+        indexPokemon: 26
+      levelMinEncounter: 7
+      levelMaxEncounter: 9
+      male: 0
+      chanceToEncounter: 0
     rarityRate: 15
   - rarity: 3
     pokemonsEncounter:
