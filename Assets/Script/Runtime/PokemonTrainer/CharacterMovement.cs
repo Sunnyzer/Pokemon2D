@@ -41,6 +41,7 @@ public class CharacterMovement : MonoBehaviour
         get => nextPosition;
         set => nextPosition = value;
     }
+
     private void Start()
     {
         nextPosition = transform.position;
@@ -123,6 +124,11 @@ public class CharacterMovement : MonoBehaviour
     public void Sprint()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            isSprinting = true;
+            animator.SetBool("isSprinting", isSprinting);
+        }
+        if (!isSprinting && Input.GetKey(KeyCode.LeftShift))
         {
             isSprinting = true;
             animator.SetBool("isSprinting", isSprinting);

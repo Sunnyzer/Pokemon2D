@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa96e00adb2600c41a427af96b2fcb77, type: 3}
   m_Name: ZoneData
   m_EditorClassIdentifier: 
-  chanceToEncounterPokemon: 20
+  chanceToEncounterPokemon: 25
   pokemonsInZoneByRarities:
   - rarity: 0
     pokemonsEncounter:
