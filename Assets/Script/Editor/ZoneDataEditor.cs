@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
@@ -6,20 +7,135 @@ using UnityEngine;
 public class ZoneDataEditor : Editor
 {
     ZoneDataSO zoneData;
+    int index = -1;
+    bool test = true;
+    Vector2 currentPos;
+    List<PokemonEncouterParameter> pokemonEncouterParameters = new List<PokemonEncouterParameter>();
     private void OnEnable()
     {
         zoneData = (ZoneDataSO)target;
     }
+    public void ResetRect()
+    {
+        for (int i = 0; i < 1; i++)
+        {
+            PokemonsInZoneByRarity _pokemonZone = zoneData.PokemonsInZoneByRarities[i];
+            for (int j = 0; j < _pokemonZone.PokemonsEncounter.Length; j++)
+            {
+                PokemonEncouterParameter _pep = _pokemonZone.PokemonsEncounter[j];
+                pokemonEncouterParameters.Add(_pep);
+                //if (_pep.rect == null)
+                {
+                    _pep.rect = new Rect(j * 100, i * 150, 100, 100);
+                }
+            }
+        }
+    }
+    public void InitRect()
+    {
+        for (int i = 0; i < 1; i++)
+        {
+            PokemonsInZoneByRarity _pokemonZone = zoneData.PokemonsInZoneByRarities[i];
+            float _sizeButton = EditorGUIUtility.currentViewWidth / _pokemonZone.PokemonsEncounter.Length;
+            for (int j = 0; j < _pokemonZone.PokemonsEncounter.Length; j++)
+            {
+                PokemonEncouterParameter _pep = _pokemonZone.PokemonsEncounter[j];
+                pokemonEncouterParameters.Add(_pep);
+                if (_pep.rect == null)
+                {
+                    _pep.rect = new Rect(j * _sizeButton, i * 150, _sizeButton, 100);
+                }
+            }
+        }
+    }
     public override void OnInspectorGUI()
     {
-        GUI.BeginGroup(new Rect(0,0, 200, 200), "Test");
-        Rect _rect = new Rect(0, 0, 50, 50);
-        if (GUI.Button(_rect, "t"))
+        if(test)
         {
-            Debug.Log("Test");
+            InitRect();
+            test = false;
         }
-        GUI.EndGroup();
-
+        GUILayoutUtility.GetRect(500, 500);
+        if (Event.current.type == EventType.MouseUp)
+        {
+            index = -1;
+            Debug.Log("MouseUp");
+        }
+        for (int i = 0; i < 1 /*zoneData.PokemonsInZoneByRarities.Count*/; i++)
+        {
+            PkmBar(zoneData.PokemonsInZoneByRarities[i]);
+        }
+        if(index != -1)
+        {
+            Drag();
+        }
+    }
+    public bool Drag()
+    {
+        bool _action = false;
+        //Debug.Log("Drag " + Event.current.delta.x);
+        if (Event.current.delta.x > 0)
+        {
+            if(pokemonEncouterParameters.Count > index + 1)
+            {
+                MoveToTheRightButton(index);
+                _action = true;
+            }
+            else
+            {
+                MoveToTheLeftButton(index);
+                _action = true;
+            }
+        }
+        if (Event.current.delta.x < 0)
+        {
+            if (0 <= index - 1)
+            {
+                MoveToTheLeftButton(index);
+                _action = true;
+            }
+            else
+            {
+                MoveToTheRightButton(index);
+                _action = true;
+            }
+        }
+        if (_action)
+            Repaint();
+        return _action;
+    }
+    public void MoveToTheLeftButton(int index)
+    {
+        Rect _rect1 = pokemonEncouterParameters[index].rect.Value;
+        Rect _rect2 = pokemonEncouterParameters[index - 1].rect.Value;
+        float _toAdd = Time.fixedDeltaTime * Event.current.delta.x;
+        pokemonEncouterParameters[index].rect = new Rect(_rect1.x + _toAdd, _rect1.y, _rect1.width - _toAdd, _rect1.height);
+        pokemonEncouterParameters[index - 1].rect = new Rect(_rect2.x, _rect2.y, _rect2.width + _toAdd, _rect2.height);
+    }
+    public void MoveToTheRightButton(int index)
+    {
+        Rect _rect1 = pokemonEncouterParameters[index].rect.Value;
+        Rect _rect2 = pokemonEncouterParameters[index + 1].rect.Value;
+        float _toAdd = Time.fixedDeltaTime * Event.current.delta.x;
+        pokemonEncouterParameters[index].rect = new Rect(_rect1.x, _rect1.y, _rect1.width + _toAdd, _rect1.height);
+        pokemonEncouterParameters[index + 1].rect = new Rect(_rect2.x + _toAdd, _rect2.y, _rect2.width - _toAdd, _rect2.height);
+    }
+    public void PkmBar(PokemonsInZoneByRarity _pokemonZone)
+    {
+        for (int i = 0; i < _pokemonZone.PokemonsEncounter.Length; i++)
+        {
+            PokemonEncouterParameter _pokemonEncounter = _pokemonZone.PokemonsEncounter[i];
+            if (GUI.RepeatButton(_pokemonEncounter.rect.Value, "Pokemon" + i.ToString()))
+            {
+                if (index != i)
+                {
+                    Debug.Log("Drag " + i.ToString());
+                    index = i;
+                    currentPos = Event.current.mousePosition;
+                }
+            }
+            EditorGUI.FloatField(new Rect(_pokemonEncounter.rect.Value.x + _pokemonEncounter.rect.Value.width/2 - 10, 100,20,20), _pokemonEncounter.ChanceToEncounter);
+        }
     }
 }
 

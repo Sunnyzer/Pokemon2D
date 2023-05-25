@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -11,6 +10,7 @@ public class PokemonEncouterParameter
     [SerializeField] int levelMaxEncounter = 10;
     [SerializeField] bool male = true;
     [SerializeField, Range(0.1f, 100)] float chanceToEncounter = 10;
+    public Rect? rect = null;
     public PokemonChoice Pokemon => pokemon;
     public float ChanceToEncounter => chanceToEncounter;
     public int GetLevelBetweenMinMax()
