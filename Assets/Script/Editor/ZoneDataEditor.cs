@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 [CustomEditor(typeof(ZoneDataSO))]
 public class ZoneDataEditor : Editor
@@ -48,6 +49,9 @@ public class ZoneDataEditor : Editor
             }
         }
     }
+    [DllImport("user32.dll")]
+    static extern bool SetCursorPos(int X, int Y);
+
     public override void OnInspectorGUI()
     {
         if(test)
@@ -56,24 +60,27 @@ public class ZoneDataEditor : Editor
             test = false;
         }
         GUILayoutUtility.GetRect(500, 500);
-        if (Event.current.type == EventType.MouseUp)
-        {
-            index = -1;
-            Debug.Log("MouseUp");
-        }
         for (int i = 0; i < 1 /*zoneData.PokemonsInZoneByRarities.Count*/; i++)
         {
             PkmBar(zoneData.PokemonsInZoneByRarities[i]);
         }
+        if (Event.current.type == EventType.MouseUp || Event.current.type == EventType.MouseLeaveWindow)
+        {
+            index = -1;
+            Debug.Log("MouseUp");
+        }
         if(index != -1)
         {
             Drag();
+            Vector2 _currentPos = GUIUtility.GUIToScreenPoint(currentPos);
+            //SetCursorPos((int)_currentPos.x, (int)_currentPos.y);//Call this when you want to set the mouse position
+            //Repaint();
         }
     }
     public bool Drag()
     {
         bool _action = false;
-        //Debug.Log("Drag " + Event.current.delta.x);
+        Debug.Log("Drag " + Event.current.delta.x);
         if (Event.current.delta.x > 0)
         {
             if(pokemonEncouterParameters.Count > index + 1)
@@ -125,7 +132,8 @@ public class ZoneDataEditor : Editor
         for (int i = 0; i < _pokemonZone.PokemonsEncounter.Length; i++)
         {
             PokemonEncouterParameter _pokemonEncounter = _pokemonZone.PokemonsEncounter[i];
-            if (GUI.RepeatButton(_pokemonEncounter.rect.Value, "Pokemon" + i.ToString()))
+            GUI.Box(_pokemonEncounter.rect.Value, "Pokemon");
+            if (_pokemonEncounter.rect.Value.Contains(Event.current.mousePosition) && Event.current.type == EventType.MouseDown)
             {
                 if (index != i)
                 {
