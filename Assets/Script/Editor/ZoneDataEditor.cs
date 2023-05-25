@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -5,33 +6,20 @@ using UnityEngine;
 public class ZoneDataEditor : Editor
 {
     ZoneDataSO zoneData;
-    bool _test = false;
-    float value;
-    float value2;
-    float value3;
-    Gradient gradient = new Gradient();
     private void OnEnable()
     {
         zoneData = (ZoneDataSO)target;
     }
     public override void OnInspectorGUI()
     {
-        base.OnInspectorGUI();
-        SerializedProperty _pokemonsZone = serializedObject.FindProperty("pokemonsInZoneByRarities");
-        for (int i = 0; i < _pokemonsZone.arraySize; i++)
+        GUI.BeginGroup(new Rect(0,0, 200, 200), "Test");
+        Rect _rect = new Rect(0, 0, 50, 50);
+        if (GUI.Button(_rect, "t"))
         {
-            SerializedProperty _sp = _pokemonsZone.GetArrayElementAtIndex(i);
-            _sp.FindPropertyRelative("rarity");
-            _sp.FindPropertyRelative("rarityRate");
+            Debug.Log("Test");
         }
+        GUI.EndGroup();
 
-        //value = EditorGUILayout.Knob(new Vector2(200, 200), value, 0, 100, "%" , Color.red, Color.white, true, GUILayout.ExpandWidth(true));
-        //EditorGUILayout.MinMaxSlider(ref value2, ref value3, 0, 100);
-        //GUILayout.Space(5);
-        GUISkin gUIStyle = (GUISkin)Resources.Load("guiskin");
-        value = GUILayout.VerticalSlider(value, 0, 100, gUIStyle.GetStyle("verticalslider"), gUIStyle.GetStyle("verticalslider"));
-        //value2 = GUILayout.VerticalSlider(value2, 0, 100);
-        serializedObject.ApplyModifiedProperties();
     }
 }
 
