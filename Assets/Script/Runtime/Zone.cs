@@ -51,7 +51,7 @@ public class Zone : MonoBehaviour
     {
         PokemonsInZoneByRarity _pokemonInZone = GetPokemonsByRarity(_rarity);
         if (_pokemonInZone == null) return null;
-        PokemonEncouterParameter[] _pokemonEncouterParameters = _pokemonInZone.PokemonsEncounter;
+        PokemonEncouterParameter[] _pokemonEncouterParameters = _pokemonInZone.PokemonsEncounter.ToArray();
         if (_pokemonEncouterParameters.Length <= 0) return null;
         if (_pokemonEncouterParameters.Length == 1) return PokemonManager.Instance.GeneratePokemon(_pokemonEncouterParameters[0].GetLevelBetweenMinMax(), PokemonManager.Instance.GetPokemonData(_pokemonEncouterParameters[0].Pokemon));
         float _proba = Random.Range(0, 1000)/10f;

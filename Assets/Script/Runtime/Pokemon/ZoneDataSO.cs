@@ -9,7 +9,7 @@ public class PokemonEncouterParameter
     [SerializeField] int levelMinEncounter = 1;
     [SerializeField] int levelMaxEncounter = 10;
     [SerializeField] bool male = true;
-    [SerializeField, Range(0.1f, 100)] float chanceToEncounter = 10;
+    [SerializeField] public float chanceToEncounter = 10;
     public Rect? rect = null;
     public PokemonChoice Pokemon => pokemon;
     public float ChanceToEncounter => chanceToEncounter;
@@ -22,10 +22,10 @@ public class PokemonEncouterParameter
 public class PokemonsInZoneByRarity
 {
     [SerializeField] Rarity rarity = Rarity.VeryCommun;
-    [SerializeField] PokemonEncouterParameter[] pokemonsEncounter;
+    [SerializeField] public List<PokemonEncouterParameter> pokemonsEncounter = new List<PokemonEncouterParameter>();
     [SerializeField] float rarityRate = 20;
 
-    public PokemonEncouterParameter[] PokemonsEncounter => pokemonsEncounter;
+    public List<PokemonEncouterParameter> PokemonsEncounter => pokemonsEncounter;
     public float RarityRate => rarityRate;
     public Rarity Rarity => rarity;
 }
