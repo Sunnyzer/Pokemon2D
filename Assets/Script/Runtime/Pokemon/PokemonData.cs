@@ -43,6 +43,8 @@ public class MoveByLevel
 {
     [SerializeField] int level;
     [SerializeField] MoveChoice moveChoice;
+    public int Level => level;
+    public MoveChoice MoveChoice => moveChoice;
 }
 
 [Serializable]
@@ -73,28 +75,87 @@ public class PokemonData
     [SerializeField] public Sprite backSprite;
 }
 
+[Serializable]
 public class Pokemon
 {
+    public Action<Pokemon> OnFainted = null;
+    public Action<Pokemon> OnMaxHeal = null;
+    public Action<Pokemon> OnLevelUp = null;
     PokemonData data;
-    Stat ivStat;
-    Stat evStat;
-    Move[] moves;
-    Nature nature = new Nature();
+    [SerializeField] Stat currentStat;
+    [SerializeField] Stat stat;
+    [SerializeField] Stat ivStat;
+    [SerializeField] Stat evStat;
+    [SerializeField] Move[] moves;
+    [SerializeField] Nature nature = new Nature();
+    [SerializeField] int level = 1;
+    //Status currentStatus;
     string name;
-    int exp = 0;
-    int expMax = 0;
-    int level = 1;
+    int xp = 0;
+    int xpMax = 0;
+    bool fainted = false;
 
     public PokemonData Data => data;
     public Move[] Moves => moves;
     public string Name => name;
     public int Level => level;
-    public Pokemon(int _level, PokemonData _data, Stat _ivStat, string _nature)
+    public bool Fainted => fainted;
+    //public Status CurrentStatus => currentStatus;
+
+    public Pokemon(int _level, PokemonData _data, Stat _ivStat, string _nature, Move[] _moves)
     {
         name = _data.name.french;
         level = _level;
         data = _data;
         ivStat = _ivStat;
         nature.name = _nature;
+        moves = _moves;
+        fainted = false;
+    }
+
+    public void TakeDamage(int _damage)
+    {
+        if (_damage <= 0 || fainted) return;
+        currentStat.HP -= _damage;
+        if(currentStat.HP <= 0)
+        {
+            currentStat.HP = 0;
+            fainted = true;
+            OnFainted?.Invoke(this);
+        }
+    }
+    public void Revive(int _heal)
+    {
+        fainted = false;
+        Heal(_heal <= 0 ? 1 : _heal);
+    }
+    public void RecoverAll()
+    {
+        //currentStatus = Status.None;
+        fainted = false;
+        Heal(99999999);
+    }
+    public void HealStatus()
+    {
+        //currentStatus = Status.None;
+    }
+    public void Heal(int _heal)
+    {
+        if (_heal <= 0 || fainted) return;
+        currentStat.HP += _heal;
+        currentStat.HP = currentStat.HP > stat.HP ? stat.HP : currentStat.HP;
+    }
+    public void GainExp(int _xpEarn)
+    {
+        xp += _xpEarn;
+        if(xp >= xpMax && level < 100)
+        {
+            ++level;
+            OnLevelUp?.Invoke(this);
+            int _xpLeft = xp - xpMax;
+            xp = 0;
+            xpMax = 10;//TODO
+            GainExp(_xpLeft);
+        }
     }
 }

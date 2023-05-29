@@ -186,7 +186,8 @@ public class GrassGeneratorEditor : EditorWindow
         if (!debugCollision) return;
         foreach (TransformTileSprite item in transformList.Values)
         {
-            item.DrawEditorOnly(sceneView);
+            if(sceneView)
+                item.DrawEditorOnly(sceneView);
         }
     }
 }

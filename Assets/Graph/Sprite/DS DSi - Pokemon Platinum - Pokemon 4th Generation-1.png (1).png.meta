@@ -105,27 +105,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_0
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 445b5c07e05e24a4aac535bf9f42ffec
-      internalID: 1542210369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1
       rect:
         serializedVersion: 2
@@ -155,7 +134,7 @@ TextureImporter:
         width: 2
         height: 2
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,27 +184,6 @@ TextureImporter:
       bones: []
       spriteID: 438c0b8e4ead62645873a659301719a9
       internalID: 477405826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_6
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 496ad9953b211294085f3fe50cbb9cae
-      internalID: -2109006321
       vertices: []
       indices: 
       edges: []
@@ -294,27 +252,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_10
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c69ca94f8fd8eb243aa05fdfe160ad51
-      internalID: -704435019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_11
       rect:
         serializedVersion: 2
@@ -373,27 +310,6 @@ TextureImporter:
       bones: []
       spriteID: f1e2640d0ef617540ab285bc93c2cb05
       internalID: 430918322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_14
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07c7bdda702ba5047a0d0233783523cc
-      internalID: -1592964357
       vertices: []
       indices: 
       edges: []
@@ -504,48 +420,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_20
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 3497
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62210be48ed60ff4892279580bf59776
-      internalID: -826808210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_21
-      rect:
-        serializedVersion: 2
-        x: 1314
-        y: 3497
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa6dbaf491f2c974d8d8b873c2f3c874
-      internalID: -690226714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_22
       rect:
         serializedVersion: 2
@@ -609,54 +483,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_25
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 233817e19d55eb84899067c35f3ed6d8
-      internalID: 448036630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_26
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_27
       rect:
         serializedVersion: 2
         x: 1651
         y: 3497
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f624d110857a596479d973ccdb0be67e
-      internalID: -305722187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_27
-      rect:
-        serializedVersion: 2
-        x: 1657
-        y: 3497
-        width: 56
+        width: 62
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -709,27 +541,6 @@ TextureImporter:
       bones: []
       spriteID: f62b9d76147d1e34494440a5e1e09647
       internalID: -1325669240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_30
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6967558efff077f44a0c84d046fbba62
-      internalID: 762075601
       vertices: []
       indices: 
       edges: []
@@ -798,27 +609,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_36
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb49bb7a11aa02546ba3915fed935622
-      internalID: 1362630654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_39
       rect:
         serializedVersion: 2
@@ -877,27 +667,6 @@ TextureImporter:
       bones: []
       spriteID: 0a9527427e3d75f48b522d6eb5d7b9b9
       internalID: -466361316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_42
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 3497
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b31f963915a704646b9b496bab20ec9d
-      internalID: 1163325914
       vertices: []
       indices: 
       edges: []
@@ -2751,27 +2520,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_147
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 3302
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a14ff0d2def0dfe4fa9cb3772ab2a889
-      internalID: -560884658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_148
       rect:
         serializedVersion: 2
@@ -2830,27 +2578,6 @@ TextureImporter:
       bones: []
       spriteID: 16765e266e491f5429cb5fa85533ff02
       internalID: 1572074412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_152
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 3302
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d6073846c79ccc4ab376df32b7cbb57
-      internalID: -924044333
       vertices: []
       indices: 
       edges: []
@@ -2919,27 +2646,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_158
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 3302
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57e98fbdb3b9b484686d7186f27aeb58
-      internalID: 2057697883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_159
       rect:
         serializedVersion: 2
@@ -3003,27 +2709,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_162
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 3302
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f928859b6e5e3c43bdf4f18c6ea48c0
-      internalID: -262543920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_165
       rect:
         serializedVersion: 2
@@ -3040,27 +2725,6 @@ TextureImporter:
       bones: []
       spriteID: 3a7007d8734311443a8f890b60184d45
       internalID: -1929409551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_166
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 3302
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d952dd3980183b84eb4f59c252aaefdd
-      internalID: -117471998
       vertices: []
       indices: 
       edges: []
@@ -5019,27 +4683,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_294
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 3107
-        width: 20
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9236e17566f80064ab8344de4caa2b0e
-      internalID: -913960755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_298
       rect:
         serializedVersion: 2
@@ -5098,27 +4741,6 @@ TextureImporter:
       bones: []
       spriteID: 81ae18418dd632a428f738a9cf0ba76b
       internalID: -1892448122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_301
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 3107
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0cd5c7281c663946aa9745b44835b35
-      internalID: -1126780428
       vertices: []
       indices: 
       edges: []
@@ -5187,27 +4809,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_307
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 3107
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82f01fb08965fe8418fdc20a5c59e412
-      internalID: -1264860968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_308
       rect:
         serializedVersion: 2
@@ -5229,33 +4830,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_311
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 3107
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60f5d830452758647aac77b8df679983
-      internalID: 2125392140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_312
       rect:
         serializedVersion: 2
         x: 1974
         y: 3107
-        width: 21
+        width: 35
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5266,48 +4846,6 @@ TextureImporter:
       bones: []
       spriteID: 83f34e5bf25336145805ba428b2b41d1
       internalID: -1101215346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_313
-      rect:
-        serializedVersion: 2
-        x: 1996
-        y: 3107
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91d8068432daf784b801a307b322d5a7
-      internalID: 323226970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_314
-      rect:
-        serializedVersion: 2
-        x: 2002
-        y: 3107
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3c0b54d7d3c84540b2bae0bb0017156
-      internalID: 1178682719
       vertices: []
       indices: 
       edges: []
@@ -5350,27 +4888,6 @@ TextureImporter:
       bones: []
       spriteID: 78d45545f33ac794eb391ab4abde9422
       internalID: -173034728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_317
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 3107
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8ffcc4f27d1416449835d145b95b7b3
-      internalID: 859638240
       vertices: []
       indices: 
       edges: []
@@ -7245,27 +6762,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_442
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2912
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab99a48ed53e56f4a9583631eb6700ca
-      internalID: -549534693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_443
       rect:
         serializedVersion: 2
@@ -7303,27 +6799,6 @@ TextureImporter:
       bones: []
       spriteID: 7b0a327d736d2f14c8395b1b7d63a785
       internalID: -787318377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_445
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 2912
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 099d075ea8a01c34e9a8d53e4b23d27c
-      internalID: -377757272
       vertices: []
       indices: 
       edges: []
@@ -7392,33 +6867,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_449
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 2912
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7d29ece3fef7db4c94edc503aea5b1f
-      internalID: -330815921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_450
       rect:
         serializedVersion: 2
         x: 1002
         y: 2912
-        width: 28
+        width: 56
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7429,48 +6883,6 @@ TextureImporter:
       bones: []
       spriteID: 4f1d8abba8a84f84f80d9d0abdf9f7c6
       internalID: -1684225890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_451
-      rect:
-        serializedVersion: 2
-        x: 1031
-        y: 2912
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cd36e7d1b8385e4eab03bf4046d40e3
-      internalID: 1479248112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_452
-      rect:
-        serializedVersion: 2
-        x: 1037
-        y: 2912
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b3c65ce2cd81d843bc6ec3f2db38bca
-      internalID: 972500011
       vertices: []
       indices: 
       edges: []
@@ -7513,27 +6925,6 @@ TextureImporter:
       bones: []
       spriteID: 1a2c76f5c884232408634e18433a3726
       internalID: 1625211773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_455
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 2912
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd738e98dd6d76843ba5779c2e889680
-      internalID: 1642184739
       vertices: []
       indices: 
       edges: []
@@ -7602,75 +6993,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_459
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 2912
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 370d21d5a1d8eb24586028dcec60faf0
-      internalID: -90390734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_460
-      rect:
-        serializedVersion: 2
-        x: 1631
-        y: 2912
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d019c7ef13cac3d4489f841030d9f13d
-      internalID: 571704207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_461
-      rect:
-        serializedVersion: 2
-        x: 1637
-        y: 2912
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7f16fb4bb55dbf4e91635e77228e188
-      internalID: 676909640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_462
       rect:
         serializedVersion: 2
         x: 1650
         y: 2912
-        width: 14
+        width: 56
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7681,48 +7009,6 @@ TextureImporter:
       bones: []
       spriteID: 9ced2df1acf0f3f4a8c730ab9c88363a
       internalID: -813855380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_463
-      rect:
-        serializedVersion: 2
-        x: 1665
-        y: 2912
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9013e2748603f2a4695a9f4e60972c31
-      internalID: 1289014181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_464
-      rect:
-        serializedVersion: 2
-        x: 1671
-        y: 2912
-        width: 35
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47fbe3e23d2baac4d80dae67c1b8d62d
-      internalID: 542368530
       vertices: []
       indices: 
       edges: []
@@ -7752,9 +7038,9 @@ TextureImporter:
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_466
       rect:
         serializedVersion: 2
-        x: 1947
+        x: 1974
         y: 2912
-        width: 7
+        width: 63
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7765,111 +7051,6 @@ TextureImporter:
       bones: []
       spriteID: 5a4ba9388dfd115458f8d5eec7fbf23c
       internalID: -347720420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_467
-      rect:
-        serializedVersion: 2
-        x: 1955
-        y: 2912
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ecc83f521814394eaf4a47468089298
-      internalID: 602208316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_468
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 2912
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b06dbc501cebdd64785843b1c67c0145
-      internalID: 2101657041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_469
-      rect:
-        serializedVersion: 2
-        x: 1974
-        y: 2912
-        width: 28
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf5aae0c68fce4a49bf10cd430d7509b
-      internalID: -1643535684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_470
-      rect:
-        serializedVersion: 2
-        x: 2003
-        y: 2912
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 582127589ce9110478a8234da0a05deb
-      internalID: 42099753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_471
-      rect:
-        serializedVersion: 2
-        x: 2009
-        y: 2912
-        width: 28
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4611533e673581a4e8d4658fb456d3c2
-      internalID: -984930385
       vertices: []
       indices: 
       edges: []
@@ -7912,69 +7093,6 @@ TextureImporter:
       bones: []
       spriteID: d0fff8c2a215ccd4d8bb6959084d3d35
       internalID: -1741516126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_474
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2912
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 758467dc6df1e064184ebd14f505498a
-      internalID: 849807463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_475
-      rect:
-        serializedVersion: 2
-        x: 2279
-        y: 2912
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 105ab1805820bb048975f6dcbc907943
-      internalID: -758842629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_476
-      rect:
-        serializedVersion: 2
-        x: 2285
-        y: 2912
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f10b95fed93b44bb65ae0135b2e3d4
-      internalID: 1155025608
       vertices: []
       indices: 
       edges: []
@@ -8169,153 +7287,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_486
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 2896
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a712254b32b11e44b2219cefb85a19f
-      internalID: 84566363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_487
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 2896
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c57df8ec123b0c4d8fef8c2a6c7e9d1
-      internalID: 821381646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_488
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 2896
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6cc188f5404c4e4b825460aa134db6e
-      internalID: -863613297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_489
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2896
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92248be4e19123b489475f509f4d5380
-      internalID: 1851899474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_490
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 2896
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56d241662f881a241961ce59ecc02c20
-      internalID: -1299889888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_491
-      rect:
-        serializedVersion: 2
-        x: 679
-        y: 2896
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fce80bc03b4b0d47ae8e71a0119c83f
-      internalID: -2130125070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_492
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 2896
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91f543c8cabf2ca449d82a9f5551097d
-      internalID: 172487832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_493
       rect:
         serializedVersion: 2
@@ -8416,216 +7387,6 @@ TextureImporter:
       bones: []
       spriteID: 5c5b00d57534cc448b79da436f5e2df0
       internalID: -1450695464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_498
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2896
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 160f3d3720cce5349aea7b00ca83efae
-      internalID: 1241214638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_499
-      rect:
-        serializedVersion: 2
-        x: 2283
-        y: 2896
-        width: 20
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 560bacc3ea8f5d84e96309db5b0dad65
-      internalID: -867766516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_500
-      rect:
-        serializedVersion: 2
-        x: 2309
-        y: 2896
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dbcf917fcdde0e46a6e69cae5b3efa4
-      internalID: -493257257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_501
-      rect:
-        serializedVersion: 2
-        x: 2321
-        y: 2896
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b756a0c22e3135a4086f9c57921f08e6
-      internalID: 13500876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_502
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 2894
-        width: 35
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5f499028b96fd24d945a2cbfcc4c70b
-      internalID: -1746519583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_503
-      rect:
-        serializedVersion: 2
-        x: 2635
-        y: 2896
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07fffaf4de9894147a113b69a2aa21d9
-      internalID: -1163807956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_504
-      rect:
-        serializedVersion: 2
-        x: 2647
-        y: 2896
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34018c072c6b5f447b15b998a4a56e8f
-      internalID: 1212787860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_505
-      rect:
-        serializedVersion: 2
-        x: 2919
-        y: 2896
-        width: 35
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a0b6dbb1622f984d82b0d25b864f7e9
-      internalID: -1505244921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_506
-      rect:
-        serializedVersion: 2
-        x: 2959
-        y: 2896
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 701c668cb0120fd47966b0f3c96edf6e
-      internalID: -1732960697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_507
-      rect:
-        serializedVersion: 2
-        x: 2971
-        y: 2896
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1307c417a04692e4b930a831f92ee98f
-      internalID: 1461444303
       vertices: []
       indices: 
       edges: []
@@ -10311,69 +9072,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_588
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1afa82c5e5e9bf488fc391015626a7c
-      internalID: 555912035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_589
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85d6e37741bf6084b80769f1f8df67f1
-      internalID: -2106599036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_590
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6952fd00eb2ee2542b49278e2c176ae9
-      internalID: -292418008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_591
       rect:
         serializedVersion: 2
@@ -10521,117 +9219,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_598
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccba87610d1496c4c8435d34289f4d1b
-      internalID: -879354926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_599
-      rect:
-        serializedVersion: 2
-        x: 983
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9366b0a6226d8d749bb6484c76661f58
-      internalID: -1643648419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_600
-      rect:
-        serializedVersion: 2
-        x: 989
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55bfe63939660c54a9643a4afa46adb6
-      internalID: -1535667857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_601
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_603
       rect:
         serializedVersion: 2
         x: 1002
         y: 2717
-        width: 28
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 714197fd48fc7164494cf337983a0fb5
-      internalID: -73801982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_602
-      rect:
-        serializedVersion: 2
-        x: 1031
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1878b0d09471f5f498be17466657c0e9
-      internalID: 909656895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_603
-      rect:
-        serializedVersion: 2
-        x: 1037
-        y: 2717
-        width: 7
+        width: 42
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -10684,69 +9277,6 @@ TextureImporter:
       bones: []
       spriteID: c44da80fa8e023248b3bd86683db5583
       internalID: -210741610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_606
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db79cee135b343d4a87cdab2e9d3a51c
-      internalID: 1223417910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_607
-      rect:
-        serializedVersion: 2
-        x: 1307
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71909d79546c16d458bb64014093d058
-      internalID: -734443789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_608
-      rect:
-        serializedVersion: 2
-        x: 1313
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bb3461429fa09245bbb05a00531ac49
-      internalID: 1632622815
       vertices: []
       indices: 
       edges: []
@@ -10815,75 +9345,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_612
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5544919eac756d54b9cd333442d8f9b3
-      internalID: -449710256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_613
-      rect:
-        serializedVersion: 2
-        x: 1955
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ce110c94d936f7469d2ccae0067ed8a
-      internalID: 1381909950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_614
-      rect:
-        serializedVersion: 2
-        x: 1961
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2157ec1436791a64eb8d444b96385db3
-      internalID: 1161472678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_615
       rect:
         serializedVersion: 2
         x: 1974
         y: 2717
-        width: 28
+        width: 63
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -10894,48 +9361,6 @@ TextureImporter:
       bones: []
       spriteID: 8dc0800a36cb24b4994ea594a07edaf0
       internalID: -1440206332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_616
-      rect:
-        serializedVersion: 2
-        x: 2003
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 602d25c0e53017142928d1dc2e8288bc
-      internalID: 2085634232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_617
-      rect:
-        serializedVersion: 2
-        x: 2009
-        y: 2716
-        width: 28
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9497a806eea812e41aed8289086055eb
-      internalID: 73812902
       vertices: []
       indices: 
       edges: []
@@ -10983,96 +9408,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_620
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f54cb7b9118fd23409f2e0e2859958a8
-      internalID: 51424794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_621
-      rect:
-        serializedVersion: 2
-        x: 2279
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fb055bba0661de4bb17efae3fbab330
-      internalID: 1288993262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_622
-      rect:
-        serializedVersion: 2
-        x: 2285
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 870efa93340423b4e8d02ef8779217d3
-      internalID: -1091116118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_623
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_624
       rect:
         serializedVersion: 2
         x: 2298
         y: 2717
-        width: 28
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5709c2bec8ea81a48bbde07e54333d52
-      internalID: -389289048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_624
-      rect:
-        serializedVersion: 2
-        x: 2327
-        y: 2717
-        width: 5
+        width: 63
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -11083,69 +9424,6 @@ TextureImporter:
       bones: []
       spriteID: 171aec146273ef44fa6c77b234e21a73
       internalID: -886645261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_625
-      rect:
-        serializedVersion: 2
-        x: 2333
-        y: 2717
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e3931273de987d439a6e4c44f023ffe
-      internalID: 547672092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_626
-      rect:
-        serializedVersion: 2
-        x: 2341
-        y: 2717
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c025c7b83f9304499e2ae0a5dd637e5
-      internalID: -9981230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_627
-      rect:
-        serializedVersion: 2
-        x: 2347
-        y: 2717
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57d006889b40a4b44bd2359bf6a19d11
-      internalID: -957970301
       vertices: []
       indices: 
       edges: []
@@ -11188,510 +9466,6 @@ TextureImporter:
       bones: []
       spriteID: adb426f9f400c184092e9213b8954cc6
       internalID: -1497988962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_630
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2701
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cea7efd91c074ee4facd7174936803bd
-      internalID: -627340665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_631
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 2701
-        width: 20
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c6b2f74dcae253478045351de094690
-      internalID: 374987404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_632
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 2701
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ee658df6fb9e5749a32e21725ec889e
-      internalID: -128718703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_633
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 2701
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dec43eb326bbab04fb3fd67e33cced59
-      internalID: -666916445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_634
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 2699
-        width: 35
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8462052a654f4f74f8f727b4afcd9c38
-      internalID: 969691951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_635
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 2701
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10024e928e0ee5d46806e3700433f38e
-      internalID: -1543568837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_636
-      rect:
-        serializedVersion: 2
-        x: 379
-        y: 2701
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c1f919587df6d24cbdafed7e6f5d240
-      internalID: 1347841844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_637
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2701
-        width: 35
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5d0a2a45dd21f34a8b61fdf682a83be
-      internalID: 1125864549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_638
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 2701
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10894fe9c9d02734e8fdf6ea3010e048
-      internalID: 37696820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_639
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 2701
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2080733ad22d9a4cbbe40573fea3364
-      internalID: 181074899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_640
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 2701
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b510dfa931357846b21f1d0835a4f1e
-      internalID: 1100449514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_641
-      rect:
-        serializedVersion: 2
-        x: 1313
-        y: 2701
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32323c7d29bbdf74c896bc33ed45d3d5
-      internalID: -1608710297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_642
-      rect:
-        serializedVersion: 2
-        x: 1318
-        y: 2701
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f33f244f3929d142a4eaaccb9384cb0
-      internalID: 2138233183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_643
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 2701
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f8de90fb2ae8c046ac227e6ba9065e1
-      internalID: 1973579876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_644
-      rect:
-        serializedVersion: 2
-        x: 1630
-        y: 2701
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 827ad9784ce845140ae97b15dbc71b2e
-      internalID: -706103439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_645
-      rect:
-        serializedVersion: 2
-        x: 1651
-        y: 2701
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b46d6a0eefc6d349bbfe81abd13c946
-      internalID: 1764617773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_646
-      rect:
-        serializedVersion: 2
-        x: 1656
-        y: 2701
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47ef7411af9d7874babfc4a313896e9e
-      internalID: -1922904328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_647
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2701
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a9df8aad4257c642a0fa13d05c8df96
-      internalID: 2036344261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_648
-      rect:
-        serializedVersion: 2
-        x: 2285
-        y: 2701
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97fb10ed1aab1bc46886931388b44807
-      internalID: -1669560958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_649
-      rect:
-        serializedVersion: 2
-        x: 2290
-        y: 2701
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e031f940123bcd147b9e1d4bd7556181
-      internalID: -907968367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_650
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 2701
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d77ab9aca52b5ee42a3161fcf1d39822
-      internalID: 1662453086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_651
-      rect:
-        serializedVersion: 2
-        x: 2602
-        y: 2701
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5554426f7cd7364aa16625e2e29588c
-      internalID: 1332504352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_652
-      rect:
-        serializedVersion: 2
-        x: 2623
-        y: 2701
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0dc50d5205fe45479dc2eddf2558ec4
-      internalID: -1339877699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_653
-      rect:
-        serializedVersion: 2
-        x: 2628
-        y: 2701
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b973202f1798eda4ea7fb9ae7cc2716e
-      internalID: -1322728865
       vertices: []
       indices: 
       edges: []
@@ -13230,75 +11004,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_727
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2522
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d716ceedb769d74690de7d62f113183
-      internalID: 1786425249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_728
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 2522
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d37d8a88ccdcea948926d13436ab2fd5
-      internalID: -1330612138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_729
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 2522
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59ea44022898d1e49a33234f2c6946b2
-      internalID: 2039554820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_730
       rect:
         serializedVersion: 2
         x: 30
         y: 2522
-        width: 14
+        width: 42
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -13309,48 +11020,6 @@ TextureImporter:
       bones: []
       spriteID: 46cb3ecebd97a2643a5109ee16ee12cb
       internalID: -399700927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_731
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 2522
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 689b6299c91ae0e46940f375820b3124
-      internalID: -851929180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_732
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 2522
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3effb47dba725347a62a84b798dca8b
-      internalID: 1055434819
       vertices: []
       indices: 
       edges: []
@@ -13393,69 +11062,6 @@ TextureImporter:
       bones: []
       spriteID: 0640b6236d9c6114d83dbda36035d067
       internalID: -712297199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_735
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2522
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e21b8e17ca1c0ab40b77b3170462cd2e
-      internalID: -661439398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_736
-      rect:
-        serializedVersion: 2
-        x: 659
-        y: 2522
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7f87b9077b4f5f45bc443d698eecb22
-      internalID: 760195854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_737
-      rect:
-        serializedVersion: 2
-        x: 665
-        y: 2522
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2639f929ffee38341b051280bc3c8c11
-      internalID: 1281997691
       vertices: []
       indices: 
       edges: []
@@ -13519,27 +11125,6 @@ TextureImporter:
       bones: []
       spriteID: b9bbe41d7b0e371408c409f8e60fdb80
       internalID: -231871034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_741
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 2522
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b870cddca2642846b19e107779b98a8
-      internalID: -1002543781
       vertices: []
       indices: 
       edges: []
@@ -13629,111 +11214,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_746
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 2522
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 740b4679f9a3aa849960a83413cda48d
-      internalID: 476196856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_747
-      rect:
-        serializedVersion: 2
-        x: 1638
-        y: 2522
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82bb8e00707a8e34b9a66ea9f056f2ce
-      internalID: -355659529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_748
-      rect:
-        serializedVersion: 2
-        x: 1650
-        y: 2522
-        width: 35
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b14ec853edc3fd4596dcc990b44ecdf
-      internalID: 1447985539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_749
-      rect:
-        serializedVersion: 2
-        x: 1686
-        y: 2522
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38ad1f627e8c4e24f9ce0ac3e7274afc
-      internalID: 642876205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_750
-      rect:
-        serializedVersion: 2
-        x: 1692
-        y: 2522
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a6c4ed77401c74782323efef7f8172
-      internalID: -1511495088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_751
       rect:
         serializedVersion: 2
@@ -13771,27 +11251,6 @@ TextureImporter:
       bones: []
       spriteID: a37baed9e46069e4c8ce2a377322203f
       internalID: 958193463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_753
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2522
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13c49870bce0d9b4093cab042fd15e01
-      internalID: -260510812
       vertices: []
       indices: 
       edges: []
@@ -13902,153 +11361,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_759
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2506
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25ea6675fbf9318499b97f7b68338cac
-      internalID: -1472270482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_760
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 2506
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2df4da0d3310174795cd5ea17b4ca56
-      internalID: 585295813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_761
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 2506
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28076bed12a0d8c4eb353866452b2f75
-      internalID: -101146215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_762
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 2506
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25166e015db47d04ba778a1f6985c293
-      internalID: -285060242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_763
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 2506
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55949854326df694d8451208649b68f0
-      internalID: -1039302435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_764
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 2506
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69a3b46aeaf7b1040b585f76e379f530
-      internalID: -1747031810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_765
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 2506
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b11f62edc44d3e468a8a3ab22046d4c
-      internalID: 1927136352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_766
       rect:
         serializedVersion: 2
@@ -14065,153 +11377,6 @@ TextureImporter:
       bones: []
       spriteID: ccabb92c0e7512847b449ae7fc0db774
       internalID: -567531600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_767
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2506
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6929d3fceea865649b2a9160270c9e1e
-      internalID: -1866782585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_768
-      rect:
-        serializedVersion: 2
-        x: 665
-        y: 2506
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3a3a112d23a675429fa53b3e9f113f3
-      internalID: 1839730886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_769
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 2506
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfbabd634e2272b448cf6a99506fe37f
-      internalID: 2022382617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_770
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 2506
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55a4d25374253f649bd5ce310e7c4b41
-      internalID: 297432475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_771
-      rect:
-        serializedVersion: 2
-        x: 982
-        y: 2506
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f271a329919f87e47af8e61c92e7784a
-      internalID: -1304601416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_772
-      rect:
-        serializedVersion: 2
-        x: 1003
-        y: 2506
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e8748feebcbb7041a4dca6dba9995cf
-      internalID: 2120433355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_773
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 2506
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 989030b384aa5cf408ccabdda3cdfa2b
-      internalID: 1454991359
       vertices: []
       indices: 
       edges: []
@@ -14280,48 +11445,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_777
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2506
-        width: 27
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 049ddbb2492a7e64989ced5e5e0018a8
-      internalID: -107749748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_778
-      rect:
-        serializedVersion: 2
-        x: 2304
-        y: 2506
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2afa7c7c258a52c4baced1196c4ff0c3
-      internalID: 1132512193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_779
       rect:
         serializedVersion: 2
@@ -14338,48 +11461,6 @@ TextureImporter:
       bones: []
       spriteID: 1d841730a5004f743ac8f4b3874b9679
       internalID: 35159840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_780
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 2506
-        width: 27
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5769b110a4518c746be7ec122daf412c
-      internalID: -1691248537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_781
-      rect:
-        serializedVersion: 2
-        x: 2628
-        y: 2506
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4633f8d998c49be45b6f6d9c263f14e7
-      internalID: -2077430722
       vertices: []
       indices: 
       edges: []
@@ -14427,33 +11508,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_784
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_785
       rect:
         serializedVersion: 2
         x: 166
         y: 2422
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1125168bd16eefd44bd7652e9642bb72
-      internalID: -2075591155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_785
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 2422
-        width: 43
+        width: 72
         height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -14469,33 +11529,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_786
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_787
       rect:
         serializedVersion: 2
         x: 244
         y: 2422
-        width: 32
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c0d0d74ff51dba4d98c3354bf437a72
-      internalID: -526657638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_787
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 2422
-        width: 44
+        width: 78
         height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -15267,33 +12306,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_824
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_825
       rect:
         serializedVersion: 2
         x: 166
         y: 2341
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6130d463f62230d4bbdc73aacc5da130
-      internalID: -453586174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_825
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 2341
-        width: 43
+        width: 72
         height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -15309,33 +12327,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_826
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_827
       rect:
         serializedVersion: 2
         x: 244
         y: 2341
-        width: 32
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a35e4b54495e94740bce22d58ec9ba82
-      internalID: -1301204242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_827
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 2341
-        width: 44
+        width: 78
         height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -16191,33 +13188,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_868
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2eee21454c110274a9371c5741a8fedf
-      internalID: 602934040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_869
       rect:
         serializedVersion: 2
         x: 678
         y: 2327
-        width: 21
+        width: 49
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -16228,48 +13204,6 @@ TextureImporter:
       bones: []
       spriteID: 59a9f4cf803e1574a91b4923a76f2fc5
       internalID: -59867607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_870
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 2327
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d5ba54947d7a24fae772512735a8c9
-      internalID: 821328018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_871
-      rect:
-        serializedVersion: 2
-        x: 706
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e35f6df069fd8da4889e5ad5efe1c0d8
-      internalID: -558496794
       vertices: []
       indices: 
       edges: []
@@ -16317,33 +13251,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_874
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f260219d695da8a4e89ea7d46ea30a40
-      internalID: -186530155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_875
       rect:
         serializedVersion: 2
         x: 1326
         y: 2327
-        width: 14
+        width: 56
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -16354,48 +13267,6 @@ TextureImporter:
       bones: []
       spriteID: 5ef5a25da149e4d4fad9ec8ca45a61b1
       internalID: 2137886682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_876
-      rect:
-        serializedVersion: 2
-        x: 1341
-        y: 2327
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b92b14a452247124eb6f43041bb8810d
-      internalID: -1997509715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_877
-      rect:
-        serializedVersion: 2
-        x: 1347
-        y: 2327
-        width: 35
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a33abc09954827140ba1e1809dd4fab9
-      internalID: 348216394
       vertices: []
       indices: 
       edges: []
@@ -16443,33 +13314,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_880
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74e74c5f815c23244b5496b95bd602dc
-      internalID: 249666754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_881
       rect:
         serializedVersion: 2
         x: 1650
         y: 2327
-        width: 14
+        width: 56
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -16480,90 +13330,6 @@ TextureImporter:
       bones: []
       spriteID: 88bba3ff445fb28468a4268391ab9d75
       internalID: -679254037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_882
-      rect:
-        serializedVersion: 2
-        x: 1665
-        y: 2327
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 387423d1616fb6943a14c0fae99fc3c5
-      internalID: 1338301016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_883
-      rect:
-        serializedVersion: 2
-        x: 1671
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f43b57fdfd7b944c84caad76ac9eac8
-      internalID: -1528695952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_884
-      rect:
-        serializedVersion: 2
-        x: 1693
-        y: 2327
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5806a93affcc1b84199e3e8a83b19e03
-      internalID: -2007690893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_885
-      rect:
-        serializedVersion: 2
-        x: 1699
-        y: 2327
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09757a7d4acfb3e4e9f8bbb61655b0be
-      internalID: 1713445843
       vertices: []
       indices: 
       edges: []
@@ -16606,27 +13372,6 @@ TextureImporter:
       bones: []
       spriteID: 982ee7d407be88d4e97d5395ab0802f7
       internalID: 1656473321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_888
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88f7d709f07baef4cb733ca0335a9288
-      internalID: 922028392
       vertices: []
       indices: 
       edges: []
@@ -16695,27 +13440,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_892
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f994477dfc7e02847af9d8326270aec3
-      internalID: -1603631831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_893
       rect:
         serializedVersion: 2
@@ -16774,27 +13498,6 @@ TextureImporter:
       bones: []
       spriteID: b7b00b7fbfce68a45b331a6fccd094ca
       internalID: 1655505281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_896
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78ef4dcba5144fe49ba72973aa5d68b5
-      internalID: -1939356658
       vertices: []
       indices: 
       edges: []
@@ -16947,27 +13650,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_904
-      rect:
-        serializedVersion: 2
-        x: 2919
-        y: 2327
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4183ac9b73c9809489bfbaceb3e74bfc
-      internalID: -1327554312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_905
       rect:
         serializedVersion: 2
@@ -17031,48 +13713,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_908
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2311
-        width: 27
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 338a3935e59839746bfc040e4a235d49
-      internalID: 763777411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_909
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 2311
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 681edbb9bb8c44046a52ec2b2de5ad9f
-      internalID: -1215395911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_910
       rect:
         serializedVersion: 2
@@ -17089,195 +13729,6 @@ TextureImporter:
       bones: []
       spriteID: e773c8b5a9356af4e91ff1ddcb9c9c96
       internalID: 1106427030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_911
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 2311
-        width: 27
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c0bea18b8a942f46aaf795e164318b1
-      internalID: 601707532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_912
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 2311
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9cab2814b3c2b44ab4843c16419cb4b
-      internalID: -795899663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_913
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2311
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9d0f14444482ce4b8a04d96f55ad862
-      internalID: -112169921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_914
-      rect:
-        serializedVersion: 2
-        x: 665
-        y: 2311
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 460a51e74c4e6be4c9049c9841e69eb3
-      internalID: -664203896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_915
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 2311
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e378e0b88ba72e947913a5764730f4d9
-      internalID: 1301361833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_916
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 2311
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b00af11f2a340e47aaa973494102e85
-      internalID: 2019669441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_917
-      rect:
-        serializedVersion: 2
-        x: 982
-        y: 2311
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ea20e0c05699604fa87be38484a2442
-      internalID: 1067584750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_918
-      rect:
-        serializedVersion: 2
-        x: 1003
-        y: 2311
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9af37d7efe40d2b41a4d4bea245be85b
-      internalID: -478711755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_919
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 2311
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33748d9b7875c354687e955c8dfd8205
-      internalID: 2119631110
       vertices: []
       indices: 
       edges: []
@@ -19047,48 +15498,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1004
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2132
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8e8e413a01c2054bb15879ed3539c1e
-      internalID: 1012378102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1005
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 2132
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1000267544f8ebd4ea808c2177cc5ad2
-      internalID: -851179864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1006
       rect:
         serializedVersion: 2
@@ -19147,27 +15556,6 @@ TextureImporter:
       bones: []
       spriteID: 7512d604591a5324ca0d9f492bf24c51
       internalID: 1750023664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1009
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f5de2660721c6a409e86af7c21ae429
-      internalID: -1810509227
       vertices: []
       indices: 
       edges: []
@@ -19257,33 +15645,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1014
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc5c8816992e4674bae2d1060f416408
-      internalID: 633774127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1015
       rect:
         serializedVersion: 2
         x: 678
         y: 2132
-        width: 14
+        width: 63
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -19294,90 +15661,6 @@ TextureImporter:
       bones: []
       spriteID: 97ed4613ededbee4399c2acee8b1f88f
       internalID: -1643796558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1016
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 2132
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9137b149d1f65c4381b7130c38fa609
-      internalID: 1385367025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1017
-      rect:
-        serializedVersion: 2
-        x: 699
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f39eebc97a4dbb14d9bbc226e4e87dd0
-      internalID: -275011317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1018
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 2132
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ef36906143512d43be558bbc01ebf69
-      internalID: -1821423024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1019
-      rect:
-        serializedVersion: 2
-        x: 727
-        y: 2132
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abdcb20d4f6ef204698d0294366135a1
-      internalID: -1539621861
       vertices: []
       indices: 
       edges: []
@@ -19420,27 +15703,6 @@ TextureImporter:
       bones: []
       spriteID: 3688a9fb8f1ce464b9d98d1ed973f7ed
       internalID: -1601973803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1022
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77a333dbad40efe40886572fff2671d5
-      internalID: 2042153222
       vertices: []
       indices: 
       edges: []
@@ -19509,27 +15771,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1026
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93abe49185f5d9d459602812aedca3ec
-      internalID: 1815882358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1027
       rect:
         serializedVersion: 2
@@ -19593,27 +15834,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1030
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa133f00dfb57f7448a2f7311783d75c
-      internalID: 1476015083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1031
       rect:
         serializedVersion: 2
@@ -19651,27 +15871,6 @@ TextureImporter:
       bones: []
       spriteID: 6fae87eb7a2db854eb896bfd5b2dc0fd
       internalID: -1022223670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1033
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59c1193fdf1309949b09cb8121c09662
-      internalID: -2062517741
       vertices: []
       indices: 
       edges: []
@@ -19740,33 +15939,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1037
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9ec109f675abd244a0581cfb189abee
-      internalID: -1223035163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1038
       rect:
         serializedVersion: 2
         x: 2298
         y: 2132
-        width: 35
+        width: 42
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -19777,27 +15955,6 @@ TextureImporter:
       bones: []
       spriteID: 67f53e4d2514bcd46a0bffbc5a87788b
       internalID: 779172599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1039
-      rect:
-        serializedVersion: 2
-        x: 2333
-        y: 2132
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2aad74fa30eb1da429c45d7a5da70b21
-      internalID: -1865990946
       vertices: []
       indices: 
       edges: []
@@ -19845,75 +16002,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1042
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cd481591f7babf42bfc7936570c2d92
-      internalID: -1702592173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1043
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1045
       rect:
         serializedVersion: 2
         x: 2622
         y: 2132
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4b9ac160a97c7348b46e10db4ae4884
-      internalID: 640810469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1044
-      rect:
-        serializedVersion: 2
-        x: 2630
-        y: 2132
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbb28a7327835294aa574fb997e9b84e
-      internalID: 314896862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1045
-      rect:
-        serializedVersion: 2
-        x: 2636
-        y: 2132
-        width: 14
+        width: 51
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -19924,27 +16018,6 @@ TextureImporter:
       bones: []
       spriteID: cf811e62632797b458ca92a7efd257e1
       internalID: -209354315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1046
-      rect:
-        serializedVersion: 2
-        x: 2655
-        y: 2132
-        width: 18
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ce6d6714d03cd14e8caeb43ff32cf7f
-      internalID: 2070722518
       vertices: []
       indices: 
       edges: []
@@ -19992,33 +16065,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1049
-      rect:
-        serializedVersion: 2
-        x: 2919
-        y: 2132
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c10dc902ec0f43845ad0e067c2e729dc
-      internalID: 2025222079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1050
       rect:
         serializedVersion: 2
         x: 2946
         y: 2132
-        width: 28
+        width: 49
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -20029,48 +16081,6 @@ TextureImporter:
       bones: []
       spriteID: 98a63a5ba9a22764694c46ffbc58d64c
       internalID: -2056576518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1051
-      rect:
-        serializedVersion: 2
-        x: 2975
-        y: 2132
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e86b29d33e8940d4d95b51e988fa67c7
-      internalID: 808351444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1052
-      rect:
-        serializedVersion: 2
-        x: 2981
-        y: 2132
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bf9fa462c50ed748ac08ba16a9913d5
-      internalID: -1556244065
       vertices: []
       indices: 
       edges: []
@@ -21987,48 +17997,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1144
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 1937
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d764099902a428842a06c1231c88cfa1
-      internalID: -2119462758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1145
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 1937
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d92fa6ea0470fb4a8ebdff5b62a56c3
-      internalID: -1894107221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1146
       rect:
         serializedVersion: 2
@@ -22092,117 +18060,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1149
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 1937
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9610411c4f59c44408fb31fd37b728ad
-      internalID: 325330234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1150
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1154
       rect:
         serializedVersion: 2
         x: 354
         y: 1937
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5a8b808c9fb7684e8cf5409ba2d84a1
-      internalID: 351584002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1151
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 1937
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 410427810711e1f46a32af412b75d306
-      internalID: -637190168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1152
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1937
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24e392e2a938464438946189622eacc7
-      internalID: 2106206913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1153
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 1937
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20e8a51b3df784040add6abf0e2fc606
-      internalID: 1997711985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1154
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 1937
-        width: 28
+        width: 63
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -22260,75 +18123,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1157
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 1937
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb5cdbf0151a7af4bb6e96fbb616b72c
-      internalID: 1837801841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1158
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1160
       rect:
         serializedVersion: 2
         x: 678
         y: 1937
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d431286384b1b85418c078ac3ca30c4a
-      internalID: -985520001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1159
-      rect:
-        serializedVersion: 2
-        x: 686
-        y: 1937
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93b2dc9883358b6439fe6a826cb55e3a
-      internalID: -929440412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1160
-      rect:
-        serializedVersion: 2
-        x: 692
-        y: 1937
-        width: 21
+        width: 35
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -22386,33 +18186,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1163
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 1937
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f990bf71e1635b459f971063a4a8b52
-      internalID: -1257765364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1164
       rect:
         serializedVersion: 2
         x: 1326
         y: 1937
-        width: 21
+        width: 42
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -22423,48 +18202,6 @@ TextureImporter:
       bones: []
       spriteID: 69f3cf07669d8114fa997f43d8987e37
       internalID: 133543366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1165
-      rect:
-        serializedVersion: 2
-        x: 1348
-        y: 1937
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f44bff84d439d945ba607fbb1bc29e9
-      internalID: 1196808218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1166
-      rect:
-        serializedVersion: 2
-        x: 1354
-        y: 1937
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59ad2f160d9500e4992000a1b97e3229
-      internalID: 1890622047
       vertices: []
       indices: 
       edges: []
@@ -22507,27 +18244,6 @@ TextureImporter:
       bones: []
       spriteID: ff07615a12f135949bd1d2e39553548c
       internalID: 1521872046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1169
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 1937
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4148ddcaa9878b841abccc3b65aa3f67
-      internalID: -530247763
       vertices: []
       indices: 
       edges: []
@@ -22596,27 +18312,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1173
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 1937
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c1c5b73a12befa4f88e061d35358637
-      internalID: 1962567751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1174
       rect:
         serializedVersion: 2
@@ -22680,96 +18375,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1177
-      rect:
-        serializedVersion: 2
-        x: 2919
-        y: 1937
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 844f469dba102f84b902cb396f2f8e75
-      internalID: 1347248634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1178
-      rect:
-        serializedVersion: 2
-        x: 2933
-        y: 1937
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e45169d8d9cc46479e2894d44094e8b
-      internalID: 649703522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1179
+      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1181
       rect:
         serializedVersion: 2
         x: 2946
         y: 1937
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 443028aa883b58b409510c2df9545a3f
-      internalID: 1299989299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1180
-      rect:
-        serializedVersion: 2
-        x: 2954
-        y: 1937
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4d40f9d5208fbf47bf226dfec8e0fee
-      internalID: -504726369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1181
-      rect:
-        serializedVersion: 2
-        x: 2960
-        y: 1937
-        width: 21
+        width: 35
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -22827,153 +18438,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1184
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 1921
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fddeb144a9f77c743bc03a70332d27ba
-      internalID: -1139822595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1185
-      rect:
-        serializedVersion: 2
-        x: 665
-        y: 1921
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a72a424fceccb14b9ad64f0e96f45a6
-      internalID: 248277610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1186
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 1921
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8741fce22aa4c240bbb8ebd3c3d5e4a
-      internalID: -1981428249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1187
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 1921
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e2953d863f758a4ca6bcc05a8942aab
-      internalID: 110493733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1188
-      rect:
-        serializedVersion: 2
-        x: 982
-        y: 1921
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee4632fbd91640947a2dc8140e016149
-      internalID: 1030370280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1189
-      rect:
-        serializedVersion: 2
-        x: 1003
-        y: 1921
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52f957c55ee535c4eaf60be8919e41b3
-      internalID: -775830453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1190
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 1921
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0360f8592b92581449936be7f6d22b04
-      internalID: -109582951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1191
       rect:
         serializedVersion: 2
@@ -22995,153 +18459,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1192
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 1921
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1af0442bc5309c40b6bddfdfbf55c82
-      internalID: 1177584717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1193
-      rect:
-        serializedVersion: 2
-        x: 1313
-        y: 1921
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6c173655182f5b499c542e5720cec6d
-      internalID: -1719012394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1194
-      rect:
-        serializedVersion: 2
-        x: 1318
-        y: 1921
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 892ebd5b7d14e0f408276cca73742432
-      internalID: -1039400464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1195
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 1921
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d23f452ba8732d48b1facf3faa40f73
-      internalID: -1825463906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1196
-      rect:
-        serializedVersion: 2
-        x: 1630
-        y: 1921
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58be79721add7cf45b323f6c8052a54a
-      internalID: -1765595303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1197
-      rect:
-        serializedVersion: 2
-        x: 1651
-        y: 1921
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8efd2c19c39ef484089b9aae5741399e
-      internalID: 601349601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1198
-      rect:
-        serializedVersion: 2
-        x: 1656
-        y: 1921
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08d95f4473120294d85d8f4f15388cdf
-      internalID: 395629535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1199
       rect:
         serializedVersion: 2
@@ -23158,153 +18475,6 @@ TextureImporter:
       bones: []
       spriteID: 1e2d8abaaab049548816c1787c551149
       internalID: 661664816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1200
-      rect:
-        serializedVersion: 2
-        x: 1947
-        y: 1921
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1efcfcf6802918c41982c6dae481bd25
-      internalID: -801882946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1201
-      rect:
-        serializedVersion: 2
-        x: 1961
-        y: 1921
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a65f00569fc7ad42b0ce7b9a89f362d
-      internalID: -255158890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1202
-      rect:
-        serializedVersion: 2
-        x: 1966
-        y: 1921
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9881af4b53439d443a638d4cc2ec21c7
-      internalID: -986495189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1203
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 1921
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 911eba156b0b9524cb52e457807f6855
-      internalID: -1877545113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1204
-      rect:
-        serializedVersion: 2
-        x: 2278
-        y: 1921
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14abe3b112717e241b5818f9982f7403
-      internalID: 664656096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1205
-      rect:
-        serializedVersion: 2
-        x: 2299
-        y: 1921
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e90a3bd274c468142b26ed78b9ce39ad
-      internalID: -1063501976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1206
-      rect:
-        serializedVersion: 2
-        x: 2304
-        y: 1921
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f04dee1e663d57f4da89361434a0f193
-      internalID: 1062120223
       vertices: []
       indices: 
       edges: []
@@ -23814,7 +18984,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1231
+      name: CarmacheF
       rect:
         serializedVersion: 2
         x: 1628
@@ -23856,7 +19026,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1233
+      name: CarmacheB
       rect:
         serializedVersion: 2
         x: 1787
@@ -25074,27 +20244,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1291
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 1742
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72847b6ea44fe4e45808840a0a0dccf9
-      internalID: 728680888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1292
       rect:
         serializedVersion: 2
@@ -25641,27 +20790,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1318
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 1742
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c250830797a1274a92d6bdd9a249363
-      internalID: 766474763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1319
       rect:
         serializedVersion: 2
@@ -25699,153 +20827,6 @@ TextureImporter:
       bones: []
       spriteID: 0073eaa0813173a4da5af226f004dd6a
       internalID: 2883358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1321
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 1726
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1285766c8320ef64b95c96bc5d55f1d3
-      internalID: 611150423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1322
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 1726
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a75347f0a1b21841b9a327e3d4f33a7
-      internalID: -78277834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1323
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 1726
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c8e487611f9aac4990f6f0ad8d8caa8
-      internalID: 1112962959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1324
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 1726
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8be848c7c744bb04c910b503062078cb
-      internalID: -1855884088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1325
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 1726
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14dc2c7d3639c094cad6e09b8e27f5a4
-      internalID: 1011388890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1326
-      rect:
-        serializedVersion: 2
-        x: 679
-        y: 1726
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 143d8a4b8406c704db952d67080cf768
-      internalID: -1778841012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1327
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 1726
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7eced8763d3a6849bba5fa931830eb6
-      internalID: -573003108
       vertices: []
       indices: 
       edges: []
@@ -25914,153 +20895,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1331
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 1726
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c229a1fb434b23f4192a14867bfcdb65
-      internalID: 1215201682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1332
-      rect:
-        serializedVersion: 2
-        x: 989
-        y: 1726
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89dfd949d81584b48ae77256d9a0b60f
-      internalID: -2028049192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1333
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 1726
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f544a03c8dcef5a4ca1584268b6dd942
-      internalID: 1717712895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1334
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 1726
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd180453780f9a24b916c2239be25ed3
-      internalID: -1440610198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1335
-      rect:
-        serializedVersion: 2
-        x: 1306
-        y: 1726
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0822733851eb5ec4ba807cf88f7f3ae6
-      internalID: -1523968374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1336
-      rect:
-        serializedVersion: 2
-        x: 1327
-        y: 1726
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7333cc55197799a4082c30af7f5c4393
-      internalID: -1132233571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1337
-      rect:
-        serializedVersion: 2
-        x: 1332
-        y: 1726
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cc0069b73d406042a00164754121217
-      internalID: 97220765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1338
       rect:
         serializedVersion: 2
@@ -26098,153 +20932,6 @@ TextureImporter:
       bones: []
       spriteID: ec495f6ddf37b2e40818f0ac49e99d91
       internalID: 181353431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1340
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 1726
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a08e54c65b9d1242a2a2c9f2a11e9ed
-      internalID: -1442240284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1341
-      rect:
-        serializedVersion: 2
-        x: 2285
-        y: 1726
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ee8d2115cc3a81428d4eff33ebabf5e
-      internalID: 1408442185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1342
-      rect:
-        serializedVersion: 2
-        x: 2290
-        y: 1726
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1d2b9ae5cf5047428278b752616a47f
-      internalID: -60234668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1343
-      rect:
-        serializedVersion: 2
-        x: 2595
-        y: 1726
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d54721b3f6a4d034aa405392fd8ea6f0
-      internalID: -2057292357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1344
-      rect:
-        serializedVersion: 2
-        x: 2602
-        y: 1726
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2572d8c316dcee42b05ef067163e83a
-      internalID: -2042510281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1345
-      rect:
-        serializedVersion: 2
-        x: 2623
-        y: 1726
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5795a4c850af424c9343afe5b575cad
-      internalID: 1406786919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1346
-      rect:
-        serializedVersion: 2
-        x: 2628
-        y: 1726
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 075bf0984c1dd6f48aef6b52d5908be2
-      internalID: 2120504449
       vertices: []
       indices: 
       edges: []
@@ -28471,153 +23158,6 @@ TextureImporter:
       bones: []
       spriteID: 2f5c42d7f9fc2974b9623e8a75cd0aad
       internalID: 98241557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1453
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 1531
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25d4d52aa8fd91b4f9f0b896411c4f5b
-      internalID: 941868327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1454
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 1531
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cbcbf29992b87f41b857db4afa0b11c
-      internalID: -1515646498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1455
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 1531
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9682b90610277e9418acf8552bee43f8
-      internalID: -36994125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1456
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 1531
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a7d89f607dd2b84da532704ddd42bdd
-      internalID: 63831661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1457
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 1531
-        width: 21
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2b5e7f27217e0e45a6b0daf03cdc838
-      internalID: 742079368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1458
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 1531
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a45e973626fec2043a4c0f3f20c7f6ca
-      internalID: -1677248731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1459
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 1531
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd689f7e3b874c249970dd7b97ebc8fb
-      internalID: -1877981189
       vertices: []
       indices: 
       edges: []
@@ -44667,7 +39207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2224
+      name: LittleShadow
       rect:
         serializedVersion: 2
         x: 2377
@@ -45150,7 +39690,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2247
+      name: MediumShadow
       rect:
         serializedVersion: 2
         x: 2372
@@ -45255,7 +39795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2252
+      name: BigShadow
       rect:
         serializedVersion: 2
         x: 2365
@@ -50242,7 +44782,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_589: -2106599036
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1058: 743828177
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2387: 1305906987
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1233: 2052776259
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2176: -983479225
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_955: 2105475876
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1992: -2017287616
@@ -50712,6 +45251,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1194: -1039400464
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_138: 299358887
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1998: 1495826870
+      CarmacheB: 2052776259
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_21: -690226714
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1070: -1847738220
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_427: 2056302187
@@ -50987,6 +45527,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1760: -566588837
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1555: 533608785
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1753: 1940724045
+      CarmacheF: 146288374
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_205: 1973234481
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_443: -1703190398
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1492: -1291019269
@@ -51507,17 +46048,17 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_148: 1004489358
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_316: -173034728
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2138: 508086898
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1082: 2055014923
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1865: -1354943510
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1933: -318712412
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_459: -90390734
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_641: -1608710297
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_804: 778080514
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1750: 524189540
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1308: -512057989
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1082: 2055014923
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2478: -1824787405
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_914: -664203896
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1933: -318712412
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_551: 590375696
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1308: -512057989
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_366: 232464756
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2244: 1152684022
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1278: -1555803021
@@ -51563,17 +46104,17 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1707: -660443380
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_426: -2040066154
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_115: -1040744683
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2306: 1451352748
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2430: 853448175
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1471: -1451643524
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2430: 853448175
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_715: 55925311
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2450: 1312105850
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1169: -530247763
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_715: 55925311
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2306: 1451352748
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_420: 1216875782
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2419: 296318648
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2075: 1480435080
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1435: 1132065566
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2075: 1480435080
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2107: -1439768572
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2419: 296318648
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_865: -1366070376
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2027: -1173793807
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1064: -913914644
@@ -51594,7 +46135,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2405: 1466735424
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2360: 278579895
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1928: -31821771
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2247: 959209858
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_81: -654217235
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_215: -1512191396
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_285: 867512610
@@ -51728,12 +46268,11 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1512: 1427888129
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_224: 1570403962
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1937: 1571751140
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2224: 1764531859
+      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2326: 861865347
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_781: -2077430722
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_795: -267983123
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1185: 248277610
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_860: 1516574732
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2326: 861865347
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2449: 1524572975
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1021: -1601973803
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1850: -799765649
@@ -51840,7 +46379,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1983: 879827497
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_299: -1536581890
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2198: 358657316
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2252: 751282675
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1535: 1023150802
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1094: 260698949
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1720: -963420532
@@ -51958,6 +46496,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1272: -898794258
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_375: 913983176
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1144: -2119462758
+      BigShadow: 751282675
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2392: 832446780
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_387: 2037199827
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_943: 590682597
@@ -52161,7 +46700,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1730: 1019826736
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_276: -1278561787
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_326: -769390855
-      DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1231: 146288374
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2369: 1283213678
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1518: 369105746
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_272: -1315668688
@@ -52173,6 +46711,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_784: -2075591155
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1152: 2106206913
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2377: -1176545916
+      LittleShadow: 1764531859
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2230: -891324354
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2079: -720439643
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_776: 1633721904
@@ -52613,6 +47152,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1697: 276981256
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_1436: -32412821
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2483: -1758684171
+      MediumShadow: 959209858
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_482: 1052811064
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_618: 1739605823
       DS DSi - Pokemon Platinum - Pokemon 4th Generation-1.png (1)_2151: 684426656

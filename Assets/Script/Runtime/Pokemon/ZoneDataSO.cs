@@ -22,7 +22,8 @@ public class PokemonEncouterParameter
 public class PokemonsInZoneByRarity
 {
     [SerializeField] Rarity rarity = Rarity.VeryCommun;
-    [SerializeField] public List<PokemonEncouterParameter> pokemonsEncounter = new List<PokemonEncouterParameter>();
+    [SerializeField]
+    public List<PokemonEncouterParameter> pokemonsEncounter = new List<PokemonEncouterParameter>();
     [SerializeField] float rarityRate = 20;
 
     public List<PokemonEncouterParameter> PokemonsEncounter => pokemonsEncounter;
@@ -34,7 +35,8 @@ public class PokemonsInZoneByRarity
 public class ZoneDataSO : ScriptableObject
 {
     [SerializeField] float chanceToEncounterPokemon = 20;
-    [SerializeField] List<PokemonsInZoneByRarity> pokemonsInZoneByRarities = new List<PokemonsInZoneByRarity>();
+    [SerializeField]
+    List<PokemonsInZoneByRarity> pokemonsInZoneByRarities = new List<PokemonsInZoneByRarity>();
     public float ChanceToEncounterPokemon => chanceToEncounterPokemon;
     public RarityRate[] RarityRate => pokemonsInZoneByRarities.Select(pokemonZone => new RarityRate(pokemonZone.Rarity, pokemonZone.RarityRate)).ToArray();
     public List<PokemonsInZoneByRarity> PokemonsInZoneByRarities => pokemonsInZoneByRarities;

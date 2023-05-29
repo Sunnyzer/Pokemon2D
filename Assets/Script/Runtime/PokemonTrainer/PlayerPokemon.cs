@@ -6,10 +6,14 @@ public class PlayerPokemon : Player
 {
     CharacterMovement characterMovement;
     PokemonTeam pokemonTeam;
+
+    [SerializeField] UI trainerPrefab;
+
     public List<PokemonChoice> pokemonChoices = new List<PokemonChoice>();
     public CharacterMovement CharacterMovement => characterMovement;
     public PokemonTeam PokemonTeam => pokemonTeam;
-    [SerializeField] UI trainerPrefab;
+    public bool IsInBattle { get; set; }
+
     protected override void Start()
     {
         base.Start();

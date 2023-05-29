@@ -11,132 +11,94 @@ using UnityEngine.UI;
 public class ZoneDataEditor : Editor
 {
     ZoneDataSO zoneData;
-    int index = -1;
-    bool test = true;
-    Vector2 currentPos;
-    List<PokemonEncouterParameter> pokemonEncouterParameters = new List<PokemonEncouterParameter>();
-    List<PokemonSlider> pokemonSliders = new List<PokemonSlider>();
-    
-    [DllImport("user32.dll")]
-    static extern bool SetCursorPos(int X, int Y);
-    
+    List<PokemonBar> pokemonBars = new List<PokemonBar>();
+
     private void OnEnable()
     {
         zoneData = (ZoneDataSO)target;
-        zoneData.PokemonsInZoneByRarities.Clear();
-        PokemonsInZoneByRarity _p = new PokemonsInZoneByRarity();
-        for (int i = 0; i < 3; i++)
-        {
-            PokemonEncouterParameter _pEncounter = new PokemonEncouterParameter();
-            _p.pokemonsEncounter.Add(_pEncounter);
-            _p.pokemonsEncounter[i].chanceToEncounter = 100 * 1f/3f;
-            PokemonSlider _left = null;
-            if(pokemonSliders.Count - 1 >= 0)
-                _left = pokemonSliders[pokemonSliders.Count - 1];
-            PokemonSlider _slider = CreateSlider(ref _pEncounter, null, _left);
-            pokemonSliders.Add(_slider);
-            if(_left != null)
-                _left.rightSlider = _slider;
-        }
-        zoneData.PokemonsInZoneByRarities.Add(_p);
+        Init();
     }
-    public void InitRect()
+    public void Init()
     {
-        for (int i = 0; i < 1; i++)
+        pokemonBars.Clear();
+        for (int i = 0; i < zoneData.PokemonsInZoneByRarities.Count; i++)
         {
-            PokemonsInZoneByRarity _pokemonZone = zoneData.PokemonsInZoneByRarities[i];
-            float _sizeButton = EditorGUIUtility.currentViewWidth / _pokemonZone.PokemonsEncounter.Count;
-            for (int j = 0; j < _pokemonZone.PokemonsEncounter.Count; j++)
-            {
-                PokemonEncouterParameter _pep = _pokemonZone.PokemonsEncounter[j];
-                pokemonEncouterParameters.Add(_pep);
-                if (_pep.rect == null)
-                {
-                    _pep.rect = new Rect(j * _sizeButton, i * 150, _sizeButton, 100);
-                }
-            }
+            PokemonBar _pokemonBar = new PokemonBar();
+            PokemonsInZoneByRarity _pokemonInZoneRarity = zoneData.PokemonsInZoneByRarities[i];
+            _pokemonBar.Init(ref _pokemonInZoneRarity);
+            pokemonBars.Add(_pokemonBar);
         }
     }
-
     public override void OnInspectorGUI()
     {
-        //base.OnInspectorGUI();
-        if(test)
+        GUILayoutUtility.GetRect(EditorGUIUtility.currentViewWidth, 200);
+        base.OnInspectorGUI();
+        if(Event.current.clickCount == 2)
         {
-            InitRect();
-            test = false;
+            RoundBarSlider();
         }
-        GUILayoutUtility.GetRect(EditorGUIUtility.currentViewWidth, 500);
-        for (int i = 0; i < 1 /*zoneData.PokemonsInZoneByRarities.Count*/; i++)
+        for (int i = 0; i < pokemonBars.Count; i++)
         {
-            PkmBar(zoneData.PokemonsInZoneByRarities[i]);
-        }
-        if (Event.current.type == EventType.MouseUp || Event.current.type == EventType.MouseLeaveWindow)
-        {
-            index = -1;
-            Debug.Log("MouseUp");
-        }
-        if(index != -1)
-        {
-            
-            Vector2 _currentPos = GUIUtility.GUIToScreenPoint(currentPos);
-            SetCursorPos((int)_currentPos.x, (int)_currentPos.y);//Call this when you want to set the mouse position
+            PokemonsInZoneByRarity _pokemonBar = zoneData.PokemonsInZoneByRarities[i];
+            if (pokemonBars[i].Draw(ref _pokemonBar))
+                Repaint();
         }
     }
-    public PokemonSlider CreateSlider(ref PokemonEncouterParameter _pokemonEncounter, PokemonSlider _right, PokemonSlider _left)
+    public void RoundBarSlider()
     {
-        PokemonSlider pokemonSlider = new PokemonSlider(ref _pokemonEncounter);
-        pokemonSlider.rightSlider = _right;
-        pokemonSlider.leftSlider = _left;
-        return pokemonSlider;
-    }
-    public void AddPokemon(PokemonsInZoneByRarity _pokemonZone)
-    {
-        PokemonEncouterParameter _p = new PokemonEncouterParameter();
-        PokemonEncouterParameter _lastP = _pokemonZone.pokemonsEncounter[_pokemonZone.pokemonsEncounter.Count - 1];
-        _p.chanceToEncounter = _lastP.chanceToEncounter/2;
-        _lastP.chanceToEncounter /= 2;
-        _pokemonZone.pokemonsEncounter.Add(_p);
-        _p.rect = new Rect(_lastP.rect.Value.x + _lastP.rect.Value.width/2, 0, SliderWidth(_p.chanceToEncounter), 100);
-        pokemonSliders.Add(new PokemonSlider(ref _p));
-    }
-    public float SliderWidth(float _chance)
-    {
-        return EditorGUIUtility.currentViewWidth * _chance / 100;
+        for (int i = 0; i < pokemonBars.Count; i++)
+        {
+            pokemonBars[i].RoundSliders();
+        }
     }
 }
 
 public class PokemonBar
 {
-    PokemonsInZoneByRarity pokemonZone;
-    List<PokemonSlider> pokemonsSlider;
+    public List<PokemonSlider> pokemonsSlider = new List<PokemonSlider>();
     Vector2 currentPos;
-    int index = 0;
+    int index = -1;
     
     [DllImport("user32.dll")]
     static extern bool SetCursorPos(int X, int Y);
-
+    public void Init(ref PokemonsInZoneByRarity pokemonZone)
+    {
+        pokemonsSlider.Clear();
+        for (int i = 0; i < pokemonZone.PokemonsEncounter.Count; i++)
+        {
+            PokemonEncouterParameter _pokemonEncounter = pokemonZone.PokemonsEncounter[i];
+            PokemonSlider _pokemonSlider = new PokemonSlider(ref _pokemonEncounter);
+            PokemonSlider _previous = i > 0 ? pokemonsSlider[i - 1] : null;
+            _pokemonSlider.leftSlider =  _previous;
+            pokemonsSlider.Add(_pokemonSlider);
+            if(_previous)
+                _previous.rightSlider = _pokemonSlider;
+        }
+    }
     public float SliderWidth(float _chance)
     {
         return EditorGUIUtility.currentViewWidth * _chance / 100;
     }
     public void RoundSliders()
     {
-        for (int j = 0; j < pokemonZone.PokemonsEncounter.Count; j++)
+        for (int j = 0; j < pokemonsSlider.Count; j++)
         {
-            PokemonEncouterParameter _pokemonEncounterP = pokemonZone.PokemonsEncounter[j];
-            _pokemonEncounterP.chanceToEncounter = Mathf.RoundToInt(_pokemonEncounterP.chanceToEncounter);
+            pokemonsSlider[j].RoundSlider();
         }
     }
-    public void AddPokemon()
+    public void AddPokemon(ref PokemonsInZoneByRarity pokemonZone)
     {
-
+        PokemonEncouterParameter _p = new PokemonEncouterParameter();
+        _p.chanceToEncounter = pokemonZone.pokemonsEncounter[pokemonsSlider.Count - 1].chanceToEncounter / 2;
+        pokemonZone.pokemonsEncounter[pokemonsSlider.Count - 1].chanceToEncounter /= 2;
+        pokemonZone.pokemonsEncounter.Add(_p);
     }
-    public void RemovePokemon()
+    public void RemovePokemon(ref PokemonsInZoneByRarity pokemonZone)
     {
-
+        pokemonZone.pokemonsEncounter[pokemonZone.pokemonsEncounter.Count - 1].chanceToEncounter += pokemonZone.pokemonsEncounter[pokemonZone.pokemonsEncounter.Count - 1].chanceToEncounter;
+        pokemonZone.pokemonsEncounter.RemoveAt(pokemonsSlider.Count - 1);
     }
-    public bool Draw()
+    public bool Draw(ref PokemonsInZoneByRarity pokemonZone)
     {
         float _x = 0;
         bool _drag = false;
@@ -155,11 +117,16 @@ public class PokemonBar
         }
         if (GUI.Button(new Rect(0, 100, 50, 25), new GUIContent("+", "Add Pokemon")))
         {
-            AddPokemon();
+            AddPokemon(ref pokemonZone);
         }
         if (GUI.Button(new Rect(50, 100, 50, 25), new GUIContent("-", "Remove Pokemon")))
         {
-            RemovePokemon();
+            RemovePokemon(ref pokemonZone);
+        }
+        if (Event.current.type == EventType.MouseUp)
+        {
+            index = -1;
+            Debug.Log("MouseUp");
         }
         return _drag;
     }
@@ -183,9 +150,8 @@ public class PokemonBar
         }
         return _action;
     }
-    public PokemonBar(PokemonsInZoneByRarity _pokemonZone)
+    public PokemonBar()
     {
-        pokemonZone = _pokemonZone;
     }
 }
 
@@ -195,15 +161,20 @@ public class PokemonSlider
     public Rect rect;
     public PokemonSlider rightSlider = null;
     public PokemonSlider leftSlider = null;
+
     public PokemonSlider(ref PokemonEncouterParameter pokemonEncouterParam)
     {
         pokemonEncounter = pokemonEncouterParam;
     }
+    public void RoundSlider()
+    {
+        pokemonEncounter.chanceToEncounter = (float)Math.Round(pokemonEncounter.chanceToEncounter, 2);
+    }
     public bool DrawButton(float _x, Action _callback = null)
     {
         float _width = EditorGUIUtility.currentViewWidth * pokemonEncounter.chanceToEncounter / 100;
-        rect = new Rect(_x, pokemonEncounter.rect.Value.y, _width, pokemonEncounter.rect.Value.height);
-        GUI.Box(rect, "Pokemon " + pokemonEncounter.chanceToEncounter + "%");
+        rect = new Rect(_x, 0, _width - 1, 100);
+        GUI.Box(rect, "Pokemon " + Math.Round(pokemonEncounter.chanceToEncounter, 2) + "%");
         if (rect.Contains(Event.current.mousePosition) && Event.current.type == EventType.MouseDown)
         {
             _callback.Invoke();
@@ -211,26 +182,20 @@ public class PokemonSlider
         }
         return false;
     }
+    public void SetValue(float _value)
+    {
+        float _chance = pokemonEncounter.chanceToEncounter;
+        //float _min = leftSlider ? leftSlider.pokemonEncounter.chanceToEncounter + _chance : 0;
+        float _max = rightSlider ? rightSlider.pokemonEncounter.chanceToEncounter + _chance : 100;
+        pokemonEncounter.chanceToEncounter = _value;
+        pokemonEncounter.chanceToEncounter = _value < 0 ? 0 : _value > _max ? _max : _value;
+    }
     public void AddValue(float _direction)
     {
-        if(leftSlider && !rightSlider)
-        {
-            pokemonEncounter.chanceToEncounter -= _direction;
-            leftSlider.pokemonEncounter.chanceToEncounter += _direction;
-        }
-        else if(rightSlider && !leftSlider)
-        {
-            pokemonEncounter.chanceToEncounter += _direction;
-            rightSlider.pokemonEncounter.chanceToEncounter -= _direction;
-        }
+        if(rightSlider)
+            SetValue(pokemonEncounter.chanceToEncounter + _direction);
         else
-        {
-            pokemonEncounter.chanceToEncounter += Mathf.Abs(_direction);
-            if(_direction >= 0)
-                rightSlider.pokemonEncounter.chanceToEncounter -= _direction;
-            else
-                leftSlider.pokemonEncounter.chanceToEncounter += _direction;
-        }
+            SetValue(pokemonEncounter.chanceToEncounter - _direction);
     }
     public static implicit operator bool(PokemonSlider _pokemonSlider)
     {

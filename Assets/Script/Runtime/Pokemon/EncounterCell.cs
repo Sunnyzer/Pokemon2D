@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [System.Serializable]
 public class RarityRate
@@ -16,42 +18,44 @@ public class RarityRate
 
 public class EncounterCell : TileSprite
 {
-    [SerializeField] Zone currentZone = null;
-    public Zone CurrentZone
+
+    public event Action<EncounterCell> OnEnterCell = null;
+    [SerializeField] Zone cellZone = null;
+    public Zone CellZone
     {
-        get => currentZone;
-        set => currentZone = value;
+        get => cellZone;
+        set => cellZone = value;
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerPokemon _player = collision.GetComponent<PlayerPokemon>();
-        if (!_player) return;
         EnterCell(_player);
     }
-    public bool EnterCell(PlayerPokemon _playerPokemon)
+    public void EnterCell(PlayerPokemon _playerPokemon)
     {
+        if (!_playerPokemon) return;
+        OnEnterCell?.Invoke(this);
         float _proba = Random.Range(0, 1000)/10f;
-        if (_proba > currentZone.ChanceToEncounterPokemon) return false;
+        if (_proba > cellZone.ChanceToEncounterPokemon) return;
         Pokemon _pokemon = null;
         float _chance = 0;
         float _ratio = Random.Range(0, 1000)/10f;
         RarityRate _rateMax = new RarityRate(Rarity.VeryCommun, 0);
-        foreach (var item in currentZone.RarityRate)
+        foreach (var item in cellZone.RarityRate)
         {
             float _chanceToEncounter = item.Rate;
             if (_rateMax.Rate < _chanceToEncounter)
                 _rateMax = item;
             if (_ratio >= _chance && _ratio < _chance + _chanceToEncounter)
             {
-                _pokemon = currentZone.GetPokemonEncounter(item.Rarity);
+                _pokemon = cellZone.GetPokemonEncounter(item.Rarity);
                 break;
             }
             _chance += _chanceToEncounter;
         }
         if (_pokemon == null)
-            _pokemon = currentZone.GetPokemonEncounter(_rateMax.Rarity);
+            _pokemon = cellZone.GetPokemonEncounter(_rateMax.Rarity);
         BattleManager.Instance.StartBattle(_playerPokemon, _pokemon);
-        return true;
     }    
 }

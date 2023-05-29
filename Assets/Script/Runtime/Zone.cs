@@ -53,7 +53,7 @@ public class Zone : MonoBehaviour
         if (_pokemonInZone == null) return null;
         PokemonEncouterParameter[] _pokemonEncouterParameters = _pokemonInZone.PokemonsEncounter.ToArray();
         if (_pokemonEncouterParameters.Length <= 0) return null;
-        if (_pokemonEncouterParameters.Length == 1) return PokemonManager.Instance.GeneratePokemon(_pokemonEncouterParameters[0].GetLevelBetweenMinMax(), PokemonManager.Instance.GetPokemonData(_pokemonEncouterParameters[0].Pokemon));
+        if (_pokemonEncouterParameters.Length == 1) return PokemonManager.Instance.GeneratePokemon(_pokemonEncouterParameters[0].GetLevelBetweenMinMax(), PokemonManager.Instance.GetPokemonDataByPokemonChoice(_pokemonEncouterParameters[0].Pokemon));
         float _proba = Random.Range(0, 1000)/10f;
         float _chance = 0;
         for (int i = 0; i < _pokemonEncouterParameters.Length; i++)
@@ -62,7 +62,7 @@ public class Zone : MonoBehaviour
             float _chanceToEncounter = _pokemonEncouterParameter.ChanceToEncounter;
             if(_proba >= _chance && _proba <= _chance + _chanceToEncounter)
             {
-                PokemonData _data = PokemonManager.Instance.GetPokemonData(_pokemonEncouterParameter.Pokemon);
+                PokemonData _data = PokemonManager.Instance.GetPokemonDataByPokemonChoice(_pokemonEncouterParameter.Pokemon);
                 return PokemonManager.Instance.GeneratePokemon(_pokemonEncouterParameter.GetLevelBetweenMinMax(), _data);
             }
             _chance += _chanceToEncounter;
@@ -76,7 +76,7 @@ public class Zone : MonoBehaviour
     void InitEncounterCell(EncounterCell _cell)
     {
         if (!_cell) return;
-        _cell.CurrentZone = this;
+        _cell.CellZone = this;
     }
     void EnterZone()
     {

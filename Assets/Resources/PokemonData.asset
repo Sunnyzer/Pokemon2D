@@ -17,7 +17,22 @@ MonoBehaviour:
     name:
       french: Bulbizarre
     pkmTypes: 070000000a000000
-    moveChoices: []
+    moveChoices:
+    - level: 0
+      moveChoice:
+        indexMove: 32
+    - level: 0
+      moveChoice:
+        indexMove: 44
+    - level: 3
+      moveChoice:
+        indexMove: 21
+    - level: 6
+      moveChoice:
+        indexMove: 73
+    - level: 9
+      moveChoice:
+        indexMove: 72
     stat:
       HP: 45
       Attack: 49

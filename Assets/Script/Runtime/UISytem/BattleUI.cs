@@ -17,6 +17,7 @@ public class BattleUI : UI
     public void RunButton()
     {
         UIManager.Instance.RemoveQueueSetPreviousUI();
+        player.IsInBattle = false;
     }
     public void FightButton()
     {
