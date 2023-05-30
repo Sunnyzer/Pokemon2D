@@ -9,4 +9,8 @@ public class BattleManager : Singleton<BattleManager>
         UIManager.Instance.SetCurrentUIDisplay(battleUI);
         battleUI.InitBattle(_player, _pokemon);
     }
+    public void FinishTurn()
+    {
+
+    }
 }

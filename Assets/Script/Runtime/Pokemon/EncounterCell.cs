@@ -56,6 +56,8 @@ public class EncounterCell : TileSprite
         }
         if (_pokemon == null)
             _pokemon = cellZone.GetPokemonEncounter(_rateMax.Rarity);
-        BattleManager.Instance.StartBattle(_playerPokemon, _pokemon);
+           
+        if (_pokemon != null)
+            BattleManager.Instance.StartBattle(_playerPokemon, _pokemon);
     }    
 }

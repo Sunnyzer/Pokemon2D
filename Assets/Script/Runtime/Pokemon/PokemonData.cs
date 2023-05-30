@@ -25,6 +25,15 @@ public class Stat
         SpDefense = _spDefense;
         Speed = _speed;
     }
+    public Stat(Stat _stat)
+    {
+        HP = _stat.HP;
+        Attack = _stat.Attack;
+        Defense = _stat.Defense;
+        SpAttack = _stat.SpAttack;
+        SpDefense = _stat.SpDefense;
+        Speed = _stat.Speed;
+    }
     public static Stat GetRandomIV()
     {
         int hp = UnityEngine.Random.Range(0, 32);
@@ -83,7 +92,6 @@ public class Pokemon
     public Action<Pokemon> OnLevelUp = null;
     PokemonData data;
     [SerializeField] Stat currentStat;
-    [SerializeField] Stat stat;
     [SerializeField] Stat ivStat;
     [SerializeField] Stat evStat;
     [SerializeField] Move[] moves;
@@ -91,8 +99,8 @@ public class Pokemon
     [SerializeField] int level = 1;
     //Status currentStatus;
     string name;
-    int xp = 0;
-    int xpMax = 0;
+    int xp = 10;
+    int xpMax = 100;
     bool fainted = false;
 
     public PokemonData Data => data;
@@ -100,6 +108,10 @@ public class Pokemon
     public string Name => name;
     public int Level => level;
     public bool Fainted => fainted;
+    public int Hp => currentStat.HP;
+    public int HpMax => data.stat.HP;
+    public int Xp => xp;
+    public int XpMax => xpMax;
     //public Status CurrentStatus => currentStatus;
 
     public Pokemon(int _level, PokemonData _data, Stat _ivStat, string _nature, Move[] _moves)
@@ -111,6 +123,7 @@ public class Pokemon
         nature.name = _nature;
         moves = _moves;
         fainted = false;
+        currentStat = new Stat(_data.stat);
     }
 
     public void TakeDamage(int _damage)
@@ -143,7 +156,7 @@ public class Pokemon
     {
         if (_heal <= 0 || fainted) return;
         currentStat.HP += _heal;
-        currentStat.HP = currentStat.HP > stat.HP ? stat.HP : currentStat.HP;
+        currentStat.HP = currentStat.HP > data.stat.HP ? data.stat.HP : currentStat.HP;
     }
     public void GainExp(int _xpEarn)
     {

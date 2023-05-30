@@ -13,6 +13,7 @@ public enum Rarity
 public class Zone : MonoBehaviour
 {
     [SerializeField] Sprite zoneFont;
+    [SerializeField] Sprite backGroundZone;
     [SerializeField] ZoneDataSO zoneData;
     public RarityRate[] RarityRate => zoneData.RarityRate;
     public string ZoneName => name;

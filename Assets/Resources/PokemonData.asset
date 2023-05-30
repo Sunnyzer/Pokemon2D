@@ -29,10 +29,10 @@ MonoBehaviour:
         indexMove: 21
     - level: 6
       moveChoice:
-        indexMove: 73
+        indexMove: 15
     - level: 9
       moveChoice:
-        indexMove: 72
+        indexMove: 2
     stat:
       HP: 45
       Attack: 49

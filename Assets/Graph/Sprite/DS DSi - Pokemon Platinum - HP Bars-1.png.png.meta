@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - HP Bars-1.png_1
+      name: Bar
       rect:
         serializedVersion: 2
         x: 152
@@ -1659,13 +1659,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - HP Bars-1.png_2
+      name: Ba
       rect:
         serializedVersion: 2
         x: 81
-        y: 280
+        y: 281
         width: 1
-        height: 2
+        height: 1
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,7 +1680,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - HP Bars-1.png_75
+      name: HP
       rect:
         serializedVersion: 2
         x: 68
@@ -1688,7 +1688,7 @@ TextureImporter:
         width: 12
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1711,9 +1711,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DS DSi - Pokemon Platinum - HP Bars-1.png_14: -1094478816
       DS DSi - Pokemon Platinum - HP Bars-1.png_43: -1305270753
-      DS DSi - Pokemon Platinum - HP Bars-1.png_2: 600907345
       DS DSi - Pokemon Platinum - HP Bars-1.png_68: 1742999275
       DS DSi - Pokemon Platinum - HP Bars-1.png_31: -1990524790
       DS DSi - Pokemon Platinum - HP Bars-1.png_10: 176483445
@@ -1727,6 +1725,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - HP Bars-1.png_52: -1205739481
       DS DSi - Pokemon Platinum - HP Bars-1.png_4: -908142261
       DS DSi - Pokemon Platinum - HP Bars-1.png_55: 506939563
+      Bar: -447350898
       DS DSi - Pokemon Platinum - HP Bars-1.png_7: 1358651161
       DS DSi - Pokemon Platinum - HP Bars-1.png_23: 1241771182
       DS DSi - Pokemon Platinum - HP Bars-1.png_42: 1393511493
@@ -1742,17 +1741,19 @@ TextureImporter:
       DS DSi - Pokemon Platinum - HP Bars-1.png_20: 1421924393
       DS DSi - Pokemon Platinum - HP Bars-1.png_48: 1734691880
       DS DSi - Pokemon Platinum - HP Bars-1.png_46: -1748297786
-      DS DSi - Pokemon Platinum - HP Bars-1.png_18: 1447034897
       DS DSi - Pokemon Platinum - HP Bars-1.png_66: 109457876
-      DS DSi - Pokemon Platinum - HP Bars-1.png_11: -1887193969
+      DS DSi - Pokemon Platinum - HP Bars-1.png_72: 1869510231
+      DS DSi - Pokemon Platinum - HP Bars-1.png_18: 1447034897
       DS DSi - Pokemon Platinum - HP Bars-1.png_50: -1668642506
       DS DSi - Pokemon Platinum - HP Bars-1.png_45: 394248850
-      DS DSi - Pokemon Platinum - HP Bars-1.png_29: 149786331
+      DS DSi - Pokemon Platinum - HP Bars-1.png_11: -1887193969
       DS DSi - Pokemon Platinum - HP Bars-1.png_53: -642404022
-      DS DSi - Pokemon Platinum - HP Bars-1.png_72: 1869510231
+      DS DSi - Pokemon Platinum - HP Bars-1.png_29: 149786331
       DS DSi - Pokemon Platinum - HP Bars-1.png_44: 1217462939
       DS DSi - Pokemon Platinum - HP Bars-1.png_60: -1326425040
+      HP: -926059488
       DS DSi - Pokemon Platinum - HP Bars-1.png_34: -1554389864
+      Ba: 600907345
       DS DSi - Pokemon Platinum - HP Bars-1.png_0: -2082067668
       DS DSi - Pokemon Platinum - HP Bars-1.png_25: -1501560907
       DS DSi - Pokemon Platinum - HP Bars-1.png_36: -999098080
@@ -1764,8 +1765,6 @@ TextureImporter:
       DS DSi - Pokemon Platinum - HP Bars-1.png_73: 1700550109
       DS DSi - Pokemon Platinum - HP Bars-1.png_47: -279270966
       DS DSi - Pokemon Platinum - HP Bars-1.png_54: 61246324
-      DS DSi - Pokemon Platinum - HP Bars-1.png_1: -447350898
-      DS DSi - Pokemon Platinum - HP Bars-1.png_75: -926059488
       DS DSi - Pokemon Platinum - HP Bars-1.png_6: -121527575
       DS DSi - Pokemon Platinum - HP Bars-1.png_33: -958284775
       DS DSi - Pokemon Platinum - HP Bars-1.png_8: -816684775
@@ -1774,6 +1773,7 @@ TextureImporter:
       DS DSi - Pokemon Platinum - HP Bars-1.png_38: 808312434
       DS DSi - Pokemon Platinum - HP Bars-1.png_63: -1849854703
       DS DSi - Pokemon Platinum - HP Bars-1.png_49: 672668766
+      DS DSi - Pokemon Platinum - HP Bars-1.png_14: -1094478816
       DS DSi - Pokemon Platinum - HP Bars-1.png_13: -1821314304
       DS DSi - Pokemon Platinum - HP Bars-1.png_19: 1082357679
       DS DSi - Pokemon Platinum - HP Bars-1.png_27: -1709678263

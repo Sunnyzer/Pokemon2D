@@ -4,12 +4,13 @@ using UnityEngine;
 [Serializable]
 public class MoveData
 {
-    [SerializeField] int accuracy = 100;
+    [SerializeField] public int accuracy = 0;
     [SerializeField] public string ename = "Pound";
-    [SerializeField] int id = 0;
-    [SerializeField] int power = 40;
-    [SerializeField] int pp = 35;
+    [SerializeField] public int id = 0;
+    [SerializeField] public int power = 0;
+    [SerializeField] public int pp = 0;
     [SerializeField] public PkmType type;
+    public string Name => ename;
     public int Accuracy => accuracy;
     public int Id => id;
     public int Power => power;
@@ -22,6 +23,9 @@ public class Move
 {
     [SerializeField] MoveData data;
     int currentPP;
+    public string Name => data.Name;
+    public int PP => currentPP;
+    public int PPMax => data.PP;
     public bool CanUse => currentPP > 0;
     public Move(MoveData data)
     {
