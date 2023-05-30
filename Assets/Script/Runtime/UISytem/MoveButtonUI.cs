@@ -24,7 +24,7 @@ public class MoveButtonUI : MonoBehaviour
             Debug.Log(move.Name);
             move.UseMove();
             movePPText.text = move.PP + "/" + move.PPMax;
-            BattleManager.Instance.FinishTurn();
+            BattleManager.Instance.FinishTurn(move);
         }
     }
 }

@@ -1,4 +1,3 @@
-using Newtonsoft.Json;
 using UnityEditor;
 using UnityEngine;
 
@@ -17,7 +16,7 @@ public class MoveDataEditor : Editor
         file = (TextAsset)Resources.Load("moves");
         if (GUILayout.Button("Generate Move"))
         {
-            AllMoves allMoves = JsonConvert.DeserializeObject<AllMoves>(file.text);
+            AllMoves allMoves = JsonUtility.FromJson<AllMoves>(file.text);
             moveDataSO.allMoves = allMoves;
         }
     }

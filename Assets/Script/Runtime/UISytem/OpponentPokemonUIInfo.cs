@@ -18,6 +18,10 @@ public class OpponentPokemonUIInfo : MonoBehaviour
         pokemonSprite.sprite = currentPokemon.Data.completeSprite;
         pokemonSprite.rectTransform.sizeDelta = currentPokemon.Data.completeSprite.rect.size * 3.75f;
         hpBar.value = currentPokemon.Hp / currentPokemon.HpMax;
+        currentPokemon.OnHpChange += (pokemon) =>
+        {
+            UpdateHpBar();
+        };
     }
     public void Desinit()
     {

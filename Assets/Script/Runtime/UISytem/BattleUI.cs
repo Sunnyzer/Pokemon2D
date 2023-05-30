@@ -7,7 +7,8 @@ public class BattleUI : UI
     [SerializeField] MyPokemonUIInfo myPokemon;
     [SerializeField] OpponentPokemonUIInfo opponentPokemon;
     [SerializeField] SelectMoveUI selectMoveUI;
-    [SerializeField] Transform menuButton;
+    [SerializeField] Transform menuButton; 
+     
     public void InitBattle(PlayerPokemon _player, Pokemon _pokemon)
     {
         player = _player;
@@ -28,6 +29,11 @@ public class BattleUI : UI
         Debug.Log("Fight");
         selectMoveUI.ActivateUI();
         menuButton.gameObject.SetActive(false);
+    }
+    public void ResetMenu()
+    {
+        selectMoveUI.DeactivateUI();
+        menuButton.gameObject.SetActive(true);
     }
     public void BagButton()
     {

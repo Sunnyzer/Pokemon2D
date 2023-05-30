@@ -21,6 +21,11 @@ public class MyPokemonUIInfo : MonoBehaviour
         UpdateXpBar();
         UpdateHpBar();
         UpdateHpText(currentPokemon.Hp, currentPokemon.HpMax);
+        currentPokemon.OnHpChange += (pokemon) =>
+        {
+            UpdateHpBar();
+            UpdateHpText(pokemon.Hp, pokemon.HpMax);
+        };
     }
     public void Desinit()
     {
