@@ -26,7 +26,7 @@ public class Zone : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerPokemon _playerPokemon = other.GetComponent<PlayerPokemon>();
+        PlayerTrainer _playerPokemon = other.GetComponent<PlayerTrainer>();
         if (!_playerPokemon)
         {
             EncounterCell _encounterCell = other.GetComponent<EncounterCell>();
@@ -37,7 +37,7 @@ public class Zone : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        PlayerPokemon _playerPokemon = collision.GetComponent<PlayerPokemon>();
+        PlayerTrainer _playerPokemon = collision.GetComponent<PlayerTrainer>();
         if (!_playerPokemon) return;
         ExitZone();
     }

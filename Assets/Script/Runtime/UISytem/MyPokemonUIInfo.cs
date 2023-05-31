@@ -21,15 +21,16 @@ public class MyPokemonUIInfo : MonoBehaviour
         UpdateXpBar();
         UpdateHpBar();
         UpdateHpText(currentPokemon.Hp, currentPokemon.HpMax);
-        currentPokemon.OnHpChange += (pokemon) =>
-        {
-            UpdateHpBar();
-            UpdateHpText(pokemon.Hp, pokemon.HpMax);
-        };
+        currentPokemon.OnHpChange += OnHpChange;
+    }
+    public void OnHpChange(Pokemon _pokemon)
+    {
+        UpdateHpBar();
+        UpdateHpText(_pokemon.Hp, _pokemon.HpMax);
     }
     public void Desinit()
     {
-
+        currentPokemon.OnHpChange -= OnHpChange;
     }
     public void UpdateLevel(int _newLevel)
     {
@@ -41,11 +42,11 @@ public class MyPokemonUIInfo : MonoBehaviour
     }
     public void UpdateXpBar()
     {
-        expBar.value = currentPokemon.Xp / currentPokemon.XpMax;
+        expBar.value = (float)currentPokemon.Xp / (float)currentPokemon.XpMax;
     }
     public void UpdateHpBar()
     {
-        hpBar.value = currentPokemon.Hp / currentPokemon.HpMax;
+        hpBar.value = (float)currentPokemon.Hp / (float)currentPokemon.HpMax;
     }
     public void UpdateHpText(int _hp, int _hpMax)
     {

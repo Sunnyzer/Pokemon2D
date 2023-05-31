@@ -9,6 +9,7 @@ public class MoveData
     [SerializeField] int id;
     [SerializeField] int power;
     [SerializeField] int pp;
+    [SerializeField] int priority;
     [SerializeField] PkmType type;
 
     public string Name => ename;
@@ -30,6 +31,7 @@ public class Move
     public bool CanUse => currentPP > 0;
     public int Power => data.Power;
     public PkmType Type => data.Type;
+    public int Priority => 0;
     public Move(MoveData data)
     {
         this.data = data;
@@ -47,4 +49,13 @@ public class Move
 public class MoveChoice
 {
     public int indexMove;
+}
+
+[Serializable]
+public class MoveByLevel
+{
+    [SerializeField] int level;
+    [SerializeField] MoveChoice moveChoice;
+    public int Level => level;
+    public MoveChoice MoveChoice => moveChoice;
 }

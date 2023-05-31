@@ -4,7 +4,7 @@ using UnityEngine;
 public class MoveManager : Singleton<MoveManager>
 {
     [SerializeField] MoveDataSO moveData;
-
+    [SerializeField] MoveData lutteMove;
     public MoveData GetMoveDataByIndex(int _index)
     {
         return moveData.allMoves.moves[_index];
@@ -26,6 +26,7 @@ public class MoveManager : Singleton<MoveManager>
             {
                 for (int j = i; j > i - 4; j--)
                 {
+                    if (j < 0) return _moves.ToArray();
                     MoveData _moveData = GetMoveDataByMoveByLevel(_pokemonData.moveChoices[j]);
                     _moves.Add(new Move(_moveData));
                 }
@@ -33,5 +34,9 @@ public class MoveManager : Singleton<MoveManager>
             }
         }
         return _moves.ToArray();
+    }
+    public MoveData GetMoveLutte()
+    {
+        return lutteMove;
     }
 }

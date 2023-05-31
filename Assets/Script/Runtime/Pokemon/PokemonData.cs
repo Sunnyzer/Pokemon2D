@@ -2,61 +2,6 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public struct Names
-{
-    public string french;
-}
-
-[Serializable]
-public class Stat
-{
-    [SerializeField] public int HP;
-    [SerializeField] public int Attack;
-    [SerializeField] public int Defense;
-    [SerializeField] public int SpAttack;
-    [SerializeField] public int SpDefense;
-    [SerializeField] public int Speed;
-    public Stat(int _hp, int _attack, int _defense, int _spAttack, int _spDefense, int _speed)
-    {
-        HP = _hp;
-        Attack = _attack;
-        Defense = _defense;
-        SpAttack = _spAttack;
-        SpDefense = _spDefense;
-        Speed = _speed;
-    }
-    public Stat(Stat _stat)
-    {
-        HP = _stat.HP;
-        Attack = _stat.Attack;
-        Defense = _stat.Defense;
-        SpAttack = _stat.SpAttack;
-        SpDefense = _stat.SpDefense;
-        Speed = _stat.Speed;
-    }
-    public static Stat GetRandomIV()
-    {
-        int hp = UnityEngine.Random.Range(0, 32);
-        int attack = UnityEngine.Random.Range(0, 32);
-        int defense = UnityEngine.Random.Range(0, 32);
-        int spAttack = UnityEngine.Random.Range(0, 32);
-        int spDefense = UnityEngine.Random.Range(0, 32);
-        int speed = UnityEngine.Random.Range(0, 32);
-        Stat _stat = new Stat(hp, attack, defense, spAttack, spDefense, speed);
-        return _stat;
-    }
-}
-
-[Serializable]
-public class MoveByLevel
-{
-    [SerializeField] int level;
-    [SerializeField] MoveChoice moveChoice;
-    public int Level => level;
-    public MoveChoice MoveChoice => moveChoice;
-}
-
-[Serializable]
 public class PokemonChoice
 {
     [SerializeField] int indexPokemon;
@@ -113,6 +58,7 @@ public class Pokemon
     public int HpMax => data.stat.HP;
     public int Xp => xp;
     public int XpMax => xpMax;
+    public int XpGive => 10;
     public Stat CurrentStat => currentStat;
     //public Status CurrentStatus => currentStatus;
 
@@ -133,7 +79,7 @@ public class Pokemon
         float _stab = _owner.data.pkmTypes[0] == _move.Type ? 1.5f : 1;
         int effectiveness1 = 1;
         int effectiveness2 = 1;
-        float _damage = (((2 * _crit * _owner.level) * _move.Power * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * 1;
+        float _damage = (((((2 * _crit * _owner.level)/5) + 2) * _move.Power * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * 1;
         TakeDamage((int)_damage);
     }
     public void TakeDamage(int _damage)
@@ -141,17 +87,16 @@ public class Pokemon
         if (_damage <= 0 || fainted)
         {
             Debug.Log("D :" + _damage);
-
             return;
         }
         currentStat.HP -= _damage;
-        OnHpChange?.Invoke(this);
         if (currentStat.HP <= 0)
         {
             currentStat.HP = 0;
             fainted = true;
             OnFainted?.Invoke(this);
         }
+        OnHpChange?.Invoke(this);
     }
     public void Revive(int _heal)
     {
@@ -186,5 +131,11 @@ public class Pokemon
             xpMax = 10;//TODO
             GainExp(_xpLeft);
         }
+    }
+    public Move GetRandomMove()
+    {
+        if(moves.Length == 0) return null;
+        int _moves = UnityEngine.Random.Range(0, moves.Length);
+        return moves[_moves];
     }
 }

@@ -1,87 +1,137 @@
 using UnityEngine;
+using System.Linq;
+using System;
+using Unity.VisualScripting;
+
+[Serializable]
+public class BattleInfo
+{
+    [SerializeField] public BattleFighter opponentFighter;
+    [SerializeField] public BattleFighter myFighter;
+    public BattleInfo(BattleFighter opponentFighter, BattleFighter myFighter)
+    {
+        this.opponentFighter = opponentFighter;
+        this.myFighter = myFighter;
+    }
+}
 
 public class BattleManager : Singleton<BattleManager>
 {
     [SerializeField] BattleUI battleUI;
-    [SerializeField] Pokemon pokemon;
-    [SerializeField] PlayerPokemon playerPokemon;
+    PlayerTrainer playerTrainer;
+    WildPokemon wildPokemon;
 
-    public void StartBattle(PlayerPokemon _player, Pokemon _pokemon)
+    public void StartBattleWildPokemon(PlayerTrainer _player, WildPokemon _wildPokemon)
     {
+        if (_player.GetPokemon() == null) return;
         _player.IsInBattle = true;
-        pokemon = _pokemon;
-        playerPokemon = _player;
+        wildPokemon = _wildPokemon;
+        playerTrainer = _player;
+        battleUI.SetInfoMyPokemon(_player);
+        battleUI.SetInfoOpponentPokemon(_wildPokemon.GetPokemon());
         UIManager.Instance.SetCurrentUIDisplay(battleUI);
-        battleUI.InitBattle(_player, _pokemon);
     }
-    public void FinishTurn(Move _moveUse)
+    private void Update()
     {
-        if(pokemon.CurrentStat.Speed < playerPokemon.PokemonTeam[0].CurrentStat.Speed)
+        if (!playerTrainer || !playerTrainer.IsReady) return;
+        playerTrainer.IsReady = false;
+        BattleInfo _playerInfo = new BattleInfo(wildPokemon, playerTrainer);
+        BattleInfo _wildPokemonInfo = new BattleInfo(playerTrainer, wildPokemon);
+        TurnAction _action = playerTrainer.Turn(_playerInfo);
+        TurnAction _action2 = wildPokemon.Turn(_wildPokemonInfo);
+
+        int _priority = _action.GetPriority(_action2);
+        int _priority2 = _action2.GetPriority(_action);
+        if(_priority > _priority2)
         {
-            Debug.Log("Damage =>"+ pokemon.Name + " with " + playerPokemon.PokemonTeam[0].Name);
-            pokemon.TakeDamage(playerPokemon.PokemonTeam[0], _moveUse);
-            if (pokemon.Fainted)
+            _action.Turn();
+            if(IsBattleFinish(playerTrainer, wildPokemon))
             {
-                Debug.Log("Finish Turn");
-                playerPokemon.IsInBattle = false;
-                UIManager.Instance.RemoveQueueSetPreviousUI();
+                BattleFinish();
                 return;
             }
-            int _count = Random.Range(0, pokemon.Moves.Length);
-            if(pokemon.Moves.Length != 0)
-                playerPokemon.PokemonTeam[0].TakeDamage(pokemon, pokemon.Moves[_count]);
-            if (playerPokemon.PokemonTeam[0].Fainted)
+            _action2.Turn();
+            if (IsBattleFinish(playerTrainer, wildPokemon))
             {
-                Debug.Log("Finish Turn");
-                playerPokemon.IsInBattle = false;
-                UIManager.Instance.RemoveQueueSetPreviousUI();
+                BattleFinish();
                 return;
             }
         }
-        else if (pokemon.CurrentStat.Speed > playerPokemon.PokemonTeam[0].CurrentStat.Speed)
+        else if(_priority < _priority2)
         {
-            Debug.Log("Damage =>"+ playerPokemon.PokemonTeam[0].Name + " with " + pokemon.Name);
-            int _count = Random.Range(0, pokemon.Moves.Length);
-            if (pokemon.Moves.Length != 0)
-                playerPokemon.PokemonTeam[0].TakeDamage(pokemon, pokemon.Moves[_count]);
-            if (playerPokemon.PokemonTeam[0].Fainted)
+            _action2.Turn();
+            if (IsBattleFinish(playerTrainer, wildPokemon))
             {
-                Debug.Log("Finish Turn");
-                playerPokemon.IsInBattle = false;
-                UIManager.Instance.RemoveQueueSetPreviousUI();
+                BattleFinish();
                 return;
             }
-            pokemon.TakeDamage(playerPokemon.PokemonTeam[0], _moveUse);
-            if (pokemon.Fainted)
+            _action.Turn();
+            if (IsBattleFinish(playerTrainer, wildPokemon))
             {
-                Debug.Log("Finish Turn");
-                playerPokemon.IsInBattle = false;
-                UIManager.Instance.RemoveQueueSetPreviousUI();
+                BattleFinish();
                 return;
             }
         }
         else
         {
-            Debug.Log("Damage =>" + pokemon.Name + " with " + playerPokemon.PokemonTeam[0].Name);
-            pokemon.TakeDamage(playerPokemon.PokemonTeam[0], _moveUse);
-            if (pokemon.Fainted)
+            int _random = UnityEngine.Random.Range(0, 2);
+            if(_random == 0)
             {
-                Debug.Log("Finish Turn");
-                playerPokemon.IsInBattle = false;
-                UIManager.Instance.RemoveQueueSetPreviousUI();
-                return;
+                _action.Turn();
+                if (IsBattleFinish(playerTrainer, wildPokemon))
+                {
+                    BattleFinish();
+                    return;
+                }
+                _action2.Turn();
+                if (IsBattleFinish(playerTrainer, wildPokemon))
+                {
+                    BattleFinish();
+                    return;
+                }
             }
-            int _count = Random.Range(0, pokemon.Moves.Length);
-            if (pokemon.Moves.Length != 0)
-                playerPokemon.PokemonTeam[0].TakeDamage(pokemon, pokemon.Moves[_count]);
-            if (playerPokemon.PokemonTeam[0].Fainted)
+            else
             {
-                Debug.Log("Finish Turn");
-                playerPokemon.IsInBattle = false;
-                UIManager.Instance.RemoveQueueSetPreviousUI();
-                return;
+                _action2.Turn();
+                if (IsBattleFinish(playerTrainer, wildPokemon))
+                {
+                    BattleFinish();
+                    return;
+                }
+                _action.Turn();
+                if (IsBattleFinish(playerTrainer, wildPokemon))
+                {
+                    BattleFinish();
+                    return;
+                }
             }
         }
         battleUI.ResetMenu();
     }
+    public bool IsBattleFinish(PlayerTrainer _trainer, WildPokemon _wildPokemon)
+    {
+        return _trainer.GetPokemon().Fainted || _wildPokemon.GetPokemon().Fainted;
+    }
+    public void BattleFinish()
+    {
+        if(!playerTrainer.GetPokemon().Fainted)
+        {
+            playerTrainer.GetPokemon().GainExp(wildPokemon.GetPokemon().XpGive);
+        }
+        else
+        {
+
+        }
+        battleUI.ResetMenu();
+        StopBattle();
+        playerTrainer.IsReady = false;
+        playerTrainer = null;
+        wildPokemon = null;
+    }
+    public void StopBattle()
+    {
+        playerTrainer.IsInBattle = false;
+        battleUI.DesinitBattle();
+    }
+
 }

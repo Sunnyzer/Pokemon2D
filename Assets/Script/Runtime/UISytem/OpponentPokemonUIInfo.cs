@@ -17,11 +17,8 @@ public class OpponentPokemonUIInfo : MonoBehaviour
         namePkmText.text = currentPokemon.Name;
         pokemonSprite.sprite = currentPokemon.Data.completeSprite;
         pokemonSprite.rectTransform.sizeDelta = currentPokemon.Data.completeSprite.rect.size * 3.75f;
-        hpBar.value = currentPokemon.Hp / currentPokemon.HpMax;
-        currentPokemon.OnHpChange += (pokemon) =>
-        {
-            UpdateHpBar();
-        };
+        UpdateHpBar(currentPokemon);
+        currentPokemon.OnHpChange += UpdateHpBar;
     }
     public void Desinit()
     {
@@ -35,8 +32,8 @@ public class OpponentPokemonUIInfo : MonoBehaviour
     {
         namePkmText.text = _name;
     }
-    public void UpdateHpBar()
+    public void UpdateHpBar(Pokemon _pokemon)
     {
-        hpBar.value = currentPokemon.Hp / currentPokemon.HpMax;
+        hpBar.value = (float)_pokemon.Hp / (float)_pokemon.HpMax;
     }
 }

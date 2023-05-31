@@ -29,10 +29,10 @@ public class EncounterCell : TileSprite
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerPokemon _player = collision.GetComponent<PlayerPokemon>();
+        PlayerTrainer _player = collision.GetComponent<PlayerTrainer>();
         EnterCell(_player);
     }
-    public void EnterCell(PlayerPokemon _playerPokemon)
+    public void EnterCell(PlayerTrainer _playerPokemon)
     {
         if (!_playerPokemon) return;
         OnEnterCell?.Invoke(this);
@@ -58,6 +58,6 @@ public class EncounterCell : TileSprite
             _pokemon = cellZone.GetPokemonEncounter(_rateMax.Rarity);
            
         if (_pokemon != null)
-            BattleManager.Instance.StartBattle(_playerPokemon, _pokemon);
+            BattleManager.Instance.StartBattleWildPokemon(_playerPokemon, new WildPokemon(_pokemon));
     }    
 }
