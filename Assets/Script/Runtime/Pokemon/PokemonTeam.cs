@@ -4,7 +4,7 @@ public class PokemonTeam : MonoBehaviour
 {
     public const int maxTeam = 6;
     [SerializeField] PokemonChoice[] pokemonsChoices;
-    Pokemon[] pokemons = new Pokemon[maxTeam];
+    Pokemon[] pokemons;
     
     public Pokemon[] Pokemons => pokemons;
     public int Lenght => pokemons.Length;
@@ -15,9 +15,10 @@ public class PokemonTeam : MonoBehaviour
     }
     private void Start()
     {
+        pokemons = new Pokemon[pokemonsChoices.Length];
         for (int i = 0; i < pokemonsChoices.Length; i++)
         {
-            Pokemon _p = PokemonManager.Instance.GeneratePokemon(Random.Range(7, 12), pokemonsChoices[i]);
+            Pokemon _p = PokemonManager.Instance.GeneratePokemon(Random.Range(9, 14), pokemonsChoices[i]);
             pokemons[i] = _p;
         }
     }
@@ -30,6 +31,15 @@ public class PokemonTeam : MonoBehaviour
                 return pokemons[i];
         }
         return null;
+    }
+    public int GetFirstLivingPokemonIndex()
+    {
+        for (int i = 0; i < pokemons.Length; ++i)
+        {
+            if (!pokemons[i].Fainted)
+                return i;
+        }
+        return -1;
     }
     public bool HavePokemonLeft()
     {

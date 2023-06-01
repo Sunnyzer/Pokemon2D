@@ -21,13 +21,13 @@ public class PokemonSwapButton : Button
         index = _index;
     }
 
-    public void Deactivate()
-    {
-        gameObject.SetActive(false);
-    }
     public void Activate()
     {
         gameObject.SetActive(true);
+    }
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
     }
 
     public override void OnSelect(BaseEventData eventData)
@@ -51,6 +51,7 @@ public class PokemonSwapButton : Button
     }
     public void UpdatePokemon(Pokemon _pokemon)
     {
+        Activate();
         pokemonHp.text = _pokemon.Hp + "/" + _pokemon.Data.stat.HP;
         pokemonName.text = _pokemon.Name;
         pokemonLevel.text = "N." + _pokemon.Level;

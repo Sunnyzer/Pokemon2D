@@ -45,7 +45,7 @@ public class Pokemon
     [SerializeField] int level = 1;
     //Status currentStatus;
     string name;
-    int xp = 10;
+    int xp = 0;
     int xpMax = 100;
     bool fainted = false;
 
@@ -58,7 +58,7 @@ public class Pokemon
     public int HpMax => data.stat.HP;
     public int Xp => xp;
     public int XpMax => xpMax;
-    public int XpGive => 10;
+    public int XpGive => 40;
     public Stat CurrentStat => currentStat;
     //public Status CurrentStatus => currentStatus;
 
@@ -131,7 +131,7 @@ public class Pokemon
             OnLevelUp?.Invoke(this);
             int _xpLeft = xp - xpMax;
             xp = 0;
-            xpMax = 10;//TODO
+            xpMax = 100;//TODO
             GainExp(_xpLeft);
         }
     }

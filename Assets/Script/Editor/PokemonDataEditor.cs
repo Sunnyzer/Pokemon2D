@@ -16,6 +16,7 @@ public class PokemonDataEditor : Editor
     PokemonDataSO moveDataSO;
     TextAsset file = null;
     int index = 0;
+
     private void OnEnable()
     {
         moveDataSO = (PokemonDataSO)target;

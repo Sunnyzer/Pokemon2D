@@ -15,7 +15,6 @@ public class PlayerTrainer : Player, BattleFighter
 
     [SerializeField] UI trainerPrefab;
 
-
     public CharacterMovement CharacterMovement => characterMovement;
     public PokemonTeam PokemonTeam => pokemonTeam;
     public Pokemon[] Pokemons => pokemonTeam.Pokemons;
@@ -36,6 +35,17 @@ public class PlayerTrainer : Player, BattleFighter
         characterMovement.ClearInput();
         characterMovement.StopSprint();
     }
+    public void Interact()
+    {
+        Vector3 _dir = new Vector3(characterMovement.DirectionEye.x, characterMovement.DirectionEye.y, 0);
+        RaycastHit2D _raycast = Physics2D.CircleCast(transform.position + _dir, 0.1f, Vector3.forward);
+        if (!_raycast) return;
+        InteractObject _interact = _raycast.collider.GetComponent<InteractObject>();
+        if(_interact)
+        {
+            _interact.Interact(this);
+        }
+    }
     public override void UpdateController(float _deltaTime)
     {
         pokemonChoices = pokemonChoices.OrderBy(p => p.IndexPokemon).ToList();
@@ -43,6 +53,10 @@ public class PlayerTrainer : Player, BattleFighter
         {
             UIManager.Instance.SetCurrentUIDisplay(trainerPrefab);
             return;
+        }
+        if(Input.GetMouseButtonDown(0))
+        {
+            Interact();
         }
         characterMovement.Sprint();
         characterMovement.RegisterInputKeyDown(KeyCode.W, new Vector2(0, 1));
@@ -71,7 +85,14 @@ public class PlayerTrainer : Player, BattleFighter
         OnSwapPokemon?.Invoke(CurrentPokemonInCombat);
         return true;
     }
-
+    public int GetFirstPokemonNotFaintedIndex()
+    {
+        return PokemonTeam.GetFirstLivingPokemonIndex();
+    }
+    public Pokemon GetFirstPokemonNotFainted()
+    {
+        return PokemonTeam.GetFirstLivingPokemon();
+    }
     public Pokemon GetFirstSlotPokemon()
     {
         return Pokemons[0];

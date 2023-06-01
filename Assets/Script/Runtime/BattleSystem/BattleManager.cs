@@ -27,7 +27,9 @@ public class BattleManager : Singleton<BattleManager>
     }
     public void StartBattleWildPokemon(PlayerTrainer _player, WildPokemon _wildPokemon)
     {
-        if (_player.GetFirstSlotPokemon() == null) return;
+        Pokemon _firstPokemon = _player.GetFirstPokemonNotFainted();
+        if (_firstPokemon == null || _firstPokemon.Fainted) return;
+        _player.Swap(_player.GetFirstPokemonNotFaintedIndex());
         _player.IsInBattle = true;
         wildPokemon = _wildPokemon;
         playerTrainer = _player;
