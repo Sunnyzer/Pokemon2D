@@ -16,11 +16,12 @@ public class AttackAction : TurnAction
 
     public override int GetPriority(TurnAction _turnAction)
     {
-        return moveSelected.Priority;
+        int _speedDif = assailantPokemon.GetSpeedInCombat() > BattleInfo.opponentFighter.CurrentPokemonInCombat.GetSpeedInCombat() ? 1 : 0;
+        return moveSelected.Priority + _speedDif;
     }
 
     public override void Turn()
     {
-        BattleInfo.opponentFighter.GetPokemon().TakeDamage(assailantPokemon, moveSelected);
+        BattleInfo.opponentFighter.CurrentPokemonInCombat.TakeDamage(assailantPokemon, moveSelected);
     }
 }

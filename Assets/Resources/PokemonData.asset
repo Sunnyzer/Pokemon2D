@@ -16,6 +16,7 @@ MonoBehaviour:
   - id: 1
     name:
       french: Bulbizarre
+      english: 
     pkmTypes: 070000000a000000
     moveChoices:
     - level: 0
@@ -46,6 +47,7 @@ MonoBehaviour:
   - id: 2
     name:
       french: Herbizarre
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -61,6 +63,7 @@ MonoBehaviour:
   - id: 3
     name:
       french: Florizarre
+      english: 
     pkmTypes: 070000000a000000
     moveChoices:
     - level: 0
@@ -68,7 +71,7 @@ MonoBehaviour:
         indexMove: 32
     - level: 0
       moveChoice:
-        indexMove: 28
+        indexMove: 12
     - level: 0
       moveChoice:
         indexMove: 30
@@ -88,8 +91,30 @@ MonoBehaviour:
   - id: 4
     name:
       french: "Salam\xE8che"
+      english: 
     pkmTypes: 02000000
-    moveChoices: []
+    moveChoices:
+    - level: 0
+      moveChoice:
+        indexMove: 32
+    - level: 0
+      moveChoice:
+        indexMove: 27
+    - level: 7
+      moveChoice:
+        indexMove: 51
+    - level: 9
+      moveChoice:
+        indexMove: 28
+    - level: 15
+      moveChoice:
+        indexMove: 81
+    - level: 25
+      moveChoice:
+        indexMove: 52
+    - level: 50
+      moveChoice:
+        indexMove: 125
     stat:
       HP: 39
       Attack: 52
@@ -103,6 +128,7 @@ MonoBehaviour:
   - id: 5
     name:
       french: Reptincel
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -118,6 +144,7 @@ MonoBehaviour:
   - id: 6
     name:
       french: Dracaufeu
+      english: 
     pkmTypes: 0200000009000000
     moveChoices: []
     stat:
@@ -133,6 +160,7 @@ MonoBehaviour:
   - id: 7
     name:
       french: Carapuce
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -148,6 +176,7 @@ MonoBehaviour:
   - id: 8
     name:
       french: Carabaffe
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -163,6 +192,7 @@ MonoBehaviour:
   - id: 9
     name:
       french: Tortank
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -178,6 +208,7 @@ MonoBehaviour:
   - id: 10
     name:
       french: Chenipan
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -193,6 +224,7 @@ MonoBehaviour:
   - id: 11
     name:
       french: Chrysacier
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -208,6 +240,7 @@ MonoBehaviour:
   - id: 12
     name:
       french: Papilusion
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -223,6 +256,7 @@ MonoBehaviour:
   - id: 13
     name:
       french: Aspicot
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices:
     - level: 0
@@ -244,6 +278,7 @@ MonoBehaviour:
   - id: 14
     name:
       french: Coconfort
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -259,6 +294,7 @@ MonoBehaviour:
   - id: 15
     name:
       french: Dardargnan
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -274,6 +310,7 @@ MonoBehaviour:
   - id: 16
     name:
       french: Roucool
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -289,6 +326,7 @@ MonoBehaviour:
   - id: 17
     name:
       french: Roucoups
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -304,6 +342,7 @@ MonoBehaviour:
   - id: 18
     name:
       french: Roucarnage
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -319,6 +358,7 @@ MonoBehaviour:
   - id: 19
     name:
       french: Rattata
+      english: 
     pkmTypes: 01000000
     moveChoices:
     - level: 0
@@ -343,6 +383,7 @@ MonoBehaviour:
   - id: 20
     name:
       french: Rattatac
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -358,6 +399,7 @@ MonoBehaviour:
   - id: 21
     name:
       french: Piafabec
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -373,6 +415,7 @@ MonoBehaviour:
   - id: 22
     name:
       french: Rapasdepic
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -388,8 +431,18 @@ MonoBehaviour:
   - id: 23
     name:
       french: Abo
+      english: 
     pkmTypes: 0a000000
-    moveChoices: []
+    moveChoices:
+    - level: 0
+      moveChoice:
+        indexMove: 0
+    - level: 0
+      moveChoice:
+        indexMove: 32
+    - level: 0
+      moveChoice:
+        indexMove: 35
     stat:
       HP: 35
       Attack: 60
@@ -403,6 +456,7 @@ MonoBehaviour:
   - id: 24
     name:
       french: Arbok
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -418,6 +472,7 @@ MonoBehaviour:
   - id: 25
     name:
       french: Pikachu
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -433,6 +488,7 @@ MonoBehaviour:
   - id: 26
     name:
       french: Raichu
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -448,6 +504,7 @@ MonoBehaviour:
   - id: 27
     name:
       french: Sabelette
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -463,6 +520,7 @@ MonoBehaviour:
   - id: 28
     name:
       french: Sablaireau
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -478,6 +536,7 @@ MonoBehaviour:
   - id: 29
     name:
       french: "Nidoran\u2640"
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -493,6 +552,7 @@ MonoBehaviour:
   - id: 30
     name:
       french: Nidorina
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -508,6 +568,7 @@ MonoBehaviour:
   - id: 31
     name:
       french: Nidoqueen
+      english: 
     pkmTypes: 0a00000008000000
     moveChoices: []
     stat:
@@ -523,6 +584,7 @@ MonoBehaviour:
   - id: 32
     name:
       french: "Nidoran\u2642"
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -538,6 +600,7 @@ MonoBehaviour:
   - id: 33
     name:
       french: Nidorino
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -553,6 +616,7 @@ MonoBehaviour:
   - id: 34
     name:
       french: Nidoking
+      english: 
     pkmTypes: 0a00000008000000
     moveChoices: []
     stat:
@@ -568,6 +632,7 @@ MonoBehaviour:
   - id: 35
     name:
       french: "M\xE9lof\xE9e"
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -583,6 +648,7 @@ MonoBehaviour:
   - id: 36
     name:
       french: "M\xE9lodelfe"
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -598,8 +664,21 @@ MonoBehaviour:
   - id: 37
     name:
       french: Goupix
+      english: 
     pkmTypes: 02000000
-    moveChoices: []
+    moveChoices:
+    - level: 0
+      moveChoice:
+        indexMove: 44
+    - level: 0
+      moveChoice:
+        indexMove: 38
+    - level: 10
+      moveChoice:
+        indexMove: 51
+    - level: 25
+      moveChoice:
+        indexMove: 52
     stat:
       HP: 38
       Attack: 41
@@ -613,6 +692,7 @@ MonoBehaviour:
   - id: 38
     name:
       french: Feunard
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -628,6 +708,7 @@ MonoBehaviour:
   - id: 39
     name:
       french: Rondoudou
+      english: 
     pkmTypes: 0100000012000000
     moveChoices: []
     stat:
@@ -643,6 +724,7 @@ MonoBehaviour:
   - id: 40
     name:
       french: Grodoudou
+      english: 
     pkmTypes: 0100000012000000
     moveChoices: []
     stat:
@@ -658,6 +740,7 @@ MonoBehaviour:
   - id: 41
     name:
       french: Nosferapti
+      english: 
     pkmTypes: 0a00000009000000
     moveChoices: []
     stat:
@@ -673,6 +756,7 @@ MonoBehaviour:
   - id: 42
     name:
       french: Nosferalto
+      english: 
     pkmTypes: 0a00000009000000
     moveChoices: []
     stat:
@@ -688,6 +772,7 @@ MonoBehaviour:
   - id: 43
     name:
       french: Mystherbe
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -703,6 +788,7 @@ MonoBehaviour:
   - id: 44
     name:
       french: Ortide
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -718,6 +804,7 @@ MonoBehaviour:
   - id: 45
     name:
       french: Rafflesia
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -733,6 +820,7 @@ MonoBehaviour:
   - id: 46
     name:
       french: Paras
+      english: 
     pkmTypes: 0b00000007000000
     moveChoices: []
     stat:
@@ -748,6 +836,7 @@ MonoBehaviour:
   - id: 47
     name:
       french: Parasect
+      english: 
     pkmTypes: 0b00000007000000
     moveChoices: []
     stat:
@@ -763,6 +852,7 @@ MonoBehaviour:
   - id: 48
     name:
       french: Mimitoss
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -778,6 +868,7 @@ MonoBehaviour:
   - id: 49
     name:
       french: "A\xE9romite"
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -793,6 +884,7 @@ MonoBehaviour:
   - id: 50
     name:
       french: Taupiqueur
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -808,6 +900,7 @@ MonoBehaviour:
   - id: 51
     name:
       french: Triopikeur
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -823,6 +916,7 @@ MonoBehaviour:
   - id: 52
     name:
       french: Miaouss
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -838,6 +932,7 @@ MonoBehaviour:
   - id: 53
     name:
       french: Persian
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -853,6 +948,7 @@ MonoBehaviour:
   - id: 54
     name:
       french: Psykokwak
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -868,6 +964,7 @@ MonoBehaviour:
   - id: 55
     name:
       french: Akwakwak
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -883,6 +980,7 @@ MonoBehaviour:
   - id: 56
     name:
       french: "F\xE9rosinge"
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -898,6 +996,7 @@ MonoBehaviour:
   - id: 57
     name:
       french: Colossinge
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -913,6 +1012,7 @@ MonoBehaviour:
   - id: 58
     name:
       french: Caninos
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -928,6 +1028,7 @@ MonoBehaviour:
   - id: 59
     name:
       french: Arcanin
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -943,6 +1044,7 @@ MonoBehaviour:
   - id: 60
     name:
       french: Ptitard
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -958,6 +1060,7 @@ MonoBehaviour:
   - id: 61
     name:
       french: "T\xEAtarte"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -973,6 +1076,7 @@ MonoBehaviour:
   - id: 62
     name:
       french: Tartard
+      english: 
     pkmTypes: 0400000005000000
     moveChoices: []
     stat:
@@ -988,6 +1092,7 @@ MonoBehaviour:
   - id: 63
     name:
       french: Abra
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -1003,6 +1108,7 @@ MonoBehaviour:
   - id: 64
     name:
       french: Kadabra
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -1018,6 +1124,7 @@ MonoBehaviour:
   - id: 65
     name:
       french: Alakazam
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -1033,6 +1140,7 @@ MonoBehaviour:
   - id: 66
     name:
       french: Machoc
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -1048,6 +1156,7 @@ MonoBehaviour:
   - id: 67
     name:
       french: Machopeur
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -1063,6 +1172,7 @@ MonoBehaviour:
   - id: 68
     name:
       french: Mackogneur
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -1078,6 +1188,7 @@ MonoBehaviour:
   - id: 69
     name:
       french: "Ch\xE9tiflor"
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -1093,6 +1204,7 @@ MonoBehaviour:
   - id: 70
     name:
       french: Boustiflor
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -1108,6 +1220,7 @@ MonoBehaviour:
   - id: 71
     name:
       french: Empiflor
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -1123,6 +1236,7 @@ MonoBehaviour:
   - id: 72
     name:
       french: Tentacool
+      english: 
     pkmTypes: 040000000a000000
     moveChoices: []
     stat:
@@ -1138,6 +1252,7 @@ MonoBehaviour:
   - id: 73
     name:
       french: Tentacruel
+      english: 
     pkmTypes: 040000000a000000
     moveChoices: []
     stat:
@@ -1153,6 +1268,7 @@ MonoBehaviour:
   - id: 74
     name:
       french: Racaillou
+      english: 
     pkmTypes: 0f00000008000000
     moveChoices: []
     stat:
@@ -1168,6 +1284,7 @@ MonoBehaviour:
   - id: 75
     name:
       french: Gravalanch
+      english: 
     pkmTypes: 0f00000008000000
     moveChoices: []
     stat:
@@ -1183,6 +1300,7 @@ MonoBehaviour:
   - id: 76
     name:
       french: Grolem
+      english: 
     pkmTypes: 0f00000008000000
     moveChoices: []
     stat:
@@ -1198,6 +1316,7 @@ MonoBehaviour:
   - id: 77
     name:
       french: Ponyta
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -1213,6 +1332,7 @@ MonoBehaviour:
   - id: 78
     name:
       french: Galopa
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -1228,6 +1348,7 @@ MonoBehaviour:
   - id: 79
     name:
       french: Ramoloss
+      english: 
     pkmTypes: 040000000d000000
     moveChoices: []
     stat:
@@ -1243,6 +1364,7 @@ MonoBehaviour:
   - id: 80
     name:
       french: Flagadoss
+      english: 
     pkmTypes: 040000000d000000
     moveChoices: []
     stat:
@@ -1258,6 +1380,7 @@ MonoBehaviour:
   - id: 81
     name:
       french: "Magn\xE9ti"
+      english: 
     pkmTypes: 0600000011000000
     moveChoices: []
     stat:
@@ -1273,6 +1396,7 @@ MonoBehaviour:
   - id: 82
     name:
       french: "Magn\xE9ton"
+      english: 
     pkmTypes: 0600000011000000
     moveChoices: []
     stat:
@@ -1288,6 +1412,7 @@ MonoBehaviour:
   - id: 83
     name:
       french: Canarticho
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -1303,6 +1428,7 @@ MonoBehaviour:
   - id: 84
     name:
       french: Doduo
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -1318,6 +1444,7 @@ MonoBehaviour:
   - id: 85
     name:
       french: Dodrio
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -1333,6 +1460,7 @@ MonoBehaviour:
   - id: 86
     name:
       french: Otaria
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1348,6 +1476,7 @@ MonoBehaviour:
   - id: 87
     name:
       french: Lamantine
+      english: 
     pkmTypes: 0400000003000000
     moveChoices: []
     stat:
@@ -1363,6 +1492,7 @@ MonoBehaviour:
   - id: 88
     name:
       french: Tadmorv
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -1378,6 +1508,7 @@ MonoBehaviour:
   - id: 89
     name:
       french: Grotadmorv
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -1393,6 +1524,7 @@ MonoBehaviour:
   - id: 90
     name:
       french: Kokiyas
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1408,6 +1540,7 @@ MonoBehaviour:
   - id: 91
     name:
       french: Crustabri
+      english: 
     pkmTypes: 0400000003000000
     moveChoices: []
     stat:
@@ -1423,6 +1556,7 @@ MonoBehaviour:
   - id: 92
     name:
       french: Fantominus
+      english: 
     pkmTypes: 100000000a000000
     moveChoices: []
     stat:
@@ -1438,6 +1572,7 @@ MonoBehaviour:
   - id: 93
     name:
       french: Spectrum
+      english: 
     pkmTypes: 100000000a000000
     moveChoices: []
     stat:
@@ -1453,6 +1588,7 @@ MonoBehaviour:
   - id: 94
     name:
       french: Ectoplasma
+      english: 
     pkmTypes: 100000000a000000
     moveChoices: []
     stat:
@@ -1468,6 +1604,7 @@ MonoBehaviour:
   - id: 95
     name:
       french: Onix
+      english: 
     pkmTypes: 0f00000008000000
     moveChoices: []
     stat:
@@ -1483,6 +1620,7 @@ MonoBehaviour:
   - id: 96
     name:
       french: Soporifik
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -1498,6 +1636,7 @@ MonoBehaviour:
   - id: 97
     name:
       french: Hypnomade
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -1513,6 +1652,7 @@ MonoBehaviour:
   - id: 98
     name:
       french: Krabby
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1528,6 +1668,7 @@ MonoBehaviour:
   - id: 99
     name:
       french: Krabboss
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1543,6 +1684,7 @@ MonoBehaviour:
   - id: 100
     name:
       french: Voltorbe
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -1558,6 +1700,7 @@ MonoBehaviour:
   - id: 101
     name:
       french: "\xC9lectrode"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -1573,6 +1716,7 @@ MonoBehaviour:
   - id: 102
     name:
       french: Noeunoeuf
+      english: 
     pkmTypes: 070000000d000000
     moveChoices: []
     stat:
@@ -1588,6 +1732,7 @@ MonoBehaviour:
   - id: 103
     name:
       french: Noadkoko
+      english: 
     pkmTypes: 070000000d000000
     moveChoices: []
     stat:
@@ -1603,6 +1748,7 @@ MonoBehaviour:
   - id: 104
     name:
       french: Osselait
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -1618,6 +1764,7 @@ MonoBehaviour:
   - id: 105
     name:
       french: Ossatueur
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -1633,6 +1780,7 @@ MonoBehaviour:
   - id: 106
     name:
       french: Kicklee
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -1648,6 +1796,7 @@ MonoBehaviour:
   - id: 107
     name:
       french: Tygnon
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -1663,6 +1812,7 @@ MonoBehaviour:
   - id: 108
     name:
       french: Excelangue
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -1678,6 +1828,7 @@ MonoBehaviour:
   - id: 109
     name:
       french: Smogo
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -1693,6 +1844,7 @@ MonoBehaviour:
   - id: 110
     name:
       french: Smogogo
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -1708,6 +1860,7 @@ MonoBehaviour:
   - id: 111
     name:
       french: Rhinocorne
+      english: 
     pkmTypes: 080000000f000000
     moveChoices: []
     stat:
@@ -1723,6 +1876,7 @@ MonoBehaviour:
   - id: 112
     name:
       french: "Rhinof\xE9ros"
+      english: 
     pkmTypes: 080000000f000000
     moveChoices: []
     stat:
@@ -1738,6 +1892,7 @@ MonoBehaviour:
   - id: 113
     name:
       french: Leveinard
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -1753,6 +1908,7 @@ MonoBehaviour:
   - id: 114
     name:
       french: Saquedeneu
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -1768,6 +1924,7 @@ MonoBehaviour:
   - id: 115
     name:
       french: Kangourex
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -1783,6 +1940,7 @@ MonoBehaviour:
   - id: 116
     name:
       french: Hypotrempe
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1798,6 +1956,7 @@ MonoBehaviour:
   - id: 117
     name:
       french: "Hypoc\xE9an"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1813,6 +1972,7 @@ MonoBehaviour:
   - id: 118
     name:
       french: "Poissir\xE8ne"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1828,6 +1988,7 @@ MonoBehaviour:
   - id: 119
     name:
       french: Poissoroy
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1843,6 +2004,7 @@ MonoBehaviour:
   - id: 120
     name:
       french: Stari
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1858,6 +2020,7 @@ MonoBehaviour:
   - id: 121
     name:
       french: Staross
+      english: 
     pkmTypes: 040000000d000000
     moveChoices: []
     stat:
@@ -1873,6 +2036,7 @@ MonoBehaviour:
   - id: 122
     name:
       french: M. Mime
+      english: 
     pkmTypes: 0d00000012000000
     moveChoices: []
     stat:
@@ -1888,6 +2052,7 @@ MonoBehaviour:
   - id: 123
     name:
       french: "Ins\xE9cateur"
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -1903,6 +2068,7 @@ MonoBehaviour:
   - id: 124
     name:
       french: Lippoutou
+      english: 
     pkmTypes: 030000000d000000
     moveChoices: []
     stat:
@@ -1918,6 +2084,7 @@ MonoBehaviour:
   - id: 125
     name:
       french: "\xC9lektek"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -1933,6 +2100,7 @@ MonoBehaviour:
   - id: 126
     name:
       french: Magmar
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -1948,6 +2116,7 @@ MonoBehaviour:
   - id: 127
     name:
       french: Scarabrute
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -1963,6 +2132,7 @@ MonoBehaviour:
   - id: 128
     name:
       french: Tauros
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -1978,6 +2148,7 @@ MonoBehaviour:
   - id: 129
     name:
       french: Magicarpe
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -1993,6 +2164,7 @@ MonoBehaviour:
   - id: 130
     name:
       french: "L\xE9viator"
+      english: 
     pkmTypes: 0400000009000000
     moveChoices: []
     stat:
@@ -2008,6 +2180,7 @@ MonoBehaviour:
   - id: 131
     name:
       french: Lokhlass
+      english: 
     pkmTypes: 0400000003000000
     moveChoices: []
     stat:
@@ -2023,6 +2196,7 @@ MonoBehaviour:
   - id: 132
     name:
       french: "M\xE9tamorph"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -2038,6 +2212,7 @@ MonoBehaviour:
   - id: 133
     name:
       french: "\xC9voli"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -2053,6 +2228,7 @@ MonoBehaviour:
   - id: 134
     name:
       french: Aquali
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -2068,6 +2244,7 @@ MonoBehaviour:
   - id: 135
     name:
       french: Voltali
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -2083,6 +2260,7 @@ MonoBehaviour:
   - id: 136
     name:
       french: Pyroli
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -2098,6 +2276,7 @@ MonoBehaviour:
   - id: 137
     name:
       french: Porygon
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -2113,6 +2292,7 @@ MonoBehaviour:
   - id: 138
     name:
       french: Amonita
+      english: 
     pkmTypes: 0f00000004000000
     moveChoices: []
     stat:
@@ -2128,6 +2308,7 @@ MonoBehaviour:
   - id: 139
     name:
       french: Amonistar
+      english: 
     pkmTypes: 0f00000004000000
     moveChoices: []
     stat:
@@ -2143,6 +2324,7 @@ MonoBehaviour:
   - id: 140
     name:
       french: Kabuto
+      english: 
     pkmTypes: 0f00000004000000
     moveChoices: []
     stat:
@@ -2158,6 +2340,7 @@ MonoBehaviour:
   - id: 141
     name:
       french: Kabutops
+      english: 
     pkmTypes: 0f00000004000000
     moveChoices: []
     stat:
@@ -2173,6 +2356,7 @@ MonoBehaviour:
   - id: 142
     name:
       french: "Pt\xE9ra"
+      english: 
     pkmTypes: 0f00000009000000
     moveChoices: []
     stat:
@@ -2188,6 +2372,7 @@ MonoBehaviour:
   - id: 143
     name:
       french: Ronflex
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -2203,6 +2388,7 @@ MonoBehaviour:
   - id: 144
     name:
       french: Artikodin
+      english: 
     pkmTypes: 0300000009000000
     moveChoices: []
     stat:
@@ -2218,6 +2404,7 @@ MonoBehaviour:
   - id: 145
     name:
       french: "\xC9lecthor"
+      english: 
     pkmTypes: 0600000009000000
     moveChoices: []
     stat:
@@ -2233,6 +2420,7 @@ MonoBehaviour:
   - id: 146
     name:
       french: Sulfura
+      english: 
     pkmTypes: 0200000009000000
     moveChoices: []
     stat:
@@ -2248,6 +2436,7 @@ MonoBehaviour:
   - id: 147
     name:
       french: Minidraco
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -2263,6 +2452,7 @@ MonoBehaviour:
   - id: 148
     name:
       french: Draco
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -2278,6 +2468,7 @@ MonoBehaviour:
   - id: 149
     name:
       french: Dracolosse
+      english: 
     pkmTypes: 0e00000009000000
     moveChoices: []
     stat:
@@ -2293,6 +2484,7 @@ MonoBehaviour:
   - id: 150
     name:
       french: Mewtwo
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -2308,6 +2500,7 @@ MonoBehaviour:
   - id: 151
     name:
       french: Mew
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -2323,6 +2516,7 @@ MonoBehaviour:
   - id: 152
     name:
       french: Germignon
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -2338,6 +2532,7 @@ MonoBehaviour:
   - id: 153
     name:
       french: Macronium
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -2353,6 +2548,7 @@ MonoBehaviour:
   - id: 154
     name:
       french: "M\xE9ganium"
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -2368,6 +2564,7 @@ MonoBehaviour:
   - id: 155
     name:
       french: "H\xE9ricendre"
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -2383,6 +2580,7 @@ MonoBehaviour:
   - id: 156
     name:
       french: Feurisson
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -2398,6 +2596,7 @@ MonoBehaviour:
   - id: 157
     name:
       french: Typhlosion
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -2413,6 +2612,7 @@ MonoBehaviour:
   - id: 158
     name:
       french: Kaiminus
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -2428,6 +2628,7 @@ MonoBehaviour:
   - id: 159
     name:
       french: Crocrodil
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -2443,6 +2644,7 @@ MonoBehaviour:
   - id: 160
     name:
       french: Aligatueur
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -2458,6 +2660,7 @@ MonoBehaviour:
   - id: 161
     name:
       french: Fouinette
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -2473,6 +2676,7 @@ MonoBehaviour:
   - id: 162
     name:
       french: Fouinar
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -2488,6 +2692,7 @@ MonoBehaviour:
   - id: 163
     name:
       french: Hoothoot
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -2503,6 +2708,7 @@ MonoBehaviour:
   - id: 164
     name:
       french: Noarfang
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -2518,6 +2724,7 @@ MonoBehaviour:
   - id: 165
     name:
       french: Coxy
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -2533,6 +2740,7 @@ MonoBehaviour:
   - id: 166
     name:
       french: Coxyclaque
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -2548,6 +2756,7 @@ MonoBehaviour:
   - id: 167
     name:
       french: Mimigal
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -2563,6 +2772,7 @@ MonoBehaviour:
   - id: 168
     name:
       french: Migalos
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -2578,6 +2788,7 @@ MonoBehaviour:
   - id: 169
     name:
       french: Nostenfer
+      english: 
     pkmTypes: 0a00000009000000
     moveChoices: []
     stat:
@@ -2593,6 +2804,7 @@ MonoBehaviour:
   - id: 170
     name:
       french: Loupio
+      english: 
     pkmTypes: 0400000006000000
     moveChoices: []
     stat:
@@ -2608,6 +2820,7 @@ MonoBehaviour:
   - id: 171
     name:
       french: Lanturn
+      english: 
     pkmTypes: 0400000006000000
     moveChoices: []
     stat:
@@ -2623,6 +2836,7 @@ MonoBehaviour:
   - id: 172
     name:
       french: Pichu
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -2638,6 +2852,7 @@ MonoBehaviour:
   - id: 173
     name:
       french: "M\xE9lo"
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -2653,6 +2868,7 @@ MonoBehaviour:
   - id: 174
     name:
       french: Toudoudou
+      english: 
     pkmTypes: 0100000012000000
     moveChoices: []
     stat:
@@ -2668,6 +2884,7 @@ MonoBehaviour:
   - id: 175
     name:
       french: Togepi
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -2683,6 +2900,7 @@ MonoBehaviour:
   - id: 176
     name:
       french: Togetic
+      english: 
     pkmTypes: 1200000009000000
     moveChoices: []
     stat:
@@ -2698,6 +2916,7 @@ MonoBehaviour:
   - id: 177
     name:
       french: Natu
+      english: 
     pkmTypes: 0d00000009000000
     moveChoices: []
     stat:
@@ -2713,6 +2932,7 @@ MonoBehaviour:
   - id: 178
     name:
       french: Xatu
+      english: 
     pkmTypes: 0d00000009000000
     moveChoices: []
     stat:
@@ -2728,6 +2948,7 @@ MonoBehaviour:
   - id: 179
     name:
       french: Wattouat
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -2743,6 +2964,7 @@ MonoBehaviour:
   - id: 180
     name:
       french: Lainergie
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -2758,6 +2980,7 @@ MonoBehaviour:
   - id: 181
     name:
       french: Pharamp
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -2773,6 +2996,7 @@ MonoBehaviour:
   - id: 182
     name:
       french: Joliflor
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -2788,6 +3012,7 @@ MonoBehaviour:
   - id: 183
     name:
       french: Marill
+      english: 
     pkmTypes: 0400000012000000
     moveChoices: []
     stat:
@@ -2803,6 +3028,7 @@ MonoBehaviour:
   - id: 184
     name:
       french: Azumarill
+      english: 
     pkmTypes: 0400000012000000
     moveChoices: []
     stat:
@@ -2818,6 +3044,7 @@ MonoBehaviour:
   - id: 185
     name:
       french: Simularbre
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -2833,6 +3060,7 @@ MonoBehaviour:
   - id: 186
     name:
       french: Tarpaud
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -2848,6 +3076,7 @@ MonoBehaviour:
   - id: 187
     name:
       french: Granivol
+      english: 
     pkmTypes: 0700000009000000
     moveChoices: []
     stat:
@@ -2863,6 +3092,7 @@ MonoBehaviour:
   - id: 188
     name:
       french: Floravol
+      english: 
     pkmTypes: 0700000009000000
     moveChoices: []
     stat:
@@ -2878,6 +3108,7 @@ MonoBehaviour:
   - id: 189
     name:
       french: Cotovol
+      english: 
     pkmTypes: 0700000009000000
     moveChoices: []
     stat:
@@ -2893,6 +3124,7 @@ MonoBehaviour:
   - id: 190
     name:
       french: Capumain
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -2908,6 +3140,7 @@ MonoBehaviour:
   - id: 191
     name:
       french: Tournegrin
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -2923,6 +3156,7 @@ MonoBehaviour:
   - id: 192
     name:
       french: "H\xE9liatronc"
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -2938,6 +3172,7 @@ MonoBehaviour:
   - id: 193
     name:
       french: Yanma
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -2953,6 +3188,7 @@ MonoBehaviour:
   - id: 194
     name:
       french: Axoloto
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -2968,6 +3204,7 @@ MonoBehaviour:
   - id: 195
     name:
       french: Maraiste
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -2983,6 +3220,7 @@ MonoBehaviour:
   - id: 196
     name:
       french: Mentali
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -2998,6 +3236,7 @@ MonoBehaviour:
   - id: 197
     name:
       french: Noctali
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -3013,6 +3252,7 @@ MonoBehaviour:
   - id: 198
     name:
       french: "Corn\xE8bre"
+      english: 
     pkmTypes: 0c00000009000000
     moveChoices: []
     stat:
@@ -3028,6 +3268,7 @@ MonoBehaviour:
   - id: 199
     name:
       french: Roigada
+      english: 
     pkmTypes: 040000000d000000
     moveChoices: []
     stat:
@@ -3043,6 +3284,7 @@ MonoBehaviour:
   - id: 200
     name:
       french: "Feufor\xEAve"
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -3058,6 +3300,7 @@ MonoBehaviour:
   - id: 201
     name:
       french: Zarbi
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -3073,6 +3316,7 @@ MonoBehaviour:
   - id: 202
     name:
       french: "Qulbutok\xE9"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -3088,6 +3332,7 @@ MonoBehaviour:
   - id: 203
     name:
       french: Girafarig
+      english: 
     pkmTypes: 010000000d000000
     moveChoices: []
     stat:
@@ -3103,6 +3348,7 @@ MonoBehaviour:
   - id: 204
     name:
       french: Pomdepik
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -3118,6 +3364,7 @@ MonoBehaviour:
   - id: 205
     name:
       french: Foretress
+      english: 
     pkmTypes: 0b00000011000000
     moveChoices: []
     stat:
@@ -3133,6 +3380,7 @@ MonoBehaviour:
   - id: 206
     name:
       french: Insolourdo
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3148,6 +3396,7 @@ MonoBehaviour:
   - id: 207
     name:
       french: Scorplane
+      english: 
     pkmTypes: 0800000009000000
     moveChoices: []
     stat:
@@ -3163,6 +3412,7 @@ MonoBehaviour:
   - id: 208
     name:
       french: Steelix
+      english: 
     pkmTypes: 1100000008000000
     moveChoices: []
     stat:
@@ -3178,6 +3428,7 @@ MonoBehaviour:
   - id: 209
     name:
       french: Snubbull
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -3193,6 +3444,7 @@ MonoBehaviour:
   - id: 210
     name:
       french: Granbull
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -3208,6 +3460,7 @@ MonoBehaviour:
   - id: 211
     name:
       french: Qwilfish
+      english: 
     pkmTypes: 040000000a000000
     moveChoices: []
     stat:
@@ -3223,6 +3476,7 @@ MonoBehaviour:
   - id: 212
     name:
       french: Cizayox
+      english: 
     pkmTypes: 0b00000011000000
     moveChoices: []
     stat:
@@ -3238,6 +3492,7 @@ MonoBehaviour:
   - id: 213
     name:
       french: Caratroc
+      english: 
     pkmTypes: 0b0000000f000000
     moveChoices: []
     stat:
@@ -3253,6 +3508,7 @@ MonoBehaviour:
   - id: 214
     name:
       french: Scarhino
+      english: 
     pkmTypes: 0b00000005000000
     moveChoices: []
     stat:
@@ -3268,6 +3524,7 @@ MonoBehaviour:
   - id: 215
     name:
       french: Farfuret
+      english: 
     pkmTypes: 0c00000003000000
     moveChoices: []
     stat:
@@ -3283,6 +3540,7 @@ MonoBehaviour:
   - id: 216
     name:
       french: Teddiursa
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3298,6 +3556,7 @@ MonoBehaviour:
   - id: 217
     name:
       french: Ursaring
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3313,6 +3572,7 @@ MonoBehaviour:
   - id: 218
     name:
       french: Limagma
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -3328,6 +3588,7 @@ MonoBehaviour:
   - id: 219
     name:
       french: Volcaropod
+      english: 
     pkmTypes: 020000000f000000
     moveChoices: []
     stat:
@@ -3343,6 +3604,7 @@ MonoBehaviour:
   - id: 220
     name:
       french: Marcacrin
+      english: 
     pkmTypes: 0300000008000000
     moveChoices: []
     stat:
@@ -3358,6 +3620,7 @@ MonoBehaviour:
   - id: 221
     name:
       french: Cochignon
+      english: 
     pkmTypes: 0300000008000000
     moveChoices: []
     stat:
@@ -3373,6 +3636,7 @@ MonoBehaviour:
   - id: 222
     name:
       french: Corayon
+      english: 
     pkmTypes: 040000000f000000
     moveChoices: []
     stat:
@@ -3388,6 +3652,7 @@ MonoBehaviour:
   - id: 223
     name:
       french: "R\xE9moraid"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -3403,6 +3668,7 @@ MonoBehaviour:
   - id: 224
     name:
       french: Octillery
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -3418,6 +3684,7 @@ MonoBehaviour:
   - id: 225
     name:
       french: Cadoizo
+      english: 
     pkmTypes: 0300000009000000
     moveChoices: []
     stat:
@@ -3433,6 +3700,7 @@ MonoBehaviour:
   - id: 226
     name:
       french: "D\xE9manta"
+      english: 
     pkmTypes: 0400000009000000
     moveChoices: []
     stat:
@@ -3448,6 +3716,7 @@ MonoBehaviour:
   - id: 227
     name:
       french: Airmure
+      english: 
     pkmTypes: 1100000009000000
     moveChoices: []
     stat:
@@ -3463,6 +3732,7 @@ MonoBehaviour:
   - id: 228
     name:
       french: Malosse
+      english: 
     pkmTypes: 0c00000002000000
     moveChoices: []
     stat:
@@ -3478,6 +3748,7 @@ MonoBehaviour:
   - id: 229
     name:
       french: "D\xE9molosse"
+      english: 
     pkmTypes: 0c00000002000000
     moveChoices: []
     stat:
@@ -3493,6 +3764,7 @@ MonoBehaviour:
   - id: 230
     name:
       french: Hyporoi
+      english: 
     pkmTypes: 040000000e000000
     moveChoices: []
     stat:
@@ -3508,6 +3780,7 @@ MonoBehaviour:
   - id: 231
     name:
       french: Phanpy
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -3523,6 +3796,7 @@ MonoBehaviour:
   - id: 232
     name:
       french: Donphan
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -3538,6 +3812,7 @@ MonoBehaviour:
   - id: 233
     name:
       french: Porygon2
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3553,6 +3828,7 @@ MonoBehaviour:
   - id: 234
     name:
       french: Cerfrousse
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3568,6 +3844,7 @@ MonoBehaviour:
   - id: 235
     name:
       french: Queulorior
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3583,6 +3860,7 @@ MonoBehaviour:
   - id: 236
     name:
       french: Debugant
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -3598,6 +3876,7 @@ MonoBehaviour:
   - id: 237
     name:
       french: Kapoera
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -3613,6 +3892,7 @@ MonoBehaviour:
   - id: 238
     name:
       french: Lippouti
+      english: 
     pkmTypes: 030000000d000000
     moveChoices: []
     stat:
@@ -3628,6 +3908,7 @@ MonoBehaviour:
   - id: 239
     name:
       french: "\xC9lekid"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -3643,6 +3924,7 @@ MonoBehaviour:
   - id: 240
     name:
       french: Magby
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -3658,6 +3940,7 @@ MonoBehaviour:
   - id: 241
     name:
       french: "\xC9cr\xE9meuh"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3673,6 +3956,7 @@ MonoBehaviour:
   - id: 242
     name:
       french: Leuphorie
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -3688,6 +3972,7 @@ MonoBehaviour:
   - id: 243
     name:
       french: Raikou
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -3703,6 +3988,7 @@ MonoBehaviour:
   - id: 244
     name:
       french: Entei
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -3718,6 +4004,7 @@ MonoBehaviour:
   - id: 245
     name:
       french: Suicune
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -3733,6 +4020,7 @@ MonoBehaviour:
   - id: 246
     name:
       french: Embrylex
+      english: 
     pkmTypes: 0f00000008000000
     moveChoices: []
     stat:
@@ -3748,6 +4036,7 @@ MonoBehaviour:
   - id: 247
     name:
       french: Ymphect
+      english: 
     pkmTypes: 0f00000008000000
     moveChoices: []
     stat:
@@ -3763,6 +4052,7 @@ MonoBehaviour:
   - id: 248
     name:
       french: Tyranocif
+      english: 
     pkmTypes: 0f0000000c000000
     moveChoices: []
     stat:
@@ -3778,6 +4068,7 @@ MonoBehaviour:
   - id: 249
     name:
       french: Lugia
+      english: 
     pkmTypes: 0d00000009000000
     moveChoices: []
     stat:
@@ -3793,6 +4084,7 @@ MonoBehaviour:
   - id: 250
     name:
       french: Ho-Oh
+      english: 
     pkmTypes: 0200000009000000
     moveChoices: []
     stat:
@@ -3808,6 +4100,7 @@ MonoBehaviour:
   - id: 251
     name:
       french: Celebi
+      english: 
     pkmTypes: 0d00000007000000
     moveChoices: []
     stat:
@@ -3823,6 +4116,7 @@ MonoBehaviour:
   - id: 252
     name:
       french: Arcko
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -3838,6 +4132,7 @@ MonoBehaviour:
   - id: 253
     name:
       french: Massko
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -3853,6 +4148,7 @@ MonoBehaviour:
   - id: 254
     name:
       french: Jungko
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -3868,6 +4164,7 @@ MonoBehaviour:
   - id: 255
     name:
       french: Poussifeu
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -3883,6 +4180,7 @@ MonoBehaviour:
   - id: 256
     name:
       french: Galifeu
+      english: 
     pkmTypes: 0200000005000000
     moveChoices: []
     stat:
@@ -3898,6 +4196,7 @@ MonoBehaviour:
   - id: 257
     name:
       french: "Bras\xE9gali"
+      english: 
     pkmTypes: 0200000005000000
     moveChoices: []
     stat:
@@ -3913,6 +4212,7 @@ MonoBehaviour:
   - id: 258
     name:
       french: Gobou
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -3928,6 +4228,7 @@ MonoBehaviour:
   - id: 259
     name:
       french: Flobio
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -3943,6 +4244,7 @@ MonoBehaviour:
   - id: 260
     name:
       french: Laggron
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -3958,6 +4260,7 @@ MonoBehaviour:
   - id: 261
     name:
       french: "Medhy\xE8na"
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -3973,6 +4276,7 @@ MonoBehaviour:
   - id: 262
     name:
       french: "Grahy\xE8na"
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -3988,6 +4292,7 @@ MonoBehaviour:
   - id: 263
     name:
       french: Zigzaton
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4003,6 +4308,7 @@ MonoBehaviour:
   - id: 264
     name:
       french: "Lin\xE9on"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4018,6 +4324,7 @@ MonoBehaviour:
   - id: 265
     name:
       french: Chenipotte
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -4033,6 +4340,7 @@ MonoBehaviour:
   - id: 266
     name:
       french: Armulys
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -4048,6 +4356,7 @@ MonoBehaviour:
   - id: 267
     name:
       french: Charmillon
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -4063,6 +4372,7 @@ MonoBehaviour:
   - id: 268
     name:
       french: Blindalys
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -4078,6 +4388,7 @@ MonoBehaviour:
   - id: 269
     name:
       french: Papinox
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -4093,6 +4404,7 @@ MonoBehaviour:
   - id: 270
     name:
       french: "N\xE9nupiot"
+      english: 
     pkmTypes: 0400000007000000
     moveChoices: []
     stat:
@@ -4108,6 +4420,7 @@ MonoBehaviour:
   - id: 271
     name:
       french: Lombre
+      english: 
     pkmTypes: 0400000007000000
     moveChoices: []
     stat:
@@ -4123,6 +4436,7 @@ MonoBehaviour:
   - id: 272
     name:
       french: Ludicolo
+      english: 
     pkmTypes: 0400000007000000
     moveChoices: []
     stat:
@@ -4138,6 +4452,7 @@ MonoBehaviour:
   - id: 273
     name:
       french: Grainipiot
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -4153,6 +4468,7 @@ MonoBehaviour:
   - id: 274
     name:
       french: Pifeuil
+      english: 
     pkmTypes: 070000000c000000
     moveChoices: []
     stat:
@@ -4168,6 +4484,7 @@ MonoBehaviour:
   - id: 275
     name:
       french: Tengalice
+      english: 
     pkmTypes: 070000000c000000
     moveChoices: []
     stat:
@@ -4183,6 +4500,7 @@ MonoBehaviour:
   - id: 276
     name:
       french: Nirondelle
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -4198,6 +4516,7 @@ MonoBehaviour:
   - id: 277
     name:
       french: "H\xE9l\xE9delle"
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -4213,6 +4532,7 @@ MonoBehaviour:
   - id: 278
     name:
       french: "Go\xE9lise"
+      english: 
     pkmTypes: 0400000009000000
     moveChoices: []
     stat:
@@ -4228,6 +4548,7 @@ MonoBehaviour:
   - id: 279
     name:
       french: Bekipan
+      english: 
     pkmTypes: 0400000009000000
     moveChoices: []
     stat:
@@ -4243,6 +4564,7 @@ MonoBehaviour:
   - id: 280
     name:
       french: Tarsal
+      english: 
     pkmTypes: 0d00000012000000
     moveChoices: []
     stat:
@@ -4258,6 +4580,7 @@ MonoBehaviour:
   - id: 281
     name:
       french: Kirlia
+      english: 
     pkmTypes: 0d00000012000000
     moveChoices: []
     stat:
@@ -4273,6 +4596,7 @@ MonoBehaviour:
   - id: 282
     name:
       french: Gardevoir
+      english: 
     pkmTypes: 0d00000012000000
     moveChoices: []
     stat:
@@ -4288,6 +4612,7 @@ MonoBehaviour:
   - id: 283
     name:
       french: Arakdo
+      english: 
     pkmTypes: 0b00000004000000
     moveChoices: []
     stat:
@@ -4303,6 +4628,7 @@ MonoBehaviour:
   - id: 284
     name:
       french: Maskadra
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -4318,6 +4644,7 @@ MonoBehaviour:
   - id: 285
     name:
       french: Balignon
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -4333,6 +4660,7 @@ MonoBehaviour:
   - id: 286
     name:
       french: Chapignon
+      english: 
     pkmTypes: 0700000005000000
     moveChoices: []
     stat:
@@ -4348,6 +4676,7 @@ MonoBehaviour:
   - id: 287
     name:
       french: Parecool
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4363,6 +4692,7 @@ MonoBehaviour:
   - id: 288
     name:
       french: Vigoroth
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4378,6 +4708,7 @@ MonoBehaviour:
   - id: 289
     name:
       french: "Monafl\xE8mit"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4393,6 +4724,7 @@ MonoBehaviour:
   - id: 290
     name:
       french: Ningale
+      english: 
     pkmTypes: 0b00000008000000
     moveChoices: []
     stat:
@@ -4408,6 +4740,7 @@ MonoBehaviour:
   - id: 291
     name:
       french: Ninjask
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -4423,6 +4756,7 @@ MonoBehaviour:
   - id: 292
     name:
       french: Munja
+      english: 
     pkmTypes: 0b00000010000000
     moveChoices: []
     stat:
@@ -4438,6 +4772,7 @@ MonoBehaviour:
   - id: 293
     name:
       french: Chuchmur
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4453,6 +4788,7 @@ MonoBehaviour:
   - id: 294
     name:
       french: Ramboum
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4468,6 +4804,7 @@ MonoBehaviour:
   - id: 295
     name:
       french: Brouhabam
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4483,6 +4820,7 @@ MonoBehaviour:
   - id: 296
     name:
       french: Makuhita
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -4498,6 +4836,7 @@ MonoBehaviour:
   - id: 297
     name:
       french: Hariyama
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -4513,6 +4852,7 @@ MonoBehaviour:
   - id: 298
     name:
       french: Azurill
+      english: 
     pkmTypes: 0100000012000000
     moveChoices: []
     stat:
@@ -4528,6 +4868,7 @@ MonoBehaviour:
   - id: 299
     name:
       french: Tarinor
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -4543,6 +4884,7 @@ MonoBehaviour:
   - id: 300
     name:
       french: Skitty
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4558,6 +4900,7 @@ MonoBehaviour:
   - id: 301
     name:
       french: Delcatty
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4573,6 +4916,7 @@ MonoBehaviour:
   - id: 302
     name:
       french: "T\xE9n\xE9fix"
+      english: 
     pkmTypes: 0c00000010000000
     moveChoices: []
     stat:
@@ -4588,6 +4932,7 @@ MonoBehaviour:
   - id: 303
     name:
       french: Mysdibule
+      english: 
     pkmTypes: 1100000012000000
     moveChoices: []
     stat:
@@ -4603,6 +4948,7 @@ MonoBehaviour:
   - id: 304
     name:
       french: Galekid
+      english: 
     pkmTypes: 110000000f000000
     moveChoices: []
     stat:
@@ -4618,6 +4964,7 @@ MonoBehaviour:
   - id: 305
     name:
       french: Galegon
+      english: 
     pkmTypes: 110000000f000000
     moveChoices: []
     stat:
@@ -4633,6 +4980,7 @@ MonoBehaviour:
   - id: 306
     name:
       french: Galeking
+      english: 
     pkmTypes: 110000000f000000
     moveChoices: []
     stat:
@@ -4648,6 +4996,7 @@ MonoBehaviour:
   - id: 307
     name:
       french: "M\xE9ditikka"
+      english: 
     pkmTypes: 050000000d000000
     moveChoices: []
     stat:
@@ -4663,6 +5012,7 @@ MonoBehaviour:
   - id: 308
     name:
       french: Charmina
+      english: 
     pkmTypes: 050000000d000000
     moveChoices: []
     stat:
@@ -4678,6 +5028,7 @@ MonoBehaviour:
   - id: 309
     name:
       french: Dynavolt
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -4693,6 +5044,7 @@ MonoBehaviour:
   - id: 310
     name:
       french: "\xC9lecsprint"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -4708,6 +5060,7 @@ MonoBehaviour:
   - id: 311
     name:
       french: Posipi
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -4723,6 +5076,7 @@ MonoBehaviour:
   - id: 312
     name:
       french: "N\xE9gapi"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -4738,6 +5092,7 @@ MonoBehaviour:
   - id: 313
     name:
       french: Muciole
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -4753,6 +5108,7 @@ MonoBehaviour:
   - id: 314
     name:
       french: Lumivole
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -4768,6 +5124,7 @@ MonoBehaviour:
   - id: 315
     name:
       french: "Ros\xE9lia"
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -4783,6 +5140,7 @@ MonoBehaviour:
   - id: 316
     name:
       french: Gloupti
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -4798,6 +5156,7 @@ MonoBehaviour:
   - id: 317
     name:
       french: Avaltout
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -4813,6 +5172,7 @@ MonoBehaviour:
   - id: 318
     name:
       french: Carvanha
+      english: 
     pkmTypes: 040000000c000000
     moveChoices: []
     stat:
@@ -4828,6 +5188,7 @@ MonoBehaviour:
   - id: 319
     name:
       french: Sharpedo
+      english: 
     pkmTypes: 040000000c000000
     moveChoices: []
     stat:
@@ -4843,6 +5204,7 @@ MonoBehaviour:
   - id: 320
     name:
       french: Wailmer
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -4858,6 +5220,7 @@ MonoBehaviour:
   - id: 321
     name:
       french: Wailord
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -4873,6 +5236,7 @@ MonoBehaviour:
   - id: 322
     name:
       french: Chamallot
+      english: 
     pkmTypes: 0200000008000000
     moveChoices: []
     stat:
@@ -4888,6 +5252,7 @@ MonoBehaviour:
   - id: 323
     name:
       french: "Cam\xE9rupt"
+      english: 
     pkmTypes: 0200000008000000
     moveChoices: []
     stat:
@@ -4903,6 +5268,7 @@ MonoBehaviour:
   - id: 324
     name:
       french: Chartor
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -4918,6 +5284,7 @@ MonoBehaviour:
   - id: 325
     name:
       french: Spoink
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -4933,6 +5300,7 @@ MonoBehaviour:
   - id: 326
     name:
       french: Groret
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -4948,6 +5316,7 @@ MonoBehaviour:
   - id: 327
     name:
       french: Spinda
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -4963,6 +5332,7 @@ MonoBehaviour:
   - id: 328
     name:
       french: Kraknoix
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -4978,6 +5348,7 @@ MonoBehaviour:
   - id: 329
     name:
       french: Vibraninf
+      english: 
     pkmTypes: 080000000e000000
     moveChoices: []
     stat:
@@ -4993,6 +5364,7 @@ MonoBehaviour:
   - id: 330
     name:
       french: "Lib\xE9gon"
+      english: 
     pkmTypes: 080000000e000000
     moveChoices: []
     stat:
@@ -5008,6 +5380,7 @@ MonoBehaviour:
   - id: 331
     name:
       french: Cacnea
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -5023,6 +5396,7 @@ MonoBehaviour:
   - id: 332
     name:
       french: Cacturne
+      english: 
     pkmTypes: 070000000c000000
     moveChoices: []
     stat:
@@ -5038,6 +5412,7 @@ MonoBehaviour:
   - id: 333
     name:
       french: Tylton
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -5053,6 +5428,7 @@ MonoBehaviour:
   - id: 334
     name:
       french: Altaria
+      english: 
     pkmTypes: 0e00000009000000
     moveChoices: []
     stat:
@@ -5068,6 +5444,7 @@ MonoBehaviour:
   - id: 335
     name:
       french: Mangriff
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -5083,6 +5460,7 @@ MonoBehaviour:
   - id: 336
     name:
       french: "S\xE9viper"
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -5098,6 +5476,7 @@ MonoBehaviour:
   - id: 337
     name:
       french: "S\xE9l\xE9roc"
+      english: 
     pkmTypes: 0f0000000d000000
     moveChoices: []
     stat:
@@ -5113,6 +5492,7 @@ MonoBehaviour:
   - id: 338
     name:
       french: Solaroc
+      english: 
     pkmTypes: 0f0000000d000000
     moveChoices: []
     stat:
@@ -5128,6 +5508,7 @@ MonoBehaviour:
   - id: 339
     name:
       french: Barloche
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -5143,6 +5524,7 @@ MonoBehaviour:
   - id: 340
     name:
       french: Barbicha
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -5158,6 +5540,7 @@ MonoBehaviour:
   - id: 341
     name:
       french: "\xC9crapince"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5173,6 +5556,7 @@ MonoBehaviour:
   - id: 342
     name:
       french: Colhomard
+      english: 
     pkmTypes: 040000000c000000
     moveChoices: []
     stat:
@@ -5188,6 +5572,7 @@ MonoBehaviour:
   - id: 343
     name:
       french: Balbuto
+      english: 
     pkmTypes: 080000000d000000
     moveChoices: []
     stat:
@@ -5203,6 +5588,7 @@ MonoBehaviour:
   - id: 344
     name:
       french: Kaorine
+      english: 
     pkmTypes: 080000000d000000
     moveChoices: []
     stat:
@@ -5218,6 +5604,7 @@ MonoBehaviour:
   - id: 345
     name:
       french: Lilia
+      english: 
     pkmTypes: 0f00000007000000
     moveChoices: []
     stat:
@@ -5233,6 +5620,7 @@ MonoBehaviour:
   - id: 346
     name:
       french: Vacilys
+      english: 
     pkmTypes: 0f00000007000000
     moveChoices: []
     stat:
@@ -5248,6 +5636,7 @@ MonoBehaviour:
   - id: 347
     name:
       french: Anorith
+      english: 
     pkmTypes: 0f0000000b000000
     moveChoices: []
     stat:
@@ -5263,6 +5652,7 @@ MonoBehaviour:
   - id: 348
     name:
       french: Armaldo
+      english: 
     pkmTypes: 0f0000000b000000
     moveChoices: []
     stat:
@@ -5278,6 +5668,7 @@ MonoBehaviour:
   - id: 349
     name:
       french: Barpau
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5293,6 +5684,7 @@ MonoBehaviour:
   - id: 350
     name:
       french: Milobellus
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5308,6 +5700,7 @@ MonoBehaviour:
   - id: 351
     name:
       french: "Morph\xE9o"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -5323,6 +5716,7 @@ MonoBehaviour:
   - id: 352
     name:
       french: Kecleon
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -5338,6 +5732,7 @@ MonoBehaviour:
   - id: 353
     name:
       french: Polichombr
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -5353,6 +5748,7 @@ MonoBehaviour:
   - id: 354
     name:
       french: Branette
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -5368,6 +5764,7 @@ MonoBehaviour:
   - id: 355
     name:
       french: "Skel\xE9nox"
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -5383,6 +5780,7 @@ MonoBehaviour:
   - id: 356
     name:
       french: "T\xE9raclope"
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -5398,6 +5796,7 @@ MonoBehaviour:
   - id: 357
     name:
       french: Tropius
+      english: 
     pkmTypes: 0700000009000000
     moveChoices: []
     stat:
@@ -5413,6 +5812,7 @@ MonoBehaviour:
   - id: 358
     name:
       french: "\xC9oko"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -5428,6 +5828,7 @@ MonoBehaviour:
   - id: 359
     name:
       french: Absol
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -5443,6 +5844,7 @@ MonoBehaviour:
   - id: 360
     name:
       french: "Ok\xE9ok\xE9"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -5458,6 +5860,7 @@ MonoBehaviour:
   - id: 361
     name:
       french: Stalgamin
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -5473,6 +5876,7 @@ MonoBehaviour:
   - id: 362
     name:
       french: Oniglali
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -5488,6 +5892,7 @@ MonoBehaviour:
   - id: 363
     name:
       french: Obalie
+      english: 
     pkmTypes: 0300000004000000
     moveChoices: []
     stat:
@@ -5503,6 +5908,7 @@ MonoBehaviour:
   - id: 364
     name:
       french: Phogleur
+      english: 
     pkmTypes: 0300000004000000
     moveChoices: []
     stat:
@@ -5518,6 +5924,7 @@ MonoBehaviour:
   - id: 365
     name:
       french: Kaimorse
+      english: 
     pkmTypes: 0300000004000000
     moveChoices: []
     stat:
@@ -5533,6 +5940,7 @@ MonoBehaviour:
   - id: 366
     name:
       french: Coquiperl
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5548,6 +5956,7 @@ MonoBehaviour:
   - id: 367
     name:
       french: Serpang
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5563,6 +5972,7 @@ MonoBehaviour:
   - id: 368
     name:
       french: Rosabyss
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5578,6 +5988,7 @@ MonoBehaviour:
   - id: 369
     name:
       french: Relicanth
+      english: 
     pkmTypes: 040000000f000000
     moveChoices: []
     stat:
@@ -5593,6 +6004,7 @@ MonoBehaviour:
   - id: 370
     name:
       french: Lovdisc
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5608,6 +6020,7 @@ MonoBehaviour:
   - id: 371
     name:
       french: Draby
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -5623,6 +6036,7 @@ MonoBehaviour:
   - id: 372
     name:
       french: Drackhaus
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -5638,6 +6052,7 @@ MonoBehaviour:
   - id: 373
     name:
       french: Drattak
+      english: 
     pkmTypes: 0e00000009000000
     moveChoices: []
     stat:
@@ -5653,6 +6068,7 @@ MonoBehaviour:
   - id: 374
     name:
       french: Terhal
+      english: 
     pkmTypes: 110000000d000000
     moveChoices: []
     stat:
@@ -5668,6 +6084,7 @@ MonoBehaviour:
   - id: 375
     name:
       french: "M\xE9tang"
+      english: 
     pkmTypes: 110000000d000000
     moveChoices: []
     stat:
@@ -5683,6 +6100,7 @@ MonoBehaviour:
   - id: 376
     name:
       french: "M\xE9talosse"
+      english: 
     pkmTypes: 110000000d000000
     moveChoices: []
     stat:
@@ -5698,6 +6116,7 @@ MonoBehaviour:
   - id: 377
     name:
       french: Regirock
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -5713,6 +6132,7 @@ MonoBehaviour:
   - id: 378
     name:
       french: Regice
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -5728,6 +6148,7 @@ MonoBehaviour:
   - id: 379
     name:
       french: Registeel
+      english: 
     pkmTypes: 11000000
     moveChoices: []
     stat:
@@ -5743,6 +6164,7 @@ MonoBehaviour:
   - id: 380
     name:
       french: Latias
+      english: 
     pkmTypes: 0e0000000d000000
     moveChoices: []
     stat:
@@ -5758,6 +6180,7 @@ MonoBehaviour:
   - id: 381
     name:
       french: Latios
+      english: 
     pkmTypes: 0e0000000d000000
     moveChoices: []
     stat:
@@ -5773,6 +6196,7 @@ MonoBehaviour:
   - id: 382
     name:
       french: Kyogre
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5788,6 +6212,7 @@ MonoBehaviour:
   - id: 383
     name:
       french: Groudon
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -5803,6 +6228,7 @@ MonoBehaviour:
   - id: 384
     name:
       french: Rayquaza
+      english: 
     pkmTypes: 0e00000009000000
     moveChoices: []
     stat:
@@ -5818,6 +6244,7 @@ MonoBehaviour:
   - id: 385
     name:
       french: Jirachi
+      english: 
     pkmTypes: 110000000d000000
     moveChoices: []
     stat:
@@ -5833,6 +6260,7 @@ MonoBehaviour:
   - id: 386
     name:
       french: Deoxys
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -5848,6 +6276,7 @@ MonoBehaviour:
   - id: 387
     name:
       french: Tortipouss
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -5863,6 +6292,7 @@ MonoBehaviour:
   - id: 388
     name:
       french: Boskara
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -5878,6 +6308,7 @@ MonoBehaviour:
   - id: 389
     name:
       french: Torterra
+      english: 
     pkmTypes: 0700000008000000
     moveChoices: []
     stat:
@@ -5893,6 +6324,7 @@ MonoBehaviour:
   - id: 390
     name:
       french: Ouisticram
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -5908,6 +6340,7 @@ MonoBehaviour:
   - id: 391
     name:
       french: Chimpenfeu
+      english: 
     pkmTypes: 0200000005000000
     moveChoices: []
     stat:
@@ -5923,6 +6356,7 @@ MonoBehaviour:
   - id: 392
     name:
       french: Simiabraz
+      english: 
     pkmTypes: 0200000005000000
     moveChoices: []
     stat:
@@ -5938,6 +6372,7 @@ MonoBehaviour:
   - id: 393
     name:
       french: Tiplouf
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5953,6 +6388,7 @@ MonoBehaviour:
   - id: 394
     name:
       french: Prinplouf
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -5968,6 +6404,7 @@ MonoBehaviour:
   - id: 395
     name:
       french: "Pingol\xE9on"
+      english: 
     pkmTypes: 0400000011000000
     moveChoices: []
     stat:
@@ -5983,6 +6420,7 @@ MonoBehaviour:
   - id: 396
     name:
       french: "\xC9tourmi"
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -5998,6 +6436,7 @@ MonoBehaviour:
   - id: 397
     name:
       french: "\xC9tourvol"
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -6013,6 +6452,7 @@ MonoBehaviour:
   - id: 398
     name:
       french: "\xC9touraptor"
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -6028,6 +6468,7 @@ MonoBehaviour:
   - id: 399
     name:
       french: Keunotor
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6043,6 +6484,7 @@ MonoBehaviour:
   - id: 400
     name:
       french: Castorno
+      english: 
     pkmTypes: 0100000004000000
     moveChoices: []
     stat:
@@ -6058,6 +6500,7 @@ MonoBehaviour:
   - id: 401
     name:
       french: Crikzik
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -6073,6 +6516,7 @@ MonoBehaviour:
   - id: 402
     name:
       french: "M\xE9lokrik"
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -6088,6 +6532,7 @@ MonoBehaviour:
   - id: 403
     name:
       french: Lixy
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -6103,6 +6548,7 @@ MonoBehaviour:
   - id: 404
     name:
       french: Luxio
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -6118,6 +6564,7 @@ MonoBehaviour:
   - id: 405
     name:
       french: Luxray
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -6133,6 +6580,7 @@ MonoBehaviour:
   - id: 406
     name:
       french: Rozbouton
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -6148,6 +6596,7 @@ MonoBehaviour:
   - id: 407
     name:
       french: Roserade
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -6163,6 +6612,7 @@ MonoBehaviour:
   - id: 408
     name:
       french: Kranidos
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -6178,6 +6628,7 @@ MonoBehaviour:
   - id: 409
     name:
       french: Charkos
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -6193,6 +6644,7 @@ MonoBehaviour:
   - id: 410
     name:
       french: Dinoclier
+      english: 
     pkmTypes: 0f00000011000000
     moveChoices: []
     stat:
@@ -6208,6 +6660,7 @@ MonoBehaviour:
   - id: 411
     name:
       french: Bastiodon
+      english: 
     pkmTypes: 0f00000011000000
     moveChoices: []
     stat:
@@ -6223,6 +6676,7 @@ MonoBehaviour:
   - id: 412
     name:
       french: Cheniti
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -6238,6 +6692,7 @@ MonoBehaviour:
   - id: 413
     name:
       french: Cheniselle
+      english: 
     pkmTypes: 0b00000007000000
     moveChoices: []
     stat:
@@ -6253,6 +6708,7 @@ MonoBehaviour:
   - id: 414
     name:
       french: Papilord
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -6268,6 +6724,7 @@ MonoBehaviour:
   - id: 415
     name:
       french: Apitrini
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -6283,6 +6740,7 @@ MonoBehaviour:
   - id: 416
     name:
       french: Apireine
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -6298,6 +6756,7 @@ MonoBehaviour:
   - id: 417
     name:
       french: Pachirisu
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -6313,6 +6772,7 @@ MonoBehaviour:
   - id: 418
     name:
       french: "Must\xE9bou\xE9e"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -6328,6 +6788,7 @@ MonoBehaviour:
   - id: 419
     name:
       french: "Must\xE9flott"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -6343,6 +6804,7 @@ MonoBehaviour:
   - id: 420
     name:
       french: Ceribou
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -6358,6 +6820,7 @@ MonoBehaviour:
   - id: 421
     name:
       french: Ceriflor
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -6373,6 +6836,7 @@ MonoBehaviour:
   - id: 422
     name:
       french: Sancoki
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -6388,6 +6852,7 @@ MonoBehaviour:
   - id: 423
     name:
       french: Tritosor
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -6403,6 +6868,7 @@ MonoBehaviour:
   - id: 424
     name:
       french: Capidextre
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6418,6 +6884,7 @@ MonoBehaviour:
   - id: 425
     name:
       french: Baudrive
+      english: 
     pkmTypes: 1000000009000000
     moveChoices: []
     stat:
@@ -6433,6 +6900,7 @@ MonoBehaviour:
   - id: 426
     name:
       french: Grodrive
+      english: 
     pkmTypes: 1000000009000000
     moveChoices: []
     stat:
@@ -6448,6 +6916,7 @@ MonoBehaviour:
   - id: 427
     name:
       french: Laporeille
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6463,6 +6932,7 @@ MonoBehaviour:
   - id: 428
     name:
       french: Lockpin
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6478,6 +6948,7 @@ MonoBehaviour:
   - id: 429
     name:
       french: "Magir\xEAve"
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -6493,6 +6964,7 @@ MonoBehaviour:
   - id: 430
     name:
       french: Corboss
+      english: 
     pkmTypes: 0c00000009000000
     moveChoices: []
     stat:
@@ -6508,6 +6980,7 @@ MonoBehaviour:
   - id: 431
     name:
       french: Chaglam
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6523,6 +6996,7 @@ MonoBehaviour:
   - id: 432
     name:
       french: Chaffreux
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6538,6 +7012,7 @@ MonoBehaviour:
   - id: 433
     name:
       french: Korillon
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -6553,6 +7028,7 @@ MonoBehaviour:
   - id: 434
     name:
       french: Moufouette
+      english: 
     pkmTypes: 0a0000000c000000
     moveChoices: []
     stat:
@@ -6568,6 +7044,7 @@ MonoBehaviour:
   - id: 435
     name:
       french: Moufflair
+      english: 
     pkmTypes: 0a0000000c000000
     moveChoices: []
     stat:
@@ -6583,6 +7060,7 @@ MonoBehaviour:
   - id: 436
     name:
       french: "Arch\xE9omire"
+      english: 
     pkmTypes: 110000000d000000
     moveChoices: []
     stat:
@@ -6598,6 +7076,7 @@ MonoBehaviour:
   - id: 437
     name:
       french: "Arch\xE9odong"
+      english: 
     pkmTypes: 110000000d000000
     moveChoices: []
     stat:
@@ -6613,6 +7092,7 @@ MonoBehaviour:
   - id: 438
     name:
       french: "Manza\xEF"
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -6628,6 +7108,7 @@ MonoBehaviour:
   - id: 439
     name:
       french: Mime Jr
+      english: 
     pkmTypes: 0d00000012000000
     moveChoices: []
     stat:
@@ -6643,6 +7124,7 @@ MonoBehaviour:
   - id: 440
     name:
       french: Ptiravi
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6658,6 +7140,7 @@ MonoBehaviour:
   - id: 441
     name:
       french: Pijako
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -6673,6 +7156,7 @@ MonoBehaviour:
   - id: 442
     name:
       french: Spiritomb
+      english: 
     pkmTypes: 100000000c000000
     moveChoices: []
     stat:
@@ -6688,6 +7172,7 @@ MonoBehaviour:
   - id: 443
     name:
       french: Griknot
+      english: 
     pkmTypes: 0e00000008000000
     moveChoices: []
     stat:
@@ -6703,6 +7188,7 @@ MonoBehaviour:
   - id: 444
     name:
       french: Carmache
+      english: 
     pkmTypes: 0e00000008000000
     moveChoices: []
     stat:
@@ -6718,6 +7204,7 @@ MonoBehaviour:
   - id: 445
     name:
       french: Carchacrok
+      english: 
     pkmTypes: 0e00000008000000
     moveChoices: []
     stat:
@@ -6733,6 +7220,7 @@ MonoBehaviour:
   - id: 446
     name:
       french: Goinfrex
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -6748,6 +7236,7 @@ MonoBehaviour:
   - id: 447
     name:
       french: Riolu
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -6763,6 +7252,7 @@ MonoBehaviour:
   - id: 448
     name:
       french: Lucario
+      english: 
     pkmTypes: 0500000011000000
     moveChoices: []
     stat:
@@ -6778,6 +7268,7 @@ MonoBehaviour:
   - id: 449
     name:
       french: Hippopotas
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -6793,6 +7284,7 @@ MonoBehaviour:
   - id: 450
     name:
       french: Hippodocus
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -6808,6 +7300,7 @@ MonoBehaviour:
   - id: 451
     name:
       french: Rapion
+      english: 
     pkmTypes: 0a0000000b000000
     moveChoices: []
     stat:
@@ -6823,6 +7316,7 @@ MonoBehaviour:
   - id: 452
     name:
       french: Drascore
+      english: 
     pkmTypes: 0a0000000c000000
     moveChoices: []
     stat:
@@ -6838,6 +7332,7 @@ MonoBehaviour:
   - id: 453
     name:
       french: Cradopaud
+      english: 
     pkmTypes: 0a00000005000000
     moveChoices: []
     stat:
@@ -6853,6 +7348,7 @@ MonoBehaviour:
   - id: 454
     name:
       french: Coatox
+      english: 
     pkmTypes: 0a00000005000000
     moveChoices: []
     stat:
@@ -6868,6 +7364,7 @@ MonoBehaviour:
   - id: 455
     name:
       french: Vortente
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -6883,6 +7380,7 @@ MonoBehaviour:
   - id: 456
     name:
       french: "\xC9cayon"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -6898,6 +7396,7 @@ MonoBehaviour:
   - id: 457
     name:
       french: "Lumin\xE9on"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -6913,6 +7412,7 @@ MonoBehaviour:
   - id: 458
     name:
       french: Babimanta
+      english: 
     pkmTypes: 0400000009000000
     moveChoices: []
     stat:
@@ -6928,6 +7428,7 @@ MonoBehaviour:
   - id: 459
     name:
       french: Blizzi
+      english: 
     pkmTypes: 0700000003000000
     moveChoices: []
     stat:
@@ -6943,6 +7444,7 @@ MonoBehaviour:
   - id: 460
     name:
       french: Blizzaroi
+      english: 
     pkmTypes: 0700000003000000
     moveChoices: []
     stat:
@@ -6958,6 +7460,7 @@ MonoBehaviour:
   - id: 461
     name:
       french: Dimoret
+      english: 
     pkmTypes: 0c00000003000000
     moveChoices: []
     stat:
@@ -6973,6 +7476,7 @@ MonoBehaviour:
   - id: 462
     name:
       french: "Magn\xE9zone"
+      english: 
     pkmTypes: 0600000011000000
     moveChoices: []
     stat:
@@ -6988,6 +7492,7 @@ MonoBehaviour:
   - id: 463
     name:
       french: Coudlangue
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7003,6 +7508,7 @@ MonoBehaviour:
   - id: 464
     name:
       french: Rhinastoc
+      english: 
     pkmTypes: 080000000f000000
     moveChoices: []
     stat:
@@ -7018,6 +7524,7 @@ MonoBehaviour:
   - id: 465
     name:
       french: Bouldeneu
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7033,6 +7540,7 @@ MonoBehaviour:
   - id: 466
     name:
       french: "\xC9lekable"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -7048,6 +7556,7 @@ MonoBehaviour:
   - id: 467
     name:
       french: Maganon
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -7063,6 +7572,7 @@ MonoBehaviour:
   - id: 468
     name:
       french: Togekiss
+      english: 
     pkmTypes: 1200000009000000
     moveChoices: []
     stat:
@@ -7078,6 +7588,7 @@ MonoBehaviour:
   - id: 469
     name:
       french: Yanmega
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -7093,6 +7604,7 @@ MonoBehaviour:
   - id: 470
     name:
       french: Phyllali
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7108,6 +7620,7 @@ MonoBehaviour:
   - id: 471
     name:
       french: Givrali
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -7123,6 +7636,7 @@ MonoBehaviour:
   - id: 472
     name:
       french: Scorvol
+      english: 
     pkmTypes: 0800000009000000
     moveChoices: []
     stat:
@@ -7138,6 +7652,7 @@ MonoBehaviour:
   - id: 473
     name:
       french: Mammochon
+      english: 
     pkmTypes: 0300000008000000
     moveChoices: []
     stat:
@@ -7153,6 +7668,7 @@ MonoBehaviour:
   - id: 474
     name:
       french: Porygon-Z
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7168,6 +7684,7 @@ MonoBehaviour:
   - id: 475
     name:
       french: Gallame
+      english: 
     pkmTypes: 0d00000005000000
     moveChoices: []
     stat:
@@ -7183,6 +7700,7 @@ MonoBehaviour:
   - id: 476
     name:
       french: Tarinorme
+      english: 
     pkmTypes: 0f00000011000000
     moveChoices: []
     stat:
@@ -7198,6 +7716,7 @@ MonoBehaviour:
   - id: 477
     name:
       french: Noctunoir
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -7213,6 +7732,7 @@ MonoBehaviour:
   - id: 478
     name:
       french: Momartik
+      english: 
     pkmTypes: 0300000010000000
     moveChoices: []
     stat:
@@ -7228,6 +7748,7 @@ MonoBehaviour:
   - id: 479
     name:
       french: Motisma
+      english: 
     pkmTypes: 0600000010000000
     moveChoices: []
     stat:
@@ -7243,6 +7764,7 @@ MonoBehaviour:
   - id: 480
     name:
       french: "Cr\xE9helf"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -7258,6 +7780,7 @@ MonoBehaviour:
   - id: 481
     name:
       french: "Cr\xE9follet"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -7273,6 +7796,7 @@ MonoBehaviour:
   - id: 482
     name:
       french: "Cr\xE9fadet"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -7288,6 +7812,7 @@ MonoBehaviour:
   - id: 483
     name:
       french: Dialga
+      english: 
     pkmTypes: 110000000e000000
     moveChoices: []
     stat:
@@ -7303,6 +7828,7 @@ MonoBehaviour:
   - id: 484
     name:
       french: Palkia
+      english: 
     pkmTypes: 040000000e000000
     moveChoices: []
     stat:
@@ -7318,6 +7844,7 @@ MonoBehaviour:
   - id: 485
     name:
       french: Heatran
+      english: 
     pkmTypes: 0200000011000000
     moveChoices: []
     stat:
@@ -7333,6 +7860,7 @@ MonoBehaviour:
   - id: 486
     name:
       french: Regigigas
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7348,6 +7876,7 @@ MonoBehaviour:
   - id: 487
     name:
       french: Giratina
+      english: 
     pkmTypes: 100000000e000000
     moveChoices: []
     stat:
@@ -7363,6 +7892,7 @@ MonoBehaviour:
   - id: 488
     name:
       french: Cresselia
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -7378,6 +7908,7 @@ MonoBehaviour:
   - id: 489
     name:
       french: Phione
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -7393,6 +7924,7 @@ MonoBehaviour:
   - id: 490
     name:
       french: Manaphy
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -7408,6 +7940,7 @@ MonoBehaviour:
   - id: 491
     name:
       french: Darkrai
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -7423,6 +7956,7 @@ MonoBehaviour:
   - id: 492
     name:
       french: Shaymin
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7438,6 +7972,7 @@ MonoBehaviour:
   - id: 493
     name:
       french: Arceus
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7453,6 +7988,7 @@ MonoBehaviour:
   - id: 494
     name:
       french: Victini
+      english: 
     pkmTypes: 0d00000002000000
     moveChoices: []
     stat:
@@ -7468,6 +8004,7 @@ MonoBehaviour:
   - id: 495
     name:
       french: "Vip\xE9lierre"
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7483,6 +8020,7 @@ MonoBehaviour:
   - id: 496
     name:
       french: Lianaja
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7498,6 +8036,7 @@ MonoBehaviour:
   - id: 497
     name:
       french: Majaspic
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7513,6 +8052,7 @@ MonoBehaviour:
   - id: 498
     name:
       french: Gruikui
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -7528,6 +8068,7 @@ MonoBehaviour:
   - id: 499
     name:
       french: Grotichon
+      english: 
     pkmTypes: 0200000005000000
     moveChoices: []
     stat:
@@ -7543,6 +8084,7 @@ MonoBehaviour:
   - id: 500
     name:
       french: Roitiflam
+      english: 
     pkmTypes: 0200000005000000
     moveChoices: []
     stat:
@@ -7558,6 +8100,7 @@ MonoBehaviour:
   - id: 501
     name:
       french: Moustillon
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -7573,6 +8116,7 @@ MonoBehaviour:
   - id: 502
     name:
       french: Mateloutre
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -7588,6 +8132,7 @@ MonoBehaviour:
   - id: 503
     name:
       french: Clamiral
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -7603,6 +8148,7 @@ MonoBehaviour:
   - id: 504
     name:
       french: Ratentif
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7618,6 +8164,7 @@ MonoBehaviour:
   - id: 505
     name:
       french: Miradar
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7633,6 +8180,7 @@ MonoBehaviour:
   - id: 506
     name:
       french: Ponchiot
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7648,6 +8196,7 @@ MonoBehaviour:
   - id: 507
     name:
       french: Ponchien
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7663,6 +8212,7 @@ MonoBehaviour:
   - id: 508
     name:
       french: Mastouffe
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -7678,6 +8228,7 @@ MonoBehaviour:
   - id: 509
     name:
       french: Chacripan
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -7693,6 +8244,7 @@ MonoBehaviour:
   - id: 510
     name:
       french: "L\xE9opardus"
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -7708,6 +8260,7 @@ MonoBehaviour:
   - id: 511
     name:
       french: Feuillajou
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7723,6 +8276,7 @@ MonoBehaviour:
   - id: 512
     name:
       french: Feuiloutan
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -7738,6 +8292,7 @@ MonoBehaviour:
   - id: 513
     name:
       french: Flamajou
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -7753,6 +8308,7 @@ MonoBehaviour:
   - id: 514
     name:
       french: Flamoutan
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -7768,6 +8324,7 @@ MonoBehaviour:
   - id: 515
     name:
       french: Flotajou
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -7783,6 +8340,7 @@ MonoBehaviour:
   - id: 516
     name:
       french: Flotoutan
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -7798,6 +8356,7 @@ MonoBehaviour:
   - id: 517
     name:
       french: Munna
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -7813,6 +8372,7 @@ MonoBehaviour:
   - id: 518
     name:
       french: Mushana
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -7828,6 +8388,7 @@ MonoBehaviour:
   - id: 519
     name:
       french: Poichigeon
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -7843,6 +8404,7 @@ MonoBehaviour:
   - id: 520
     name:
       french: Colombeau
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -7858,6 +8420,7 @@ MonoBehaviour:
   - id: 521
     name:
       french: "D\xE9flaisan"
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -7873,6 +8436,7 @@ MonoBehaviour:
   - id: 522
     name:
       french: "Z\xE9bibron"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -7888,6 +8452,7 @@ MonoBehaviour:
   - id: 523
     name:
       french: "Z\xE9blitz"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -7903,6 +8468,7 @@ MonoBehaviour:
   - id: 524
     name:
       french: Nodulithe
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -7918,6 +8484,7 @@ MonoBehaviour:
   - id: 525
     name:
       french: "G\xE9olithe"
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -7933,6 +8500,7 @@ MonoBehaviour:
   - id: 526
     name:
       french: Gigalithe
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -7948,6 +8516,7 @@ MonoBehaviour:
   - id: 527
     name:
       french: Chovsourir
+      english: 
     pkmTypes: 0d00000009000000
     moveChoices: []
     stat:
@@ -7963,6 +8532,7 @@ MonoBehaviour:
   - id: 528
     name:
       french: Rhinolove
+      english: 
     pkmTypes: 0d00000009000000
     moveChoices: []
     stat:
@@ -7978,6 +8548,7 @@ MonoBehaviour:
   - id: 529
     name:
       french: Rototaupe
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -7993,6 +8564,7 @@ MonoBehaviour:
   - id: 530
     name:
       french: Minotaupe
+      english: 
     pkmTypes: 0800000011000000
     moveChoices: []
     stat:
@@ -8008,6 +8580,7 @@ MonoBehaviour:
   - id: 531
     name:
       french: "Nanm\xE9ou\xEFe"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -8023,6 +8596,7 @@ MonoBehaviour:
   - id: 532
     name:
       french: Charpenti
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -8038,6 +8612,7 @@ MonoBehaviour:
   - id: 533
     name:
       french: Ouvrifier
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -8053,6 +8628,7 @@ MonoBehaviour:
   - id: 534
     name:
       french: "B\xE9tochef"
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -8068,6 +8644,7 @@ MonoBehaviour:
   - id: 535
     name:
       french: Tritonde
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -8083,6 +8660,7 @@ MonoBehaviour:
   - id: 536
     name:
       french: "Batracn\xE9"
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -8098,6 +8676,7 @@ MonoBehaviour:
   - id: 537
     name:
       french: Crapustule
+      english: 
     pkmTypes: 0400000008000000
     moveChoices: []
     stat:
@@ -8113,6 +8692,7 @@ MonoBehaviour:
   - id: 538
     name:
       french: Judokrak
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -8128,6 +8708,7 @@ MonoBehaviour:
   - id: 539
     name:
       french: "Karacl\xE9e"
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -8143,6 +8724,7 @@ MonoBehaviour:
   - id: 540
     name:
       french: Larveyette
+      english: 
     pkmTypes: 0b00000007000000
     moveChoices: []
     stat:
@@ -8158,6 +8740,7 @@ MonoBehaviour:
   - id: 541
     name:
       french: Couverdure
+      english: 
     pkmTypes: 0b00000007000000
     moveChoices: []
     stat:
@@ -8173,6 +8756,7 @@ MonoBehaviour:
   - id: 542
     name:
       french: Manternel
+      english: 
     pkmTypes: 0b00000007000000
     moveChoices: []
     stat:
@@ -8188,6 +8772,7 @@ MonoBehaviour:
   - id: 543
     name:
       french: Venipatte
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -8203,6 +8788,7 @@ MonoBehaviour:
   - id: 544
     name:
       french: Scobolide
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -8218,6 +8804,7 @@ MonoBehaviour:
   - id: 545
     name:
       french: Brutapode
+      english: 
     pkmTypes: 0b0000000a000000
     moveChoices: []
     stat:
@@ -8233,6 +8820,7 @@ MonoBehaviour:
   - id: 546
     name:
       french: Doudouvet
+      english: 
     pkmTypes: 0700000012000000
     moveChoices: []
     stat:
@@ -8248,6 +8836,7 @@ MonoBehaviour:
   - id: 547
     name:
       french: Farfaduvet
+      english: 
     pkmTypes: 0700000012000000
     moveChoices: []
     stat:
@@ -8263,6 +8852,7 @@ MonoBehaviour:
   - id: 548
     name:
       french: Chlorobule
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -8278,6 +8868,7 @@ MonoBehaviour:
   - id: 549
     name:
       french: Fragilady
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -8293,6 +8884,7 @@ MonoBehaviour:
   - id: 550
     name:
       french: Bargantua
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -8308,6 +8900,7 @@ MonoBehaviour:
   - id: 551
     name:
       french: "Masca\xEFman"
+      english: 
     pkmTypes: 080000000c000000
     moveChoices: []
     stat:
@@ -8323,6 +8916,7 @@ MonoBehaviour:
   - id: 552
     name:
       french: Escroco
+      english: 
     pkmTypes: 080000000c000000
     moveChoices: []
     stat:
@@ -8338,6 +8932,7 @@ MonoBehaviour:
   - id: 553
     name:
       french: Crocorible
+      english: 
     pkmTypes: 080000000c000000
     moveChoices: []
     stat:
@@ -8353,6 +8948,7 @@ MonoBehaviour:
   - id: 554
     name:
       french: Darumarond
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -8368,6 +8964,7 @@ MonoBehaviour:
   - id: 555
     name:
       french: Darumacho
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -8383,6 +8980,7 @@ MonoBehaviour:
   - id: 556
     name:
       french: Maracachi
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -8398,6 +8996,7 @@ MonoBehaviour:
   - id: 557
     name:
       french: Crabicoque
+      english: 
     pkmTypes: 0b0000000f000000
     moveChoices: []
     stat:
@@ -8413,6 +9012,7 @@ MonoBehaviour:
   - id: 558
     name:
       french: Crabaraque
+      english: 
     pkmTypes: 0b0000000f000000
     moveChoices: []
     stat:
@@ -8428,6 +9028,7 @@ MonoBehaviour:
   - id: 559
     name:
       french: Baggiguane
+      english: 
     pkmTypes: 0c00000005000000
     moveChoices: []
     stat:
@@ -8443,6 +9044,7 @@ MonoBehaviour:
   - id: 560
     name:
       french: "Bagga\xEFd"
+      english: 
     pkmTypes: 0c00000005000000
     moveChoices: []
     stat:
@@ -8458,6 +9060,7 @@ MonoBehaviour:
   - id: 561
     name:
       french: "Crypt\xE9ro"
+      english: 
     pkmTypes: 0d00000009000000
     moveChoices: []
     stat:
@@ -8473,6 +9076,7 @@ MonoBehaviour:
   - id: 562
     name:
       french: Tutafeh
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -8488,6 +9092,7 @@ MonoBehaviour:
   - id: 563
     name:
       french: Tutankafer
+      english: 
     pkmTypes: 10000000
     moveChoices: []
     stat:
@@ -8503,6 +9108,7 @@ MonoBehaviour:
   - id: 564
     name:
       french: Carapagos
+      english: 
     pkmTypes: 040000000f000000
     moveChoices: []
     stat:
@@ -8518,6 +9124,7 @@ MonoBehaviour:
   - id: 565
     name:
       french: "M\xE9gapagos"
+      english: 
     pkmTypes: 040000000f000000
     moveChoices: []
     stat:
@@ -8533,6 +9140,7 @@ MonoBehaviour:
   - id: 566
     name:
       french: "Ark\xE9apti"
+      english: 
     pkmTypes: 0f00000009000000
     moveChoices: []
     stat:
@@ -8548,6 +9156,7 @@ MonoBehaviour:
   - id: 567
     name:
       french: "A\xE9ropt\xE9ryx"
+      english: 
     pkmTypes: 0f00000009000000
     moveChoices: []
     stat:
@@ -8563,6 +9172,7 @@ MonoBehaviour:
   - id: 568
     name:
       french: Miamiasme
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -8578,6 +9188,7 @@ MonoBehaviour:
   - id: 569
     name:
       french: Miasmax
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -8593,6 +9204,7 @@ MonoBehaviour:
   - id: 570
     name:
       french: Zorua
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -8608,6 +9220,7 @@ MonoBehaviour:
   - id: 571
     name:
       french: Zoroark
+      english: 
     pkmTypes: 0c000000
     moveChoices: []
     stat:
@@ -8623,6 +9236,7 @@ MonoBehaviour:
   - id: 572
     name:
       french: Chinchidou
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -8638,6 +9252,7 @@ MonoBehaviour:
   - id: 573
     name:
       french: Pashmilla
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -8653,6 +9268,7 @@ MonoBehaviour:
   - id: 574
     name:
       french: Scrutella
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -8668,6 +9284,7 @@ MonoBehaviour:
   - id: 575
     name:
       french: "Mesm\xE9rella"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -8683,6 +9300,7 @@ MonoBehaviour:
   - id: 576
     name:
       french: "Sid\xE9rella"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -8698,6 +9316,7 @@ MonoBehaviour:
   - id: 577
     name:
       french: "Nucl\xE9os"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -8713,6 +9332,7 @@ MonoBehaviour:
   - id: 578
     name:
       french: "M\xE9ios"
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -8728,6 +9348,7 @@ MonoBehaviour:
   - id: 579
     name:
       french: Symbios
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -8743,6 +9364,7 @@ MonoBehaviour:
   - id: 580
     name:
       french: Couaneton
+      english: 
     pkmTypes: 0400000009000000
     moveChoices: []
     stat:
@@ -8758,6 +9380,7 @@ MonoBehaviour:
   - id: 581
     name:
       french: "Lakm\xE9cygne"
+      english: 
     pkmTypes: 0400000009000000
     moveChoices: []
     stat:
@@ -8773,6 +9396,7 @@ MonoBehaviour:
   - id: 582
     name:
       french: "Sorb\xE9b\xE9"
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -8788,6 +9412,7 @@ MonoBehaviour:
   - id: 583
     name:
       french: Sorboul
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -8803,6 +9428,7 @@ MonoBehaviour:
   - id: 584
     name:
       french: Sorbouboul
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -8818,6 +9444,7 @@ MonoBehaviour:
   - id: 585
     name:
       french: Vivaldaim
+      english: 
     pkmTypes: 0100000007000000
     moveChoices: []
     stat:
@@ -8833,6 +9460,7 @@ MonoBehaviour:
   - id: 586
     name:
       french: Haydaim
+      english: 
     pkmTypes: 0100000007000000
     moveChoices: []
     stat:
@@ -8848,6 +9476,7 @@ MonoBehaviour:
   - id: 587
     name:
       french: Emolga
+      english: 
     pkmTypes: 0600000009000000
     moveChoices: []
     stat:
@@ -8863,6 +9492,7 @@ MonoBehaviour:
   - id: 588
     name:
       french: Carabing
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -8878,6 +9508,7 @@ MonoBehaviour:
   - id: 589
     name:
       french: "Lan\xE7argot"
+      english: 
     pkmTypes: 0b00000011000000
     moveChoices: []
     stat:
@@ -8893,6 +9524,7 @@ MonoBehaviour:
   - id: 590
     name:
       french: Trompignon
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -8908,6 +9540,7 @@ MonoBehaviour:
   - id: 591
     name:
       french: Gaulet
+      english: 
     pkmTypes: 070000000a000000
     moveChoices: []
     stat:
@@ -8923,6 +9556,7 @@ MonoBehaviour:
   - id: 592
     name:
       french: Viskuse
+      english: 
     pkmTypes: 0400000010000000
     moveChoices: []
     stat:
@@ -8938,6 +9572,7 @@ MonoBehaviour:
   - id: 593
     name:
       french: Moyade
+      english: 
     pkmTypes: 0400000010000000
     moveChoices: []
     stat:
@@ -8953,6 +9588,7 @@ MonoBehaviour:
   - id: 594
     name:
       french: Mamanbo
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -8968,6 +9604,7 @@ MonoBehaviour:
   - id: 595
     name:
       french: Statitik
+      english: 
     pkmTypes: 0b00000006000000
     moveChoices: []
     stat:
@@ -8983,6 +9620,7 @@ MonoBehaviour:
   - id: 596
     name:
       french: Mygavolt
+      english: 
     pkmTypes: 0b00000006000000
     moveChoices: []
     stat:
@@ -8998,6 +9636,7 @@ MonoBehaviour:
   - id: 597
     name:
       french: Grindur
+      english: 
     pkmTypes: 0700000011000000
     moveChoices: []
     stat:
@@ -9013,6 +9652,7 @@ MonoBehaviour:
   - id: 598
     name:
       french: Noacier
+      english: 
     pkmTypes: 0700000011000000
     moveChoices: []
     stat:
@@ -9028,6 +9668,7 @@ MonoBehaviour:
   - id: 599
     name:
       french: Tic
+      english: 
     pkmTypes: 11000000
     moveChoices: []
     stat:
@@ -9043,6 +9684,7 @@ MonoBehaviour:
   - id: 600
     name:
       french: Clic
+      english: 
     pkmTypes: 11000000
     moveChoices: []
     stat:
@@ -9058,6 +9700,7 @@ MonoBehaviour:
   - id: 601
     name:
       french: Cliticlic
+      english: 
     pkmTypes: 11000000
     moveChoices: []
     stat:
@@ -9073,6 +9716,7 @@ MonoBehaviour:
   - id: 602
     name:
       french: Anchwatt
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -9088,6 +9732,7 @@ MonoBehaviour:
   - id: 603
     name:
       french: "Lamp\xE9roie"
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -9103,6 +9748,7 @@ MonoBehaviour:
   - id: 604
     name:
       french: Ohmassacre
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -9118,6 +9764,7 @@ MonoBehaviour:
   - id: 605
     name:
       french: Lewsor
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -9133,6 +9780,7 @@ MonoBehaviour:
   - id: 606
     name:
       french: Neitram
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -9148,6 +9796,7 @@ MonoBehaviour:
   - id: 607
     name:
       french: "Fun\xE9cire"
+      english: 
     pkmTypes: 1000000002000000
     moveChoices: []
     stat:
@@ -9163,6 +9812,7 @@ MonoBehaviour:
   - id: 608
     name:
       french: "M\xE9lancolux"
+      english: 
     pkmTypes: 1000000002000000
     moveChoices: []
     stat:
@@ -9178,6 +9828,7 @@ MonoBehaviour:
   - id: 609
     name:
       french: Lugulabre
+      english: 
     pkmTypes: 1000000002000000
     moveChoices: []
     stat:
@@ -9193,6 +9844,7 @@ MonoBehaviour:
   - id: 610
     name:
       french: Coupenotte
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -9208,6 +9860,7 @@ MonoBehaviour:
   - id: 611
     name:
       french: Incisache
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -9223,6 +9876,7 @@ MonoBehaviour:
   - id: 612
     name:
       french: Tranchodon
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -9238,6 +9892,7 @@ MonoBehaviour:
   - id: 613
     name:
       french: Polarhume
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -9253,6 +9908,7 @@ MonoBehaviour:
   - id: 614
     name:
       french: Polagriffe
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -9268,6 +9924,7 @@ MonoBehaviour:
   - id: 615
     name:
       french: Hexagel
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -9283,6 +9940,7 @@ MonoBehaviour:
   - id: 616
     name:
       french: Escargaume
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -9298,6 +9956,7 @@ MonoBehaviour:
   - id: 617
     name:
       french: Limaspeed
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -9313,6 +9972,7 @@ MonoBehaviour:
   - id: 618
     name:
       french: Limonde
+      english: 
     pkmTypes: 0800000006000000
     moveChoices: []
     stat:
@@ -9328,6 +9988,7 @@ MonoBehaviour:
   - id: 619
     name:
       french: Kungfouine
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -9343,6 +10004,7 @@ MonoBehaviour:
   - id: 620
     name:
       french: Shaofouine
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -9358,6 +10020,7 @@ MonoBehaviour:
   - id: 621
     name:
       french: Drakkarmin
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -9373,6 +10036,7 @@ MonoBehaviour:
   - id: 622
     name:
       french: Gringolem
+      english: 
     pkmTypes: 0800000010000000
     moveChoices: []
     stat:
@@ -9388,6 +10052,7 @@ MonoBehaviour:
   - id: 623
     name:
       french: Golemastoc
+      english: 
     pkmTypes: 0800000010000000
     moveChoices: []
     stat:
@@ -9403,6 +10068,7 @@ MonoBehaviour:
   - id: 624
     name:
       french: Scalpion
+      english: 
     pkmTypes: 0c00000011000000
     moveChoices: []
     stat:
@@ -9418,6 +10084,7 @@ MonoBehaviour:
   - id: 625
     name:
       french: Scalproie
+      english: 
     pkmTypes: 0c00000011000000
     moveChoices: []
     stat:
@@ -9433,6 +10100,7 @@ MonoBehaviour:
   - id: 626
     name:
       french: Frison
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -9448,6 +10116,7 @@ MonoBehaviour:
   - id: 627
     name:
       french: Furaiglon
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -9463,6 +10132,7 @@ MonoBehaviour:
   - id: 628
     name:
       french: Gueriaigle
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -9478,6 +10148,7 @@ MonoBehaviour:
   - id: 629
     name:
       french: Vostourno
+      english: 
     pkmTypes: 0c00000009000000
     moveChoices: []
     stat:
@@ -9493,6 +10164,7 @@ MonoBehaviour:
   - id: 630
     name:
       french: Vaututrice
+      english: 
     pkmTypes: 0c00000009000000
     moveChoices: []
     stat:
@@ -9508,6 +10180,7 @@ MonoBehaviour:
   - id: 631
     name:
       french: Aflamanoir
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -9523,6 +10196,7 @@ MonoBehaviour:
   - id: 632
     name:
       french: Fermite
+      english: 
     pkmTypes: 0b00000011000000
     moveChoices: []
     stat:
@@ -9538,6 +10212,7 @@ MonoBehaviour:
   - id: 633
     name:
       french: Solochi
+      english: 
     pkmTypes: 0c0000000e000000
     moveChoices: []
     stat:
@@ -9553,6 +10228,7 @@ MonoBehaviour:
   - id: 634
     name:
       french: Diamat
+      english: 
     pkmTypes: 0c0000000e000000
     moveChoices: []
     stat:
@@ -9568,6 +10244,7 @@ MonoBehaviour:
   - id: 635
     name:
       french: Trioxhydre
+      english: 
     pkmTypes: 0c0000000e000000
     moveChoices: []
     stat:
@@ -9583,6 +10260,7 @@ MonoBehaviour:
   - id: 636
     name:
       french: Pyronille
+      english: 
     pkmTypes: 0b00000002000000
     moveChoices: []
     stat:
@@ -9598,6 +10276,7 @@ MonoBehaviour:
   - id: 637
     name:
       french: Pyrax
+      english: 
     pkmTypes: 0b00000002000000
     moveChoices: []
     stat:
@@ -9613,6 +10292,7 @@ MonoBehaviour:
   - id: 638
     name:
       french: Cobaltium
+      english: 
     pkmTypes: 1100000005000000
     moveChoices: []
     stat:
@@ -9628,6 +10308,7 @@ MonoBehaviour:
   - id: 639
     name:
       french: Terrakium
+      english: 
     pkmTypes: 0f00000005000000
     moveChoices: []
     stat:
@@ -9643,6 +10324,7 @@ MonoBehaviour:
   - id: 640
     name:
       french: Viridium
+      english: 
     pkmTypes: 0700000005000000
     moveChoices: []
     stat:
@@ -9658,6 +10340,7 @@ MonoBehaviour:
   - id: 641
     name:
       french: "Bor\xE9as"
+      english: 
     pkmTypes: 09000000
     moveChoices: []
     stat:
@@ -9673,6 +10356,7 @@ MonoBehaviour:
   - id: 642
     name:
       french: Fulguris
+      english: 
     pkmTypes: 0600000009000000
     moveChoices: []
     stat:
@@ -9688,6 +10372,7 @@ MonoBehaviour:
   - id: 643
     name:
       french: Reshiram
+      english: 
     pkmTypes: 0e00000002000000
     moveChoices: []
     stat:
@@ -9703,6 +10388,7 @@ MonoBehaviour:
   - id: 644
     name:
       french: Zekrom
+      english: 
     pkmTypes: 0e00000006000000
     moveChoices: []
     stat:
@@ -9718,6 +10404,7 @@ MonoBehaviour:
   - id: 645
     name:
       french: "D\xE9m\xE9t\xE9ros"
+      english: 
     pkmTypes: 0800000009000000
     moveChoices: []
     stat:
@@ -9733,6 +10420,7 @@ MonoBehaviour:
   - id: 646
     name:
       french: Kyurem
+      english: 
     pkmTypes: 0e00000003000000
     moveChoices: []
     stat:
@@ -9748,6 +10436,7 @@ MonoBehaviour:
   - id: 647
     name:
       french: Keldeo
+      english: 
     pkmTypes: 0400000005000000
     moveChoices: []
     stat:
@@ -9763,6 +10452,7 @@ MonoBehaviour:
   - id: 648
     name:
       french: Meloetta
+      english: 
     pkmTypes: 010000000d000000
     moveChoices: []
     stat:
@@ -9778,6 +10468,7 @@ MonoBehaviour:
   - id: 649
     name:
       french: Genesect
+      english: 
     pkmTypes: 0b00000011000000
     moveChoices: []
     stat:
@@ -9793,6 +10484,7 @@ MonoBehaviour:
   - id: 650
     name:
       french: Marisson
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -9808,6 +10500,7 @@ MonoBehaviour:
   - id: 651
     name:
       french: "Bogu\xE9risse"
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -9823,6 +10516,7 @@ MonoBehaviour:
   - id: 652
     name:
       french: "Blind\xE9pique"
+      english: 
     pkmTypes: 0700000005000000
     moveChoices: []
     stat:
@@ -9838,6 +10532,7 @@ MonoBehaviour:
   - id: 653
     name:
       french: Feunnec
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -9853,6 +10548,7 @@ MonoBehaviour:
   - id: 654
     name:
       french: Roussil
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -9868,6 +10564,7 @@ MonoBehaviour:
   - id: 655
     name:
       french: Goupelin
+      english: 
     pkmTypes: 020000000d000000
     moveChoices: []
     stat:
@@ -9883,6 +10580,7 @@ MonoBehaviour:
   - id: 656
     name:
       french: Grenousse
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -9898,6 +10596,7 @@ MonoBehaviour:
   - id: 657
     name:
       french: "Cro\xE2poral"
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -9913,6 +10612,7 @@ MonoBehaviour:
   - id: 658
     name:
       french: Amphinobi
+      english: 
     pkmTypes: 040000000c000000
     moveChoices: []
     stat:
@@ -9928,6 +10628,7 @@ MonoBehaviour:
   - id: 659
     name:
       french: Sapereau
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -9943,6 +10644,7 @@ MonoBehaviour:
   - id: 660
     name:
       french: Excavarenne
+      english: 
     pkmTypes: 0100000008000000
     moveChoices: []
     stat:
@@ -9958,6 +10660,7 @@ MonoBehaviour:
   - id: 661
     name:
       french: Passerouge
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -9973,6 +10676,7 @@ MonoBehaviour:
   - id: 662
     name:
       french: Braisillon
+      english: 
     pkmTypes: 0200000009000000
     moveChoices: []
     stat:
@@ -9988,6 +10692,7 @@ MonoBehaviour:
   - id: 663
     name:
       french: Flambusard
+      english: 
     pkmTypes: 0200000009000000
     moveChoices: []
     stat:
@@ -10003,6 +10708,7 @@ MonoBehaviour:
   - id: 664
     name:
       french: "L\xE9pidonille"
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -10018,6 +10724,7 @@ MonoBehaviour:
   - id: 665
     name:
       french: "P\xE9r\xE9grain"
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -10033,6 +10740,7 @@ MonoBehaviour:
   - id: 666
     name:
       french: Prismillon
+      english: 
     pkmTypes: 0b00000009000000
     moveChoices: []
     stat:
@@ -10048,6 +10756,7 @@ MonoBehaviour:
   - id: 667
     name:
       french: "H\xE9lionceau"
+      english: 
     pkmTypes: 0200000001000000
     moveChoices: []
     stat:
@@ -10063,6 +10772,7 @@ MonoBehaviour:
   - id: 668
     name:
       french: "N\xE9m\xE9lios"
+      english: 
     pkmTypes: 0200000001000000
     moveChoices: []
     stat:
@@ -10078,6 +10788,7 @@ MonoBehaviour:
   - id: 669
     name:
       french: "Flab\xE9b\xE9"
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10093,6 +10804,7 @@ MonoBehaviour:
   - id: 670
     name:
       french: FLOETTE
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10108,6 +10820,7 @@ MonoBehaviour:
   - id: 671
     name:
       french: Florges
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10123,6 +10836,7 @@ MonoBehaviour:
   - id: 672
     name:
       french: Cabriolaine
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -10138,6 +10852,7 @@ MonoBehaviour:
   - id: 673
     name:
       french: Chevroum
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -10153,6 +10868,7 @@ MonoBehaviour:
   - id: 674
     name:
       french: "Pandespi\xE8gle"
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -10168,6 +10884,7 @@ MonoBehaviour:
   - id: 675
     name:
       french: Pandarbare
+      english: 
     pkmTypes: 050000000c000000
     moveChoices: []
     stat:
@@ -10183,6 +10900,7 @@ MonoBehaviour:
   - id: 676
     name:
       french: Couafarel
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -10198,6 +10916,7 @@ MonoBehaviour:
   - id: 677
     name:
       french: Psystigri
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -10213,6 +10932,7 @@ MonoBehaviour:
   - id: 678
     name:
       french: Mistigrix
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -10228,6 +10948,7 @@ MonoBehaviour:
   - id: 679
     name:
       french: Monorpale
+      english: 
     pkmTypes: 1100000010000000
     moveChoices: []
     stat:
@@ -10243,6 +10964,7 @@ MonoBehaviour:
   - id: 680
     name:
       french: "Dimocl\xE8s"
+      english: 
     pkmTypes: 1100000010000000
     moveChoices: []
     stat:
@@ -10258,6 +10980,7 @@ MonoBehaviour:
   - id: 681
     name:
       french: Exagide
+      english: 
     pkmTypes: 1100000010000000
     moveChoices: []
     stat:
@@ -10273,6 +10996,7 @@ MonoBehaviour:
   - id: 682
     name:
       french: Fluvetin
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10288,6 +11012,7 @@ MonoBehaviour:
   - id: 683
     name:
       french: Cocotine
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10303,6 +11028,7 @@ MonoBehaviour:
   - id: 684
     name:
       french: Sucroquin
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10318,6 +11044,7 @@ MonoBehaviour:
   - id: 685
     name:
       french: Cupcanaille
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10333,6 +11060,7 @@ MonoBehaviour:
   - id: 686
     name:
       french: Sepiatop
+      english: 
     pkmTypes: 0c0000000d000000
     moveChoices: []
     stat:
@@ -10348,6 +11076,7 @@ MonoBehaviour:
   - id: 687
     name:
       french: Sepiatroce
+      english: 
     pkmTypes: 0c0000000d000000
     moveChoices: []
     stat:
@@ -10363,6 +11092,7 @@ MonoBehaviour:
   - id: 688
     name:
       french: Opermine
+      english: 
     pkmTypes: 0f00000004000000
     moveChoices: []
     stat:
@@ -10378,6 +11108,7 @@ MonoBehaviour:
   - id: 689
     name:
       french: Golgopathe
+      english: 
     pkmTypes: 0f00000004000000
     moveChoices: []
     stat:
@@ -10393,6 +11124,7 @@ MonoBehaviour:
   - id: 690
     name:
       french: Venalgue
+      english: 
     pkmTypes: 0a00000004000000
     moveChoices: []
     stat:
@@ -10408,6 +11140,7 @@ MonoBehaviour:
   - id: 691
     name:
       french: Kravarech
+      english: 
     pkmTypes: 0a0000000e000000
     moveChoices: []
     stat:
@@ -10423,6 +11156,7 @@ MonoBehaviour:
   - id: 692
     name:
       french: Flingouste
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -10438,6 +11172,7 @@ MonoBehaviour:
   - id: 693
     name:
       french: Gamblast
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -10453,6 +11188,7 @@ MonoBehaviour:
   - id: 694
     name:
       french: Galvaran
+      english: 
     pkmTypes: 0600000001000000
     moveChoices: []
     stat:
@@ -10468,6 +11204,7 @@ MonoBehaviour:
   - id: 695
     name:
       french: Iguolta
+      english: 
     pkmTypes: 0600000001000000
     moveChoices: []
     stat:
@@ -10483,6 +11220,7 @@ MonoBehaviour:
   - id: 696
     name:
       french: Ptyranidur
+      english: 
     pkmTypes: 0f0000000e000000
     moveChoices: []
     stat:
@@ -10498,6 +11236,7 @@ MonoBehaviour:
   - id: 697
     name:
       french: Rexillius
+      english: 
     pkmTypes: 0f0000000e000000
     moveChoices: []
     stat:
@@ -10513,6 +11252,7 @@ MonoBehaviour:
   - id: 698
     name:
       french: Amagara
+      english: 
     pkmTypes: 0f00000003000000
     moveChoices: []
     stat:
@@ -10528,6 +11268,7 @@ MonoBehaviour:
   - id: 699
     name:
       french: Dragmara
+      english: 
     pkmTypes: 0f00000003000000
     moveChoices: []
     stat:
@@ -10543,6 +11284,7 @@ MonoBehaviour:
   - id: 700
     name:
       french: Nymphali
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10558,6 +11300,7 @@ MonoBehaviour:
   - id: 701
     name:
       french: "Brutalibr\xE9"
+      english: 
     pkmTypes: 0500000009000000
     moveChoices: []
     stat:
@@ -10573,6 +11316,7 @@ MonoBehaviour:
   - id: 702
     name:
       french: DEDENNE
+      english: 
     pkmTypes: 0600000012000000
     moveChoices: []
     stat:
@@ -10588,6 +11332,7 @@ MonoBehaviour:
   - id: 703
     name:
       french: Strassie
+      english: 
     pkmTypes: 0f00000012000000
     moveChoices: []
     stat:
@@ -10603,6 +11348,7 @@ MonoBehaviour:
   - id: 704
     name:
       french: Mucuscule
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -10618,6 +11364,7 @@ MonoBehaviour:
   - id: 705
     name:
       french: Colimucus
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -10633,6 +11380,7 @@ MonoBehaviour:
   - id: 706
     name:
       french: Muplodocus
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -10648,6 +11396,7 @@ MonoBehaviour:
   - id: 707
     name:
       french: Trousselin
+      english: 
     pkmTypes: 1100000012000000
     moveChoices: []
     stat:
@@ -10663,6 +11412,7 @@ MonoBehaviour:
   - id: 708
     name:
       french: "Broc\xE9l\xF4me"
+      english: 
     pkmTypes: 1000000007000000
     moveChoices: []
     stat:
@@ -10678,6 +11428,7 @@ MonoBehaviour:
   - id: 709
     name:
       french: "Dess\xE9liande"
+      english: 
     pkmTypes: 1000000007000000
     moveChoices: []
     stat:
@@ -10693,6 +11444,7 @@ MonoBehaviour:
   - id: 710
     name:
       french: Pitrouille
+      english: 
     pkmTypes: 1000000007000000
     moveChoices: []
     stat:
@@ -10708,6 +11460,7 @@ MonoBehaviour:
   - id: 711
     name:
       french: Banshitrouye
+      english: 
     pkmTypes: 1000000007000000
     moveChoices: []
     stat:
@@ -10723,6 +11476,7 @@ MonoBehaviour:
   - id: 712
     name:
       french: "Grela\xE7on"
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -10738,6 +11492,7 @@ MonoBehaviour:
   - id: 713
     name:
       french: "S\xE9racrawl"
+      english: 
     pkmTypes: 03000000
     moveChoices: []
     stat:
@@ -10753,6 +11508,7 @@ MonoBehaviour:
   - id: 714
     name:
       french: Sonistrelle
+      english: 
     pkmTypes: 090000000e000000
     moveChoices: []
     stat:
@@ -10768,6 +11524,7 @@ MonoBehaviour:
   - id: 715
     name:
       french: Bruyverne
+      english: 
     pkmTypes: 090000000e000000
     moveChoices: []
     stat:
@@ -10783,6 +11540,7 @@ MonoBehaviour:
   - id: 716
     name:
       french: Xerneas
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -10798,6 +11556,7 @@ MonoBehaviour:
   - id: 717
     name:
       french: Yveltal
+      english: 
     pkmTypes: 0c00000009000000
     moveChoices: []
     stat:
@@ -10813,6 +11572,7 @@ MonoBehaviour:
   - id: 718
     name:
       french: Zygarde
+      english: 
     pkmTypes: 0e00000008000000
     moveChoices: []
     stat:
@@ -10828,6 +11588,7 @@ MonoBehaviour:
   - id: 719
     name:
       french: Diancie
+      english: 
     pkmTypes: 0f00000012000000
     moveChoices: []
     stat:
@@ -10843,6 +11604,7 @@ MonoBehaviour:
   - id: 720
     name:
       french: Hoopa
+      english: 
     pkmTypes: 0d00000010000000
     moveChoices: []
     stat:
@@ -10858,6 +11620,7 @@ MonoBehaviour:
   - id: 721
     name:
       french: Volcanion
+      english: 
     pkmTypes: 0200000004000000
     moveChoices: []
     stat:
@@ -10873,6 +11636,7 @@ MonoBehaviour:
   - id: 722
     name:
       french: Brindibou
+      english: 
     pkmTypes: 0700000009000000
     moveChoices: []
     stat:
@@ -10888,6 +11652,7 @@ MonoBehaviour:
   - id: 723
     name:
       french: "Effl\xE8che"
+      english: 
     pkmTypes: 0700000009000000
     moveChoices: []
     stat:
@@ -10903,6 +11668,7 @@ MonoBehaviour:
   - id: 724
     name:
       french: "Arch\xE9duc"
+      english: 
     pkmTypes: 0700000010000000
     moveChoices: []
     stat:
@@ -10918,6 +11684,7 @@ MonoBehaviour:
   - id: 725
     name:
       french: Flamiaou
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -10933,6 +11700,7 @@ MonoBehaviour:
   - id: 726
     name:
       french: Matoufeu
+      english: 
     pkmTypes: 02000000
     moveChoices: []
     stat:
@@ -10948,6 +11716,7 @@ MonoBehaviour:
   - id: 727
     name:
       french: "F\xE9linferno"
+      english: 
     pkmTypes: 020000000c000000
     moveChoices: []
     stat:
@@ -10963,6 +11732,7 @@ MonoBehaviour:
   - id: 728
     name:
       french: Otaquin
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -10978,6 +11748,7 @@ MonoBehaviour:
   - id: 729
     name:
       french: Otarlette
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -10993,6 +11764,7 @@ MonoBehaviour:
   - id: 730
     name:
       french: Oratoria
+      english: 
     pkmTypes: 0400000012000000
     moveChoices: []
     stat:
@@ -11008,6 +11780,7 @@ MonoBehaviour:
   - id: 731
     name:
       french: Picassaut
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -11023,6 +11796,7 @@ MonoBehaviour:
   - id: 732
     name:
       french: Piclairon
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -11038,6 +11812,7 @@ MonoBehaviour:
   - id: 733
     name:
       french: Bazoucan
+      english: 
     pkmTypes: 0100000009000000
     moveChoices: []
     stat:
@@ -11053,6 +11828,7 @@ MonoBehaviour:
   - id: 734
     name:
       french: Manglouton
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -11068,6 +11844,7 @@ MonoBehaviour:
   - id: 735
     name:
       french: Argouste
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -11083,6 +11860,7 @@ MonoBehaviour:
   - id: 736
     name:
       french: Larvibule
+      english: 
     pkmTypes: 0b000000
     moveChoices: []
     stat:
@@ -11098,6 +11876,7 @@ MonoBehaviour:
   - id: 737
     name:
       french: Chrysapile
+      english: 
     pkmTypes: 0b00000006000000
     moveChoices: []
     stat:
@@ -11113,6 +11892,7 @@ MonoBehaviour:
   - id: 738
     name:
       french: Lucanon
+      english: 
     pkmTypes: 0b00000006000000
     moveChoices: []
     stat:
@@ -11128,6 +11908,7 @@ MonoBehaviour:
   - id: 739
     name:
       french: Crabagarre
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -11143,6 +11924,7 @@ MonoBehaviour:
   - id: 740
     name:
       french: Crabominable
+      english: 
     pkmTypes: 0500000003000000
     moveChoices: []
     stat:
@@ -11158,6 +11940,7 @@ MonoBehaviour:
   - id: 741
     name:
       french: Plumeline
+      english: 
     pkmTypes: 0200000009000000
     moveChoices: []
     stat:
@@ -11173,6 +11956,7 @@ MonoBehaviour:
   - id: 742
     name:
       french: Bombydou
+      english: 
     pkmTypes: 0b00000012000000
     moveChoices: []
     stat:
@@ -11188,6 +11972,7 @@ MonoBehaviour:
   - id: 743
     name:
       french: Rubombelle
+      english: 
     pkmTypes: 0b00000012000000
     moveChoices: []
     stat:
@@ -11203,6 +11988,7 @@ MonoBehaviour:
   - id: 744
     name:
       french: Rocabot
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -11218,6 +12004,7 @@ MonoBehaviour:
   - id: 745
     name:
       french: Lougaroc
+      english: 
     pkmTypes: 0f000000
     moveChoices: []
     stat:
@@ -11233,6 +12020,7 @@ MonoBehaviour:
   - id: 746
     name:
       french: Froussardine
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -11248,6 +12036,7 @@ MonoBehaviour:
   - id: 747
     name:
       french: "Vorast\xE9rie"
+      english: 
     pkmTypes: 0a00000004000000
     moveChoices: []
     stat:
@@ -11263,6 +12052,7 @@ MonoBehaviour:
   - id: 748
     name:
       french: "Pr\xE9dast\xE9rie"
+      english: 
     pkmTypes: 0a00000004000000
     moveChoices: []
     stat:
@@ -11278,6 +12068,7 @@ MonoBehaviour:
   - id: 749
     name:
       french: Tiboudet
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -11293,6 +12084,7 @@ MonoBehaviour:
   - id: 750
     name:
       french: Bourrinos
+      english: 
     pkmTypes: 08000000
     moveChoices: []
     stat:
@@ -11308,6 +12100,7 @@ MonoBehaviour:
   - id: 751
     name:
       french: Araqua
+      english: 
     pkmTypes: 040000000b000000
     moveChoices: []
     stat:
@@ -11323,6 +12116,7 @@ MonoBehaviour:
   - id: 752
     name:
       french: Tarenbulle
+      english: 
     pkmTypes: 040000000b000000
     moveChoices: []
     stat:
@@ -11338,6 +12132,7 @@ MonoBehaviour:
   - id: 753
     name:
       french: Mimantis
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -11353,6 +12148,7 @@ MonoBehaviour:
   - id: 754
     name:
       french: Floramantis
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -11368,6 +12164,7 @@ MonoBehaviour:
   - id: 755
     name:
       french: Spododo
+      english: 
     pkmTypes: 0700000012000000
     moveChoices: []
     stat:
@@ -11383,6 +12180,7 @@ MonoBehaviour:
   - id: 756
     name:
       french: Lampignon
+      english: 
     pkmTypes: 0700000012000000
     moveChoices: []
     stat:
@@ -11398,6 +12196,7 @@ MonoBehaviour:
   - id: 757
     name:
       french: Tritox
+      english: 
     pkmTypes: 0a00000002000000
     moveChoices: []
     stat:
@@ -11413,6 +12212,7 @@ MonoBehaviour:
   - id: 758
     name:
       french: Malamandre
+      english: 
     pkmTypes: 0a00000002000000
     moveChoices: []
     stat:
@@ -11428,6 +12228,7 @@ MonoBehaviour:
   - id: 759
     name:
       french: Nounourson
+      english: 
     pkmTypes: 0100000005000000
     moveChoices: []
     stat:
@@ -11443,6 +12244,7 @@ MonoBehaviour:
   - id: 760
     name:
       french: Chelours
+      english: 
     pkmTypes: 0100000005000000
     moveChoices: []
     stat:
@@ -11458,6 +12260,7 @@ MonoBehaviour:
   - id: 761
     name:
       french: Croquine
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -11473,6 +12276,7 @@ MonoBehaviour:
   - id: 762
     name:
       french: Candine
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -11488,6 +12292,7 @@ MonoBehaviour:
   - id: 763
     name:
       french: Sucreine
+      english: 
     pkmTypes: 07000000
     moveChoices: []
     stat:
@@ -11503,6 +12308,7 @@ MonoBehaviour:
   - id: 764
     name:
       french: "Gu\xE9rilande"
+      english: 
     pkmTypes: 12000000
     moveChoices: []
     stat:
@@ -11518,6 +12324,7 @@ MonoBehaviour:
   - id: 765
     name:
       french: Gouroutan
+      english: 
     pkmTypes: 010000000d000000
     moveChoices: []
     stat:
@@ -11533,6 +12340,7 @@ MonoBehaviour:
   - id: 766
     name:
       french: Quartermac
+      english: 
     pkmTypes: 05000000
     moveChoices: []
     stat:
@@ -11548,6 +12356,7 @@ MonoBehaviour:
   - id: 767
     name:
       french: Sovkipou
+      english: 
     pkmTypes: 0b00000004000000
     moveChoices: []
     stat:
@@ -11563,6 +12372,7 @@ MonoBehaviour:
   - id: 768
     name:
       french: "Sarmura\xEF"
+      english: 
     pkmTypes: 0b00000004000000
     moveChoices: []
     stat:
@@ -11578,6 +12388,7 @@ MonoBehaviour:
   - id: 769
     name:
       french: Bacabouh
+      english: 
     pkmTypes: 1000000008000000
     moveChoices: []
     stat:
@@ -11593,6 +12404,7 @@ MonoBehaviour:
   - id: 770
     name:
       french: "Tr\xE9passable"
+      english: 
     pkmTypes: 1000000008000000
     moveChoices: []
     stat:
@@ -11608,6 +12420,7 @@ MonoBehaviour:
   - id: 771
     name:
       french: Concombaffe
+      english: 
     pkmTypes: 04000000
     moveChoices: []
     stat:
@@ -11623,6 +12436,7 @@ MonoBehaviour:
   - id: 772
     name:
       french: "Silvalli\xE9"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -11638,6 +12452,7 @@ MonoBehaviour:
   - id: 773
     name:
       french: "M\xE9t\xE9no"
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -11653,6 +12468,7 @@ MonoBehaviour:
   - id: 774
     name:
       french: Dodoala
+      english: 
     pkmTypes: 0f00000009000000
     moveChoices: []
     stat:
@@ -11668,6 +12484,7 @@ MonoBehaviour:
   - id: 775
     name:
       french: Boumata
+      english: 
     pkmTypes: 01000000
     moveChoices: []
     stat:
@@ -11683,6 +12500,7 @@ MonoBehaviour:
   - id: 776
     name:
       french: Togedemaru
+      english: 
     pkmTypes: 020000000e000000
     moveChoices: []
     stat:
@@ -11698,6 +12516,7 @@ MonoBehaviour:
   - id: 777
     name:
       french: Mimiqui
+      english: 
     pkmTypes: 0600000011000000
     moveChoices: []
     stat:
@@ -11713,6 +12532,7 @@ MonoBehaviour:
   - id: 778
     name:
       french: Denticrisse
+      english: 
     pkmTypes: 1000000012000000
     moveChoices: []
     stat:
@@ -11728,6 +12548,7 @@ MonoBehaviour:
   - id: 779
     name:
       french: "Dra\xEFeul"
+      english: 
     pkmTypes: 040000000d000000
     moveChoices: []
     stat:
@@ -11743,6 +12564,7 @@ MonoBehaviour:
   - id: 780
     name:
       french: Sinistrail
+      english: 
     pkmTypes: 010000000e000000
     moveChoices: []
     stat:
@@ -11758,6 +12580,7 @@ MonoBehaviour:
   - id: 781
     name:
       french: "B\xE9b\xE9caille"
+      english: 
     pkmTypes: 1000000007000000
     moveChoices: []
     stat:
@@ -11773,6 +12596,7 @@ MonoBehaviour:
   - id: 782
     name:
       french: "\xC9ca\xEFd"
+      english: 
     pkmTypes: 0e000000
     moveChoices: []
     stat:
@@ -11788,6 +12612,7 @@ MonoBehaviour:
   - id: 783
     name:
       french: "\xC9ka\xEFser"
+      english: 
     pkmTypes: 0e00000005000000
     moveChoices: []
     stat:
@@ -11803,6 +12628,7 @@ MonoBehaviour:
   - id: 784
     name:
       french: Tokorico
+      english: 
     pkmTypes: 0e00000005000000
     moveChoices: []
     stat:
@@ -11818,6 +12644,7 @@ MonoBehaviour:
   - id: 785
     name:
       french: Tokopiyon
+      english: 
     pkmTypes: 0600000012000000
     moveChoices: []
     stat:
@@ -11833,6 +12660,7 @@ MonoBehaviour:
   - id: 786
     name:
       french: Tokotoro
+      english: 
     pkmTypes: 0d00000012000000
     moveChoices: []
     stat:
@@ -11848,6 +12676,7 @@ MonoBehaviour:
   - id: 787
     name:
       french: Tokopisco
+      english: 
     pkmTypes: 0700000012000000
     moveChoices: []
     stat:
@@ -11863,6 +12692,7 @@ MonoBehaviour:
   - id: 788
     name:
       french: Cosmog
+      english: 
     pkmTypes: 0400000012000000
     moveChoices: []
     stat:
@@ -11878,6 +12708,7 @@ MonoBehaviour:
   - id: 789
     name:
       french: Cosmovum
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -11893,6 +12724,7 @@ MonoBehaviour:
   - id: 790
     name:
       french: Solgaleo
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -11908,6 +12740,7 @@ MonoBehaviour:
   - id: 791
     name:
       french: Lunala
+      english: 
     pkmTypes: 0d00000011000000
     moveChoices: []
     stat:
@@ -11923,6 +12756,7 @@ MonoBehaviour:
   - id: 792
     name:
       french: "Z\xE9ro\xEFd"
+      english: 
     pkmTypes: 0d00000010000000
     moveChoices: []
     stat:
@@ -11938,6 +12772,7 @@ MonoBehaviour:
   - id: 793
     name:
       french: Mouscoto
+      english: 
     pkmTypes: 0f0000000a000000
     moveChoices: []
     stat:
@@ -11953,6 +12788,7 @@ MonoBehaviour:
   - id: 794
     name:
       french: Cancrelove
+      english: 
     pkmTypes: 0b00000005000000
     moveChoices: []
     stat:
@@ -11968,6 +12804,7 @@ MonoBehaviour:
   - id: 795
     name:
       french: "C\xE2blif\xE8re"
+      english: 
     pkmTypes: 0b00000005000000
     moveChoices: []
     stat:
@@ -11983,6 +12820,7 @@ MonoBehaviour:
   - id: 796
     name:
       french: Bamboiselle
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -11998,6 +12836,7 @@ MonoBehaviour:
   - id: 797
     name:
       french: Katagami
+      english: 
     pkmTypes: 1100000009000000
     moveChoices: []
     stat:
@@ -12013,6 +12852,7 @@ MonoBehaviour:
   - id: 798
     name:
       french: Engloutyran
+      english: 
     pkmTypes: 0700000011000000
     moveChoices: []
     stat:
@@ -12028,6 +12868,7 @@ MonoBehaviour:
   - id: 799
     name:
       french: Necrozma
+      english: 
     pkmTypes: 0c0000000e000000
     moveChoices: []
     stat:
@@ -12043,6 +12884,7 @@ MonoBehaviour:
   - id: 800
     name:
       french: Magearna
+      english: 
     pkmTypes: 0d000000
     moveChoices: []
     stat:
@@ -12058,6 +12900,7 @@ MonoBehaviour:
   - id: 801
     name:
       french: Marshadow
+      english: 
     pkmTypes: 1100000012000000
     moveChoices: []
     stat:
@@ -12073,6 +12916,7 @@ MonoBehaviour:
   - id: 802
     name:
       french: "V\xE9mini"
+      english: 
     pkmTypes: 0500000010000000
     moveChoices: []
     stat:
@@ -12088,6 +12932,7 @@ MonoBehaviour:
   - id: 803
     name:
       french: Mandrillon
+      english: 
     pkmTypes: 0a000000
     moveChoices: []
     stat:
@@ -12103,6 +12948,7 @@ MonoBehaviour:
   - id: 804
     name:
       french: Ama-Ama
+      english: 
     pkmTypes: 0a0000000e000000
     moveChoices: []
     stat:
@@ -12118,6 +12964,7 @@ MonoBehaviour:
   - id: 805
     name:
       french: Pierroteknik
+      english: 
     pkmTypes: 0f00000011000000
     moveChoices: []
     stat:
@@ -12133,6 +12980,7 @@ MonoBehaviour:
   - id: 806
     name:
       french: Zeraora
+      english: 
     pkmTypes: 0200000010000000
     moveChoices: []
     stat:
@@ -12148,6 +12996,7 @@ MonoBehaviour:
   - id: 807
     name:
       french: Meltan
+      english: 
     pkmTypes: 06000000
     moveChoices: []
     stat:
@@ -12163,6 +13012,7 @@ MonoBehaviour:
   - id: 808
     name:
       french: Melmetal
+      english: 
     pkmTypes: 11000000
     moveChoices: []
     stat:
@@ -12178,6 +13028,7 @@ MonoBehaviour:
   - id: 809
     name:
       french: 
+      english: 
     pkmTypes: 11000000
     moveChoices: []
     stat:

@@ -69532,7 +69532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveData: {fileID: 11400000, guid: 6e42104ed215069468b1dd20409601c2, type: 2}
   lutteMove:
-    accuracy: 100
+    accuracy: 10000
     ename: Lutte
     id: 0
     power: 50
@@ -117173,7 +117173,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trainerPrefab: {fileID: 326239054}
-  pokemonChoices: []
 --- !u!114 &1656396583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117189,157 +117188,7 @@ MonoBehaviour:
   pokemonsChoices:
   - indexPokemon: 0
   - indexPokemon: 3
-  pokemons:
-  - currentStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    ivStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    evStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    moves: []
-    nature:
-      name: 
-    level: 0
-  - currentStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    ivStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    evStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    moves: []
-    nature:
-      name: 
-    level: 0
-  - currentStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    ivStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    evStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    moves: []
-    nature:
-      name: 
-    level: 0
-  - currentStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    ivStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    evStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    moves: []
-    nature:
-      name: 
-    level: 0
-  - currentStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    ivStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    evStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    moves: []
-    nature:
-      name: 
-    level: 0
-  - currentStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    ivStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    evStat:
-      HP: 0
-      Attack: 0
-      Defense: 0
-      SpAttack: 0
-      SpDefense: 0
-      Speed: 0
-    moves: []
-    nature:
-      name: 
-    level: 0
+  - indexPokemon: 2
 --- !u!114 &1656396584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126069,11 +125918,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 263740070248908699, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 263740070248908699, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 631217546796287591, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_Value
@@ -126081,30 +125930,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 672459968449337958, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 672459968449337958, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 672459968449337958, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 672459968449337958, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -137.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2674920077273502200, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2674920077273502200, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3492971604922644589, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3720586113188296485, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
@@ -126113,83 +125958,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3720586113188296485, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4209023959975740704, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.175
-      objectReference: {fileID: 0}
-    - target: {fileID: 4209023959975740704, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_SizeDelta.x
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4209023959975740704, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393918296460797854, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.98753655
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393918296460797854, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.151
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393918296460797854, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393918296460797854, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393918296460797854, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393918296460797854, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393918296460797854, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6697115211039443642, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8202234224089223441, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8202234224089223441, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8202234224089223441, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8202234224089223441, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -27.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8277804261472986159, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8277804261472986159, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8277804261472986159, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8277804261472986159, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -82.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8322593170366102600, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_Pivot.x
@@ -126285,19 +126086,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8849302730699121193, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8849302730699121193, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8849302730699121193, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8849302730699121193, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -192.5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}

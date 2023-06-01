@@ -10,23 +10,26 @@ public class MoveButtonUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI moveText;
     [SerializeField] TextMeshProUGUI movePPText;
     [SerializeField] Move move;
-    PlayerTrainer playerTrainer;
-    public void Init(PlayerTrainer _player, Move _move)
+    
+    public void Init(Move _move)
+    {
+        UpdateMove(_move);
+        button.onClick.RemoveListener(OnClick);
+        button.onClick.AddListener(OnClick);
+    }
+    public void UpdateMove(Move _move)
     {
         move = _move;
-        playerTrainer = _player;
         moveText.text = move.Name;
         movePPText.text = move.PP + "/" + move.PPMax;
-        button.onClick.AddListener(OnClick);
     }
     public void OnClick()
     {
         if(move.CanUse)
         {
-            Debug.Log(move.Name);
             move.UseMove();
             movePPText.text = move.PP + "/" + move.PPMax;
-            playerTrainer.SelectAction(new AttackAction(playerTrainer.GetPokemon(), move));
+            BattleManager.Instance.PlayerTrainer.SelectAction(new AttackAction(BattleManager.Instance.PlayerTrainer.CurrentPokemonInCombat, move));
         }
     }
     private void OnDestroy()

@@ -5,20 +5,24 @@ using UnityEngine;
 
 public class PlayerTrainer : Player, BattleFighter
 {
+    public event Action<Pokemon> OnSwapPokemon = null;
+
     CharacterMovement characterMovement;
     PokemonTeam pokemonTeam;
     TurnAction actionSelected = null;
-    
+    List<PokemonChoice> pokemonChoices = new List<PokemonChoice>();
+    int index = 0;
+
     [SerializeField] UI trainerPrefab;
 
-    public List<PokemonChoice> pokemonChoices = new List<PokemonChoice>();
+
     public CharacterMovement CharacterMovement => characterMovement;
     public PokemonTeam PokemonTeam => pokemonTeam;
-    public bool IsInBattle { get; set; }
     public Pokemon[] Pokemons => pokemonTeam.Pokemons;
+    public Pokemon CurrentPokemonInCombat => Pokemons[index];
+    public bool HavePokemonLeft => pokemonTeam.HavePokemonLeft();
+    public bool IsInBattle { get; set; }
     public bool IsReady { get; set; }
-    public Pokemon CurrentPokemonInCombat => GetPokemon();
-    public TurnAction ActionSelected => actionSelected;
 
     protected override void Start()
     {
@@ -47,11 +51,6 @@ public class PlayerTrainer : Player, BattleFighter
         characterMovement.RegisterInputKeyDown(KeyCode.A, new Vector2(-1, 0));
     }
 
-    public Pokemon GetPokemon()
-    {
-        return pokemonTeam.GetFirstLivingPokemon();
-    }
-
     public void SelectAction(TurnAction _actionSelected)
     {
         actionSelected = _actionSelected;
@@ -61,6 +60,20 @@ public class PlayerTrainer : Player, BattleFighter
     public TurnAction Turn(BattleInfo _battleInfo)
     {
         actionSelected.BattleInfo = _battleInfo;
-        return actionSelected; 
+        return actionSelected;
+    }
+
+    public bool Swap(int _index)
+    {
+        Pokemon _pokemonToSwap = pokemonTeam.Pokemons[_index];
+        if (_pokemonToSwap == null || _pokemonToSwap.Fainted) return false;
+        index = _index;
+        OnSwapPokemon?.Invoke(CurrentPokemonInCombat);
+        return true;
+    }
+
+    public Pokemon GetFirstSlotPokemon()
+    {
+        return Pokemons[0];
     }
 }

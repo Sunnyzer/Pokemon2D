@@ -209,6 +209,153 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: BackButton
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1831
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07848f5e0eb88e444ab8555fb3c9227b
+      internalID: 1440337951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButtonDeactivate
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 246
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3644f0e43ea0eba4c9bfd8861d6cfd2b
+      internalID: -1698579143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1835
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad481252eb5a7e4592fcf2daae571a7
+      internalID: -731513824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonButtonTeamInfo
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 542
+        width: 126
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014c8b878fa5d3d48b2c5c2296fb459f
+      internalID: -767727207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonPressedButtonTeamInfo
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 497
+        width: 128
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaebb13f03b3fc4eafd64c5f64433b5
+      internalID: 1867223316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamBackground
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1383
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61675d64b4e4a044393bdfe74b0edca1
+      internalID: 1798170862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamStat
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1181
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8944a2c58196b1e438586d0142dd1878
+      internalID: 887410403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -221,10 +368,17 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       TextField: -361774507
+      BackButton: 1440337951
+      BackButtonPressed: -731513824
       ButtonTest: 937775715
+      TeamStat: 887410403
       PkmButtonBase: -1481890016
       BackGroundItem: -665925072
+      PokemonPressedButtonTeamInfo: 1867223316
+      BackButtonDeactivate: -1698579143
+      TeamBackground: 1798170862
       PkmButtonPressed: -1501473793
+      PokemonButtonTeamInfo: -767727207
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WildPokemon : BattleFighter
 {
+    public event Action<Pokemon> OnSwapPokemon;
+
     Pokemon pokemon = null;
     public Pokemon[] Pokemons { get; }
     public bool IsInBattle { get; set; }
@@ -11,9 +14,9 @@ public class WildPokemon : BattleFighter
 
     public Pokemon CurrentPokemonInCombat => pokemon;
 
-    public Pokemon GetPokemon()
+    public Pokemon GetFirstSlotPokemon()
     {
-        return Pokemons[0];
+        return pokemon;
     }
 
     public TurnAction Turn(BattleInfo _battleInfo)
@@ -26,10 +29,13 @@ public class WildPokemon : BattleFighter
         return _action;
     }
 
+    public bool Swap(int _index)
+    {
+        return false;
+    }
+
     public WildPokemon(Pokemon _pokemon)
     {
         pokemon = _pokemon;
-        Pokemons = new Pokemon[1];
-        Pokemons[0] = pokemon;
     }
 }

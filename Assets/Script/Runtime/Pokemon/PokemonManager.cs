@@ -17,5 +17,12 @@ public class PokemonManager : Singleton<PokemonManager>
         Pokemon _pokemon = new Pokemon(_level, _pokemonSpecies, Stat.GetRandomIV(), Nature.GetRandomNature(), _moves);
         return _pokemon;
     }
-    
+    public Pokemon GeneratePokemon(int _level, PokemonChoice _pokemonChoice)
+    {
+        PokemonData _pokemonSpecies = GetPokemonDataByPokemonChoice(_pokemonChoice);
+        Move[] _moves = MoveManager.Instance.GenerateMoveByLevel(_level, _pokemonSpecies);
+        Pokemon _pokemon = new Pokemon(_level, _pokemonSpecies, Stat.GetRandomIV(), Nature.GetRandomNature(), _moves);
+        return _pokemon;
+    }
+
 }

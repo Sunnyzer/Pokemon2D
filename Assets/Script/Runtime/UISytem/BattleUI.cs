@@ -2,27 +2,32 @@ using UnityEngine;
 
 public class BattleUI : UI
 {
-    PlayerTrainer player = null;
-    Pokemon pokemon = null;
     [SerializeField] MyPokemonUIInfo myPokemon;
     [SerializeField] OpponentPokemonUIInfo opponentPokemon;
     [SerializeField] SelectMoveUI selectMoveUI;
-    [SerializeField] Transform menuButton; 
-     
-    public void SetInfoMyPokemon(PlayerTrainer _trainer)
+    [SerializeField] PokemonSwapUI pokemonSwapUI;
+    [SerializeField] Transform menuButton;
+
+    public PokemonSwapUI PokemonSwapUI => pokemonSwapUI;
+
+    private void Start()
     {
-        myPokemon.InitInfo(_trainer.GetPokemon());
-        selectMoveUI.InitMove(_trainer);
+        pokemonSwapUI.Init();
+        pokemonSwapUI.Deactivate();
+    }
+    public void UpdatePokemonInfo(Pokemon _pokemon)
+    {
+        myPokemon.InitInfo(_pokemon);
+        selectMoveUI.InitMove(_pokemon);
     }
     public void SetInfoOpponentPokemon(Pokemon _pokemon)
     {
         opponentPokemon.InitInfo(_pokemon);
     }
-    public void DesinitBattle()
+    public override void DeactivateUI()
     {
-        myPokemon.Desinit();
-        opponentPokemon.Desinit();
-        UIManager.Instance.RemoveQueueSetPreviousUI();
+        base.DeactivateUI();
+        ResetMenu();
     }
 
     public void ResetMenu()
@@ -31,22 +36,21 @@ public class BattleUI : UI
         menuButton.gameObject.SetActive(true);
     }
 
-    public void RunButton()
-    {
-        DesinitBattle();
-    }
     public void FightButton()
     {
-        Debug.Log("Fight");
         selectMoveUI.ActivateUI();
         menuButton.gameObject.SetActive(false);
+    }
+    public void PokemonButton()
+    {
+        pokemonSwapUI.DisplayUI();
     }
     public void BagButton()
     {
         Debug.Log("Bag");
     }
-    public void PokemonButton()
+    public void RunButton()
     {
-        Debug.Log("Pokemon");
+        BattleManager.Instance.StopBattle();
     }
 }

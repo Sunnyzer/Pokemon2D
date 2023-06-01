@@ -70,8 +70,11 @@ public class Pokemon
         ivStat = _ivStat;
         nature.name = _nature;
         moves = _moves;
-        fainted = false;
         currentStat = new Stat(_data.stat);
+    }
+    public float GetSpeedInCombat()
+    {
+        return currentStat.Speed;
     }
     public void TakeDamage(Pokemon _owner, Move _move)
     {

@@ -10,27 +10,27 @@ public class MyPokemonUIInfo : MonoBehaviour
     [SerializeField] Slider hpBar = null;
     [SerializeField] Slider expBar = null;
     [SerializeField] Image pokemonSprite = null;
+
     Pokemon currentPokemon = null;
     public void InitInfo(Pokemon _pokemon)
     {
+        if(currentPokemon != null)
+            currentPokemon.OnHpChange -= OnHpChange;
         currentPokemon = _pokemon;
         UpdateLevel(currentPokemon.Level);
         UpdateNamePokemon(currentPokemon.Name);
         pokemonSprite.sprite = currentPokemon.Data.backSprite;
         pokemonSprite.rectTransform.sizeDelta = currentPokemon.Data.backSprite.rect.size * 3;
-        UpdateXpBar();
-        UpdateHpBar();
+        UpdateXpBar(currentPokemon);
+        UpdateHpBar(currentPokemon);
         UpdateHpText(currentPokemon.Hp, currentPokemon.HpMax);
-        currentPokemon.OnHpChange += OnHpChange;
+        _pokemon.OnHpChange += OnHpChange;
+        //currentPokemon.OnXpChange += UpdateXpBar;
     }
     public void OnHpChange(Pokemon _pokemon)
     {
-        UpdateHpBar();
+        UpdateHpBar(_pokemon);
         UpdateHpText(_pokemon.Hp, _pokemon.HpMax);
-    }
-    public void Desinit()
-    {
-        currentPokemon.OnHpChange -= OnHpChange;
     }
     public void UpdateLevel(int _newLevel)
     {
@@ -40,13 +40,13 @@ public class MyPokemonUIInfo : MonoBehaviour
     {
         namePkmText.text = _name;
     }
-    public void UpdateXpBar()
+    public void UpdateXpBar(Pokemon _pokemon)
     {
-        expBar.value = (float)currentPokemon.Xp / (float)currentPokemon.XpMax;
+        expBar.value = (float)_pokemon.Xp / (float)_pokemon.XpMax;
     }
-    public void UpdateHpBar()
+    public void UpdateHpBar(Pokemon _pokemon)
     {
-        hpBar.value = (float)currentPokemon.Hp / (float)currentPokemon.HpMax;
+        hpBar.value = (float)_pokemon.Hp / (float)_pokemon.HpMax;
     }
     public void UpdateHpText(int _hp, int _hpMax)
     {

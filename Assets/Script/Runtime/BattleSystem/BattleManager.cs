@@ -1,7 +1,5 @@
 using UnityEngine;
-using System.Linq;
 using System;
-using Unity.VisualScripting;
 
 [Serializable]
 public class BattleInfo
@@ -20,20 +18,29 @@ public class BattleManager : Singleton<BattleManager>
     [SerializeField] BattleUI battleUI;
     PlayerTrainer playerTrainer;
     WildPokemon wildPokemon;
+    public PlayerTrainer PlayerTrainer => playerTrainer;
 
-    public void StartBattleWildPokemon(PlayerTrainer _player, WildPokemon _wildPokemon)
-    {
-        if (_player.GetPokemon() == null) return;
-        _player.IsInBattle = true;
-        wildPokemon = _wildPokemon;
-        playerTrainer = _player;
-        battleUI.SetInfoMyPokemon(_player);
-        battleUI.SetInfoOpponentPokemon(_wildPokemon.GetPokemon());
-        UIManager.Instance.SetCurrentUIDisplay(battleUI);
-    }
     private void Update()
     {
         if (!playerTrainer || !playerTrainer.IsReady) return;
+        BattleTurn();
+    }
+    public void StartBattleWildPokemon(PlayerTrainer _player, WildPokemon _wildPokemon)
+    {
+        if (_player.GetFirstSlotPokemon() == null) return;
+        _player.IsInBattle = true;
+        wildPokemon = _wildPokemon;
+        playerTrainer = _player;
+
+        playerTrainer.OnSwapPokemon -= battleUI.UpdatePokemonInfo;
+        playerTrainer.OnSwapPokemon += battleUI.UpdatePokemonInfo;
+
+        battleUI.UpdatePokemonInfo(_player.CurrentPokemonInCombat);
+        battleUI.SetInfoOpponentPokemon(_wildPokemon.CurrentPokemonInCombat);
+        UIManager.Instance.SetCurrentUIDisplay(battleUI);
+    }
+    public void BattleTurn()
+    {
         playerTrainer.IsReady = false;
         BattleInfo _playerInfo = new BattleInfo(wildPokemon, playerTrainer);
         BattleInfo _wildPokemonInfo = new BattleInfo(playerTrainer, wildPokemon);
@@ -42,10 +49,11 @@ public class BattleManager : Singleton<BattleManager>
 
         int _priority = _action.GetPriority(_action2);
         int _priority2 = _action2.GetPriority(_action);
-        if(_priority > _priority2)
+        if (_priority > _priority2)
         {
+            Debug.Log(playerTrainer.CurrentPokemonInCombat.Name + " > " + wildPokemon.CurrentPokemonInCombat.Name);
             _action.Turn();
-            if(IsBattleFinish(playerTrainer, wildPokemon))
+            if (IsBattleFinish(playerTrainer, wildPokemon))
             {
                 BattleFinish();
                 return;
@@ -57,8 +65,9 @@ public class BattleManager : Singleton<BattleManager>
                 return;
             }
         }
-        else if(_priority < _priority2)
+        else if (_priority < _priority2)
         {
+            Debug.Log(playerTrainer.CurrentPokemonInCombat.Name + " < " + wildPokemon.CurrentPokemonInCombat.Name);
             _action2.Turn();
             if (IsBattleFinish(playerTrainer, wildPokemon))
             {
@@ -74,8 +83,9 @@ public class BattleManager : Singleton<BattleManager>
         }
         else
         {
+            Debug.Log(playerTrainer.CurrentPokemonInCombat.Name + " = " + wildPokemon.CurrentPokemonInCombat.Name);
             int _random = UnityEngine.Random.Range(0, 2);
-            if(_random == 0)
+            if (_random == 0)
             {
                 _action.Turn();
                 if (IsBattleFinish(playerTrainer, wildPokemon))
@@ -106,32 +116,33 @@ public class BattleManager : Singleton<BattleManager>
                 }
             }
         }
+        if (playerTrainer.CurrentPokemonInCombat.Fainted)
+            battleUI.PokemonSwapUI.DisplayUI(true);
         battleUI.ResetMenu();
     }
     public bool IsBattleFinish(PlayerTrainer _trainer, WildPokemon _wildPokemon)
     {
-        return _trainer.GetPokemon().Fainted || _wildPokemon.GetPokemon().Fainted;
+        return !_trainer.HavePokemonLeft || _wildPokemon.GetFirstSlotPokemon().Fainted;
     }
-    public void BattleFinish()
+    void BattleFinish()
     {
-        if(!playerTrainer.GetPokemon().Fainted)
+        if(!playerTrainer.GetFirstSlotPokemon().Fainted)
         {
-            playerTrainer.GetPokemon().GainExp(wildPokemon.GetPokemon().XpGive);
+            playerTrainer.CurrentPokemonInCombat.GainExp(wildPokemon.CurrentPokemonInCombat.XpGive);
         }
         else
         {
 
         }
-        battleUI.ResetMenu();
         StopBattle();
-        playerTrainer.IsReady = false;
-        playerTrainer = null;
-        wildPokemon = null;
     }
     public void StopBattle()
     {
+        playerTrainer.IsReady = false;
         playerTrainer.IsInBattle = false;
-        battleUI.DesinitBattle();
+        playerTrainer.Swap(0);
+        playerTrainer = null;
+        wildPokemon = null;
+        UIManager.Instance.RemoveQueueSetPreviousUI();
     }
-
 }
