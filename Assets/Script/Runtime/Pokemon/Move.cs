@@ -66,6 +66,12 @@ public class MoveByLevel
 {
     [SerializeField] int level;
     [SerializeField] MoveChoice moveChoice;
+    [SerializeField] string name;
+    public MoveByLevel(int _level, string _name)
+    {
+        level = _level;
+        name = _name;
+    }
     public int Level => level;
     public MoveChoice MoveChoice => moveChoice;
 }

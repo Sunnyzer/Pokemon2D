@@ -18,7 +18,7 @@ public class GrassGeneratorEditor : EditorWindow
     
     int paintSize = 1;
     bool debugCollision = true;
-    Dictionary<Type, TransformTileSprite> transformList = new Dictionary<Type, TransformTileSprite>();
+    Dictionary<System.Type, TransformTileSprite> transformList = new Dictionary<System.Type, TransformTileSprite>();
 
     [MenuItem("PokemonTools/GrassGenerator")]
     public static void CreateWindow()
@@ -31,7 +31,7 @@ public class GrassGeneratorEditor : EditorWindow
     }
     public void InitTransformList()
     {
-        List<Type> _tileSprite = TypeCache.GetTypesDerivedFrom(typeof(TileSprite)).ToList();
+        List<System.Type> _tileSprite = TypeCache.GetTypesDerivedFrom(typeof(TileSprite)).ToList();
         TransformTileSprite[] transformTileSprites = FindObjectsOfType<TransformTileSprite>();
         transformList.Clear();
         for (int i = 0; i < transformTileSprites.Length; i++)
