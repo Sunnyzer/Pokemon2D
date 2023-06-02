@@ -43,6 +43,16 @@ public class Move
         --currentPP;
         return true;
     }
+    public void AddPP(int _ppToAdd)
+    {
+        if (_ppToAdd < 0) return;
+        currentPP += _ppToAdd;
+        currentPP = currentPP > PPMax ? PPMax : currentPP;
+    }
+    public void RecoverPP()
+    {
+        currentPP = PPMax;
+    }
 }
 
 [Serializable]

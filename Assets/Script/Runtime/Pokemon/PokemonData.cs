@@ -110,7 +110,11 @@ public class Pokemon
     {
         //currentStatus = Status.None;
         fainted = false;
-        Heal(99999999);
+        for (int i = 0; i < moves.Length; i++)
+        {
+            moves[i]?.RecoverPP();
+        }
+        Heal(HpMax);
     }
     public void HealStatus()
     {
