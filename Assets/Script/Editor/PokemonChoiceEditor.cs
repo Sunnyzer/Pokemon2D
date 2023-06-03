@@ -10,6 +10,6 @@ public class PokemonChoiceEditor : PropertyDrawer
         base.OnGUI(position, property, label);
         PokemonDataSO _pokemonDataSO = (PokemonDataSO)Resources.Load("PokemonData");
         SerializedProperty _indexPokemon = property.FindPropertyRelative("indexPokemon");
-        _indexPokemon.intValue = EditorGUI.Popup(position, _indexPokemon.intValue, _pokemonDataSO.AllPokemon.Select(pokemon => pokemon.name.french).ToArray());
+        _indexPokemon.intValue = EditorGUI.Popup(position, _indexPokemon.intValue, _pokemonDataSO.AllPokemon.Select(pokemon => pokemon.name.english).ToArray());
     }
 }

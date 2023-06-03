@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public struct Names
+public class Names
 {
     public string french;
     public string english;

@@ -2,13 +2,15 @@ using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEditor;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Networking;
-using UnityEngine.UI;
+using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 //using Object = UnityEngine.Object;
 
 
@@ -17,6 +19,8 @@ public class PokemonDataEditor : Editor
 {
     PokemonDataSO pokemonDataSO;
     int index = 0;
+    int amount = 1;
+    float pourcentage = 0;
     Sprite sprite = null;
     public string filePath => Application.dataPath + "/Graph/Sprite/AllPokemon/";
     List<Root> allPokemonRoot = new List<Root>();
@@ -26,45 +30,128 @@ public class PokemonDataEditor : Editor
     }
     public override void OnInspectorGUI()
     {
-        TextAsset file = (TextAsset)Resources.Load("pokedex");
-        if (GUILayout.Button("Generate Pokedex"))
-        {
-            pokemonDataSO.allPokemonData = JsonUtility.FromJson<AllPokemon>(file.text);
-        }
-        index = EditorGUILayout.Popup(index, pokemonDataSO.AllPokemon.Select(p=> p.name.french).ToArray());
+        EditorGUILayout.BeginHorizontal();
+        if (pokemonDataSO && pokemonDataSO.AllPokemon != null && index < pokemonDataSO.AllPokemon.Length)
+            index = EditorGUILayout.Popup(index, pokemonDataSO.AllPokemon.Select(p =>
+            { 
+                if (p != null && p.name != null)
+                    return p.name.english;
+                return null;
+            }).ToArray());
         index = EditorGUILayout.IntField(index);
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("allPokemonData"));
-        if (GUILayout.Button("Test"))
+        EditorGUILayout.EndHorizontal();
+        amount = EditorGUILayout.IntField("Amount", amount);
+        EditorGUILayout.Slider("Progress (%)", pourcentage * 100, 0, 100);
+        if(pokemonDataSO.allPokemonData != null && index < pokemonDataSO.AllPokemon.Length)
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("allPokemonData").FindPropertyRelative("allPokemon").GetArrayElementAtIndex(index));
+        if (GUILayout.Button("Generate Pokedex"))
         {
             FindObjectOfType<MonoBehaviour>().StartCoroutine(GetPokemonData());
         }
+        if (GUILayout.Button("Generate Png"))
+        {
+            for (int i = 0; i < pokemonDataSO.AllPokemon.Length; i++)
+            {
+                SetSprite(i, pokemonDataSO.AllPokemon[i].name.english);
+            }
+            EditorUtility.SetDirty(pokemonDataSO);
+            serializedObject.ApplyModifiedProperties();
+        }
+    }
+    public void SetSprite(int _index, string _imageName)
+    {
+        string _pathBack = "Assets/Graph/Sprite/AllPokemon/" + _imageName + "/" + _imageName + "Back.png";
+        string _pathFront = "Assets/Graph/Sprite/AllPokemon/" + _imageName + "/" + _imageName + "Front.png";
         
-        if (0 >= allPokemonRoot.Count) return;
-        EditorGUILayout.LabelField(allPokemonRoot[0].name);
-        EditorGUILayout.LabelField(allPokemonRoot[0].sprites.front_default);
-        EditorGUILayout.LabelField(allPokemonRoot[0].sprites.back_default);
+        Texture2D _backTex = (Texture2D)AssetDatabase.LoadAssetAtPath<Texture2D>(_pathBack);
+        Texture2D _frontTex = (Texture2D)AssetDatabase.LoadAssetAtPath<Texture2D>(_pathFront);
+
+        TextureImporter _tB = (TextureImporter)TextureImporter.GetAtPath(_pathBack);
+        TextureImporter _tF = (TextureImporter)TextureImporter.GetAtPath(_pathFront);
+
+
+        _tB.isReadable = true;
+        //_tB.SaveAndReimport();
+        _tB.textureType = TextureImporterType.Sprite;
+        _tB.spriteImportMode = SpriteImportMode.Multiple;
+        _tB.mipmapEnabled = false;
+        _tB.filterMode = FilterMode.Point;
+        _tB.spritePivot = Vector2.down;
+        _tB.textureCompression = TextureImporterCompression.Uncompressed;
+        _tB.SaveAndReimport();
+
+        var textureSettings = new TextureImporterSettings(); // need this stupid class because spriteExtrude and spriteMeshType aren't exposed on TextureImporter
+        _tB.ReadTextureSettings(textureSettings);
+        textureSettings.spriteMeshType = SpriteMeshType.Tight;
+        textureSettings.spriteExtrude = 0;
+
+        _tB.SetTextureSettings(textureSettings);
+        //_tB.SaveAndReimport();
+
+        int minimumSpriteSize = 16;
+        int extrudeSize = 0;
+        Debug.Log(_backTex);
+        Rect[] rects = InternalSpriteUtility.GenerateAutomaticSpriteRectangles(_backTex, minimumSpriteSize, extrudeSize);
+        Debug.Log(rects.Length);
+        if (rects.Length == 0) return;
+        var metas = new List<SpriteMetaData>();
+
+        var meta = new SpriteMetaData();
+        meta.pivot = Vector2.down;
+        meta.alignment = (int)SpriteAlignment.BottomCenter;
+        meta.rect = rects[0];
+        meta.name = _imageName + "Back";
+        metas.Add(meta);
+
+        _tB.spritesheet = metas.ToArray();
+
+        AssetDatabase.ImportAsset(_pathBack, ImportAssetOptions.ForceUpdate);
+
+        UnityEngine.Object[] sprites = AssetDatabase.LoadAllAssetRepresentationsAtPath(_pathBack);
+        Debug.Log(sprites.Length);
+        if (sprites.Length == 0) return;
+        pokemonDataSO.allPokemonData.allPokemon[_index].backSprite = (Sprite)sprites[0];
+        //pokemonDataSO.allPokemonData.allPokemon[_index].completeSprite = (Sprite)AssetDatabase.LoadAllAssetRepresentationsAtPath(_pathFront)[0];
+    }
+    public SpriteMetaData[] CropsSprite(Texture2D _test, string _path)
+    {
+        Rect[] rects = InternalSpriteUtility.GenerateAutomaticSpriteRectangles(_test, 16, 0);
+        Debug.Log(rects.Length);
+        if (rects.Length == 0) return null;
+
+        var meta = new SpriteMetaData();
+        meta.pivot = Vector2.down;
+        meta.alignment = (int)SpriteAlignment.BottomCenter;
+        meta.rect = rects[0];
+        meta.name = _path + "_" + 0;
+        SpriteMetaData[] tab = new SpriteMetaData[1];
+        tab[0] = meta;
+        return tab;
+        //_tB.spritesheet = tab;
     }
     public IEnumerator GetPokemonData()
     {
+        if (amount == 0) yield break;
         pokemonDataSO.allPokemonData.allPokemon = null;
-        pokemonDataSO.allPokemonData.allPokemon = new PokemonData[1010];
-        for (int i = 1; i < 1010; i++)
+        pokemonDataSO.allPokemonData.allPokemon = new PokemonData[amount];
+        for (int i = 1; i < amount + 1; i++)
         {
-            Debug.Log(i);
+            pourcentage = (float)i / (amount + 1);
             UnityWebRequest _webRequest = UnityWebRequest.Get("https://pokeapi.co/api/v2/pokemon/" + i);
             yield return _webRequest.SendWebRequest();
             if (_webRequest.result == UnityWebRequest.Result.Success)
             {
                 Root _pokemon = JsonConvert.DeserializeObject<Root>(_webRequest.downloadHandler.text);
-                Directory.CreateDirectory(filePath + _pokemon);
                 string _urlBack = _pokemon.sprites.back_default;
                 string _urlFront = _pokemon.sprites.front_default;
                 allPokemonRoot.Add(_pokemon);
-                //yield return LoadPokemonImage(_urlBack, _pokemon.name, "Back");
-                //yield return LoadPokemonImage(_urlFront, _pokemon.name, "Front");
+                Directory.CreateDirectory(filePath + _pokemon.name);
+                yield return LoadPokemonImage(_urlBack, _pokemon.name, "Back");
+                yield return LoadPokemonImage(_urlFront, _pokemon.name, "Front");
                 pokemonDataSO.allPokemonData.allPokemon[i - 1] = new PokemonData();
                 pokemonDataSO.allPokemonData.allPokemon[i - 1].id = _pokemon.id;
-                pokemonDataSO.allPokemonData.allPokemon[i - 1].name.french = _pokemon.name;
+                pokemonDataSO.allPokemonData.allPokemon[i - 1].name = new Names();
+                pokemonDataSO.allPokemonData.allPokemon[i - 1].name.english = _pokemon.name;
                 pokemonDataSO.allPokemonData.allPokemon[i - 1].pkmTypes = new PkmType[_pokemon.types.Count];
                 for (int j = 0; j < _pokemon.types.Count; j++)
                 {
@@ -74,22 +161,29 @@ public class PokemonDataEditor : Editor
                     }
                 }
                 
-                pokemonDataSO.allPokemonData.allPokemon[i - 1].moveChoices = new MoveByLevel[_pokemon.moves.Count];
+                List<MoveByLevel> moveByLevel = new List<MoveByLevel>();
                 for (int j = 0; j < _pokemon.moves.Count; j++)
                 {
-                    pokemonDataSO.allPokemonData.allPokemon[i - 1].moveChoices[j] = new MoveByLevel(_pokemon.moves[j].version_group_details[0].level_learned_at, _pokemon.moves[j].move.name);
+                    if(_pokemon.moves[j].version_group_details[0].move_learn_method.name == "level-up")
+                    {
+                        //Debug.Log(_pokemon.moves[j].version_group_details[0].move_learn_method.name);
+                        moveByLevel.Add(new MoveByLevel(_pokemon.moves[j].version_group_details[0].level_learned_at, _pokemon.moves[j].move.name));
+                    }
                 }
+                pokemonDataSO.allPokemonData.allPokemon[i - 1].moveChoices = moveByLevel.OrderBy(m => m.Level).ToArray();
                 pokemonDataSO.allPokemonData.allPokemon[i - 1].stat = new Stat(_pokemon.stats[0].base_stat, _pokemon.stats[1].base_stat, _pokemon.stats[2].base_stat, _pokemon.stats[3].base_stat, _pokemon.stats[4].base_stat, _pokemon.stats[5].base_stat);
-                yield return LoadSprite(_urlBack);
-                pokemonDataSO.allPokemonData.allPokemon[i - 1].backSprite = sprite;
-                yield return LoadSprite(_urlFront);
-                pokemonDataSO.allPokemonData.allPokemon[i - 1].completeSprite = sprite;
+                //yield return LoadSprite(_urlBack);
+                //pokemonDataSO.allPokemonData.allPokemon[i - 1].backSprite = sprite;
+                //yield return LoadSprite(_urlFront);
+                //pokemonDataSO.allPokemonData.allPokemon[i - 1].completeSprite = sprite;
             }
             else
             {
                 Debug.Log("Erreur lors de la requête : " + _webRequest.error + " id :" + i);
             }
         }
+        pourcentage = 1;
+        AssetDatabase.Refresh();
         serializedObject.ApplyModifiedProperties();
         Debug.Log("Finish SpritePokemon");
     }
@@ -106,20 +200,18 @@ public class PokemonDataEditor : Editor
     }
     public IEnumerator LoadPokemonImage(string _url, string _pokemon, string suffix = "")
     {
-        UnityWebRequest _www = UnityWebRequestTexture.GetTexture(_url);
+        UnityWebRequest _www = UnityWebRequestTexture.GetTexture(_url, false);
         yield return _www.SendWebRequest();
         if (_www.result == UnityWebRequest.Result.Success)
         {
             Texture2D loadedTexture = DownloadHandlerTexture.GetContent(_www);
-            Sprite sprite = Sprite.Create(loadedTexture, new Rect(0f, 0f, loadedTexture.width, loadedTexture.height), Vector2.zero);
-            WriteImageOnDisk(sprite, _pokemon, suffix);
+            WriteImageOnDisk(loadedTexture, _pokemon, suffix);
         }
     }
-    private void WriteImageOnDisk(Sprite _sprite, string _imageName, string suffix)
+    private void WriteImageOnDisk(Texture2D _texture, string _imageName, string suffix)
     {
-        byte[] textureBytes = _sprite.texture.EncodeToPNG();
+        byte[] textureBytes = _texture.EncodeToPNG();
         File.WriteAllBytes(filePath + _imageName + "/"+ _imageName + suffix + ".png", textureBytes);
-        //Debug.Log("File Written On Disk!");
     }
 }
 

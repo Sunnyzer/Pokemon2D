@@ -21,7 +21,7 @@ MonoBehaviour:
       levelMinEncounter: 2
       levelMaxEncounter: 6
       male: 0
-      chanceToEncounter: 42.799965
+      chanceToEncounter: 40
     - pokemon:
         indexPokemon: 12
       levelMinEncounter: 3

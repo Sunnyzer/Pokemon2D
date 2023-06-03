@@ -31,18 +31,18 @@ public class ZoneDataEditor : Editor
     }
     public override void OnInspectorGUI()
     {
-        GUILayoutUtility.GetRect(EditorGUIUtility.currentViewWidth, 200);
+        //GUILayoutUtility.GetRect(EditorGUIUtility.currentViewWidth, 200);
         base.OnInspectorGUI();
-        if(Event.current.clickCount == 2)
-        {
-            RoundBarSlider();
-        }
-        for (int i = 0; i < pokemonBars.Count; i++)
-        {
-            PokemonsInZoneByRarity _pokemonBar = zoneData.PokemonsInZoneByRarities[i];
-            if (pokemonBars[i].Draw(ref _pokemonBar))
-                Repaint();
-        }
+        //if(Event.current.clickCount == 2)
+        //{
+        //    RoundBarSlider();
+        //}
+        //for (int i = 0; i < pokemonBars.Count; i++)
+        //{
+        //    PokemonsInZoneByRarity _pokemonBar = zoneData.PokemonsInZoneByRarities[i];
+        //    if (pokemonBars[i].Draw(ref _pokemonBar))
+        //        Repaint();
+        //}
     }
     public void RoundBarSlider()
     {

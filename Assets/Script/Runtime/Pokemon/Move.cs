@@ -1,21 +1,36 @@
 using System;
 using UnityEngine;
 
+public enum DamageType
+{
+    physical,
+    special,
+    status,
+    unique,
+}
 [Serializable]
 public class MoveData
 {
-    [SerializeField] int accuracy;
-    [SerializeField] string ename;
-    [SerializeField] int id;
-    [SerializeField] int power;
-    [SerializeField] int pp;
-    [SerializeField] int priority;
-    [SerializeField] PkmType type;
+    [SerializeField] public int? accuracy;
+    [SerializeField] public string name;
+    [SerializeField] public int id;
+    [SerializeField] public int? power;
+    [SerializeField] public int pp;
+    [SerializeField] public int priority;
+    [SerializeField] public PkmType type;
+    [SerializeField] public DamageType damageType;
+    [SerializeField] public float critRate;
+    [SerializeField] public float statChance;
+    [SerializeField] public int healing;
+    [SerializeField] public int drain;
+    [SerializeField] public float flinchRate;
+    [SerializeField] public float? effectChance;
+    [SerializeField] public Stat stat_changes;
 
-    public string Name => ename;
-    public int Accuracy => accuracy;
+    public string Name => name;
+    public int? Accuracy => accuracy;
     public int Id => id;
-    public int Power => power;
+    public int? Power => power;
     public PkmType Type => type;
     public int PP => pp;
 }
@@ -29,9 +44,10 @@ public class Move
     public int PP => currentPP;
     public int PPMax => data.PP;
     public bool CanUse => currentPP > 0;
-    public int Power => data.Power;
+    public int? Power => data.Power;
     public PkmType Type => data.Type;
     public int Priority => 0;
+
     public Move(MoveData data)
     {
         this.data = data;
@@ -59,19 +75,19 @@ public class Move
 public class MoveChoice
 {
     public int indexMove;
+    public string moveName;
 }
 
 [Serializable]
 public class MoveByLevel
 {
     [SerializeField] int level;
-    [SerializeField] MoveChoice moveChoice;
     [SerializeField] string name;
+    public string Name => name;
     public MoveByLevel(int _level, string _name)
     {
         level = _level;
         name = _name;
     }
     public int Level => level;
-    public MoveChoice MoveChoice => moveChoice;
 }

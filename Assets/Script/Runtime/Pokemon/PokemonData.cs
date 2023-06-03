@@ -82,7 +82,7 @@ public class Pokemon
         float _stab = _owner.data.pkmTypes[0] == _move.Type ? 1.5f : 1;
         int effectiveness1 = 1;
         int effectiveness2 = 1;
-        float _damage = (((((2 * _crit * _owner.level)/5) + 2) * _move.Power * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * 1;
+        float _damage = (((((2 * _crit * _owner.level)/5) + 2) * _move.Power.Value  * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * 1;
         TakeDamage((int)_damage);
     }
     public void TakeDamage(int _damage)

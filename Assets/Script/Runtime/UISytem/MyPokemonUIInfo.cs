@@ -20,7 +20,7 @@ public class MyPokemonUIInfo : MonoBehaviour
         UpdateLevel(currentPokemon.Level);
         UpdateNamePokemon(currentPokemon.Name);
         pokemonSprite.sprite = currentPokemon.Data.backSprite;
-        pokemonSprite.rectTransform.sizeDelta = currentPokemon.Data.backSprite.rect.size * 3;
+        //pokemonSprite.rectTransform.sizeDelta = currentPokemon.Data.backSprite.rect.size * 3;
         UpdateXpBar(currentPokemon);
         UpdateHpBar(currentPokemon);
         UpdateHpText(currentPokemon.Hp, currentPokemon.HpMax);

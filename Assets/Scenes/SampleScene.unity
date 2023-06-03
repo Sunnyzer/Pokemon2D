@@ -69626,13 +69626,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveData: {fileID: 11400000, guid: 6e42104ed215069468b1dd20409601c2, type: 2}
   lutteMove:
-    accuracy: 10000
-    ename: Lutte
+    name: 
     id: 0
-    power: 50
     pp: 2147483647
     priority: 0
     type: 0
+    damageType: 0
+    critRate: 0
+    statChance: 0
+    healing: 0
+    drain: 0
+    flinchRate: 0
+    stat_changes:
+      HP: 0
+      Attack: 0
+      Defense: 0
+      SpAttack: 0
+      SpDefense: 0
+      Speed: 0
 --- !u!1 &1130356319
 GameObject:
   m_ObjectHideFlags: 0
@@ -131208,6 +131219,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2803757973829720221, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8593575077827328772, guid: 48187e3f60e943a4c8538b93aa692e53, type: 3}
     - target: {fileID: 3720586113188296485, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -131215,6 +131230,58 @@ PrefabInstance:
     - target: {fileID: 3720586113188296485, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976167394461332330, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976167394461332330, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976167394461332330, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976167394461332330, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 224
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976167394461332330, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 210
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976167394461332330, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 256.76105
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976167394461332330, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058380669384388629, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058380669384388629, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5765385548894802776, guid: f56bc50068f7d61448b67eedd4d513a9, type: 3}
+    - target: {fileID: 7238887920629590284, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 457.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238887920629590284, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 457.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238887920629590284, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238887920629590284, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -481
       objectReference: {fileID: 0}
     - target: {fileID: 8202234224089223441, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y
@@ -131338,7 +131405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8322593170366102644, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8849302730699121193, guid: cb22f4875f56d284cbbbb900c5ab20bc, type: 3}
       propertyPath: m_AnchorMax.y

@@ -7,15 +7,19 @@ public class MoveManager : Singleton<MoveManager>
     [SerializeField] MoveData lutteMove;
     public MoveData GetMoveDataByIndex(int _index)
     {
-        return moveData.allMoves.moves[_index];
+        return GetMoveDataByIndex(moveData, _index);
+    }
+    public MoveData GetMoveDataByName(string _name)
+    {
+        return GetMoveDataByName(moveData, _name);
     }
     public MoveData GetMoveDataByMoveChoice(MoveChoice _moveChoice)
     {
-        return GetMoveDataByIndex(_moveChoice.indexMove);   
+        return GetMoveDataByName(_moveChoice.moveName);
     }
     public MoveData GetMoveDataByMoveByLevel(MoveByLevel _moveByLevel)
     {
-        return GetMoveDataByMoveChoice(_moveByLevel.MoveChoice);
+        return GetMoveDataByName(_moveByLevel.Name);
     }
     public Move[] GenerateMoveByLevel(int _level, PokemonData _pokemonData)
     {
@@ -38,5 +42,20 @@ public class MoveManager : Singleton<MoveManager>
     public MoveData GetMoveLutte()
     {
         return lutteMove;
+    }
+    public static MoveData GetMoveDataByName(MoveDataSO _moveDataSO, string _name)
+    {
+        for (int i = 0; i < _moveDataSO.allMoves.moves.Length; i++)
+        {
+            if (_moveDataSO.allMoves.moves[i].name == _name)
+            {
+                return _moveDataSO.allMoves.moves[i];
+            }
+        }
+        return null;
+    }
+    public static MoveData GetMoveDataByIndex(MoveDataSO _moveDataSO, int _index)
+    {
+        return _moveDataSO.allMoves.moves[_index];
     }
 }
