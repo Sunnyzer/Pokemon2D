@@ -44,6 +44,7 @@ public class Pokemon
     [SerializeField] Nature nature = new Nature();
     [SerializeField] int level = 1;
     //Status currentStatus;
+
     string name;
     int xp = 0;
     int xpMax = 100;
@@ -64,7 +65,7 @@ public class Pokemon
 
     public Pokemon(int _level, PokemonData _data, Stat _ivStat, string _nature, Move[] _moves)
     {
-        name = _data.name.french;
+        name = _data.name.english;
         level = _level;
         data = _data;
         ivStat = _ivStat;
@@ -78,11 +79,17 @@ public class Pokemon
     }
     public void TakeDamage(Pokemon _owner, Move _move)
     {
-        int _crit = UnityEngine.Random.Range(0,10) == 0 ? 2 : 1;
+        int _crit = UnityEngine.Random.Range(0, 10) == 0 ? 2 : 1;
         float _stab = _owner.data.pkmTypes[0] == _move.Type ? 1.5f : 1;
         int effectiveness1 = 1;
         int effectiveness2 = 1;
-        float _damage = (((((2 * _crit * _owner.level)/5) + 2) * _move.Power.Value  * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * 1;
+        float _critique = ((2 * _crit * _owner.level) / 5) + 2;
+        if (_move.Power == null)
+        {
+            Debug.Log(0 + " Damage");
+            return;
+        }
+        float _damage = ((_critique * _move.Power.Value  * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * 1;
         TakeDamage((int)_damage);
     }
     public void TakeDamage(int _damage)

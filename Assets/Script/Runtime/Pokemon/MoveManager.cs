@@ -31,7 +31,14 @@ public class MoveManager : Singleton<MoveManager>
                 for (int j = i; j > i - 4; j--)
                 {
                     if (j < 0) return _moves.ToArray();
+                    //Debug.Log(_pokemonData.moveChoices[j].Name);
+                    //Debug.Log(_pokemonData.moveChoices[j].Level);
                     MoveData _moveData = GetMoveDataByMoveByLevel(_pokemonData.moveChoices[j]);
+                    if(_moveData == null)
+                    {
+                        Debug.Log(_pokemonData.moveChoices[j].Name);
+                        return null;
+                    }
                     _moves.Add(new Move(_moveData));
                 }
                 return _moves.ToArray();

@@ -71,63 +71,86 @@ public class PokemonDataEditor : Editor
 
 
         _tB.isReadable = true;
-        //_tB.SaveAndReimport();
         _tB.textureType = TextureImporterType.Sprite;
         _tB.spriteImportMode = SpriteImportMode.Multiple;
         _tB.mipmapEnabled = false;
         _tB.filterMode = FilterMode.Point;
         _tB.spritePivot = Vector2.down;
+        _tB.spritePixelsPerUnit = 24;
         _tB.textureCompression = TextureImporterCompression.Uncompressed;
-        _tB.SaveAndReimport();
 
-        var textureSettings = new TextureImporterSettings(); // need this stupid class because spriteExtrude and spriteMeshType aren't exposed on TextureImporter
+        _tF.isReadable = true;
+        _tF.textureType = TextureImporterType.Sprite;
+        _tF.spriteImportMode = SpriteImportMode.Multiple;
+        _tF.mipmapEnabled = false;
+        _tF.filterMode = FilterMode.Point;
+        _tF.spritePixelsPerUnit = 24;
+        _tF.spritePivot = Vector2.down;
+        _tF.textureCompression = TextureImporterCompression.Uncompressed;
+
+        _tB.SaveAndReimport();
+        _tF.SaveAndReimport();
+
+        TextureImporterSettings textureSettings = new TextureImporterSettings();
         _tB.ReadTextureSettings(textureSettings);
         textureSettings.spriteMeshType = SpriteMeshType.Tight;
         textureSettings.spriteExtrude = 0;
 
         _tB.SetTextureSettings(textureSettings);
+
+        TextureImporterSettings textureSettingsF = new TextureImporterSettings();
+        _tF.ReadTextureSettings(textureSettingsF);
+        textureSettingsF.spriteMeshType = SpriteMeshType.Tight;
+        textureSettingsF.spriteExtrude = 0;
+
+        _tF.SetTextureSettings(textureSettingsF);
+
         //_tB.SaveAndReimport();
 
-        int minimumSpriteSize = 16;
-        int extrudeSize = 0;
-        Debug.Log(_backTex);
-        Rect[] rects = InternalSpriteUtility.GenerateAutomaticSpriteRectangles(_backTex, minimumSpriteSize, extrudeSize);
-        Debug.Log(rects.Length);
-        if (rects.Length == 0) return;
+        //int minimumSpriteSize = 16;
+        //int extrudeSize = 0;
+        //Debug.Log(_backTex);
+        //Rect[] rects = InternalSpriteUtility.GenerateAutomaticSpriteRectangles(_backTex, minimumSpriteSize, extrudeSize);
+        //Debug.Log(rects.Length);
+        //if (rects.Length == 0) return;
+        //var metas = new List<SpriteMetaData>();
+
+        //var meta = new SpriteMetaData();
+        //meta.pivot = Vector2.down;
+        //meta.alignment = (int)SpriteAlignment.BottomCenter;
+        //meta.rect = rects[0];
+        //meta.name = _imageName + "Back";
+        //metas.Add(meta);
+
+        _tB.spritesheet = CropsSprite(_backTex, _imageName + "Back");
+        _tF.spritesheet = CropsSprite(_frontTex, _imageName + "Front");
+
+        AssetDatabase.ImportAsset(_pathBack, ImportAssetOptions.ForceUpdate);
+        AssetDatabase.ImportAsset(_pathFront, ImportAssetOptions.ForceUpdate);
+
+        UnityEngine.Object[] spritesBack = AssetDatabase.LoadAllAssetRepresentationsAtPath(_pathBack);
+        UnityEngine.Object[] spritesFront = AssetDatabase.LoadAllAssetRepresentationsAtPath(_pathFront);
+        
+        if (spritesBack.Length == 0 || spritesFront.Length == 0) return;
+        pokemonDataSO.allPokemonData.allPokemon[_index].backSprite = (Sprite)spritesBack[0];
+        pokemonDataSO.allPokemonData.allPokemon[_index].completeSprite = (Sprite)spritesFront[0];
+        //pokemonDataSO.allPokemonData.allPokemon[_index].completeSprite = (Sprite)AssetDatabase.LoadAllAssetRepresentationsAtPath(_pathFront)[0];
+    }
+    public SpriteMetaData[] CropsSprite(Texture2D _test, string _nameSprite)
+    {
+        Rect[] rects = InternalSpriteUtility.GenerateAutomaticSpriteRectangles(_test, 16, 0);
+        //Debug.Log(rects.Length);
+        if (rects.Length == 0) return null;
         var metas = new List<SpriteMetaData>();
 
         var meta = new SpriteMetaData();
         meta.pivot = Vector2.down;
         meta.alignment = (int)SpriteAlignment.BottomCenter;
         meta.rect = rects[0];
-        meta.name = _imageName + "Back";
+        meta.name = _nameSprite;
         metas.Add(meta);
 
-        _tB.spritesheet = metas.ToArray();
-
-        AssetDatabase.ImportAsset(_pathBack, ImportAssetOptions.ForceUpdate);
-
-        UnityEngine.Object[] sprites = AssetDatabase.LoadAllAssetRepresentationsAtPath(_pathBack);
-        Debug.Log(sprites.Length);
-        if (sprites.Length == 0) return;
-        pokemonDataSO.allPokemonData.allPokemon[_index].backSprite = (Sprite)sprites[0];
-        //pokemonDataSO.allPokemonData.allPokemon[_index].completeSprite = (Sprite)AssetDatabase.LoadAllAssetRepresentationsAtPath(_pathFront)[0];
-    }
-    public SpriteMetaData[] CropsSprite(Texture2D _test, string _path)
-    {
-        Rect[] rects = InternalSpriteUtility.GenerateAutomaticSpriteRectangles(_test, 16, 0);
-        Debug.Log(rects.Length);
-        if (rects.Length == 0) return null;
-
-        var meta = new SpriteMetaData();
-        meta.pivot = Vector2.down;
-        meta.alignment = (int)SpriteAlignment.BottomCenter;
-        meta.rect = rects[0];
-        meta.name = _path + "_" + 0;
-        SpriteMetaData[] tab = new SpriteMetaData[1];
-        tab[0] = meta;
-        return tab;
-        //_tB.spritesheet = tab;
+        return metas.ToArray();
     }
     public IEnumerator GetPokemonData()
     {

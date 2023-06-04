@@ -32,6 +32,11 @@ public class MoveButtonUI : MonoBehaviour
             BattleManager.Instance.PlayerTrainer.SelectAction(new AttackAction(BattleManager.Instance.PlayerTrainer.CurrentPokemonInCombat, move));
         }
     }
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
+        move = null;
+    }
     private void OnDestroy()
     {
         button.onClick.RemoveAllListeners();

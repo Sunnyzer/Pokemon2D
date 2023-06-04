@@ -16,6 +16,7 @@ public class OpponentPokemonUIInfo : MonoBehaviour
         levelText.text = currentPokemon.Level.ToString();
         namePkmText.text = currentPokemon.Name;
         pokemonSprite.sprite = currentPokemon.Data.completeSprite;
+        pokemonSprite.SetNativeSize();
         //pokemonSprite.rectTransform.sizeDelta = currentPokemon.Data.completeSprite.rect.size * 3.75f;
         UpdateHpBar(currentPokemon);
         currentPokemon.OnHpChange += UpdateHpBar;

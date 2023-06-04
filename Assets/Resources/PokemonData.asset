@@ -54,7 +54,7 @@ MonoBehaviour:
         SpDefense: 65
         Speed: 45
       courbeExpType: 0
-      completeSprite: {fileID: 0}
+      completeSprite: {fileID: -2566991754512986771, guid: 0cc1c4c4158f367479e5a15c7c08a4b0, type: 3}
       backSprite: {fileID: -8593575077827328772, guid: 48187e3f60e943a4c8538b93aa692e53, type: 3}
     - id: 2
       name:
@@ -94,7 +94,7 @@ MonoBehaviour:
         SpDefense: 80
         Speed: 60
       courbeExpType: 0
-      completeSprite: {fileID: 0}
+      completeSprite: {fileID: 3695992806364430420, guid: f4f81883d4576aa43af055760f71c642, type: 3}
       backSprite: {fileID: -1806107383800106727, guid: a7fda72168614d74fbaa81f81a0b3d74, type: 3}
     - id: 3
       name:
@@ -142,7 +142,7 @@ MonoBehaviour:
         SpDefense: 100
         Speed: 80
       courbeExpType: 0
-      completeSprite: {fileID: 0}
+      completeSprite: {fileID: 2573619747326906200, guid: 1f5d09cdde9bf434bb46c222dcb4f248, type: 3}
       backSprite: {fileID: 8478754525259755577, guid: 02d3f426aaa8aab4097954538b2e9add, type: 3}
     - id: 4
       name:
@@ -188,7 +188,7 @@ MonoBehaviour:
         SpDefense: 50
         Speed: 65
       courbeExpType: 0
-      completeSprite: {fileID: 0}
+      completeSprite: {fileID: -1959644383907819276, guid: 4b833828c6e20324692c1db8224eb721, type: 3}
       backSprite: {fileID: 5765385548894802776, guid: f56bc50068f7d61448b67eedd4d513a9, type: 3}
     - id: 5
       name:
@@ -236,5 +236,2061 @@ MonoBehaviour:
         SpDefense: 65
         Speed: 80
       courbeExpType: 0
-      completeSprite: {fileID: 0}
+      completeSprite: {fileID: 4909045313388294830, guid: e0e5dc81f346a044981b30bf30d49666, type: 3}
       backSprite: {fileID: -1921487063820731181, guid: b620ae8af8c5c2d4e96107fc9812d1d6, type: 3}
+    - id: 6
+      name:
+        french: 
+        english: charizard
+      pkmTypes: 0200000009000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 1
+        name: leer
+      - level: 1
+        name: growl
+      - level: 1
+        name: ember
+      - level: 1
+        name: smokescreen
+      - level: 1
+        name: metal-claw
+      - level: 1
+        name: crunch
+      - level: 1
+        name: heat-wave
+      - level: 1
+        name: air-slash
+      - level: 1
+        name: shadow-claw
+      - level: 20
+        name: fury-swipes
+      - level: 24
+        name: rage
+      - level: 27
+        name: scary-face
+      - level: 28
+        name: fire-fang
+      - level: 32
+        name: flame-burst
+      - level: 36
+        name: wing-attack
+      - level: 36
+        name: slash
+      - level: 46
+        name: flamethrower
+      - level: 55
+        name: fire-spin
+      - level: 62
+        name: inferno
+      - level: 66
+        name: flare-blitz
+      stat:
+        HP: 78
+        Attack: 84
+        Defense: 78
+        SpAttack: 109
+        SpDefense: 85
+        Speed: 100
+      courbeExpType: 0
+      completeSprite: {fileID: -8371729811438164975, guid: 136c4486e896fe3409ca0871ed855d96, type: 3}
+      backSprite: {fileID: -648227821667029422, guid: 01fc9f0be8ba1ca429e2b4290f2c8ca2, type: 3}
+    - id: 7
+      name:
+        french: 
+        english: squirtle
+      pkmTypes: 04000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: tail-whip
+      - level: 8
+        name: bubble
+      - level: 15
+        name: water-gun
+      - level: 22
+        name: bite
+      - level: 23
+        name: rapid-spin
+      - level: 27
+        name: shell-smash
+      - level: 28
+        name: withdraw
+      - level: 28
+        name: protect
+      - level: 28
+        name: aqua-tail
+      - level: 33
+        name: rain-dance
+      - level: 34
+        name: iron-defense
+      - level: 35
+        name: skull-bash
+      - level: 42
+        name: hydro-pump
+      stat:
+        HP: 44
+        Attack: 48
+        Defense: 65
+        SpAttack: 50
+        SpDefense: 64
+        Speed: 43
+      courbeExpType: 0
+      completeSprite: {fileID: 1533966431345770243, guid: 3752b729f91a72147a0c9646a9276c33, type: 3}
+      backSprite: {fileID: 8442069256176792160, guid: 4522de123612fa840bb3bf68ea7f6418, type: 3}
+    - id: 8
+      name:
+        french: 
+        english: wartortle
+      pkmTypes: 04000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: tail-whip
+      - level: 1
+        name: bubble
+      - level: 15
+        name: water-gun
+      - level: 24
+        name: bite
+      - level: 25
+        name: rapid-spin
+      - level: 31
+        name: withdraw
+      - level: 31
+        name: protect
+      - level: 32
+        name: aqua-tail
+      - level: 35
+        name: shell-smash
+      - level: 37
+        name: rain-dance
+      - level: 39
+        name: skull-bash
+      - level: 40
+        name: iron-defense
+      - level: 47
+        name: hydro-pump
+      stat:
+        HP: 59
+        Attack: 63
+        Defense: 80
+        SpAttack: 65
+        SpDefense: 80
+        Speed: 58
+      courbeExpType: 0
+      completeSprite: {fileID: -3751387054290908909, guid: 7f220c8caabdd1e46baf40a1897caae6, type: 3}
+      backSprite: {fileID: -1417071822230616884, guid: 193af3b1ecee6fa4597fbc4a2b738c46, type: 3}
+    - id: 9
+      name:
+        french: 
+        english: blastoise
+      pkmTypes: 04000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: tail-whip
+      - level: 1
+        name: water-gun
+      - level: 1
+        name: bubble
+      - level: 1
+        name: fake-out
+      - level: 1
+        name: flash-cannon
+      - level: 1
+        name: aqua-jet
+      - level: 24
+        name: bite
+      - level: 25
+        name: rapid-spin
+      - level: 31
+        name: withdraw
+      - level: 31
+        name: protect
+      - level: 32
+        name: aqua-tail
+      - level: 35
+        name: shell-smash
+      - level: 42
+        name: skull-bash
+      - level: 42
+        name: rain-dance
+      - level: 46
+        name: iron-defense
+      - level: 52
+        name: hydro-pump
+      stat:
+        HP: 79
+        Attack: 83
+        Defense: 100
+        SpAttack: 85
+        SpDefense: 105
+        Speed: 78
+      courbeExpType: 0
+      completeSprite: {fileID: -1471309075534245632, guid: 196dca0e998cde64e8769cc830957bff, type: 3}
+      backSprite: {fileID: 359247534226847420, guid: 28e2d3f6c194d31458b1d7ba99cd62a7, type: 3}
+    - id: 10
+      name:
+        french: 
+        english: caterpie
+      pkmTypes: 0b000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: string-shot
+      - level: 15
+        name: bug-bite
+      stat:
+        HP: 45
+        Attack: 30
+        Defense: 35
+        SpAttack: 20
+        SpDefense: 20
+        Speed: 45
+      courbeExpType: 0
+      completeSprite: {fileID: 3764662703015476801, guid: e83594ae48f1bd84fa0603d5ac2e65ff, type: 3}
+      backSprite: {fileID: -6362079575373829595, guid: a828ed8806cc61c459f18715b9a11434, type: 3}
+    - id: 11
+      name:
+        french: 
+        english: metapod
+      pkmTypes: 0b000000
+      moveChoices:
+      - level: 1
+        name: harden
+      stat:
+        HP: 50
+        Attack: 20
+        Defense: 55
+        SpAttack: 25
+        SpDefense: 25
+        Speed: 30
+      courbeExpType: 0
+      completeSprite: {fileID: -5623906656122285726, guid: e620b7b4ddfea5f469a51e112068a3b3, type: 3}
+      backSprite: {fileID: 2697735590374522689, guid: d8788287a3f3c8042afac531808b8b42, type: 3}
+    - id: 12
+      name:
+        french: 
+        english: butterfree
+      pkmTypes: 0b00000009000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: confusion
+      - level: 1
+        name: harden
+      - level: 15
+        name: poison-powder
+      - level: 16
+        name: stun-spore
+      - level: 17
+        name: sleep-powder
+      - level: 21
+        name: supersonic
+      - level: 26
+        name: whirlwind
+      - level: 28
+        name: gust
+      - level: 30
+        name: tailwind
+      - level: 32
+        name: psybeam
+      - level: 34
+        name: rage-powder
+      - level: 36
+        name: captivate
+      - level: 40
+        name: safeguard
+      - level: 40
+        name: bug-buzz
+      - level: 43
+        name: air-slash
+      - level: 46
+        name: quiver-dance
+      - level: 47
+        name: silver-wind
+      stat:
+        HP: 60
+        Attack: 45
+        Defense: 50
+        SpAttack: 90
+        SpDefense: 80
+        Speed: 70
+      courbeExpType: 0
+      completeSprite: {fileID: 8672077468691778272, guid: b39af8a0a5a36d84b912392d54f5c1fc, type: 3}
+      backSprite: {fileID: -8067690110560630676, guid: 58c0eef70eeddcb48a1beb634b58232b, type: 3}
+    - id: 13
+      name:
+        french: 
+        english: weedle
+      pkmTypes: 0b0000000a000000
+      moveChoices:
+      - level: 1
+        name: poison-sting
+      - level: 1
+        name: string-shot
+      - level: 15
+        name: bug-bite
+      stat:
+        HP: 40
+        Attack: 35
+        Defense: 30
+        SpAttack: 20
+        SpDefense: 20
+        Speed: 50
+      courbeExpType: 0
+      completeSprite: {fileID: 347591849247693618, guid: 9b609c78fc91fdf409697e2b2829a025, type: 3}
+      backSprite: {fileID: -1476716554626413698, guid: 71a0cabaa0d3db043bdefe1855d6aef4, type: 3}
+    - id: 14
+      name:
+        french: 
+        english: kakuna
+      pkmTypes: 0b0000000a000000
+      moveChoices:
+      - level: 1
+        name: harden
+      stat:
+        HP: 45
+        Attack: 25
+        Defense: 50
+        SpAttack: 25
+        SpDefense: 25
+        Speed: 35
+      courbeExpType: 0
+      completeSprite: {fileID: 5952109460806868723, guid: 9d52507dc6fee1b49ba574348d7d7b89, type: 3}
+      backSprite: {fileID: 3424644314504232441, guid: df0304696add54d46a8c12509ccc1dce, type: 3}
+    - id: 15
+      name:
+        french: 
+        english: beedrill
+      pkmTypes: 0b0000000a000000
+      moveChoices:
+      - level: 1
+        name: fury-attack
+      - level: 1
+        name: peck
+      - level: 16
+        name: focus-energy
+      - level: 20
+        name: twineedle
+      - level: 25
+        name: rage
+      - level: 25
+        name: toxic-spikes
+      - level: 30
+        name: pin-missile
+      - level: 30
+        name: pursuit
+      - level: 31
+        name: outrage
+      - level: 34
+        name: assurance
+      - level: 35
+        name: agility
+      - level: 37
+        name: poison-jab
+      - level: 45
+        name: endeavor
+      - level: 45
+        name: fell-stinger
+      stat:
+        HP: 65
+        Attack: 90
+        Defense: 40
+        SpAttack: 45
+        SpDefense: 80
+        Speed: 75
+      courbeExpType: 0
+      completeSprite: {fileID: -3260374901527091805, guid: ce279acd5eea21a48a36bfd5d0377c82, type: 3}
+      backSprite: {fileID: 9022389614794982463, guid: 60d27b81015dab3498daa25cdc9aafe2, type: 3}
+    - id: 16
+      name:
+        french: 
+        english: pidgey
+      pkmTypes: 0100000009000000
+      moveChoices:
+      - level: 1
+        name: gust
+      - level: 1
+        name: tackle
+      - level: 5
+        name: sand-attack
+      - level: 12
+        name: quick-attack
+      - level: 19
+        name: whirlwind
+      - level: 21
+        name: twister
+      - level: 28
+        name: wing-attack
+      - level: 31
+        name: feather-dance
+      - level: 36
+        name: agility
+      - level: 37
+        name: roost
+      - level: 41
+        name: tailwind
+      - level: 44
+        name: mirror-move
+      - level: 49
+        name: air-slash
+      - level: 53
+        name: hurricane
+      stat:
+        HP: 40
+        Attack: 45
+        Defense: 40
+        SpAttack: 35
+        SpDefense: 35
+        Speed: 56
+      courbeExpType: 0
+      completeSprite: {fileID: 5337602689985718124, guid: 0523a879083306f4d9c9442dfe5a4ee7, type: 3}
+      backSprite: {fileID: -2378183168407267720, guid: c2f54de011b25ef459afd15d9a519ce1, type: 3}
+    - id: 17
+      name:
+        french: 
+        english: pidgeotto
+      pkmTypes: 0100000009000000
+      moveChoices:
+      - level: 1
+        name: gust
+      - level: 1
+        name: sand-attack
+      - level: 1
+        name: tackle
+      - level: 12
+        name: quick-attack
+      - level: 21
+        name: whirlwind
+      - level: 22
+        name: twister
+      - level: 31
+        name: wing-attack
+      - level: 34
+        name: feather-dance
+      - level: 40
+        name: agility
+      - level: 42
+        name: roost
+      - level: 47
+        name: tailwind
+      - level: 49
+        name: mirror-move
+      - level: 57
+        name: air-slash
+      - level: 62
+        name: hurricane
+      stat:
+        HP: 63
+        Attack: 60
+        Defense: 55
+        SpAttack: 50
+        SpDefense: 50
+        Speed: 71
+      courbeExpType: 0
+      completeSprite: {fileID: -1900789726941400698, guid: 1e5767544978af84baa598735251674b, type: 3}
+      backSprite: {fileID: -9106759348956752946, guid: 44353eb5dd0e72543946e43eab0b5b3d, type: 3}
+    - id: 18
+      name:
+        french: 
+        english: pidgeot
+      pkmTypes: 0100000009000000
+      moveChoices:
+      - level: 1
+        name: gust
+      - level: 1
+        name: sand-attack
+      - level: 1
+        name: tackle
+      - level: 1
+        name: quick-attack
+      - level: 21
+        name: whirlwind
+      - level: 22
+        name: twister
+      - level: 31
+        name: wing-attack
+      - level: 34
+        name: feather-dance
+      - level: 44
+        name: agility
+      - level: 44
+        name: roost
+      - level: 50
+        name: tailwind
+      - level: 54
+        name: mirror-move
+      - level: 62
+        name: air-slash
+      - level: 68
+        name: hurricane
+      stat:
+        HP: 83
+        Attack: 80
+        Defense: 75
+        SpAttack: 70
+        SpDefense: 70
+        Speed: 101
+      courbeExpType: 0
+      completeSprite: {fileID: 1109477626473564472, guid: 22d71ec30a447ef40ab06bce838c98cc, type: 3}
+      backSprite: {fileID: -5907929660499639350, guid: 7bcd958cbf928044083708bef8ffa202, type: 3}
+    - id: 19
+      name:
+        french: 
+        english: rattata
+      pkmTypes: 01000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: tail-whip
+      - level: 7
+        name: quick-attack
+      - level: 14
+        name: hyper-fang
+      - level: 19
+        name: sucker-punch
+      - level: 22
+        name: crunch
+      - level: 23
+        name: focus-energy
+      - level: 25
+        name: assurance
+      - level: 27
+        name: pursuit
+      - level: 34
+        name: super-fang
+      - level: 41
+        name: endeavor
+      stat:
+        HP: 30
+        Attack: 56
+        Defense: 35
+        SpAttack: 25
+        SpDefense: 35
+        Speed: 72
+      courbeExpType: 0
+      completeSprite: {fileID: -3042779132595503110, guid: 56d68cdd30dfbda439f6c096407c56a4, type: 3}
+      backSprite: {fileID: -9209530437487720605, guid: 8727ba2879e112549a577edfdde0fae5, type: 3}
+    - id: 20
+      name:
+        french: 
+        english: raticate
+      pkmTypes: 01000000
+      moveChoices:
+      - level: 1
+        name: swords-dance
+      - level: 1
+        name: tackle
+      - level: 1
+        name: tail-whip
+      - level: 1
+        name: quick-attack
+      - level: 1
+        name: fury-swipes
+      - level: 10
+        name: bite
+      - level: 14
+        name: hyper-fang
+      - level: 19
+        name: sucker-punch
+      - level: 20
+        name: scary-face
+      - level: 24
+        name: crunch
+      - level: 27
+        name: focus-energy
+      - level: 29
+        name: assurance
+      - level: 30
+        name: pursuit
+      - level: 41
+        name: super-fang
+      - level: 50
+        name: endeavor
+      stat:
+        HP: 55
+        Attack: 81
+        Defense: 60
+        SpAttack: 50
+        SpDefense: 70
+        Speed: 97
+      courbeExpType: 0
+      completeSprite: {fileID: 6896995863237905948, guid: c2b9eb1f3befc0f4da4e29bc280172c2, type: 3}
+      backSprite: {fileID: -6446438914180825708, guid: 487b1e52dadd19541a0d4544d0838528, type: 3}
+    - id: 21
+      name:
+        french: 
+        english: spearow
+      pkmTypes: 0100000009000000
+      moveChoices:
+      - level: 1
+        name: growl
+      - level: 1
+        name: peck
+      - level: 9
+        name: leer
+      - level: 15
+        name: fury-attack
+      - level: 22
+        name: mirror-move
+      - level: 25
+        name: pursuit
+      - level: 25
+        name: aerial-ace
+      - level: 29
+        name: drill-peck
+      - level: 29
+        name: focus-energy
+      - level: 29
+        name: assurance
+      - level: 33
+        name: roost
+      - level: 36
+        name: agility
+      stat:
+        HP: 40
+        Attack: 60
+        Defense: 30
+        SpAttack: 31
+        SpDefense: 31
+        Speed: 70
+      courbeExpType: 0
+      completeSprite: {fileID: 1842620730315386010, guid: ef1bd6a591aed7248a13eaf2adf07176, type: 3}
+      backSprite: {fileID: -7798869501020439570, guid: 0c2dc26ca40f1414b9fa8165f004ce4c, type: 3}
+    - id: 22
+      name:
+        french: 
+        english: fearow
+      pkmTypes: 0100000009000000
+      moveChoices:
+      - level: 1
+        name: leer
+      - level: 1
+        name: growl
+      - level: 1
+        name: peck
+      - level: 1
+        name: quick-attack
+      - level: 1
+        name: pluck
+      - level: 15
+        name: fury-attack
+      - level: 25
+        name: mirror-move
+      - level: 26
+        name: pursuit
+      - level: 32
+        name: focus-energy
+      - level: 34
+        name: drill-peck
+      - level: 35
+        name: assurance
+      - level: 41
+        name: roost
+      - level: 43
+        name: agility
+      - level: 53
+        name: drill-run
+      stat:
+        HP: 65
+        Attack: 90
+        Defense: 65
+        SpAttack: 61
+        SpDefense: 61
+        Speed: 100
+      courbeExpType: 0
+      completeSprite: {fileID: 216331893294024482, guid: d8ae04a8f17d74d42a8d93c4bb9a165b, type: 3}
+      backSprite: {fileID: 3926419508003831863, guid: c94e9cd65a75a344abe0549ef2edfc5a, type: 3}
+    - id: 23
+      name:
+        french: 
+        english: ekans
+      pkmTypes: 0a000000
+      moveChoices:
+      - level: 1
+        name: wrap
+      - level: 1
+        name: leer
+      - level: 10
+        name: poison-sting
+      - level: 17
+        name: bite
+      - level: 24
+        name: glare
+      - level: 28
+        name: mud-bomb
+      - level: 28
+        name: acid-spray
+      - level: 31
+        name: screech
+      - level: 33
+        name: gastro-acid
+      - level: 37
+        name: stockpile
+      - level: 37
+        name: spit-up
+      - level: 37
+        name: swallow
+      - level: 38
+        name: acid
+      - level: 38
+        name: belch
+      - level: 41
+        name: gunk-shot
+      - level: 43
+        name: haze
+      - level: 44
+        name: coil
+      stat:
+        HP: 35
+        Attack: 60
+        Defense: 44
+        SpAttack: 40
+        SpDefense: 54
+        Speed: 55
+      courbeExpType: 0
+      completeSprite: {fileID: 4114657103916880123, guid: 3bb953ca3559b5649aae2182a2aa64eb, type: 3}
+      backSprite: {fileID: 3473487807841617688, guid: 9c6c1926675e33b4cadd89ad74432085, type: 3}
+    - id: 24
+      name:
+        french: 
+        english: arbok
+      pkmTypes: 0a000000
+      moveChoices:
+      - level: 1
+        name: wrap
+      - level: 1
+        name: poison-sting
+      - level: 1
+        name: leer
+      - level: 1
+        name: sucker-punch
+      - level: 1
+        name: thunder-fang
+      - level: 1
+        name: ice-fang
+      - level: 1
+        name: fire-fang
+      - level: 17
+        name: bite
+      - level: 22
+        name: crunch
+      - level: 27
+        name: glare
+      - level: 32
+        name: acid-spray
+      - level: 34
+        name: mud-bomb
+      - level: 36
+        name: slam
+      - level: 36
+        name: screech
+      - level: 42
+        name: gastro-acid
+      - level: 46
+        name: stockpile
+      - level: 46
+        name: spit-up
+      - level: 46
+        name: swallow
+      - level: 47
+        name: acid
+      - level: 48
+        name: belch
+      - level: 51
+        name: haze
+      - level: 56
+        name: gunk-shot
+      - level: 56
+        name: coil
+      stat:
+        HP: 60
+        Attack: 95
+        Defense: 69
+        SpAttack: 65
+        SpDefense: 79
+        Speed: 80
+      courbeExpType: 0
+      completeSprite: {fileID: -7063886130270224894, guid: 580f36f15ed33a245a9f7f29db13851e, type: 3}
+      backSprite: {fileID: -9218746170408602833, guid: d82b33612acac1d43a55bdce6275d95a, type: 3}
+    - id: 25
+      name:
+        french: 
+        english: pikachu
+      pkmTypes: 06000000
+      moveChoices:
+      - level: 1
+        name: growl
+      - level: 1
+        name: thunder-shock
+      - level: 1
+        name: sweet-kiss
+      - level: 1
+        name: charm
+      - level: 1
+        name: nasty-plot
+      - level: 6
+        name: tail-whip
+      - level: 7
+        name: play-nice
+      - level: 9
+        name: double-kick
+      - level: 9
+        name: thunder-wave
+      - level: 16
+        name: quick-attack
+      - level: 18
+        name: electro-ball
+      - level: 20
+        name: slam
+      - level: 23
+        name: nuzzle
+      - level: 26
+        name: swift
+      - level: 26
+        name: spark
+      - level: 29
+        name: feint
+      - level: 33
+        name: agility
+      - level: 37
+        name: discharge
+      - level: 43
+        name: thunder
+      - level: 50
+        name: light-screen
+      stat:
+        HP: 35
+        Attack: 55
+        Defense: 40
+        SpAttack: 50
+        SpDefense: 50
+        Speed: 90
+      courbeExpType: 0
+      completeSprite: {fileID: -7947214381081533767, guid: 477175a9bee0ecc468676ac11b3ebc5b, type: 3}
+      backSprite: {fileID: 7299287289431501231, guid: 4b75bcbc928131e499110339e8a76b75, type: 3}
+    - id: 26
+      name:
+        french: 
+        english: raichu
+      pkmTypes: 06000000
+      moveChoices:
+      - level: 1
+        name: slam
+      - level: 1
+        name: tail-whip
+      - level: 1
+        name: growl
+      - level: 1
+        name: thunder-shock
+      - level: 1
+        name: thunder-wave
+      - level: 1
+        name: agility
+      - level: 1
+        name: quick-attack
+      - level: 1
+        name: sweet-kiss
+      - level: 1
+        name: charm
+      - level: 1
+        name: spark
+      - level: 1
+        name: encore
+      - level: 1
+        name: fake-out
+      - level: 1
+        name: feint
+      - level: 1
+        name: nasty-plot
+      - level: 1
+        name: discharge
+      - level: 1
+        name: electro-ball
+      - level: 1
+        name: play-nice
+      - level: 1
+        name: nuzzle
+      stat:
+        HP: 60
+        Attack: 90
+        Defense: 55
+        SpAttack: 90
+        SpDefense: 80
+        Speed: 110
+      courbeExpType: 0
+      completeSprite: {fileID: -3750449629433586836, guid: 72746c193f97b8144b401e69f94b4d9c, type: 3}
+      backSprite: {fileID: 954039725648377748, guid: b6ed0c41d2b8ca745aecd1f3c722983c, type: 3}
+    - id: 27
+      name:
+        french: 
+        english: sandshrew
+      pkmTypes: 08000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 6
+        name: defense-curl
+      - level: 10
+        name: sand-attack
+      - level: 17
+        name: slash
+      - level: 17
+        name: magnitude
+      - level: 24
+        name: poison-sting
+      - level: 27
+        name: agility
+      - level: 31
+        name: swift
+      - level: 33
+        name: gyro-ball
+      - level: 38
+        name: fury-swipes
+      - level: 45
+        name: sandstorm
+      - level: 45
+        name: sand-tomb
+      stat:
+        HP: 50
+        Attack: 75
+        Defense: 85
+        SpAttack: 20
+        SpDefense: 30
+        Speed: 40
+      courbeExpType: 0
+      completeSprite: {fileID: 3699352995851280891, guid: d0c21dc120279b44c988e92dfd9eb3db, type: 3}
+      backSprite: {fileID: 5320437096490529573, guid: a57588f8fd283174f936b5dfa3548e26, type: 3}
+    - id: 28
+      name:
+        french: 
+        english: sandslash
+      pkmTypes: 08000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 1
+        name: sand-attack
+      - level: 1
+        name: defense-curl
+      - level: 13
+        name: rapid-spin
+      - level: 17
+        name: slash
+      - level: 17
+        name: magnitude
+      - level: 22
+        name: crush-claw
+      - level: 27
+        name: poison-sting
+      - level: 36
+        name: swift
+      - level: 45
+        name: gyro-ball
+      - level: 47
+        name: fury-swipes
+      - level: 52
+        name: sandstorm
+      - level: 52
+        name: sand-tomb
+      stat:
+        HP: 75
+        Attack: 100
+        Defense: 110
+        SpAttack: 45
+        SpDefense: 55
+        Speed: 65
+      courbeExpType: 0
+      completeSprite: {fileID: -8868641269221972442, guid: b20a081f6ef508b45a6389760b3fda8e, type: 3}
+      backSprite: {fileID: -4798583839335183076, guid: 1df7782ebae57df44be417014726a410, type: 3}
+    - id: 29
+      name:
+        french: 
+        english: nidoran-f
+      pkmTypes: 0a000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: growl
+      - level: 8
+        name: scratch
+      - level: 14
+        name: poison-sting
+      - level: 21
+        name: tail-whip
+      - level: 23
+        name: helping-hand
+      - level: 29
+        name: bite
+      - level: 31
+        name: toxic-spikes
+      - level: 36
+        name: fury-swipes
+      - level: 38
+        name: flatter
+      - level: 43
+        name: double-kick
+      - level: 43
+        name: captivate
+      - level: 45
+        name: poison-fang
+      - level: 47
+        name: crunch
+      - level: 55
+        name: earth-power
+      stat:
+        HP: 55
+        Attack: 47
+        Defense: 52
+        SpAttack: 40
+        SpDefense: 40
+        Speed: 41
+      courbeExpType: 0
+      completeSprite: {fileID: 8599219537248670244, guid: e1811c2b1213e7845a24a22976fe787c, type: 3}
+      backSprite: {fileID: 3593954272235767911, guid: ac06ee7354b03c142b0423de0beed095, type: 3}
+    - id: 30
+      name:
+        french: 
+        english: nidorina
+      pkmTypes: 0a000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 1
+        name: tackle
+      - level: 1
+        name: growl
+      - level: 14
+        name: poison-sting
+      - level: 23
+        name: tail-whip
+      - level: 26
+        name: helping-hand
+      - level: 32
+        name: bite
+      - level: 35
+        name: toxic-spikes
+      - level: 41
+        name: fury-swipes
+      - level: 43
+        name: flatter
+      - level: 50
+        name: double-kick
+      - level: 50
+        name: captivate
+      - level: 53
+        name: crunch
+      - level: 58
+        name: poison-fang
+      - level: 71
+        name: earth-power
+      stat:
+        HP: 70
+        Attack: 62
+        Defense: 67
+        SpAttack: 55
+        SpDefense: 55
+        Speed: 56
+      courbeExpType: 0
+      completeSprite: {fileID: 9162266280744079977, guid: 4c8cc83b313d20044a8e22aabd05708a, type: 3}
+      backSprite: {fileID: 9165560261935273596, guid: 10940d353fa7005409e2e165e7df8a99, type: 3}
+    - id: 31
+      name:
+        french: 
+        english: nidoqueen
+      pkmTypes: 0a00000008000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 1
+        name: tackle
+      - level: 1
+        name: body-slam
+      - level: 1
+        name: tail-whip
+      - level: 1
+        name: bite
+      - level: 1
+        name: growl
+      - level: 1
+        name: supersonic
+      - level: 1
+        name: fury-swipes
+      - level: 1
+        name: crunch
+      - level: 1
+        name: flatter
+      - level: 1
+        name: toxic-spikes
+      - level: 12
+        name: double-kick
+      - level: 14
+        name: poison-sting
+      - level: 23
+        name: chip-away
+      - level: 43
+        name: superpower
+      - level: 43
+        name: earth-power
+      stat:
+        HP: 90
+        Attack: 92
+        Defense: 87
+        SpAttack: 75
+        SpDefense: 85
+        Speed: 76
+      courbeExpType: 0
+      completeSprite: {fileID: 8007256462615037220, guid: 64bd8f3e5c572b946860d70439b1077d, type: 3}
+      backSprite: {fileID: 9026260339650822387, guid: c6b9ea909d6d02a40b95119508304038, type: 3}
+    - id: 32
+      name:
+        french: 
+        english: nidoran-m
+      pkmTypes: 0a000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: leer
+      - level: 1
+        name: peck
+      - level: 8
+        name: horn-attack
+      - level: 14
+        name: poison-sting
+      - level: 21
+        name: focus-energy
+      - level: 23
+        name: helping-hand
+      - level: 29
+        name: fury-attack
+      - level: 31
+        name: toxic-spikes
+      - level: 36
+        name: horn-drill
+      - level: 37
+        name: poison-jab
+      - level: 38
+        name: flatter
+      - level: 43
+        name: double-kick
+      - level: 43
+        name: captivate
+      - level: 55
+        name: earth-power
+      stat:
+        HP: 46
+        Attack: 57
+        Defense: 40
+        SpAttack: 40
+        SpDefense: 40
+        Speed: 50
+      courbeExpType: 0
+      completeSprite: {fileID: 3232730959850377329, guid: 7a053d16586681f4eb6d711972c3d3cf, type: 3}
+      backSprite: {fileID: 8429745989297465160, guid: 8d0e662084e27864caacf6760d4af070, type: 3}
+    - id: 33
+      name:
+        french: 
+        english: nidorino
+      pkmTypes: 0a000000
+      moveChoices:
+      - level: 1
+        name: horn-attack
+      - level: 1
+        name: tackle
+      - level: 1
+        name: leer
+      - level: 1
+        name: peck
+      - level: 14
+        name: poison-sting
+      - level: 23
+        name: focus-energy
+      - level: 26
+        name: helping-hand
+      - level: 32
+        name: fury-attack
+      - level: 35
+        name: toxic-spikes
+      - level: 41
+        name: horn-drill
+      - level: 43
+        name: flatter
+      - level: 43
+        name: poison-jab
+      - level: 50
+        name: double-kick
+      - level: 50
+        name: captivate
+      - level: 71
+        name: earth-power
+      stat:
+        HP: 61
+        Attack: 72
+        Defense: 57
+        SpAttack: 55
+        SpDefense: 55
+        Speed: 65
+      courbeExpType: 0
+      completeSprite: {fileID: 773047781049639864, guid: 32bea50f4142c6d419b5e136d02e59ba, type: 3}
+      backSprite: {fileID: -2395247429715020493, guid: 4c39ec2e9d8acae469331615d4e6b6bc, type: 3}
+    - id: 34
+      name:
+        french: 
+        english: nidoking
+      pkmTypes: 0a00000008000000
+      moveChoices:
+      - level: 1
+        name: horn-attack
+      - level: 1
+        name: fury-attack
+      - level: 1
+        name: tackle
+      - level: 1
+        name: thrash
+      - level: 1
+        name: poison-sting
+      - level: 1
+        name: leer
+      - level: 1
+        name: supersonic
+      - level: 1
+        name: peck
+      - level: 1
+        name: focus-energy
+      - level: 1
+        name: flatter
+      - level: 1
+        name: toxic-spikes
+      - level: 12
+        name: double-kick
+      - level: 23
+        name: chip-away
+      - level: 43
+        name: megahorn
+      - level: 43
+        name: earth-power
+      stat:
+        HP: 81
+        Attack: 102
+        Defense: 77
+        SpAttack: 85
+        SpDefense: 75
+        Speed: 85
+      courbeExpType: 0
+      completeSprite: {fileID: -2087527720521696586, guid: 37a41b6459ae7b645aa75c4325f27bb5, type: 3}
+      backSprite: {fileID: 4351765709468605560, guid: b8c0f439a21e1c343a40b386836d9494, type: 3}
+    - id: 35
+      name:
+        french: 
+        english: clefairy
+      pkmTypes: 12000000
+      moveChoices:
+      - level: 1
+        name: pound
+      - level: 1
+        name: growl
+      - level: 1
+        name: splash
+      - level: 1
+        name: sweet-kiss
+      - level: 1
+        name: charm
+      - level: 1
+        name: copycat
+      - level: 1
+        name: disarming-voice
+      - level: 1
+        name: spotlight
+      - level: 4
+        name: encore
+      - level: 13
+        name: sing
+      - level: 16
+        name: amnesia
+      - level: 16
+        name: life-dew
+      - level: 17
+        name: follow-me
+      - level: 18
+        name: double-slap
+      - level: 22
+        name: wake-up-slap
+      - level: 24
+        name: minimize
+      - level: 25
+        name: bestow
+      - level: 28
+        name: lucky-chant
+      - level: 31
+        name: metronome
+      - level: 33
+        name: cosmic-power
+      - level: 34
+        name: gravity
+      - level: 39
+        name: defense-curl
+      - level: 43
+        name: moonlight
+      - level: 43
+        name: stored-power
+      - level: 45
+        name: meteor-mash
+      - level: 46
+        name: healing-wish
+      - level: 46
+        name: moonblast
+      - level: 48
+        name: light-screen
+      - level: 52
+        name: after-you
+      stat:
+        HP: 70
+        Attack: 45
+        Defense: 48
+        SpAttack: 60
+        SpDefense: 65
+        Speed: 35
+      courbeExpType: 0
+      completeSprite: {fileID: -8531310048595372556, guid: ed50b1a54ae8d6c459d78a2e0000fa3d, type: 3}
+      backSprite: {fileID: -5062206492056407072, guid: 4e1ada01db986d440bb9063ef916269b, type: 3}
+    - id: 36
+      name:
+        french: 
+        english: clefable
+      pkmTypes: 12000000
+      moveChoices:
+      - level: 1
+        name: pound
+      - level: 1
+        name: double-slap
+      - level: 1
+        name: growl
+      - level: 1
+        name: sing
+      - level: 1
+        name: minimize
+      - level: 1
+        name: metronome
+      - level: 1
+        name: splash
+      - level: 1
+        name: sweet-kiss
+      - level: 1
+        name: charm
+      - level: 1
+        name: encore
+      - level: 1
+        name: moonlight
+      - level: 1
+        name: follow-me
+      - level: 1
+        name: meteor-mash
+      - level: 1
+        name: cosmic-power
+      - level: 1
+        name: healing-wish
+      - level: 1
+        name: copycat
+      - level: 1
+        name: stored-power
+      - level: 1
+        name: disarming-voice
+      - level: 1
+        name: moonblast
+      - level: 1
+        name: spotlight
+      - level: 1
+        name: life-dew
+      stat:
+        HP: 95
+        Attack: 70
+        Defense: 73
+        SpAttack: 95
+        SpDefense: 90
+        Speed: 60
+      courbeExpType: 0
+      completeSprite: {fileID: -4673291541681828219, guid: 05e3ea0b2b16c414c8c657959cc82659, type: 3}
+      backSprite: {fileID: 1897924754700314400, guid: 4237c880e8184024b80ffe1a6c8ec9bb, type: 3}
+    - id: 37
+      name:
+        french: 
+        english: vulpix
+      pkmTypes: 02000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: tail-whip
+      - level: 1
+        name: ember
+      - level: 9
+        name: baby-doll-eyes
+      - level: 16
+        name: quick-attack
+      - level: 17
+        name: will-o-wisp
+      - level: 21
+        name: roar
+      - level: 24
+        name: flame-burst
+      - level: 25
+        name: safeguard
+      - level: 25
+        name: imprison
+      - level: 28
+        name: confuse-ray
+      - level: 31
+        name: payback
+      - level: 35
+        name: flamethrower
+      - level: 37
+        name: grudge
+      - level: 37
+        name: captivate
+      - level: 42
+        name: fire-spin
+      - level: 44
+        name: extrasensory
+      - level: 44
+        name: inferno
+      stat:
+        HP: 38
+        Attack: 41
+        Defense: 40
+        SpAttack: 50
+        SpDefense: 65
+        Speed: 65
+      courbeExpType: 0
+      completeSprite: {fileID: -3251974179962824495, guid: b3b7f779719a77c45b9e4aec6144887e, type: 3}
+      backSprite: {fileID: -7000699348537563647, guid: fe45188cce6cf7f4d899e2d9da68fa99, type: 3}
+    - id: 38
+      name:
+        french: 
+        english: ninetales
+      pkmTypes: 02000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: tail-whip
+      - level: 1
+        name: roar
+      - level: 1
+        name: disable
+      - level: 1
+        name: ember
+      - level: 1
+        name: hypnosis
+      - level: 1
+        name: quick-attack
+      - level: 1
+        name: confuse-ray
+      - level: 1
+        name: safeguard
+      - level: 1
+        name: imprison
+      - level: 1
+        name: grudge
+      - level: 1
+        name: extrasensory
+      - level: 1
+        name: nasty-plot
+      - level: 1
+        name: inferno
+      - level: 43
+        name: fire-spin
+      stat:
+        HP: 73
+        Attack: 76
+        Defense: 75
+        SpAttack: 81
+        SpDefense: 100
+        Speed: 100
+      courbeExpType: 0
+      completeSprite: {fileID: -3376960103267831016, guid: 7067946447703b14c8a8a71394d12953, type: 3}
+      backSprite: {fileID: -3113753169835391452, guid: d3711e84eab9bd04a88fdec282b82939, type: 3}
+    - id: 39
+      name:
+        french: 
+        english: jigglypuff
+      pkmTypes: 0100000012000000
+      moveChoices:
+      - level: 1
+        name: sing
+      - level: 1
+        name: sweet-kiss
+      - level: 1
+        name: charm
+      - level: 1
+        name: copycat
+      - level: 1
+        name: pound
+      - level: 9
+        name: pound
+      - level: 10
+        name: play-nice
+      - level: 14
+        name: disable
+      - level: 17
+        name: round
+      - level: 19
+        name: defense-curl
+      - level: 19
+        name: rollout
+      - level: 24
+        name: double-slap
+      - level: 25
+        name: stockpile
+      - level: 25
+        name: spit-up
+      - level: 25
+        name: swallow
+      - level: 29
+        name: rest
+      - level: 33
+        name: gyro-ball
+      - level: 34
+        name: body-slam
+      - level: 37
+        name: wake-up-slap
+      - level: 39
+        name: double-edge
+      - level: 44
+        name: hyper-voice
+      - level: 50
+        name: disarming-voice
+      stat:
+        HP: 115
+        Attack: 45
+        Defense: 20
+        SpAttack: 45
+        SpDefense: 25
+        Speed: 20
+      courbeExpType: 0
+      completeSprite: {fileID: 7549635282724780263, guid: b66c168e1542cd04e9eefb1489eb70d3, type: 3}
+      backSprite: {fileID: 1349986016652073440, guid: b4c1fec85edac3043abcc3d8737250ba, type: 3}
+    - id: 40
+      name:
+        french: 
+        english: wigglytuff
+      pkmTypes: 0100000012000000
+      moveChoices:
+      - level: 1
+        name: pound
+      - level: 1
+        name: double-slap
+      - level: 1
+        name: sing
+      - level: 1
+        name: disable
+      - level: 1
+        name: minimize
+      - level: 1
+        name: defense-curl
+      - level: 1
+        name: sweet-kiss
+      - level: 1
+        name: charm
+      - level: 1
+        name: stockpile
+      - level: 1
+        name: spit-up
+      - level: 1
+        name: swallow
+      - level: 1
+        name: copycat
+      - level: 1
+        name: disarming-voice
+      - level: 1
+        name: play-rough
+      - level: 1
+        name: pound
+      stat:
+        HP: 140
+        Attack: 70
+        Defense: 45
+        SpAttack: 85
+        SpDefense: 50
+        Speed: 45
+      courbeExpType: 0
+      completeSprite: {fileID: -8260090801424235664, guid: 11b707d39a5459742a721f70eee7e8cf, type: 3}
+      backSprite: {fileID: 6023580416924525043, guid: 20fbe485eb4cb414a9f765b6edd72af9, type: 3}
+    - id: 41
+      name:
+        french: 
+        english: zubat
+      pkmTypes: 0a00000009000000
+      moveChoices:
+      - level: 1
+        name: absorb
+      - level: 1
+        name: leech-life
+      - level: 10
+        name: supersonic
+      - level: 11
+        name: astonish
+      - level: 15
+        name: bite
+      - level: 21
+        name: confuse-ray
+      - level: 28
+        name: wing-attack
+      - level: 31
+        name: air-cutter
+      - level: 33
+        name: acrobatics
+      - level: 36
+        name: haze
+      - level: 36
+        name: mean-look
+      - level: 41
+        name: poison-fang
+      - level: 41
+        name: air-slash
+      - level: 43
+        name: quick-guard
+      stat:
+        HP: 40
+        Attack: 45
+        Defense: 35
+        SpAttack: 30
+        SpDefense: 40
+        Speed: 55
+      courbeExpType: 0
+      completeSprite: {fileID: -5579807268535438667, guid: 1da9600c6d540604c874da858d20519d, type: 3}
+      backSprite: {fileID: 2323656600660751850, guid: 7dc168b2b0a977d4c903167d832bead0, type: 3}
+    - id: 42
+      name:
+        french: 
+        english: golbat
+      pkmTypes: 0a00000009000000
+      moveChoices:
+      - level: 0
+        name: crunch
+      - level: 1
+        name: bite
+      - level: 1
+        name: absorb
+      - level: 1
+        name: quick-attack
+      - level: 1
+        name: screech
+      - level: 1
+        name: leech-life
+      - level: 1
+        name: astonish
+      - level: 10
+        name: supersonic
+      - level: 21
+        name: confuse-ray
+      - level: 32
+        name: wing-attack
+      - level: 35
+        name: air-cutter
+      - level: 39
+        name: acrobatics
+      - level: 42
+        name: mean-look
+      - level: 43
+        name: haze
+      - level: 49
+        name: poison-fang
+      - level: 51
+        name: air-slash
+      - level: 51
+        name: quick-guard
+      stat:
+        HP: 75
+        Attack: 80
+        Defense: 70
+        SpAttack: 65
+        SpDefense: 75
+        Speed: 90
+      courbeExpType: 0
+      completeSprite: {fileID: -5241800149150070137, guid: 1eb56627f66916646866edd3f3b75d17, type: 3}
+      backSprite: {fileID: 5429764444350491658, guid: c18a20b4e7d75a3489940b371b89a319, type: 3}
+    - id: 43
+      name:
+        french: 
+        english: oddish
+      pkmTypes: 070000000a000000
+      moveChoices:
+      - level: 1
+        name: absorb
+      - level: 1
+        name: growth
+      - level: 7
+        name: sweet-scent
+      - level: 15
+        name: poison-powder
+      - level: 17
+        name: stun-spore
+      - level: 19
+        name: sleep-powder
+      - level: 24
+        name: acid
+      - level: 25
+        name: lucky-chant
+      - level: 29
+        name: natural-gift
+      - level: 32
+        name: moonlight
+      - level: 33
+        name: petal-dance
+      - level: 43
+        name: moonblast
+      - level: 45
+        name: grassy-terrain
+      - level: 46
+        name: solar-beam
+      stat:
+        HP: 45
+        Attack: 50
+        Defense: 55
+        SpAttack: 75
+        SpDefense: 65
+        Speed: 30
+      courbeExpType: 0
+      completeSprite: {fileID: 3025031633455345745, guid: b95450a518c4ca14186bd19420f6a123, type: 3}
+      backSprite: {fileID: 3761279239054346955, guid: 3a238debd22bc7540bcde695b8636c9f, type: 3}
+    - id: 44
+      name:
+        french: 
+        english: gloom
+      pkmTypes: 070000000a000000
+      moveChoices:
+      - level: 1
+        name: absorb
+      - level: 1
+        name: growth
+      - level: 1
+        name: poison-powder
+      - level: 1
+        name: stun-spore
+      - level: 1
+        name: sweet-scent
+      - level: 18
+        name: razor-leaf
+      - level: 19
+        name: sleep-powder
+      - level: 28
+        name: acid
+      - level: 29
+        name: lucky-chant
+      - level: 35
+        name: moonlight
+      - level: 35
+        name: natural-gift
+      - level: 38
+        name: petal-dance
+      - level: 45
+        name: moonblast
+      - level: 50
+        name: petal-blizzard
+      - level: 52
+        name: solar-beam
+      - level: 56
+        name: grassy-terrain
+      stat:
+        HP: 60
+        Attack: 65
+        Defense: 70
+        SpAttack: 85
+        SpDefense: 75
+        Speed: 40
+      courbeExpType: 0
+      completeSprite: {fileID: 8857205247715192859, guid: 3a6ff796719bdb34c94d89af2abce6fb, type: 3}
+      backSprite: {fileID: 5691286594433917540, guid: 9351be22c40a79c47a3f4357e64ac4d5, type: 3}
+    - id: 45
+      name:
+        french: 
+        english: vileplume
+      pkmTypes: 070000000a000000
+      moveChoices:
+      - level: 1
+        name: acid
+      - level: 1
+        name: absorb
+      - level: 1
+        name: growth
+      - level: 1
+        name: stun-spore
+      - level: 1
+        name: sleep-powder
+      - level: 1
+        name: petal-dance
+      - level: 1
+        name: sweet-scent
+      - level: 1
+        name: moonlight
+      - level: 1
+        name: aromatherapy
+      - level: 1
+        name: grassy-terrain
+      - level: 1
+        name: moonblast
+      - level: 15
+        name: poison-powder
+      - level: 50
+        name: petal-blizzard
+      stat:
+        HP: 75
+        Attack: 80
+        Defense: 85
+        SpAttack: 110
+        SpDefense: 90
+        Speed: 50
+      courbeExpType: 0
+      completeSprite: {fileID: -8636116801771785584, guid: c0a04dc427924b1499dfbd72985214b5, type: 3}
+      backSprite: {fileID: -6262304833842870806, guid: cd9a0a7a6494b854293af5793e9d801b, type: 3}
+    - id: 46
+      name:
+        french: 
+        english: paras
+      pkmTypes: 0b00000007000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 2
+        name: sleep-powder
+      - level: 11
+        name: absorb
+      - level: 13
+        name: poison-powder
+      - level: 13
+        name: stun-spore
+      - level: 15
+        name: fury-swipes
+      - level: 20
+        name: leech-life
+      - level: 27
+        name: spore
+      - level: 34
+        name: slash
+      - level: 41
+        name: growth
+      - level: 43
+        name: giga-drain
+      - level: 43
+        name: x-scissor
+      - level: 49
+        name: aromatherapy
+      - level: 49
+        name: rage-powder
+      stat:
+        HP: 35
+        Attack: 70
+        Defense: 55
+        SpAttack: 45
+        SpDefense: 55
+        Speed: 25
+      courbeExpType: 0
+      completeSprite: {fileID: 7191897640345812379, guid: 32b88fd9e7fc0d542a0180323e4e0fef, type: 3}
+      backSprite: {fileID: -7063995982414236067, guid: f87a870d55b043b4ba7faef16182d6d6, type: 3}
+    - id: 47
+      name:
+        french: 
+        english: parasect
+      pkmTypes: 0b00000007000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 1
+        name: absorb
+      - level: 1
+        name: leech-seed
+      - level: 1
+        name: poison-powder
+      - level: 1
+        name: stun-spore
+      - level: 1
+        name: sleep-powder
+      - level: 1
+        name: screech
+      - level: 1
+        name: leech-life
+      - level: 1
+        name: cross-poison
+      - level: 15
+        name: fury-swipes
+      - level: 30
+        name: spore
+      - level: 39
+        name: slash
+      - level: 48
+        name: growth
+      - level: 55
+        name: giga-drain
+      - level: 55
+        name: x-scissor
+      - level: 59
+        name: aromatherapy
+      - level: 59
+        name: rage-powder
+      stat:
+        HP: 60
+        Attack: 95
+        Defense: 80
+        SpAttack: 60
+        SpDefense: 80
+        Speed: 30
+      courbeExpType: 0
+      completeSprite: {fileID: -123172087487293686, guid: 9c6c2ec8c94343e4aa1d45d668e9c4dd, type: 3}
+      backSprite: {fileID: 2318817101078271634, guid: 357928421e5f9b6449708e85eb8bb25c, type: 3}
+    - id: 48
+      name:
+        french: 
+        english: venonat
+      pkmTypes: 0b0000000a000000
+      moveChoices:
+      - level: 1
+        name: tackle
+      - level: 1
+        name: disable
+      - level: 1
+        name: foresight
+      - level: 11
+        name: supersonic
+      - level: 19
+        name: confusion
+      - level: 24
+        name: poison-powder
+      - level: 25
+        name: bug-buzz
+      - level: 27
+        name: leech-life
+      - level: 30
+        name: stun-spore
+      - level: 35
+        name: psybeam
+      - level: 37
+        name: zen-headbutt
+      - level: 38
+        name: sleep-powder
+      - level: 41
+        name: poison-fang
+      - level: 43
+        name: psychic
+      stat:
+        HP: 60
+        Attack: 55
+        Defense: 50
+        SpAttack: 40
+        SpDefense: 55
+        Speed: 45
+      courbeExpType: 0
+      completeSprite: {fileID: -4711326641777041508, guid: d1772565e25f09c4eb262ddadf3018d4, type: 3}
+      backSprite: {fileID: -5205227645838234044, guid: 9214b91866a88cf4ab052be679fa1ade, type: 3}
+    - id: 49
+      name:
+        french: 
+        english: venomoth
+      pkmTypes: 0b0000000a000000
+      moveChoices:
+      - level: 0
+        name: air-slash
+      - level: 1
+        name: tackle
+      - level: 1
+        name: supersonic
+      - level: 1
+        name: disable
+      - level: 1
+        name: poison-powder
+      - level: 1
+        name: confusion
+      - level: 1
+        name: agility
+      - level: 1
+        name: screech
+      - level: 1
+        name: leech-life
+      - level: 1
+        name: foresight
+      - level: 1
+        name: silver-wind
+      - level: 30
+        name: stun-spore
+      - level: 31
+        name: gust
+      - level: 37
+        name: signal-beam
+      - level: 38
+        name: psybeam
+      - level: 41
+        name: zen-headbutt
+      - level: 43
+        name: sleep-powder
+      - level: 47
+        name: poison-fang
+      - level: 50
+        name: psychic
+      - level: 59
+        name: bug-buzz
+      - level: 63
+        name: quiver-dance
+      stat:
+        HP: 70
+        Attack: 65
+        Defense: 60
+        SpAttack: 90
+        SpDefense: 75
+        Speed: 90
+      courbeExpType: 0
+      completeSprite: {fileID: -6522884061903472156, guid: 00b7c8e4a55a8644abdcaf589471fa6c, type: 3}
+      backSprite: {fileID: -1962158972511975737, guid: 9d4049460a8cb0042badce17b2011c20, type: 3}
+    - id: 50
+      name:
+        french: 
+        english: diglett
+      pkmTypes: 08000000
+      moveChoices:
+      - level: 1
+        name: scratch
+      - level: 7
+        name: astonish
+      - level: 9
+        name: magnitude
+      - level: 12
+        name: agility
+      - level: 15
+        name: growl
+      - level: 18
+        name: bulldoze
+      - level: 19
+        name: dig
+      - level: 21
+        name: fury-swipes
+      - level: 23
+        name: sucker-punch
+      - level: 24
+        name: sand-attack
+      - level: 26
+        name: earth-power
+      - level: 29
+        name: mud-bomb
+      - level: 31
+        name: slash
+      - level: 40
+        name: earthquake
+      stat:
+        HP: 10
+        Attack: 55
+        Defense: 25
+        SpAttack: 35
+        SpDefense: 45
+        Speed: 95
+      courbeExpType: 0
+      completeSprite: {fileID: -3789173066950835077, guid: 97acbeeaa336498439ae9c2a6d1ad3fb, type: 3}
+      backSprite: {fileID: 1266542657129445554, guid: 616e2bf5beb26a64da4a8bf76e9069bf, type: 3}

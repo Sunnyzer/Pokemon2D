@@ -8,13 +8,14 @@ public enum DamageType
     status,
     unique,
 }
+
 [Serializable]
 public class MoveData
 {
-    [SerializeField] public int? accuracy;
+    [SerializeField] public int accuracy;
     [SerializeField] public string name;
     [SerializeField] public int id;
-    [SerializeField] public int? power;
+    [SerializeField] public int power;
     [SerializeField] public int pp;
     [SerializeField] public int priority;
     [SerializeField] public PkmType type;
@@ -24,7 +25,7 @@ public class MoveData
     [SerializeField] public int healing;
     [SerializeField] public int drain;
     [SerializeField] public float flinchRate;
-    [SerializeField] public float? effectChance;
+    [SerializeField] public float effectChance;
     [SerializeField] public Stat stat_changes;
 
     public string Name => name;

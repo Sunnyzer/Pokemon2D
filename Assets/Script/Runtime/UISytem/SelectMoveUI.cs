@@ -8,16 +8,17 @@ public class SelectMoveUI : MonoBehaviour
     [SerializeField] VerticalLayoutGroup verticalLayout = null;
     public void InitMove(Pokemon _pokemon)
     {
-        for (int i = 0; i < _pokemon.Moves.Length; i++)
+        for (int i = 0; i < 4; i++)
         {
-            Move _move = _pokemon.Moves[i];
-            if(_move != null)
+            if(i < _pokemon.Moves.Length && _pokemon.Moves[i] != null)
             {
+                Move _move = _pokemon.Moves[i];
                 moveButtonUIs[i].Init(_move);
             }
             else
             {
-                moveButtonUIs[i].gameObject.SetActive(false);
+                Debug.Log("Desactivate Move " + i);
+                moveButtonUIs[i].Deactivate();
             }
         }
     }
