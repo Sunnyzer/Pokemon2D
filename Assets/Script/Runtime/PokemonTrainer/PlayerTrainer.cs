@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class PlayerTrainer : Player, BattleFighter
+public class PlayerTrainer : Player
 {
     public event Action<Pokemon> OnSwapPokemon = null;
 
@@ -65,16 +65,16 @@ public class PlayerTrainer : Player, BattleFighter
         characterMovement.RegisterInputKeyDown(KeyCode.A, new Vector2(-1, 0));
     }
 
-    public void SelectAction(TurnAction _actionSelected)
-    {
-        actionSelected = _actionSelected;
-        IsReady = true;
-    }
+    //public void SelectAction(TurnAction _actionSelected)
+    //{
+    //    actionSelected = _actionSelected;
+    //    IsReady = true;
+    //}
 
     public TurnAction Turn(BattleInfo _battleInfo)
     {
-        actionSelected.BattleInfo = _battleInfo;
-        return actionSelected;
+        //actionSelected.BattleField = _battleInfo;
+        return null;
     }
 
     public bool Swap(int _index)

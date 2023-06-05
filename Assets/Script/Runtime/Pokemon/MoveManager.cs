@@ -21,7 +21,7 @@ public class MoveManager : Singleton<MoveManager>
     {
         return GetMoveDataByName(_moveByLevel.Name);
     }
-    public Move[] GenerateMoveByLevel(int _level, PokemonData _pokemonData)
+    public List<Move> GenerateMoveByLevel(int _level, PokemonData _pokemonData)
     {
         List<Move> _moves = new List<Move>();
         for (int i = _pokemonData.moveChoices.Length - 1; i >= 0; i--)
@@ -30,7 +30,7 @@ public class MoveManager : Singleton<MoveManager>
             {
                 for (int j = i; j > i - 4; j--)
                 {
-                    if (j < 0) return _moves.ToArray();
+                    if (j < 0) return _moves;
                     //Debug.Log(_pokemonData.moveChoices[j].Name);
                     //Debug.Log(_pokemonData.moveChoices[j].Level);
                     MoveData _moveData = GetMoveDataByMoveByLevel(_pokemonData.moveChoices[j]);
@@ -41,10 +41,10 @@ public class MoveManager : Singleton<MoveManager>
                     }
                     _moves.Add(new Move(_moveData));
                 }
-                return _moves.ToArray();
+                return _moves;
             }
         }
-        return _moves.ToArray();
+        return _moves;
     }
     public MoveData GetMoveLutte()
     {

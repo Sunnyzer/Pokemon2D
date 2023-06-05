@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [Serializable]
@@ -40,7 +42,7 @@ public class Pokemon
     [SerializeField] Stat currentStat;
     [SerializeField] Stat ivStat;
     [SerializeField] Stat evStat;
-    [SerializeField] Move[] moves;
+    [SerializeField] List<Move> moves;
     [SerializeField] Nature nature = new Nature();
     [SerializeField] int level = 1;
     //Status currentStatus;
@@ -51,7 +53,7 @@ public class Pokemon
     bool fainted = false;
 
     public PokemonData Data => data;
-    public Move[] Moves => moves;
+    public List<Move> Moves => moves;
     public string Name => name;
     public int Level => level;
     public bool Fainted => fainted;
@@ -63,7 +65,7 @@ public class Pokemon
     public Stat CurrentStat => currentStat;
     //public Status CurrentStatus => currentStatus;
 
-    public Pokemon(int _level, PokemonData _data, Stat _ivStat, string _nature, Move[] _moves)
+    public Pokemon(int _level, PokemonData _data, Stat _ivStat, string _nature, List<Move> _moves)
     {
         name = _data.name.english;
         level = _level;
@@ -72,6 +74,14 @@ public class Pokemon
         nature.name = _nature;
         moves = _moves;
         currentStat = new Stat(_data.stat);
+        OnLevelUp += (p) =>
+        {
+            List<Move> _moves = MoveToLearn();
+            for (int i = 0; i < _moves.Count; i++)
+            {
+                LearnMove(_moves[i]);
+            }
+        };
     }
     public float GetSpeedInCombat()
     {
@@ -117,7 +127,7 @@ public class Pokemon
     {
         //currentStatus = Status.None;
         fainted = false;
-        for (int i = 0; i < moves.Length; i++)
+        for (int i = 0; i < moves.Count; i++)
         {
             moves[i]?.RecoverPP();
         }
@@ -148,8 +158,44 @@ public class Pokemon
     }
     public Move GetRandomMove()
     {
-        if(moves.Length == 0) return null;
-        int _moves = UnityEngine.Random.Range(0, moves.Length);
+        if(moves.Count == 0) return null;
+        int _moves = UnityEngine.Random.Range(0, moves.Count);
         return moves[_moves];
+    }
+    public void ResetFieldEffect()
+    {
+
+    }
+    public bool LearnMove(Move _move)
+    {
+        if(_move == null) return false;
+        if(moves.Count < 4)
+        {
+            moves.Add(_move);
+            Debug.Log(name + " Learn " + _move.Name);
+        }
+        else
+        {
+            Debug.Log(name + "Can Learn " + _move.Name + "But already learn 4 moves");
+        }
+        return true;
+    }
+    public List<Move> MoveToLearn()
+    {
+        List<Move> _moves = new List<Move>();
+        for (int i = 0; i < data.moveChoices.Length; i++)
+        {
+            if(data.moveChoices[i].Level == level)
+            {
+                _moves.Add(new Move(MoveManager.Instance.GetMoveDataByMoveByLevel(data.moveChoices[i])));
+            }
+            if(level < data.moveChoices[i].Level)
+                break;
+        }
+        return _moves;
+    }
+    public static implicit operator bool(Pokemon _pokemon)
+    {
+        return _pokemon != null;
     }
 }

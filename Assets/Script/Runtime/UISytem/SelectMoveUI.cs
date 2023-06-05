@@ -2,32 +2,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SelectMoveUI : MonoBehaviour
+public class SelectMoveUI : SubUI
 {
     [SerializeField] List<MoveButtonUI> moveButtonUIs = new List<MoveButtonUI>();
     [SerializeField] VerticalLayoutGroup verticalLayout = null;
-    public void InitMove(Pokemon _pokemon)
+    public void UpdateUI(Pokemon _pokemon)
     {
         for (int i = 0; i < 4; i++)
         {
-            if(i < _pokemon.Moves.Length && _pokemon.Moves[i] != null)
+            if(i < _pokemon.Moves.Count && _pokemon.Moves[i] != null)
             {
                 Move _move = _pokemon.Moves[i];
-                moveButtonUIs[i].Init(_move);
+                moveButtonUIs[i].UpdateMove(_move);
             }
             else
             {
-                Debug.Log("Desactivate Move " + i);
                 moveButtonUIs[i].Deactivate();
             }
         }
     }
-    public void ActivateUI()
+    public override void Activate()
     {
-        gameObject.SetActive(true);
-    }
-    public void DeactivateUI()
-    {
-        gameObject.SetActive(false);
+        base.Activate();
+        UpdateUI(BattleManager.Instance.BattleField.FirstPokemon);
     }
 }

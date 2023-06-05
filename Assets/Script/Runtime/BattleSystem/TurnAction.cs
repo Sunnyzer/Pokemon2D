@@ -1,7 +1,14 @@
 
+using System;
+
 public abstract class TurnAction
 {
-    public abstract BattleInfo BattleInfo { get; set; }
-    public abstract void Turn();
-    public abstract int GetPriority(TurnAction _turnAction);
+    public virtual int GetPriority(BattleField _battleField)
+    {
+        return 0;
+    }
+    public virtual void Action(BattleField _battleField)
+    {
+
+    }
 }

@@ -4,24 +4,22 @@ using UnityEngine;
 
 public class AttackAction : TurnAction
 {
-    Move moveSelected = null;
-    Pokemon assailantPokemon = null;
-    public AttackAction(Pokemon _assailantPokemon, Move _moveSelect)
+    Pokemon launcher;
+    Move move;
+    public AttackAction(Pokemon _launcher, Move _move)
     {
-        assailantPokemon = _assailantPokemon;
-        moveSelected = _moveSelect;
+        launcher = _launcher;
+        move = _move;
     }
-
-    public override BattleInfo BattleInfo { get; set; }
-
-    public override int GetPriority(TurnAction _turnAction)
+    public override int GetPriority(BattleField _battleField)
     {
-        int _speedDif = assailantPokemon.GetSpeedInCombat() > BattleInfo.opponentFighter.CurrentPokemonInCombat.GetSpeedInCombat() ? 1 : 0;
-        return moveSelected.Priority + _speedDif;
+        Pokemon _target = _battleField.FirstPokemon == launcher ? _battleField.SecondPokemon : _battleField.FirstPokemon;
+        int _speedTie = launcher.GetSpeedInCombat() > _target.GetSpeedInCombat() ? 1 : 0;
+        return move.Priority + _speedTie;
     }
-
-    public override void Turn()
+    public override void Action(BattleField _battleField)
     {
-        BattleInfo.opponentFighter.CurrentPokemonInCombat.TakeDamage(assailantPokemon, moveSelected);
+        Pokemon _target = _battleField.FirstPokemon == launcher ? _battleField.SecondPokemon : _battleField.FirstPokemon;
+        _target.TakeDamage(launcher, move);
     }
 }

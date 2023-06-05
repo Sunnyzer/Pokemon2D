@@ -1,5 +1,7 @@
 using UnityEngine;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 [Serializable]
 public class BattleInfo
@@ -18,133 +20,62 @@ public class BattleManager : Singleton<BattleManager>
     [SerializeField] BattleUI battleUI;
     PlayerTrainer playerTrainer;
     WildPokemon wildPokemon;
-    public PlayerTrainer PlayerTrainer => playerTrainer;
+    BattleField battleField;
 
-    private void Update()
-    {
-        if (!playerTrainer || !playerTrainer.IsReady) return;
-        BattleTurn();
-    }
+    public PlayerTrainer PlayerTrainer => playerTrainer;
+    public BattleField BattleField => battleField;
+    
+    TurnAction turnAction;
+    List<TurnAction> turnActions = new List<TurnAction>();
     public void StartBattleWildPokemon(PlayerTrainer _player, WildPokemon _wildPokemon)
     {
         Pokemon _firstPokemon = _player.GetFirstPokemonNotFainted();
         if (_firstPokemon == null || _firstPokemon.Fainted) return;
-        _player.Swap(_player.GetFirstPokemonNotFaintedIndex());
-        _player.IsInBattle = true;
-        wildPokemon = _wildPokemon;
         playerTrainer = _player;
-
-        playerTrainer.OnSwapPokemon -= battleUI.UpdatePokemonInfo;
-        playerTrainer.OnSwapPokemon += battleUI.UpdatePokemonInfo;
-
-        battleUI.UpdatePokemonInfo(_player.CurrentPokemonInCombat);
-        battleUI.SetInfoOpponentPokemon(_wildPokemon.CurrentPokemonInCombat);
+        wildPokemon = _wildPokemon;
+        battleField = new BattleField(_firstPokemon, _wildPokemon.CurrentPokemonInCombat);
+        battleUI.StartBattle(battleField);
         UIManager.Instance.SetCurrentUIDisplay(battleUI);
     }
-    public void BattleTurn()
+    private void Update()
     {
-        playerTrainer.IsReady = false;
-        BattleInfo _playerInfo = new BattleInfo(wildPokemon, playerTrainer);
-        BattleInfo _wildPokemonInfo = new BattleInfo(playerTrainer, wildPokemon);
-        TurnAction _action = playerTrainer.Turn(_playerInfo);
-        TurnAction _action2 = wildPokemon.Turn(_wildPokemonInfo);
-
-        int _priority = _action.GetPriority(_action2);
-        int _priority2 = _action2.GetPriority(_action);
-        if (_priority > _priority2)
+        if (turnActions.Count == 0) return;
+        turnActions.Add(wildPokemon.CalculAction(BattleField));
+        turnActions = turnActions.OrderBy(t => t.GetPriority(BattleField)).ToList();
+        for (int i = 0; i < turnActions.Count; i++)
         {
-            Debug.Log(playerTrainer.CurrentPokemonInCombat.Name + " > " + wildPokemon.CurrentPokemonInCombat.Name);
-            _action.Turn();
-            if (IsBattleFinish(playerTrainer, wildPokemon))
+            turnActions[i].Action(BattleField);
+            if(battleField.FirstPokemon.Fainted)
             {
-                BattleFinish();
+                if(!playerTrainer.PokemonTeam.HavePokemonLeft())
+                {
+                    RunBattle();
+                    return;
+                }
+                turnActions.Clear();
+                battleUI.PokemonSwapUI.Activate();
+                battleUI.PokemonSwapUI.DeactivateReturn();
                 return;
             }
-            _action2.Turn();
-            if (IsBattleFinish(playerTrainer, wildPokemon))
+            if(battleField.SecondPokemon.Fainted)
             {
-                BattleFinish();
+                battleField.FirstPokemon.GainExp(40);
+                RunBattle();
                 return;
             }
         }
-        else if (_priority < _priority2)
-        {
-            Debug.Log(playerTrainer.CurrentPokemonInCombat.Name + " < " + wildPokemon.CurrentPokemonInCombat.Name);
-            _action2.Turn();
-            if (IsBattleFinish(playerTrainer, wildPokemon))
-            {
-                BattleFinish();
-                return;
-            }
-            _action.Turn();
-            if (IsBattleFinish(playerTrainer, wildPokemon))
-            {
-                BattleFinish();
-                return;
-            }
-        }
-        else
-        {
-            Debug.Log(playerTrainer.CurrentPokemonInCombat.Name + " = " + wildPokemon.CurrentPokemonInCombat.Name);
-            int _random = UnityEngine.Random.Range(0, 2);
-            if (_random == 0)
-            {
-                _action.Turn();
-                if (IsBattleFinish(playerTrainer, wildPokemon))
-                {
-                    BattleFinish();
-                    return;
-                }
-                _action2.Turn();
-                if (IsBattleFinish(playerTrainer, wildPokemon))
-                {
-                    BattleFinish();
-                    return;
-                }
-            }
-            else
-            {
-                _action2.Turn();
-                if (IsBattleFinish(playerTrainer, wildPokemon))
-                {
-                    BattleFinish();
-                    return;
-                }
-                _action.Turn();
-                if (IsBattleFinish(playerTrainer, wildPokemon))
-                {
-                    BattleFinish();
-                    return;
-                }
-            }
-        }
-        if (playerTrainer.CurrentPokemonInCombat.Fainted)
-            battleUI.PokemonSwapUI.DisplayUI(true);
-        battleUI.ResetMenu();
+        turnActions.Clear();
     }
-    public bool IsBattleFinish(PlayerTrainer _trainer, WildPokemon _wildPokemon)
+    public void SelectAction(TurnAction _action)
     {
-        return !_trainer.HavePokemonLeft || _wildPokemon.GetFirstSlotPokemon().Fainted;
+        turnActions.Add(_action);
     }
-    void BattleFinish()
+    public void RunBattle()
     {
-        if(!playerTrainer.GetFirstSlotPokemon().Fainted)
-        {
-            playerTrainer.CurrentPokemonInCombat.GainExp(wildPokemon.CurrentPokemonInCombat.XpGive);
-        }
-        else
-        {
-
-        }
-        StopBattle();
-    }
-    public void StopBattle()
-    {
-        playerTrainer.IsReady = false;
-        playerTrainer.IsInBattle = false;
-        playerTrainer.Swap(0);
-        playerTrainer = null;
-        wildPokemon = null;
+        //Debug.Log("Run Battle");
+        battleField.DestroyBattleField();
+        battleField = null;
+        turnActions.Clear();
         UIManager.Instance.RemoveQueueSetPreviousUI();
     }
 }

@@ -28,8 +28,6 @@ public class Trainer : MonoBehaviour, BattleFighter
 
     public TurnAction Turn(BattleInfo _battleInfo)
     {
-        AttackAction _action = new AttackAction(CurrentPokemonInCombat, CurrentPokemonInCombat.GetRandomMove());
-        _action.BattleInfo = _battleInfo;
-        return _action;
+        return null;
     }
 }

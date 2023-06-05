@@ -1,9 +1,6 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class WildPokemon : BattleFighter
+public class WildPokemon
 {
     public event Action<Pokemon> OnSwapPokemon;
 
@@ -19,13 +16,12 @@ public class WildPokemon : BattleFighter
         return pokemon;
     }
 
-    public TurnAction Turn(BattleInfo _battleInfo)
+    public TurnAction CalculAction(BattleField _battleField)
     {
         Move _move = pokemon.GetRandomMove();
         if (_move == null)
             _move = new Move(MoveManager.Instance.GetMoveLutte());
         AttackAction _action = new AttackAction(pokemon, _move);
-        _action.BattleInfo = _battleInfo;
         return _action;
     }
 

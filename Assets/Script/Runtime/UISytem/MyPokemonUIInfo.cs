@@ -2,55 +2,31 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MyPokemonUIInfo : MonoBehaviour
+public class MyPokemonUIInfo : PokemonInfoUI
 {
-    [SerializeField] TextMeshProUGUI levelText = null;
-    [SerializeField] TextMeshProUGUI namePkmText = null;
     [SerializeField] TextMeshProUGUI hpText = null;
-    [SerializeField] Slider hpBar = null;
     [SerializeField] Slider expBar = null;
-    [SerializeField] Image pokemonSprite = null;
-
-    Pokemon currentPokemon = null;
-    public void InitInfo(Pokemon _pokemon)
+    private void Update()
     {
-        if(currentPokemon != null)
-            currentPokemon.OnHpChange -= OnHpChange;
-        currentPokemon = _pokemon;
-        UpdateLevel(currentPokemon.Level);
-        UpdateNamePokemon(currentPokemon.Name);
-        pokemonSprite.sprite = currentPokemon.Data.backSprite;
-        pokemonSprite.SetNativeSize();
-        //pokemonSprite.rectTransform.sizeDelta = currentPokemon.Data.backSprite.rect.size * 3;
-        UpdateXpBar(currentPokemon);
-        UpdateHpBar(currentPokemon);
-        UpdateHpText(currentPokemon.Hp, currentPokemon.HpMax);
-        _pokemon.OnHpChange += OnHpChange;
-        //currentPokemon.OnXpChange += UpdateXpBar;
+        UpdatePokemon(battleField.FirstPokemon);
     }
-    public void OnHpChange(Pokemon _pokemon)
+    public override void UpdatePokemon(Pokemon _pokemon)
     {
-        UpdateHpBar(_pokemon);
-        UpdateHpText(_pokemon.Hp, _pokemon.HpMax);
-    }
-    public void UpdateLevel(int _newLevel)
-    {
-        levelText.text = _newLevel.ToString();
-    }
-    public void UpdateNamePokemon(string _name)
-    {
-        namePkmText.text = _name;
+        base.UpdatePokemon(_pokemon);
+        UpdateXpBar(_pokemon);
     }
     public void UpdateXpBar(Pokemon _pokemon)
     {
         expBar.value = (float)_pokemon.Xp / (float)_pokemon.XpMax;
     }
-    public void UpdateHpBar(Pokemon _pokemon)
+    public override void UpdateHp(Pokemon _pokemon)
     {
-        hpBar.value = (float)_pokemon.Hp / (float)_pokemon.HpMax;
+        base.UpdateHp(_pokemon);
+        hpText.text = _pokemon.Hp + "/" + _pokemon.HpMax;
     }
-    public void UpdateHpText(int _hp, int _hpMax)
+    public override void UpdateSprite(Pokemon _pokemon)
     {
-        hpText.text = _hp + "/" + _hpMax;
+        pokemonSprite.sprite = _pokemon.Data.backSprite;
+        pokemonSprite.SetNativeSize();
     }
 }

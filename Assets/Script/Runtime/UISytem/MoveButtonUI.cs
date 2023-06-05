@@ -1,44 +1,41 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class MoveButtonUI : MonoBehaviour
+public class MoveButtonUI : Button
 {
-    [SerializeField] Button button;
     [SerializeField] TextMeshProUGUI moveText;
     [SerializeField] TextMeshProUGUI movePPText;
+
     [SerializeField] Move move;
-    
-    public void Init(Move _move)
+
+    public override void OnPointerClick(PointerEventData eventData)
     {
-        UpdateMove(_move);
-        button.onClick.RemoveListener(OnClick);
-        button.onClick.AddListener(OnClick);
+        base.OnPointerClick(eventData);
+        SelectMove();
+    }
+    public void SelectMove()
+    {
+        if (!move.CanUse) return;
+        move.UseMove();
+        movePPText.text = move.PP + "/" + move.PPMax;
+        BattleManager.Instance.SelectAction(new AttackAction(BattleManager.Instance.BattleField.FirstPokemon, move));
     }
     public void UpdateMove(Move _move)
     {
+        Activate();
         move = _move;
         moveText.text = move.Name;
         movePPText.text = move.PP + "/" + move.PPMax;
     }
-    public void OnClick()
+    public void Activate()
     {
-        if(move.CanUse)
-        {
-            move.UseMove();
-            movePPText.text = move.PP + "/" + move.PPMax;
-            BattleManager.Instance.PlayerTrainer.SelectAction(new AttackAction(BattleManager.Instance.PlayerTrainer.CurrentPokemonInCombat, move));
-        }
+        gameObject.SetActive(true);
     }
     public void Deactivate()
     {
         gameObject.SetActive(false);
         move = null;
-    }
-    private void OnDestroy()
-    {
-        button.onClick.RemoveAllListeners();
     }
 }

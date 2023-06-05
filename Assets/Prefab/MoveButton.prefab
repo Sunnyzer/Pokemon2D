@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 570097743235547707}
   - component: {fileID: -5415716831738992382}
-  - component: {fileID: -3493602258873593360}
   - component: {fileID: 5295321565732221345}
   - component: {fileID: 5507210992922531796}
   m_Layer: 0
@@ -54,21 +53,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b11be5cf01c7449a3a2d390edfea63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: -3493602258873593360}
-  moveText: {fileID: 778336090811830361}
-  movePPText: {fileID: 275183339953550690}
---- !u!114 &-3493602258873593360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2410801471670541206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_WrapAround: 0
@@ -101,6 +85,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+  moveText: {fileID: 778336090811830361}
+  movePPText: {fileID: 275183339953550690}
+  move:
+    data:
+      accuracy: 0
+      name: 
+      id: 0
+      power: 0
+      pp: 0
+      priority: 0
+      type: 0
+      damageType: 0
+      critRate: 0
+      statChance: 0
+      healing: 0
+      drain: 0
+      flinchRate: 0
+      effectChance: 0
+      stat_changes:
+        HP: 0
+        Attack: 0
+        Defense: 0
+        SpAttack: 0
+        SpDefense: 0
+        Speed: 0
 --- !u!222 &5295321565732221345
 CanvasRenderer:
   m_ObjectHideFlags: 0
