@@ -17,15 +17,16 @@ public class BattleInfo
 
 public class BattleManager : Singleton<BattleManager>
 {
+    [SerializeField] TypeTableSO typeTable;
     [SerializeField] BattleUI battleUI;
     PlayerTrainer playerTrainer;
     WildPokemon wildPokemon;
     BattleField battleField;
 
+    public TypeTableSO TypeTable => typeTable;
     public PlayerTrainer PlayerTrainer => playerTrainer;
     public BattleField BattleField => battleField;
     
-    TurnAction turnAction;
     List<TurnAction> turnActions = new List<TurnAction>();
     public void StartBattleWildPokemon(PlayerTrainer _player, WildPokemon _wildPokemon)
     {
@@ -41,7 +42,7 @@ public class BattleManager : Singleton<BattleManager>
     {
         if (turnActions.Count == 0) return;
         turnActions.Add(wildPokemon.CalculAction(BattleField));
-        turnActions = turnActions.OrderBy(t => t.GetPriority(BattleField)).ToList();
+        turnActions = turnActions.OrderByDescending(t => t.GetPriority(BattleField)).ToList();
         for (int i = 0; i < turnActions.Count; i++)
         {
             turnActions[i].Action(BattleField);
@@ -54,7 +55,7 @@ public class BattleManager : Singleton<BattleManager>
                 }
                 turnActions.Clear();
                 battleUI.PokemonSwapUI.Activate();
-                battleUI.PokemonSwapUI.DeactivateReturn();
+                battleUI.PokemonSwapUI.ActiveForceSwap();
                 return;
             }
             if(battleField.SecondPokemon.Fainted)

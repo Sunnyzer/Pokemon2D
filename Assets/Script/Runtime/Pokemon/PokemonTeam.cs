@@ -4,7 +4,7 @@ public class PokemonTeam : MonoBehaviour
 {
     public const int maxTeam = 6;
     [SerializeField] PokemonChoice[] pokemonsChoices;
-    Pokemon[] pokemons;
+    [SerializeField] Pokemon[] pokemons;
     
     public Pokemon[] Pokemons => pokemons;
     public int Lenght => pokemons.Length;

@@ -34,52 +34,100 @@ MonoBehaviour:
       levelMaxEncounter: 7
       male: 1
       chanceToEncounter: 20
-    rarityRate: 75
+    rarityRate: 50
   - rarity: 1
-    pokemonsEncounter: []
-    rarityRate: 0
+    pokemonsEncounter:
+    - pokemon:
+        indexPokemon: 27
+      levelMinEncounter: 5
+      levelMaxEncounter: 10
+      male: 0
+      chanceToEncounter: 45
+    - pokemon:
+        indexPokemon: 22
+      levelMinEncounter: 5
+      levelMaxEncounter: 10
+      male: 0
+      chanceToEncounter: 45
+    - pokemon:
+        indexPokemon: 24
+      levelMinEncounter: 5
+      levelMaxEncounter: 10
+      male: 0
+      chanceToEncounter: 10
+    rarityRate: 25
   - rarity: 2
-    pokemonsEncounter: []
-    rarityRate: 0
-  - rarity: 3
     pokemonsEncounter:
     - pokemon:
-        indexPokemon: 2
-      levelMinEncounter: 36
-      levelMaxEncounter: 80
-      male: 1
-      chanceToEncounter: 100
-    rarityRate: 15
-  - rarity: 4
-    pokemonsEncounter:
-    - pokemon:
-        indexPokemon: 0
+        indexPokemon: 19
       levelMinEncounter: 5
       levelMaxEncounter: 10
       male: 1
-      chanceToEncounter: 33
+      chanceToEncounter: 20
+    - pokemon:
+        indexPokemon: 28
+      levelMinEncounter: 5
+      levelMaxEncounter: 10
+      male: 1
+      chanceToEncounter: 40
+    - pokemon:
+        indexPokemon: 36
+      levelMinEncounter: 5
+      levelMaxEncounter: 10
+      male: 1
+      chanceToEncounter: 40
+    rarityRate: 20
+  - rarity: 3
+    pokemonsEncounter:
+    - pokemon:
+        indexPokemon: 0
+      levelMinEncounter: 10
+      levelMaxEncounter: 10
+      male: 1
+      chanceToEncounter: 34
     - pokemon:
         indexPokemon: 3
-      levelMinEncounter: 5
+      levelMinEncounter: 10
       levelMaxEncounter: 10
       male: 1
       chanceToEncounter: 33
     - pokemon:
         indexPokemon: 6
-      levelMinEncounter: 5
+      levelMinEncounter: 10
       levelMaxEncounter: 10
       male: 1
       chanceToEncounter: 33
+    rarityRate: 4.25
+  - rarity: 4
+    pokemonsEncounter:
     - pokemon:
         indexPokemon: 492
       levelMinEncounter: 50
       levelMaxEncounter: 100
       male: 1
-      chanceToEncounter: 0.5
+      chanceToEncounter: 10
     - pokemon:
-        indexPokemon: 492
-      levelMinEncounter: 1
-      levelMaxEncounter: 10
+        indexPokemon: 385
+      levelMinEncounter: 50
+      levelMaxEncounter: 100
       male: 1
-      chanceToEncounter: 0.5
-    rarityRate: 10
+      chanceToEncounter: 30
+    - pokemon:
+        indexPokemon: 482
+      levelMinEncounter: 50
+      levelMaxEncounter: 100
+      male: 1
+      chanceToEncounter: 20
+    - pokemon:
+        indexPokemon: 483
+      levelMinEncounter: 50
+      levelMaxEncounter: 100
+      male: 1
+      chanceToEncounter: 20
+    - pokemon:
+        indexPokemon: 486
+      levelMinEncounter: 50
+      levelMaxEncounter: 100
+      male: 1
+      chanceToEncounter: 20
+    rarityRate: 0.75

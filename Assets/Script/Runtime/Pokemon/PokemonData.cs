@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [Serializable]
 public class PokemonChoice
@@ -40,6 +41,8 @@ public class Pokemon
     public Action<Pokemon> OnHpChange = null;
     PokemonData data;
     [SerializeField] Stat currentStat;
+    [SerializeField] Stat fieldStat;
+    [SerializeField] Stat modificationStat;
     [SerializeField] Stat ivStat;
     [SerializeField] Stat evStat;
     [SerializeField] List<Move> moves;
@@ -58,11 +61,12 @@ public class Pokemon
     public int Level => level;
     public bool Fainted => fainted;
     public int Hp => currentStat.HP;
-    public int HpMax => data.stat.HP;
+    public int HpMax => Mathf.FloorToInt(((2 * data.stat.HP + ivStat.HP + Mathf.FloorToInt(evStat.HP / 4)) * level) / 100) + level + 10;
     public int Xp => xp;
     public int XpMax => xpMax;
     public int XpGive => 40;
     public Stat CurrentStat => currentStat;
+
     //public Status CurrentStatus => currentStatus;
 
     public Pokemon(int _level, PokemonData _data, Stat _ivStat, string _nature, List<Move> _moves)
@@ -71,9 +75,13 @@ public class Pokemon
         level = _level;
         data = _data;
         ivStat = _ivStat;
+        evStat = new Stat(0, 0, 0, 0, 0, 0);
         nature.name = _nature;
         moves = _moves;
         currentStat = new Stat(_data.stat);
+        fieldStat = new Stat(_data.stat);
+        modificationStat = Stat.One;
+
         OnLevelUp += (p) =>
         {
             List<Move> _moves = MoveToLearn();
@@ -81,7 +89,10 @@ public class Pokemon
             {
                 LearnMove(_moves[i]);
             }
+            ApplyStat();
         };
+        ApplyStat();
+        currentStat.HP = HpMax;
     }
     public float GetSpeedInCombat()
     {
@@ -89,17 +100,21 @@ public class Pokemon
     }
     public void TakeDamage(Pokemon _owner, Move _move)
     {
-        int _crit = UnityEngine.Random.Range(0, 10) == 0 ? 2 : 1;
+        int _crit = Random.Range(0, 100) < (1/24 * (_move.CritRate * 2 + 1) * 100) ? 2 : 1;
+        if(_crit == 2)
+        {
+            Debug.Log(" Critique !!! ");
+        }
         float _stab = _owner.data.pkmTypes[0] == _move.Type ? 1.5f : 1;
-        int effectiveness1 = 1;
-        int effectiveness2 = 1;
+        float effectiveness1 = BattleManager.Instance.TypeTable.GetEffective(_move.Type, data.pkmTypes[0]);
+        float effectiveness2 = data.pkmTypes.Length == 2 ? BattleManager.Instance.TypeTable.GetEffective(_move.Type, data.pkmTypes[1]) : 1;
         float _critique = ((2 * _crit * _owner.level) / 5) + 2;
-        if (_move.Power == null)
+        if (_move.Power == 0)
         {
             Debug.Log(0 + " Damage");
             return;
         }
-        float _damage = ((_critique * _move.Power.Value  * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * 1;
+        float _damage = ((_critique * _move.Power  * _owner.currentStat.Attack/currentStat.Defense)/50 + 2) * _stab * effectiveness1 * effectiveness2 * ((float)Random.Range(217, 256)/255);
         TakeDamage((int)_damage);
     }
     public void TakeDamage(int _damage)
@@ -141,7 +156,7 @@ public class Pokemon
     {
         if (_heal <= 0 || fainted) return;
         currentStat.HP += _heal;
-        currentStat.HP = currentStat.HP > data.stat.HP ? data.stat.HP : currentStat.HP;
+        currentStat.HP = currentStat.HP > HpMax ? HpMax : currentStat.HP;
     }
     public void GainExp(int _xpEarn)
     {
@@ -164,7 +179,8 @@ public class Pokemon
     }
     public void ResetFieldEffect()
     {
-
+        modificationStat = Stat.One;
+        ApplyStat();
     }
     public bool LearnMove(Move _move)
     {
@@ -193,6 +209,16 @@ public class Pokemon
                 break;
         }
         return _moves;
+    }
+    public void ApplyStat()
+    {
+        NatureBoost _natureBoost = NatureData.natureBoosts[nature.name];
+        currentStat.Attack = Mathf.FloorToInt(((2 * data.stat.Attack + ivStat.Attack + Mathf.FloorToInt(evStat.Attack / 4)) * level) / 100 + 5) * (1 + _natureBoost.Stat.Attack / 100); 
+        currentStat.Defense = Mathf.FloorToInt(((2 * data.stat.Defense + ivStat.Defense + Mathf.FloorToInt(evStat.Defense / 4)) * level) / 100 + 5) * (1 + _natureBoost.Stat.Defense / 100);
+        currentStat.SpAttack = Mathf.FloorToInt(((2 * data.stat.SpAttack + ivStat.SpAttack + Mathf.FloorToInt(evStat.SpAttack / 4)) * level) / 100 + 5) * (1 + _natureBoost.Stat.SpAttack / 100); 
+        currentStat.SpDefense = Mathf.FloorToInt(((2 * data.stat.SpDefense + ivStat.SpDefense + Mathf.FloorToInt(evStat.SpDefense / 4)) * level) / 100 + 5) * (1 + _natureBoost.Stat.SpDefense / 100); 
+        currentStat.Speed = Mathf.FloorToInt(((2 * data.stat.Speed + ivStat.Speed + Mathf.FloorToInt(evStat.Speed / 4)) * level) / 100 + 5) * (1 + _natureBoost.Stat.Speed / 100);
+        fieldStat = currentStat * modificationStat;
     }
     public static implicit operator bool(Pokemon _pokemon)
     {

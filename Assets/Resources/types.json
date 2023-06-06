@@ -1,0 +1,118 @@
+{
+  "typeTable": [
+    {
+      "pkmType": 0,
+      "immunes": [ ],
+      "resistances": [ ],
+      "strengths": []
+    },
+    {
+      "pkmType": 1,
+      "immunes": [ 16 ],
+      "resistances": [ 15, 17 ],
+      "strengths": []
+    },
+    {
+      "pkmType": 2,
+      "immunes": [],
+      "resistances": [ 2, 4, 15, 14 ],
+      "strengths": [ 7, 3, 11, 17 ]
+    },
+    {
+      "pkmType": 3,
+      "immunes": [],
+      "resistances": [ 2, 4, 3, 17 ],
+      "strengths": [ 7, 8, 9, 14 ]
+    },
+    {
+      "pkmType": 4,
+      "immunes": [],
+      "resistances": [ 4, 7, 14 ],
+      "strengths": [ 2, 8, 15 ]
+    },
+    {
+      "pkmType": 5,
+      "immunes": [ 16 ],
+      "resistances": [ 10, 9, 13, 11, 18 ],
+      "strengths": [ 1, 3, 15, 12, 17 ]
+    },
+    {
+      "pkmType": 6,
+      "immunes": [ 8 ],
+      "resistances": [ 6, 7, 14 ],
+      "strengths": [ 4, 9 ]
+    },
+    {
+      "pkmType": 7,
+      "immunes": [],
+      "resistances": [ 2, 7, 10, 9, 11, 14, 17 ],
+      "strengths": [ 4, 8, 15 ]
+    },
+    {
+      "pkmType": 8,
+      "immunes": [ 9 ],
+      "resistances": [ 7, 11 ],
+      "strengths": [ 2, 6, 10, 15, 17 ]
+    },
+    {
+      "pkmType": 9,
+      "immunes": [],
+      "resistances": [ 6, 15, 17 ],
+      "strengths": [ 7, 5, 11 ]
+    },
+    {
+      "pkmType": 10,
+      "immunes": [ 17 ],
+      "resistances": [ 10, 8, 15, 16 ],
+      "strengths": [ 7, 18 ]
+    },
+    {
+      "pkmType": 11,
+      "immunes": [],
+      "resistances": [ 2, 5, 10, 9, 16, 17, 18 ],
+      "strengths": [ 7, 13, 12 ]
+    },
+    {
+      "pkmType": 12,
+      "immunes": [],
+      "resistances": [ 5, 12, 18 ],
+      "strengths": [ 13, 16 ]
+    },
+    {
+      "pkmType": 13,
+      "immunes": [ 12 ],
+      "resistances": [ 13, 17 ],
+      "strengths": [ 5, 10 ]
+    },
+    {
+      "pkmType": 14,
+      "immunes": [ 18 ],
+      "resistances": [ 17 ],
+      "strengths": [ 14 ]
+    },
+    {
+      "pkmType": 15,
+      "immunes": [],
+      "resistances": [ 5, 8, 17 ],
+      "strengths": [ 2, 3, 9, 11 ]
+    },
+    {
+      "pkmType": 16,
+      "immunes": [ 1 ],
+      "resistances": [ 12 ],
+      "strengths": [ 13, 16 ]
+    },
+    {
+      "pkmType": 17,
+      "immunes": [],
+      "resistances": [ 2, 4, 6, 17 ],
+      "strengths": [ 3, 15, 18 ]
+    },
+    {
+      "pkmType": 18,
+      "immunes": [],
+      "resistances": [ 2, 10, 17 ],
+      "strengths": [ 5, 14, 12 ]
+    }
+  ]
+}

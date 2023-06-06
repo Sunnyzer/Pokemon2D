@@ -356,6 +356,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GreenButton
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 112
+        width: 126
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a538e1a1a83508d4c98fd0f89ffbb4c2
+      internalID: 599613357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 116
+        width: 128
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46818ba8b8cb69943993c115c708d726
+      internalID: -1337188228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -367,6 +409,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      GreenButton: 599613357
+      GreenButtonPressed: -1337188228
       TextField: -361774507
       BackButton: 1440337951
       BackButtonPressed: -731513824

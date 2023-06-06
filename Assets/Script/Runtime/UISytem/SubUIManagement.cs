@@ -7,6 +7,7 @@ public class SubUIManagement
 {
     [SerializeField] List<SubUI> subUIManagements = new List<SubUI>();
     [SerializeField] int indexActivation = 0;
+    [SerializeField] bool activeOnStart = true;
     [SerializeField] SubUI currentSubUI = null;
 
     public void Init()
@@ -16,8 +17,8 @@ public class SubUIManagement
             SubUI _subUI = subUIManagements[i];
             _subUI.OnActivation += OnActiveSubUI;
         }
-        OnActiveSubUI(subUIManagements[indexActivation]);
-
+        if(activeOnStart)
+            OnActiveSubUI(subUIManagements[indexActivation]);
     }
     private void OnActiveSubUI(SubUI _subUI)
     {

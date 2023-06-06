@@ -29,9 +29,9 @@ public class MoveData
     [SerializeField] public Stat stat_changes;
 
     public string Name => name;
-    public int? Accuracy => accuracy;
+    public int Accuracy => accuracy;
     public int Id => id;
-    public int? Power => power;
+    public int Power => power;
     public PkmType Type => type;
     public int PP => pp;
 }
@@ -45,9 +45,11 @@ public class Move
     public int PP => currentPP;
     public int PPMax => data.PP;
     public bool CanUse => currentPP > 0;
-    public int? Power => data.Power;
+    public int Power => data.Power;
     public PkmType Type => data.Type;
-    public int Priority => 0;
+    public int Priority => data.priority;
+    public int Accuracy => data.Accuracy;
+    public float CritRate => data.critRate;
 
     public Move(MoveData data)
     {

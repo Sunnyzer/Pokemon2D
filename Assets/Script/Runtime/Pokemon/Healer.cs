@@ -12,7 +12,6 @@ public class Healer : InteractObject
             _pokemonHeal += _playerTrainer.PokemonTeam[i]?.Name + ",";
             _playerTrainer.PokemonTeam[i]?.RecoverAll();
         }
-        Debug.Log("Heal Pokemon " + _pokemonHeal);
     }
 
     public override void Interact(PlayerTrainer _player)

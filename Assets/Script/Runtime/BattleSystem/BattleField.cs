@@ -12,10 +12,12 @@ public class BattleField
     public Pokemon FirstPokemon => firstPokemon;
     public Pokemon SecondPokemon => secondPokemon;
 
-    public void ChangeFirstPokemon(Pokemon _newPokemon)
+    public bool ChangeFirstPokemon(Pokemon _newPokemon)
     {
+        if(_newPokemon == null || _newPokemon.Fainted) return false;
         firstPokemon.ResetFieldEffect();
         firstPokemon = _newPokemon;
+        return true;
     }
     public void ChangeSecondPokemon(Pokemon _newPokemon)
     {

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28bcde92f7d48743a9c19a887c2c681, type: 3}
+  m_Name: TypeTableSO
+  m_EditorClassIdentifier: 
+  typeTable:
+    typeTable:
+    - pkmType: 1
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 2
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 3
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 4
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 5
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 6
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 7
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 8
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 9
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 10
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 11
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 12
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 13
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 14
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 15
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 16
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 17
+      immunes: 
+      resistances: 
+      strengths: 
+    - pkmType: 18
+      immunes: 
+      resistances: 
+      strengths: 

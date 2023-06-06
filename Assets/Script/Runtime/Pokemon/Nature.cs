@@ -5,6 +5,7 @@ using System.Linq;
 public class NatureBoost
 {
     Stat natureBoost;
+    public Stat Stat => natureBoost;
     public NatureBoost(Stat _natureBoost) 
     {
         natureBoost = _natureBoost;
