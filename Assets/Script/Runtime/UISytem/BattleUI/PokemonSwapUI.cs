@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PokemonSwapUI : TeamInfoUI
+public class PokemonSwapUI : TeamUI
 {
     [SerializeField] Button returnButton;
 

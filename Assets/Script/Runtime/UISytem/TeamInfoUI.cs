@@ -1,28 +1,25 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class TeamInfoUI : SubUI
+public class TeamInfoUI : TeamUI
 {
-    [SerializeField] protected List<PokemonInfoButton> pokemonInfoButtons = new List<PokemonInfoButton>();
-    public override void Init(SubUIManagement _owner)
+    [SerializeField] PokemonStatUI pokemonStatUI;
+    [SerializeField] PokemonProfileUI pokemonProfileUI;
+    [SerializeField] PokemonCellUI pokemonCellUI;
+
+    public override void Activate()
     {
-        base.Init(_owner);
-        UpdateUITeam();
+
     }
-    public void UpdateUITeam()
+
+    public override void Deactivate()
     {
-        PlayerTrainer _playerTrainer = GetOwnerMainUi<PlayerTrainer>(); 
-        PokemonTeam _team = _playerTrainer.PokemonTeam;
-        int _lenghtTeam = _team.Lenght; 
-        for (int i = 0; i < _lenghtTeam; i++)
-        {
-            PokemonInfoButton _pokemonInfoButton = pokemonInfoButtons[i];
-            Pokemon _pokemon = _team[i];
-            if (_pokemon != null)
-                InitButton(i, _pokemonInfoButton);
-            else
-                _pokemonInfoButton.Deactivate();
-        }
+
     }
-    public abstract void InitButton(int _index, PokemonInfoButton _pokemonSwapButton);
+
+    public override void InitButton(int _index, PokemonInfoButton _pokemonInfoButton)
+    {
+        _pokemonInfoButton.onClick.AddListener(() => {  });
+    }
 }

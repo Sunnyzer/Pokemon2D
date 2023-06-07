@@ -5,12 +5,12 @@ public class GestionUI : UI
 {
     [SerializeField] SubUIManagement subMenuUIManagement;
 
-    public override void Activate()
+    public override void OnActivate()
     {
 
     }
 
-    public override void Deactivate()
+    public override void OnDeactivate()
     {
 
     }

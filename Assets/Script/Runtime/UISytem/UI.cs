@@ -15,22 +15,27 @@ public abstract class UI : MonoBehaviour
     {
         subUIManagement.Init(this);
     }
-    //automaticly call in UIManager never call by yourself use Activate() instead
+    /// <summary>
+    /// automaticly call in UIManager never call by yourself use SetCurrentUIDisplay in UIManager.Instance instead
+    /// </summary>
+    /// <param name="_owner"></param>
     public void ActivateUI(MonoBehaviour _owner = null)
     {
         owner = _owner;
         gameObject.SetActive(true);
-        Activate();
+        OnActivate();
         OnUIActivate?.Invoke();
     }
-    //automaticly call in UIManager never call by yourself use Deactivate() instead
+    /// <summary>
+    /// automaticly call in UIManager never call by yourself
+    /// </summary>
     public void DeactivateUI()
     {
         gameObject.SetActive(false);
-        Deactivate();
+        OnDeactivate();
         OnUIDeactivate?.Invoke();
     }
 
-    public abstract void Activate();
-    public abstract void Deactivate();
+    public abstract void OnActivate();
+    public abstract void OnDeactivate();
 }

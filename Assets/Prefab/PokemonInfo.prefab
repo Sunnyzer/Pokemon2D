@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 2244562488051233009}
   - component: {fileID: 2244562488051233010}
   - component: {fileID: 2244562488051233011}
-  - component: {fileID: 7671912168973271179}
+  - component: {fileID: 6152063542168175395}
   m_Layer: 5
   m_Name: PokemonInfo
   m_TagString: Untagged
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7671912168973271179
+--- !u!114 &6152063542168175395
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2244562488051233006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e74e714661eb1a409a112746f7dcabe, type: 3}
+  m_Script: {fileID: 11500000, guid: d74310ac606858e449ed8ed907e72299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -214,7 +214,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -225,7 +225,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 1867223316, guid: dd2772bce11df9f479de0d62da0d6f68, type: 3}
+    m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:

@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PokemonMenuUI : SubUI
+public class PokemonMenuUI : UI
 {
-    public override void Activate()
+    public override void OnActivate()
     {
-
+          
     }
 
-    public override void Deactivate()
+    public override void OnDeactivate()
     {
-        throw new System.NotImplementedException();
+
     }
 }

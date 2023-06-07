@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 34c268eef3548be4c88edcebd72bf933
+guid: 2776358c9b40d4b45b0e00f5b17b4b22
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,32 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PokemonSummaryMenu_0
+      name: PokemonSummaryMenuProfile
       rect:
         serializedVersion: 2
-        x: 2
-        y: 338
-        width: 240
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7d6367fb7ea25942bbbad9191b31544
-      internalID: 1573574230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PokemonSummaryMenu_1
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 175
+        x: 0
+        y: 36
         width: 240
         height: 144
       alignment: 0
@@ -140,41 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa46f3e023a6bc643889845cebefd796
-      internalID: -898366071
+      spriteID: e9ccdd70298adff48a1af5668c49449a
+      internalID: 1320609780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PokemonSummaryMenu_2
+      name: PokemonSummaryMenuStat
       rect:
         serializedVersion: 2
-        x: 4
-        y: 400
-        width: 117
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 758b8fd0eadda5d419f0edf2900fae4b
-      internalID: -440326055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PokemonSummaryMenu_3
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 482
+        x: 241
+        y: 36
         width: 240
-        height: 16
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa2f0d2c1db14d44c8dec7c01055c487
-      internalID: -1212559970
+      spriteID: ea86c1b01fa690e46b98b2b714b62679
+      internalID: 1747452072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PokemonSummaryMenu_4
+      name: PokemonSummaryMenuMove
       rect:
         serializedVersion: 2
         x: 244
-        y: 2
+        y: 182
         width: 121
         height: 111
       alignment: 0
@@ -203,81 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 805b603ae7b9a184c9910f299947b98c
-      internalID: 721603075
+      spriteID: f6d0aa93c69a96241ac07702c8143173
+      internalID: -2049034442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PokemonSummaryMenu_5
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 115
-        width: 240
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 276ea64ab0219b3409855de209b48c8f
-      internalID: 322232873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExpBar
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 329
-        width: 83
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 413f28961fe87a844a6629e4c8054e4b
-      internalID: 1518740573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PokemonSummaryMenuPoke
+      name: PokemonSummaryMenuBackground
       rect:
         serializedVersion: 2
         x: 2
-        y: 322
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd241265323db9148a294a41cda27457
-      internalID: -449510477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PokemonSummaryMenuBackGround
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 13
+        y: 193
         width: 240
         height: 160
       alignment: 0
@@ -287,20 +182,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14871980fd450564b8dc0a88af021b34
-      internalID: 1940360343
+      spriteID: 499dca167dc42234787b094e6be2577f
+      internalID: 1207165382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FireType
+      name: PokemonSummaryMenuBar
       rect:
         serializedVersion: 2
-        x: 5
-        y: 268
-        width: 32
-        height: 12
+        x: 158
+        y: 509
+        width: 83
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1df04da3b992c4a9a4f75d2c54a810
+      internalID: -1708975191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonSummaryMenuBarBack
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 503
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00859065eee79140853258d4550abd8
+      internalID: -320679393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonSummaryMenuToolBar
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 662
+        width: 240
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,29 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8919b82f530f1144af909d830fef783
-      internalID: -363905263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonType
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 242
-        width: 32
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5935321c49b61794694cc3f5ad44a9e1
-      internalID: 929253553
+      spriteID: 2dfce1eeb28612246ba68ba2a8c924f1
+      internalID: -386553995
       vertices: []
       indices: 
       edges: []
@@ -346,17 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PokemonSummaryMenu_2: -440326055
-      PokemonSummaryMenu_3: -1212559970
-      PokemonSummaryMenu_1: -898366071
-      ExpBar: 1518740573
-      PokemonSummaryMenu_5: 322232873
-      PokemonSummaryMenuBackGround: 1940360343
-      PokemonSummaryMenu_4: 721603075
-      DragonType: 929253553
-      PokemonSummaryMenu_0: 1573574230
-      FireType: -363905263
-      PokemonSummaryMenuPoke: -449510477
+      PokemonSummaryMenuStat: 1747452072
+      PokemonSummaryMenuToolBar: -386553995
+      PokemonSummaryMenuBarBack: -320679393
+      PokemonSummaryMenuMove: -2049034442
+      PokemonSummaryMenuBackground: 1207165382
+      PokemonSummaryMenuBar: -1708975191
+      PokemonSummaryMenuProfile: 1320609780
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
