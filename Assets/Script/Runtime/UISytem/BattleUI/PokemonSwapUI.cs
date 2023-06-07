@@ -1,37 +1,42 @@
+using System;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PokemonSwapUI : SubUI
+public class PokemonSwapUI : TeamInfoUI
 {
-    [SerializeField] List<PokemonSwapButton> pokemonSwapButtons = new List<PokemonSwapButton>();
     [SerializeField] Button returnButton;
-    [SerializeField] BattleMenuButtonUI menuButton = null;
-    
-    public BattleMenuButtonUI MenuButton => menuButton;
+
     public bool ForceSwap => returnButton.interactable == false;
-    private void Start()
+    
+    public override void Init(SubUIManagement _owner)
     {
-        Init();
+        base.Init(_owner);
+        returnButton.onClick.AddListener(owner.ActivePreviousSubUI);
     }
     public override void Activate()
     {
-        base.Activate();
-        UpdateUI(BattleManager.Instance.PlayerTrainer.PokemonTeam);
+        PlayerTrainer _ownerTrainer = GetOwnerMainUi<PlayerTrainer>();
+        UpdateUI(_ownerTrainer.PokemonTeam);
     }
-    public void Init()
+
+    public override void Deactivate()
     {
-        PokemonTeam _team = BattleManager.Instance.PlayerTrainer.PokemonTeam;
+
+    }
+    public void UpdateUI(PokemonTeam _team)
+    {
+        returnButton.interactable = true;
         for (int i = 0; i < _team.Lenght; i++)
         {
-            PokemonSwapButton pokemonSwapButton = pokemonSwapButtons[i];
+            PokemonInfoButton _pokemonInfoButton = pokemonInfoButtons[i];
             Pokemon _pokemon = _team[i];
             if (_pokemon != null)
-                pokemonSwapButton.Init(this, i);
-            else
-                pokemonSwapButton.Deactivate();
+                _pokemonInfoButton.UpdatePokemon(_pokemon);
         }
     }
+    
     public void ActiveForceSwap()
     {
         DeactivateReturn();
@@ -40,15 +45,31 @@ public class PokemonSwapUI : SubUI
     {
         returnButton.interactable = false;
     }
-    public void UpdateUI(PokemonTeam _team)
+
+    public override void InitButton(int _index, PokemonInfoButton _pokemonSwapButton)
     {
-        returnButton.interactable = true;
-        for (int i = 0; i < _team.Lenght; i++)
+        _pokemonSwapButton.onClick.AddListener(() => Swap(_index));
+    }
+
+    //TODO doit etre changer n a rien n a faire ici
+    public void Swap(int _index)
+    {
+        if (ForceSwap)
         {
-            PokemonSwapButton pokemonSwapButton = pokemonSwapButtons[i];
-            Pokemon _pokemon = _team[i];
-            if (_pokemon != null)
-                pokemonSwapButton.UpdatePokemon(_pokemon);
+            if (BattleManager.Instance.BattleField.ChangeFirstPokemon(GetOwnerMainUi<PlayerTrainer>().PokemonTeam[_index]))
+                owner.ActivePreviousSubUI();
+            else
+                Debug.Log("Pokemon Fainted !!!");
+        }
+        else
+        {
+            if (!BattleManager.Instance.PlayerTrainer.PokemonTeam[_index].Fainted)
+            {
+                BattleManager.Instance.SelectAction(new SwapPokemonAction(GetOwnerMainUi<PlayerTrainer>().PokemonTeam[_index]));
+                owner.ActivePreviousSubUI();
+            }
+            else
+                Debug.Log("Pokemon Fainted !!!");
         }
     }
 }

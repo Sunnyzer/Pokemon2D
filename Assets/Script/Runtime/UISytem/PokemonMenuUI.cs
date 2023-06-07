@@ -6,7 +6,11 @@ public class PokemonMenuUI : SubUI
 {
     public override void Activate()
     {
-        base.Activate();
+
     }
-    
+
+    public override void Deactivate()
+    {
+        throw new System.NotImplementedException();
+    }
 }

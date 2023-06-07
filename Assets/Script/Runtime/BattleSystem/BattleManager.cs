@@ -36,7 +36,7 @@ public class BattleManager : Singleton<BattleManager>
         wildPokemon = _wildPokemon;
         battleField = new BattleField(_firstPokemon, _wildPokemon.CurrentPokemonInCombat);
         battleUI.StartBattle(battleField);
-        UIManager.Instance.SetCurrentUIDisplay(battleUI);
+        UIManager.Instance.SetCurrentUIDisplay(battleUI, _player);
     }
     private void Update()
     {

@@ -242,7 +242,7 @@ MonoBehaviour:
   pokemonName: {fileID: 2244562488468073974}
   pokemonLevel: {fileID: 2244562488357163045}
   pokemonHp: {fileID: 2244562488114912589}
-  hpBar: {fileID: 9201864025227603137}
+  pokemonHpBar: {fileID: 9201864025227603137}
   pokemonSprite: {fileID: 2244562487907924428}
 --- !u!1 &2244562488114912587
 GameObject:
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 53.65
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1

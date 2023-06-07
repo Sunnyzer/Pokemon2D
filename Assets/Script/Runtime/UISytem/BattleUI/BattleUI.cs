@@ -8,23 +8,12 @@ public class BattleUI : UI
 
     [SerializeField] PokemonInfoUI playerPokemonInfoUI;
     [SerializeField] PokemonInfoUI opponentPokemonInfoUI;
-    
-    [SerializeField] SubUIManagement subUIManagement;
 
     public PokemonSwapUI PokemonSwapUI => pokemonSwapUI;
 
-    private void Start()
-    {
-        subUIManagement.Init();
-    }
     public void StartBattle(BattleField _battleField)
     {
         SetField(_battleField);
-    }
-    public override void DeactivateUI()
-    {
-        base.DeactivateUI();
-        StopBattle();
     }
     private void StopBattle()
     {
@@ -35,5 +24,15 @@ public class BattleUI : UI
     {
         playerPokemonInfoUI.SetBattleField(_battleField);
         opponentPokemonInfoUI.SetBattleField(_battleField);
+    }
+
+    public override void Activate()
+    {
+        
+    }
+
+    public override void Deactivate()
+    {
+        StopBattle();
     }
 }

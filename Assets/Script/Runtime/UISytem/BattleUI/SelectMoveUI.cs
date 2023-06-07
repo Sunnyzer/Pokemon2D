@@ -1,9 +1,25 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectMoveUI : SubUI
 {
     [SerializeField] List<MoveButtonUI> moveButtonUIs = new List<MoveButtonUI>();
+    [SerializeField] Button returnButton = null;
+    public override void Init(SubUIManagement _owner)
+    {
+        base.Init(_owner);
+        returnButton.onClick.AddListener(owner.ActivePreviousSubUI);
+    }
+    public override void Activate()
+    {
+        UpdateUI(BattleManager.Instance.BattleField.FirstPokemon);
+    }
+
+    public override void Deactivate()
+    {
+        
+    }
 
     public void UpdateUI(Pokemon _pokemon)
     {
@@ -19,10 +35,5 @@ public class SelectMoveUI : SubUI
                 moveButtonUIs[i].Deactivate();
             }
         }
-    }
-    public override void Activate()
-    {
-        base.Activate();
-        UpdateUI(BattleManager.Instance.BattleField.FirstPokemon);
     }
 }

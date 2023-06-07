@@ -1,11 +1,24 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GestionUI : UI
 {
     [SerializeField] SubUIManagement subMenuUIManagement;
-    private void Start()
+
+    public override void Activate()
     {
-        subMenuUIManagement.Init();
+
+    }
+
+    public override void Deactivate()
+    {
+
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+        subMenuUIManagement.Init(this);
     }
 
 }

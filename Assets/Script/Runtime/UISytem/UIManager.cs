@@ -11,21 +11,21 @@ public class UIManager : Singleton<UIManager>
     #if UNITY_EDITOR
     public int indexUI = 0;
     #endif
-    private void ChangeUI(UI _ui)
+    private void ChangeUI(UI _ui, MonoBehaviour _owner = null)
     {
         currentUI?.DeactivateUI();
         currentUI = _ui;
         if (currentUI == null)
             ControllerManager.Instance.TakeControlOnMainController();
-        currentUI?.ActivateUI();
+        currentUI?.ActivateUI(_owner);
         OnUIChange?.Invoke(currentUI);
     }
-    public bool SetCurrentUIDisplay(UI _ui)
+    public bool SetCurrentUIDisplay(UI _ui, MonoBehaviour _owner = null)
     {
         if (_ui == currentUI) return false;
         if(currentUI)
             uiQueue.Add(currentUI);
-        ChangeUI(_ui);
+        ChangeUI(_ui, _owner);
         return true;
     }
     public void ClearUIQueue()
@@ -45,13 +45,15 @@ public class UIManager : Singleton<UIManager>
             ChangeUI(null);
             return false;
         }
+
         currentUI?.DeactivateUI();
         if (uiQueue.Count > 0)
         {
+            MonoBehaviour _owner = currentUI.Owner;
             currentUI = uiQueue[uiQueue.Count - 1];
             uiQueue.RemoveAt(uiQueue.Count - 1);
             ControllerManager.Instance.TakeControl(null);
-            currentUI.ActivateUI();
+            currentUI.ActivateUI(_owner);
             if (!ControllerManager.Instance.CurrentController)
                 ControllerManager.Instance.TakeControlOnMainController();
             OnUIChange?.Invoke(currentUI);
