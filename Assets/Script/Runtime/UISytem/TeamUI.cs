@@ -7,9 +7,13 @@ public abstract class TeamUI : SubUI
     public override void Init(SubUIManagement _owner)
     {
         base.Init(_owner);
-        UpdateUITeam();
+        InitTeam();
     }
-    public void UpdateUITeam()
+    public override void OnActivate()
+    {
+        UpdateTeam();
+    }
+    public void InitTeam()
     {
         PlayerTrainer _playerTrainer = GetOwnerMainUi<PlayerTrainer>(); 
         PokemonTeam _team = _playerTrainer.PokemonTeam;
@@ -20,6 +24,21 @@ public abstract class TeamUI : SubUI
             Pokemon _pokemon = _lenghtTeam <= i ? null : _team[i];
             if (_pokemon != null)
                 InitButton(i, _pokemonInfoButton);
+            else
+                _pokemonInfoButton.Deactivate();
+        }
+    }
+    public void UpdateTeam()
+    {
+        PlayerTrainer _playerTrainer = GetOwnerMainUi<PlayerTrainer>();
+        PokemonTeam _team = _playerTrainer.PokemonTeam;
+        int _lenghtTeam = _team.Lenght;
+        for (int i = 0; i < pokemonInfoButtons.Count; i++)
+        {
+            PokemonInfoButton _pokemonInfoButton = pokemonInfoButtons[i];
+            Pokemon _pokemon = _lenghtTeam <= i ? null : _team[i];
+            if (_pokemon != null)
+                _pokemonInfoButton.UpdatePokemon(_pokemon);
             else
                 _pokemonInfoButton.Deactivate();
         }

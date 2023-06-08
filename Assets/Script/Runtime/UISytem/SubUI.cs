@@ -4,7 +4,7 @@ using UnityEngine;
 public abstract class SubUI : MonoBehaviour
 {
     public event Action<SubUI> OnActivation = null;
-    public event Action<SubUI> OnDeactivate = null;
+    public event Action<SubUI> OnDeactivation = null;
     protected SubUIManagement owner = null;
     public SubUIManagement Owner => owner;
 
@@ -26,18 +26,17 @@ public abstract class SubUI : MonoBehaviour
 
     public void ActivateUI()
     {
-        
         gameObject.SetActive(true);
-        Activate();
+        OnActivate();
         OnActivation?.Invoke(this);
     }
     public void DeactivateUI()
     {
         gameObject.SetActive(false);
-        Deactivate();
-        OnDeactivate?.Invoke(this);
+        OnDeactivate();
+        OnDeactivation?.Invoke(this);
     }
 
-    public abstract void Activate();
-    public abstract void Deactivate();
+    public abstract void OnActivate();
+    public abstract void OnDeactivate();
 }

@@ -11,12 +11,12 @@ public class SelectMoveUI : SubUI
         base.Init(_owner);
         returnButton.onClick.AddListener(owner.ActivePreviousSubUI);
     }
-    public override void Activate()
+    public override void OnActivate()
     {
         UpdateUI(BattleManager.Instance.BattleField.FirstPokemon);
     }
 
-    public override void Deactivate()
+    public override void OnDeactivate()
     {
         
     }

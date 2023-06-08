@@ -40,6 +40,14 @@ public class UIManager : Singleton<UIManager>
     }
     public bool RemoveQueueSetPreviousUI()
     {
+        if(currentUI.RemoveUIIf0SubUIDisplay)
+        {
+            if(currentUI.CurrentSubUIDisplay)
+            {
+                currentUI.ClearSubUI();
+                return false;
+            }
+        }
         if (uiQueue.Count <= 0)
         {
             ChangeUI(null);

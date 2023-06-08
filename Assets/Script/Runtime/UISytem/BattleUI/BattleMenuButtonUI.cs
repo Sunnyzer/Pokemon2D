@@ -18,12 +18,12 @@ public class BattleMenuButtonUI : SubUI
         bagButton.onClick.AddListener(() => { /*_owner.ActiveSubUi(3); */});
         runButton.onClick.AddListener(() => { });
     }
-    public override void Activate()
+    public override void OnActivate()
     {
         
     }
 
-    public override void Deactivate()
+    public override void OnDeactivate()
     {
         
     }

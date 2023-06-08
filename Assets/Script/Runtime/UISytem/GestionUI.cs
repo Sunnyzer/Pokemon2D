@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class GestionUI : UI
 {
-    [SerializeField] SubUIManagement subMenuUIManagement;
-
     public override void OnActivate()
     {
 
@@ -13,12 +11,6 @@ public class GestionUI : UI
     public override void OnDeactivate()
     {
 
-    }
-
-    protected override void Start()
-    {
-        base.Start();
-        subMenuUIManagement.Init(this);
     }
 
 }

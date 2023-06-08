@@ -239,7 +239,7 @@ TextureImporter:
         width: 240
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,6 +247,48 @@ TextureImporter:
       bones: []
       spriteID: 2dfce1eeb28612246ba68ba2a8c924f1
       internalID: -386553995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonSummaryMenuTopBar
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 662
+        width: 240
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef615a9745211947aff8303b2e4590a
+      internalID: 330549925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonSummaryMenuCancel
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 666
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df747c6289537ee4f8292ede0eb4fced
+      internalID: -1122959302
       vertices: []
       indices: 
       edges: []
@@ -262,8 +304,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      PokemonSummaryMenuCancel: -1122959302
       PokemonSummaryMenuStat: 1747452072
       PokemonSummaryMenuToolBar: -386553995
+      PokemonSummaryMenuTopBar: 330549925
       PokemonSummaryMenuBarBack: -320679393
       PokemonSummaryMenuMove: -2049034442
       PokemonSummaryMenuBackground: 1207165382

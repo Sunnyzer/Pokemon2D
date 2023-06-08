@@ -15,13 +15,13 @@ public class PokemonSwapUI : TeamUI
         base.Init(_owner);
         returnButton.onClick.AddListener(owner.ActivePreviousSubUI);
     }
-    public override void Activate()
+    public override void OnActivate()
     {
         PlayerTrainer _ownerTrainer = GetOwnerMainUi<PlayerTrainer>();
         UpdateUI(_ownerTrainer.PokemonTeam);
     }
 
-    public override void Deactivate()
+    public override void OnDeactivate()
     {
 
     }

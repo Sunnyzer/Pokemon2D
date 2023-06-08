@@ -54,7 +54,7 @@ public class BattleManager : Singleton<BattleManager>
                     return;
                 }
                 turnActions.Clear();
-                battleUI.PokemonSwapUI.Activate();
+                battleUI.PokemonSwapUI.OnActivate();
                 battleUI.PokemonSwapUI.ActiveForceSwap();
                 return;
             }

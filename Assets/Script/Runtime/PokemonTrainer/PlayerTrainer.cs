@@ -9,7 +9,6 @@ public class PlayerTrainer : Player
 
     CharacterMovement characterMovement;
     PokemonTeam pokemonTeam;
-    TurnAction actionSelected = null;
     List<PokemonChoice> pokemonChoices = new List<PokemonChoice>();
     int index = 0;
 
@@ -51,7 +50,7 @@ public class PlayerTrainer : Player
         pokemonChoices = pokemonChoices.OrderBy(p => p.IndexPokemon).ToList();
         if (Input.GetKeyDown(KeyCode.F))
         {
-            UIManager.Instance.SetCurrentUIDisplay(trainerPrefab);
+            UIManager.Instance.SetCurrentUIDisplay(trainerPrefab, this);
             return;
         }
         if(Input.GetMouseButtonDown(0))
@@ -63,18 +62,6 @@ public class PlayerTrainer : Player
         characterMovement.RegisterInputKeyDown(KeyCode.S, new Vector2(0, -1));
         characterMovement.RegisterInputKeyDown(KeyCode.D, new Vector2(1, 0));
         characterMovement.RegisterInputKeyDown(KeyCode.A, new Vector2(-1, 0));
-    }
-
-    //public void SelectAction(TurnAction _actionSelected)
-    //{
-    //    actionSelected = _actionSelected;
-    //    IsReady = true;
-    //}
-
-    public TurnAction Turn(BattleInfo _battleInfo)
-    {
-        //actionSelected.BattleField = _battleInfo;
-        return null;
     }
 
     public bool Swap(int _index)

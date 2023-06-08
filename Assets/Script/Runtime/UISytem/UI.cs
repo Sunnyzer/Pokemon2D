@@ -5,13 +5,15 @@ public abstract class UI : MonoBehaviour
 {
     public event Action OnUIActivate = null;
     public event Action OnUIDeactivate = null;
-    protected SubUIManagement subUIManagement = new SubUIManagement();
+    [SerializeField] protected SubUIManagement subUIManagement = new SubUIManagement();
+    [SerializeField] protected bool removeUIIf0SubUIDisplay = false;
     protected MonoBehaviour owner = null;
     //system de selection with selectableObject.Interact List<>
     public MonoBehaviour Owner => owner;
     public SubUI CurrentSubUIDisplay => subUIManagement.CurrentSubUIDisplay;
+    public bool RemoveUIIf0SubUIDisplay => removeUIIf0SubUIDisplay;
 
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         subUIManagement.Init(this);
     }
@@ -36,6 +38,10 @@ public abstract class UI : MonoBehaviour
         OnUIDeactivate?.Invoke();
     }
 
+    public void ClearSubUI()
+    {
+        subUIManagement.DeactivateAllSubUI();
+    }
     public abstract void OnActivate();
     public abstract void OnDeactivate();
 }
