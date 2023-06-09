@@ -29,6 +29,7 @@ public enum PkmType
 [Serializable]
 public class PkmTypeIWS
 {
+    public Sprite spriteType;
     public PkmType pkmType;
     public List<PkmType> immunes = new List<PkmType>();
     public List<PkmType> resistances = new List<PkmType>();

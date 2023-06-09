@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PokemonProfileUI : MonoBehaviour
+public class PokemonProfileUI : SubUI
 {
     [SerializeField] Transform allType;
     [SerializeField] TextMeshProUGUI pokemonNumero;
@@ -13,9 +13,29 @@ public class PokemonProfileUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI pokemonLevel;
     [SerializeField] Image pokemonSprite;
 
+    public override void OnActivate()
+    {
+
+    }
+
+    public override void OnDeactivate()
+    {
+
+    }
+
     public void UpdatePokemon(Pokemon _pokemon)
     {
-        //allType
+        Image _type1 = allType.GetChild(0).GetComponent<Image>();
+        Image _type2 = allType.GetChild(1).GetComponent<Image>();
+
+        _type1.sprite = BattleManager.Instance.TypeTable.GetSpriteType(_pokemon.Data.pkmTypes[0]);
+        if (1 < _pokemon.Data.pkmTypes.Length)
+        {
+            _type2.gameObject.SetActive(true);
+            _type2.sprite = BattleManager.Instance.TypeTable.GetSpriteType(_pokemon.Data.pkmTypes[1]);
+        }
+        else
+            _type2.gameObject.SetActive(false);
         _pokemon.ApplyStat();
         pokemonNumero.text = _pokemon.Data.id.ToString();
 

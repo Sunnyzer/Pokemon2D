@@ -37,6 +37,7 @@ public class EncounterCell : TileSprite
         if (!_playerPokemon) return;
         OnEnterCell?.Invoke(this);
         float _proba = Random.Range(0, 1000)/10f;
+        if (!cellZone) return;// a changer ordre de set mauvais cellZone can be null during 1 frame
         if (_proba > cellZone.ChanceToEncounterPokemon) return;
         Pokemon _pokemon = null;
         float _chance = 0;

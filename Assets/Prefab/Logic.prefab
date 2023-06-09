@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7231415198631800064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7231415198631800071}
+  - component: {fileID: 7231415198631800070}
+  - component: {fileID: 7231415198631800068}
+  - component: {fileID: 7231415198631800069}
+  - component: {fileID: 7231415198631800123}
+  - component: {fileID: 7231415198631800122}
+  - component: {fileID: 7231415198631800121}
+  - component: {fileID: 7231415198631800120}
+  m_Layer: 0
+  m_Name: Logic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7231415198631800071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7231415198631800070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32bdc57e7b006da4ca698ce5a839985b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7231415198631800068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670a4091e04086b42936fba74683200a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players: []
+--- !u!114 &7231415198631800069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd19a37b08472da4a9b5e15ead4e24e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllers: []
+  currentController: {fileID: 0}
+  mainController: {fileID: 0}
+  indexController: 2
+--- !u!114 &7231415198631800123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cab09bfd2d433149835d3a0b3ba617d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentUI: {fileID: 0}
+  uiQueue: []
+  indexUI: 0
+--- !u!114 &7231415198631800122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04273f24923c585439899beac53e4e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeTable: {fileID: 11400000, guid: cc96e29469b372d4ba32d0aebf2b2f3e, type: 2}
+  battleUI: {fileID: 0}
+--- !u!114 &7231415198631800121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18fed5e99a1c774984dde56fcd99afb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonDataSO: {fileID: 11400000, guid: f5305729958db3b4d887fcc3dcee3c3b, type: 2}
+--- !u!114 &7231415198631800120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3015a9fd3eaecd3488c79b7d3496efaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveData: {fileID: 11400000, guid: 6e42104ed215069468b1dd20409601c2, type: 2}
+  lutteMove:
+    accuracy: 0
+    name: 
+    id: 0
+    power: 0
+    pp: 2147483647
+    priority: 0
+    type: 0
+    damageType: 0
+    critRate: 0
+    statChance: 0
+    healing: 0
+    drain: 0
+    flinchRate: 0
+    effectChance: 0
+    stat_changes:
+      HP: 0
+      Attack: 0
+      Defense: 0
+      SpAttack: 0
+      SpDefense: 0
+      Speed: 0

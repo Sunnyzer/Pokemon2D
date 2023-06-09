@@ -7,6 +7,7 @@ public class TeamInfoUI : TeamUI
 {
     [SerializeField] PokemonStatUI pokemonStatUI;
     [SerializeField] PokemonProfileUI pokemonProfileUI;
+    public int CurrentIndexPokemonDisplay { get; set; }
 
     public override void OnActivate()
     {
@@ -24,8 +25,33 @@ public class TeamInfoUI : TeamUI
     }
     public void ActivateStat(int _index)
     {
+        CurrentIndexPokemonDisplay = _index;
         PokemonTeam _pokemonTeam = GetOwnerMainUi<PlayerTrainer>().PokemonTeam;
-        owner.ActiveSubUi(pokemonStatUI);
-        pokemonStatUI.SetPokemonDisplay(_pokemonTeam[_index]);
+        owner.ActiveSubUI(pokemonStatUI);
+        pokemonStatUI.UpdatePokemon(_pokemonTeam[_index]);
+        pokemonProfileUI.UpdatePokemon(_pokemonTeam[_index]);
+    }
+    public void NextPokemonStat()
+    {
+        PokemonTeam _pokemonTeam = GetOwnerMainUi<PlayerTrainer>().PokemonTeam;
+        if(CurrentIndexPokemonDisplay + 1 >= _pokemonTeam.Lenght)
+        {
+            CurrentIndexPokemonDisplay = 0;
+        }
+        else
+            CurrentIndexPokemonDisplay++;
+        pokemonStatUI.UpdatePokemon(_pokemonTeam[CurrentIndexPokemonDisplay]);
+        pokemonProfileUI.UpdatePokemon(_pokemonTeam[CurrentIndexPokemonDisplay]);
+    }
+    public void PreviousPokemonStat()
+    {
+        PokemonTeam _pokemonTeam = GetOwnerMainUi<PlayerTrainer>().PokemonTeam;
+        if (CurrentIndexPokemonDisplay - 1 < 0)
+            CurrentIndexPokemonDisplay = _pokemonTeam.Lenght - 1;
+        else
+            CurrentIndexPokemonDisplay--;
+
+        pokemonStatUI.UpdatePokemon(_pokemonTeam[CurrentIndexPokemonDisplay]);
+        pokemonProfileUI.UpdatePokemon(_pokemonTeam[CurrentIndexPokemonDisplay]);
     }
 }

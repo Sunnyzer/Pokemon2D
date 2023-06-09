@@ -33,16 +33,18 @@ public class UIManager : Singleton<UIManager>
         if (uiQueue.Count > 0)
         {
             ChangeUI(uiQueue[0]);
+            for (int i = 0; i < uiQueue.Count; i++)
+                uiQueue[i].DeactivateUI();
             uiQueue.Clear();
             return;
         }
         ChangeUI(null);
     }
-    public bool RemoveQueueSetPreviousUI()
+    public bool RemoveQueueSetPreviousUI(bool _removeIf0SubUIDisplay = false)
     {
-        if(currentUI.RemoveUIIf0SubUIDisplay)
+        if(_removeIf0SubUIDisplay)
         {
-            if(currentUI.CurrentSubUIDisplay)
+            if (currentUI.CurrentSubUIDisplay)
             {
                 currentUI.ClearSubUI();
                 return false;

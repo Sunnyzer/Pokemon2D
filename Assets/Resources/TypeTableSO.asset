@@ -14,75 +14,98 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typeTable:
     typeTable:
-    - pkmType: 1
+    - spriteType: {fileID: 27989353, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 0
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 2
+    - spriteType: {fileID: -164867712, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 1
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 3
+    - spriteType: {fileID: 445969256, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 2
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 4
+    - spriteType: {fileID: -1869372956, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 3
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 5
+    - spriteType: {fileID: 1646865340, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 4
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 6
+    - spriteType: {fileID: -1076293472, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 5
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 7
+    - spriteType: {fileID: 1036764993, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 6
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 8
+    - spriteType: {fileID: -1909646503, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 7
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 9
+    - spriteType: {fileID: -458240063, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 8
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 10
+    - spriteType: {fileID: -282058870, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 9
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 11
+    - spriteType: {fileID: 206985455, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 10
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 12
+    - spriteType: {fileID: -425196893, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 11
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 13
+    - spriteType: {fileID: -2129187013, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 12
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 14
+    - spriteType: {fileID: -1401426504, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 13
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 15
+    - spriteType: {fileID: -1981464910, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 14
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 16
+    - spriteType: {fileID: 188334639, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 15
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 17
+    - spriteType: {fileID: 1790855772, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 16
       immunes: 
       resistances: 
       strengths: 
-    - pkmType: 18
+    - spriteType: {fileID: 715641071, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 17
+      immunes: 
+      resistances: 
+      strengths: 
+    - spriteType: {fileID: -698072543, guid: 2776358c9b40d4b45b0e00f5b17b4b22, type: 3}
+      pkmType: 18
       immunes: 
       resistances: 
       strengths: 

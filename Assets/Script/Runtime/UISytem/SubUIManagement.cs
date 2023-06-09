@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 [Serializable]
 public class SubUIManagement
@@ -16,6 +17,7 @@ public class SubUIManagement
     public UI Owner => owner;
     public SubUI CurrentSubUIDisplay => currentSubUI;
     public SubUI PreviousSubUIDisplay => previousSubUI;
+    public int Lenght => subUIManagements.Count;
 
     public void Init(UI _owner)
     {
@@ -49,13 +51,26 @@ public class SubUIManagement
             subUIManagements.Add(_subUI);
         }
 
-        //for (int i = 0; i < subUIManagements.Count; i++)
-        //{
-        //    SubUI _subUI = subUIManagements[i];
-        //    _subUI.OnActivation += OnActiveSubUI;
-        //}
         if (activeOnStart)
             OnActiveSubUI(subUIManagements[indexActivation]);
+    }
+    public bool ActiveNextSubUI()
+    {
+        int _index = GetCurrentIndex();
+        if (_index == -1) return false;
+        int _nextIndex = _index + 1;
+        if (_nextIndex >= subUIManagements.Count)
+            _nextIndex = 0;
+        if (_nextIndex >= subUIManagements.Count) return false;
+        ActiveSubUI(subUIManagements[_nextIndex]);
+        return true;
+    }
+    public int GetCurrentIndex()
+    {
+        for (int i = 0; i < subUIManagements.Count; i++)
+            if (subUIManagements[i] == currentSubUI)
+                return i;
+        return -1;
     }
     private void OnActiveSubUI(SubUI _subUI)
     {
@@ -66,17 +81,28 @@ public class SubUIManagement
         currentSubUI = _subUI;
         currentSubUI.ActivateUI();
     }
-    public void ActiveSubUi(int _index)
+    public void ActiveSubUI(int _index)
     {
         OnActiveSubUI(subUIManagements[_index]);
     }
-    public void ActiveSubUi(SubUI _subUi)
+    public void ActiveSubUI(SubUI _subUi)
     {
         OnActiveSubUI(_subUi);
     }
-    public void ActivePreviousSubUI()
+    public void ActivePreviousSubUIDisplay()
     {
         OnActiveSubUI(previousSubUI);
+    }
+    public bool ActivePreviousSubUI()
+    {
+        int _index = GetCurrentIndex();
+        if (_index == -1) return false;
+        int _previousIndex = _index - 1;
+        if (_previousIndex < 0)
+            _previousIndex = 0;
+        if (_previousIndex >= subUIManagements.Count) return false;
+        ActiveSubUI(subUIManagements[_previousIndex]);
+        return true;
     }
     public void DeactivateAllSubUI()
     {

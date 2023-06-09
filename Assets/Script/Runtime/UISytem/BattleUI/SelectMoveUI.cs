@@ -9,7 +9,7 @@ public class SelectMoveUI : SubUI
     public override void Init(SubUIManagement _owner)
     {
         base.Init(_owner);
-        returnButton.onClick.AddListener(owner.ActivePreviousSubUI);
+        returnButton.onClick.AddListener(owner.ActivePreviousSubUIDisplay);
     }
     public override void OnActivate()
     {

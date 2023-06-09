@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,7 +14,7 @@ public class PokemonSwapUI : TeamUI
     public override void Init(SubUIManagement _owner)
     {
         base.Init(_owner);
-        returnButton.onClick.AddListener(owner.ActivePreviousSubUI);
+        returnButton.onClick.AddListener(owner.ActivePreviousSubUIDisplay);
     }
     public override void OnActivate()
     {
@@ -54,22 +55,21 @@ public class PokemonSwapUI : TeamUI
     //TODO doit etre changer n a rien n a faire ici
     public void Swap(int _index)
     {
+        PokemonTeam _pokemonTeam = GetOwnerMainUi<PlayerTrainer>().PokemonTeam;
         if (ForceSwap)
         {
-            if (BattleManager.Instance.BattleField.ChangeFirstPokemon(GetOwnerMainUi<PlayerTrainer>().PokemonTeam[_index]))
-                owner.ActivePreviousSubUI();
+            if (BattleManager.Instance.BattleField.ChangeFirstPokemon(_pokemonTeam[_index]))
+                owner.Reset();
             else
-                Debug.Log("Pokemon Fainted !!!");
+                Debug.Log("Pokemon Already In Field or Fainted !!!");
         }
         else
         {
-            if (!BattleManager.Instance.PlayerTrainer.PokemonTeam[_index].Fainted)
-            {
-                BattleManager.Instance.SelectAction(new SwapPokemonAction(GetOwnerMainUi<PlayerTrainer>().PokemonTeam[_index]));
-                owner.ActivePreviousSubUI();
-            }
+            
+            if(BattleManager.Instance.SelectAction(new SwapPokemonAction(_pokemonTeam[_index])))
+                owner.Reset();
             else
-                Debug.Log("Pokemon Fainted !!!");
+                Debug.Log("Pokemon Already In Field or Fainted !!!");
         }
     }
 }

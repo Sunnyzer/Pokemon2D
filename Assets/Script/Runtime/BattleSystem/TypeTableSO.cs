@@ -16,6 +16,10 @@ public class TypeTable
 public class TypeTableSO : ScriptableObject
 {
     [SerializeField] public TypeTable typeTable;
+    public Sprite GetSpriteType(PkmType _pkmType)
+    {
+        return typeTable.typeTable[(int)_pkmType].spriteType;
+    }
     public float GetEffective(PkmType _type, PkmType _targetType)
     {
         return typeTable.GetEffective(_type, _targetType);

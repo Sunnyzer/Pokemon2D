@@ -22,4 +22,9 @@ public class AttackAction : TurnAction
         Pokemon _target = _battleField.FirstPokemon == launcher ? _battleField.SecondPokemon : _battleField.FirstPokemon;
         _target.TakeDamage(launcher, move);
     }
+
+    public override bool IsValidAction(BattleField _battleField)
+    {
+        return true;
+    }
 }

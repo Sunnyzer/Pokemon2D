@@ -53,8 +53,9 @@ public class BattleManager : Singleton<BattleManager>
                     RunBattle();
                     return;
                 }
+                Debug.Log(battleField.FirstPokemon.Name + " is Fainted");
                 turnActions.Clear();
-                battleUI.PokemonSwapUI.OnActivate();
+                battleUI.DisplaySwapPokemon();
                 battleUI.PokemonSwapUI.ActiveForceSwap();
                 return;
             }
@@ -67,9 +68,14 @@ public class BattleManager : Singleton<BattleManager>
         }
         turnActions.Clear();
     }
-    public void SelectAction(TurnAction _action)
+    public bool SelectAction(TurnAction _action)
     {
-        turnActions.Add(_action);
+        if (_action.IsValidAction(battleField))
+        {
+            turnActions.Add(_action);
+            return true;
+        }
+        return false;
     }
     public void RunBattle()
     {

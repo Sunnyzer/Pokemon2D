@@ -11,10 +11,15 @@ public class BattleField
 
     public Pokemon FirstPokemon => firstPokemon;
     public Pokemon SecondPokemon => secondPokemon;
-
+    public bool CanSwapWith(Pokemon _pokemonSwitchInBattle)
+    {
+        if(firstPokemon == _pokemonSwitchInBattle || secondPokemon == _pokemonSwitchInBattle || _pokemonSwitchInBattle.Fainted)
+            return false;
+        return true;
+    }
     public bool ChangeFirstPokemon(Pokemon _newPokemon)
     {
-        if(_newPokemon == null || _newPokemon.Fainted) return false;
+        if(_newPokemon == null || _newPokemon.Fainted || _newPokemon == firstPokemon) return false;
         firstPokemon.ResetFieldEffect();
         firstPokemon = _newPokemon;
         return true;

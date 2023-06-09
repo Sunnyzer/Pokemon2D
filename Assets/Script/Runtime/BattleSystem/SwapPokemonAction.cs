@@ -17,4 +17,9 @@ public class SwapPokemonAction : TurnAction
     {
         _battleField.ChangeFirstPokemon(pokemonToSwap);
     }
+
+    public override bool IsValidAction(BattleField _battleField)
+    {
+        return _battleField.CanSwapWith(pokemonToSwap);
+    }
 }

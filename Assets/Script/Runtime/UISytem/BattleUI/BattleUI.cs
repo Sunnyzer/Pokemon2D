@@ -25,7 +25,10 @@ public class BattleUI : UI
         playerPokemonInfoUI.SetBattleField(_battleField);
         opponentPokemonInfoUI.SetBattleField(_battleField);
     }
-
+    public void DisplaySwapPokemon()
+    {
+        subUIManagement.ActiveSubUI(pokemonSwapUI);
+    }
     public override void OnActivate()
     {
         

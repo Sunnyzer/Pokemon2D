@@ -13,8 +13,8 @@ public class BattleMenuButtonUI : SubUI
     public override void Init(SubUIManagement _owner)
     {
         base.Init(_owner);
-        fightButton.onClick.AddListener(() => { owner.ActiveSubUi(1); });
-        pokemonButton.onClick.AddListener(() => { owner.ActiveSubUi(2); });
+        fightButton.onClick.AddListener(() => { owner.ActiveSubUI(1); });
+        pokemonButton.onClick.AddListener(() => { owner.ActiveSubUI(2); });
         bagButton.onClick.AddListener(() => { /*_owner.ActiveSubUi(3); */});
         runButton.onClick.AddListener(() => { });
     }

@@ -155,7 +155,7 @@ TextureImporter:
         width: 126
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,7 +176,7 @@ TextureImporter:
         width: 128
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,6 +184,195 @@ TextureImporter:
       bones: []
       spriteID: 4f53600303238024797cda414781d2b7
       internalID: 38362947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2269
+        width: 126
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cae682c8967a94c86a5ced1dfddc0e
+      internalID: 1336283022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2225
+        width: 128
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97186b8956f11bf49aa4ae2f6f1be9a7
+      internalID: -1011787485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1383
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef3cd417c2f68b45a442cd522638fc7
+      internalID: -1435293392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonInfoButton
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 542
+        width: 126
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9493306e73a5c9c4e8b5b55034496136
+      internalID: -12857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonInfoButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 497
+        width: 128
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47a8f185ee41c64899524563a7b3174
+      internalID: -1372243555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PokemonInfoButtonNoPokemon
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 400
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ab077ca8e6af4292691c50d4de6e1
+      internalID: 1408502075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButton
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 358
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc1e593c666e3e46ab3d6717709aec0
+      internalID: -1214357533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 322
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e60b61108f7b64fbfd94d1f2fadcb4
+      internalID: -1249603318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackButtonDisable
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 246
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6726fe590095fc4e8adaaafce720dec
+      internalID: -143339696
       vertices: []
       indices: 
       edges: []
@@ -201,8 +390,17 @@ TextureImporter:
     nameFileIdTable:
       FireButton: -1150919025
       DarkButton: -568135717
+      BackButton: -1214357533
+      PokemonInfoButtonPressed: -1372243555
+      BackButtonPressed: -1249603318
+      ButtonPressed: -1011787485
+      PokemonInfoButton: -12857
+      BackButtonDisable: -143339696
       DarkButtonPressed: 38362947
       FireButtonPressed: 1834897241
+      PokemonInfoButtonNoPokemon: 1408502075
+      Button: 1336283022
+      Background: -1435293392
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -47,11 +47,6 @@ public class PokemonStatUI : SubUI
     [SerializeField] TextMeshProUGUI pokemonLevel;
     [SerializeField] Image pokemonSprite;
 
-    public void SetPokemonDisplay(Pokemon _pokemon)
-    {
-        UpdatePokemon(_pokemon);
-    }
-
     public void UpdatePokemon(Pokemon _pokemon)
     {
         _pokemon.ApplyStat();

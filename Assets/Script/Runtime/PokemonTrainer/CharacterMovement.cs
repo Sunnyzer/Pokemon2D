@@ -30,6 +30,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] bool canMove = true;
     [SerializeField] float ratioSpeedSprint = 1.5f;
     [SerializeField] float inputSensibility = 0.1f;
+    [SerializeField] LayerMask layerToIgnore = 0;
     List<InputBool> inputs = new List<InputBool>();
     public Vector2 DirectionEye
     {
@@ -69,9 +70,10 @@ public class CharacterMovement : MonoBehaviour
             }
             if (IsKeyJustPressed(_input)) break;
             Vector3 _nextPosition = transform.position + (Vector3)_input.direction;
-            RaycastHit2D raycastHit2D = Physics2D.CircleCast(_nextPosition, 0.1f, Vector3.forward);
+            RaycastHit2D raycastHit2D = Physics2D.CircleCast(_nextPosition, 0.1f, Vector3.forward, 1, ~layerToIgnore);
             SetEyeDirectionX((int)_input.direction.x);
             SetEyeDirectionY((int)_input.direction.y);
+            //Debug.Log(raycastHit2D.collider?.name);
             if (raycastHit2D && !raycastHit2D.collider.isTrigger) break;
             animator.SetFloat("axisX", _input.direction.x);
             animator.SetFloat("axisY", _input.direction.y);

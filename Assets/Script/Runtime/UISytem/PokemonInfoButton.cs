@@ -21,9 +21,17 @@ public class PokemonInfoButton : Button
     public void Activate()
     {
         gameObject.SetActive(true);
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(true);
+        }
     }
     public void Deactivate()
     {
-        gameObject.SetActive(false);
+        interactable = false;
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
     }
 }

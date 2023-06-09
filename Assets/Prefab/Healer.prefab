@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2944201012799365625}
   - component: {fileID: 3967905370797212032}
   - component: {fileID: -5787397035383276277}
-  - component: {fileID: 2012151234795945291}
-  m_Layer: 0
+  - component: {fileID: 878157434997098095}
+  m_Layer: 6
   m_Name: Healer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2877840aef24b644d848c9f3d1cd01b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &2012151234795945291
+--- !u!61 &878157434997098095
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
