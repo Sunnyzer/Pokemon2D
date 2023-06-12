@@ -57,6 +57,7 @@ public class BattleManager : Singleton<BattleManager>
                 turnActions.Clear();
                 battleUI.DisplaySwapPokemon();
                 battleUI.PokemonSwapUI.ActiveForceSwap();
+                battleField.SecondPokemon.ApplyEffectTurn();
                 return;
             }
             if(battleField.SecondPokemon.Fainted)
@@ -65,6 +66,28 @@ public class BattleManager : Singleton<BattleManager>
                 RunBattle();
                 return;
             }
+        }
+        battleField.FirstPokemon.ApplyEffectTurn();
+        battleField.SecondPokemon.ApplyEffectTurn();
+        if (battleField.FirstPokemon.Fainted)
+        {
+            if (!playerTrainer.PokemonTeam.HavePokemonLeft())
+            {
+                RunBattle();
+                return;
+            }
+            Debug.Log(battleField.FirstPokemon.Name + " is Fainted");
+            turnActions.Clear();
+            battleUI.DisplaySwapPokemon();
+            battleUI.PokemonSwapUI.ActiveForceSwap();
+            battleField.SecondPokemon.ApplyEffectTurn();
+            return;
+        }
+        if (battleField.SecondPokemon.Fainted)
+        {
+            battleField.FirstPokemon.GainExp(40);
+            RunBattle();
+            return;
         }
         turnActions.Clear();
     }

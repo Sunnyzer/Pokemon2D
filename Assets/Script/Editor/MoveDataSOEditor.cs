@@ -42,40 +42,56 @@ public class MoveDataSOEditor : Editor
             {
                 //Debug.Log(i);
                 RootMove _move = JsonConvert.DeserializeObject<RootMove>(_webRequest.downloadHandler.text);
-                moveDataSO.allMoves.moves[i - 1] = new MoveData();
+                MoveData _moveData = new MoveData();
                 if(_move.accuracy != null)
-                    moveDataSO.allMoves.moves[i - 1].accuracy = _move.accuracy.Value;
-                moveDataSO.allMoves.moves[i - 1].name = _move.name;
-                moveDataSO.allMoves.moves[i - 1].id = i;
+                    _moveData.accuracy = _move.accuracy.Value;
+                _moveData.name = _move.name;
+                _moveData.id = i;
                 if(_move.power != null)
-                    moveDataSO.allMoves.moves[i - 1].power = _move.power.Value;
+                    _moveData.power = _move.power.Value;
                 if(_move.pp != null)
-                    moveDataSO.allMoves.moves[i - 1].pp = _move.pp.Value;
-                moveDataSO.allMoves.moves[i - 1].priority = _move.priority;
-                moveDataSO.allMoves.moves[i - 1].type = Enum.Parse<PkmType>(_move.type.name);
-                moveDataSO.allMoves.moves[i - 1].damageType = Enum.Parse<DamageType>(_move.damage_class.name);
-                moveDataSO.allMoves.moves[i - 1].critRate = _move.meta.crit_rate;
-                moveDataSO.allMoves.moves[i - 1].statChance = _move.meta.stat_chance;
-                moveDataSO.allMoves.moves[i - 1].healing = _move.meta.healing;
-                moveDataSO.allMoves.moves[i - 1].drain = _move.meta.drain;
-                moveDataSO.allMoves.moves[i - 1].flinchRate = _move.meta.flinch_chance;
+                    _moveData.pp = _move.pp.Value;
+                _moveData.priority = _move.priority;
+                _moveData.type = Enum.Parse<PkmType>(_move.type.name);
+                _moveData.damageType = Enum.Parse<DamageType>(_move.damage_class.name);
+                _moveData.critRate = _move.meta.crit_rate;
+                _moveData.statChance = _move.meta.stat_chance;
+                _moveData.healing = _move.meta.healing;
+                _moveData.drain = _move.meta.drain;
+                _moveData.flinchRate = _move.meta.flinch_chance;
                 if(_move.effect_chance != null)
-                    moveDataSO.allMoves.moves[i - 1].effectChance = _move.effect_chance.Value;
+                    _moveData.effectChance = _move.effect_chance.Value;
                 if (_move.stat_changes.Count > 0)
-                    moveDataSO.allMoves.moves[i - 1].stat_changes = new Stat(0,0,0,0,0,0);
+                    _moveData.stat_changes = new Stat(0,0,0,0,0,0);
+                
+                if (Enum.TryParse(_move.meta.ailment.name, out Status _result))
+                    _moveData.effectStatus = _result;
+                else
+                    Debug.Log(_move.meta.ailment.name);
+
+                if(_move.meta.max_hits != null)
+                    _moveData.max_hits = _move.meta.max_hits.Value;
+                if(_move.meta.min_hits != null)
+                    _moveData.min_hits = _move.meta.min_hits.Value;
+                if(_move.meta.max_turns != null)
+                    _moveData.max_turns = _move.meta.max_turns.Value;
+                if(_move.meta.min_turns != null)
+                    _moveData.min_turns = _move.meta.min_turns.Value;
+                
                 for (int j = 0; j < _move.stat_changes.Count; j++)
                 {
                     if (_move.stat_changes[j].stat.name == "attack")
-                        moveDataSO.allMoves.moves[i - 1].stat_changes.Attack += _move.stat_changes[j].change;
+                        _moveData.stat_changes.Attack += _move.stat_changes[j].change;
                     if (_move.stat_changes[j].stat.name == "defense")
-                        moveDataSO.allMoves.moves[i - 1].stat_changes.Defense += _move.stat_changes[j].change;
+                        _moveData.stat_changes.Defense += _move.stat_changes[j].change;
                     if (_move.stat_changes[j].stat.name == "special-attack")
-                        moveDataSO.allMoves.moves[i - 1].stat_changes.SpAttack += _move.stat_changes[j].change;
+                        _moveData.stat_changes.SpAttack += _move.stat_changes[j].change;
                     if (_move.stat_changes[j].stat.name == "special-defense")
-                        moveDataSO.allMoves.moves[i - 1].stat_changes.SpDefense += _move.stat_changes[j].change;
+                        _moveData.stat_changes.SpDefense += _move.stat_changes[j].change;
                     if (_move.stat_changes[j].stat.name == "speed")
-                        moveDataSO.allMoves.moves[i - 1].stat_changes.Speed += _move.stat_changes[j].change;
+                        _moveData.stat_changes.Speed += _move.stat_changes[j].change;
                 }
+                moveDataSO.allMoves.moves[i - 1] = _moveData;
             }
         }
         serializedObject.ApplyModifiedProperties();
@@ -170,10 +186,10 @@ public class Meta
     public int drain { get; set; }
     public int flinch_chance { get; set; }
     public int healing { get; set; }
-    //public object max_hits { get; set; }
-    //public object max_turns { get; set; }
-    //public object min_hits { get; set; }
-    //public object min_turns { get; set; }
+    public int? max_hits { get; set; }
+    public int? max_turns { get; set; }
+    public int? min_hits { get; set; }
+    public int? min_turns { get; set; }
     public int stat_chance { get; set; }
 }
 

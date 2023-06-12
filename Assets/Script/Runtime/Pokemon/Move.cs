@@ -12,8 +12,8 @@ public enum DamageType
 [Serializable]
 public class MoveData
 {
-    [SerializeField] public int accuracy;
     [SerializeField] public string name;
+    [SerializeField] public int accuracy;
     [SerializeField] public int id;
     [SerializeField] public int power;
     [SerializeField] public int pp;
@@ -26,7 +26,12 @@ public class MoveData
     [SerializeField] public int drain;
     [SerializeField] public float flinchRate;
     [SerializeField] public float effectChance;
+    [SerializeField] public Status effectStatus;
     [SerializeField] public Stat stat_changes;
+    [SerializeField] public int min_turns = 0;
+    [SerializeField] public int max_turns = 0;
+    [SerializeField] public int min_hits = 0;
+    [SerializeField] public int max_hits = 0;
 
     public string Name => name;
     public int Accuracy => accuracy;
@@ -50,6 +55,14 @@ public class Move
     public int Priority => data.priority;
     public int Accuracy => data.Accuracy;
     public float CritRate => data.critRate;
+    public float FlinchRate => data.flinchRate;
+    public float EffectChance => data.effectChance;
+    public float Drain => data.drain;
+    public float Healing => data.healing;
+    public Stat statBoost => data.stat_changes;
+
+    public Status StatusEffect => data.effectStatus;
+    public DamageType DamageType => data.damageType;
 
     public Move(MoveData data)
     {

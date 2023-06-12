@@ -19,8 +19,6 @@ public class WildPokemon
     public TurnAction CalculAction(BattleField _battleField)
     {
         Move _move = pokemon.GetRandomMove();
-        if (_move == null)
-            _move = new Move(MoveManager.Instance.GetMoveLutte());
         AttackAction _action = new AttackAction(pokemon, _move);
         return _action;
     }

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7231415198631800122}
   - component: {fileID: 7231415198631800121}
   - component: {fileID: 7231415198631800120}
+  - component: {fileID: 5222590076834364931}
   m_Layer: 0
   m_Name: Logic
   m_TagString: Untagged
@@ -78,7 +79,7 @@ MonoBehaviour:
   controllers: []
   currentController: {fileID: 0}
   mainController: {fileID: 0}
-  indexController: 2
+  indexController: 3
 --- !u!114 &7231415198631800123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,8 +136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveData: {fileID: 11400000, guid: 6e42104ed215069468b1dd20409601c2, type: 2}
   lutteMove:
-    accuracy: 0
     name: 
+    accuracy: 0
     id: 0
     power: 0
     pp: 2147483647
@@ -149,6 +150,7 @@ MonoBehaviour:
     drain: 0
     flinchRate: 0
     effectChance: 0
+    effectStatus: 0
     stat_changes:
       HP: 0
       Attack: 0
@@ -156,3 +158,28 @@ MonoBehaviour:
       SpAttack: 0
       SpDefense: 0
       Speed: 0
+    min_turns: 0
+    max_turns: 0
+    min_hits: 0
+    max_hits: 0
+--- !u!114 &5222590076834364931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231415198631800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696e5178fde79484aa1daeffb870f948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statusSprites:
+  - status: 1
+    sprite: {fileID: 56004949, guid: 9b187104c635a2b4da30dae6cff8302e, type: 3}
+  - status: 2
+    sprite: {fileID: -1887193969, guid: 9b187104c635a2b4da30dae6cff8302e, type: 3}
+  - status: 4
+    sprite: {fileID: -1661951356, guid: 9b187104c635a2b4da30dae6cff8302e, type: 3}
+  - status: 3
+    sprite: {fileID: -1821314304, guid: 9b187104c635a2b4da30dae6cff8302e, type: 3}

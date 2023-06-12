@@ -17,6 +17,10 @@ public class Stat
     [SerializeField] public int SpAttack;
     [SerializeField] public int SpDefense;
     [SerializeField] public int Speed;
+    public static Stat Zero
+    {
+        get => new Stat(0, 0, 0, 0, 0, 0);
+    }
     public static Stat One
     {
         get => new Stat(1, 1, 1, 1, 1, 1);
@@ -58,7 +62,26 @@ public class Stat
         int _speed = _first.Speed * _second.Speed;
         return new Stat(_hp, _attack, _defense, _spAttack, _spDefense, _speed);
     }
-
+    public static Stat operator *(Stat _first, float _second)
+    {
+        int _hp = _first.HP * (int)_second;
+        int _attack = _first.Attack * (int)_second;
+        int _defense = _first.Defense * (int)_second;
+        int _spAttack = _first.SpAttack * (int)_second;
+        int _spDefense = _first.SpDefense * (int)_second;
+        int _speed = _first.Speed * (int)_second;
+        return new Stat(_hp, _attack, _defense, _spAttack, _spDefense, _speed);
+    }
+    public static Stat operator +(Stat _first, Stat _second)
+    {
+        int _hp = _first.HP + _second.HP;
+        int _attack = _first.Attack + _second.Attack;
+        int _defense = _first.Defense + _second.Defense;
+        int _spAttack = _first.SpAttack + _second.SpAttack;
+        int _spDefense = _first.SpDefense + _second.SpDefense;
+        int _speed = _first.Speed + _second.Speed;
+        return new Stat(_hp, _attack, _defense, _spAttack, _spDefense, _speed);
+    }
     public static Stat GetRandomIV()
     {
         int hp = UnityEngine.Random.Range(0, 32);

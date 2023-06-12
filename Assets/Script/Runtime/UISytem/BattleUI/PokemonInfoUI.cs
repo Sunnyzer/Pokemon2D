@@ -36,10 +36,10 @@ public abstract class PokemonInfoUI : MonoBehaviour
     {
         hpBar.value = (float)_pokemon.Hp/_pokemon.HpMax;
     }
-    public virtual void UpdateStatus(Pokemon _pokemon)
+    public void UpdateStatus(Pokemon _pokemon)
     {
-        //status.gameObject.SetActive(false);
-        //
+        status.sprite = StatusManager.Instance.GetSpriteByStatus(_pokemon.CurrentStatus);
+        status.gameObject.SetActive(status.sprite);
     }
     public abstract void UpdateSprite(Pokemon _pokemon);
 }

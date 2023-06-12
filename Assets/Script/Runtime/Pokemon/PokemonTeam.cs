@@ -18,7 +18,7 @@ public class PokemonTeam : MonoBehaviour
         pokemons = new Pokemon[pokemonsChoices.Length];
         for (int i = 0; i < pokemonsChoices.Length; i++)
         {
-            Pokemon _p = PokemonManager.Instance.GeneratePokemon(Random.Range(9, 14), pokemonsChoices[i]);
+            Pokemon _p = PokemonManager.Instance.GeneratePokemon(Random.Range(22, 22), pokemonsChoices[i]);
             pokemons[i] = _p;
         }
     }
