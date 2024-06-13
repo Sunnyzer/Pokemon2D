@@ -13,6 +13,8 @@ public class GrassGeneratorEditor : EditorWindow
     
     KeyCode keyDelete = KeyCode.C;
     KeyCode keyPaint = KeyCode.F;
+    KeyCode keyIncreaseSize = KeyCode.UpArrow;
+    KeyCode keyDecreaseSize = KeyCode.DownArrow;
     LayerMask objectToIgnore;
     CellSettings settings = new CellSettings();
     
@@ -53,7 +55,15 @@ public class GrassGeneratorEditor : EditorWindow
             _callback?.Invoke();
         }
     }
-
+    void InputToggleMouse(int _inputMouse, Action _callback)
+    {
+        if (Event.current.isScrollWheel && Event.current.rawType == EventType.ScrollWheel)
+        {
+            Debug.Log(Event.current.type);
+            Selection.activeGameObject = null;
+            _callback?.Invoke();
+        }
+    }
     public void CreateTileSprite(TileSprite _tileSpritePrefab, Vector3 _position)
     {
         TransformTileSprite _transformTileSprite = null;
@@ -87,7 +97,7 @@ public class GrassGeneratorEditor : EditorWindow
                 {
                     TileSprite _tileSprite = _collider.GetComponent<TileSprite>();
                     if(_tileSprite && tileSpritePrefab.GetType() == _tileSprite.GetType())
-                        return;
+                        continue;
                 }
                 CreateTileSprite(tileSpritePrefab, _pos);
             }
@@ -99,7 +109,7 @@ public class GrassGeneratorEditor : EditorWindow
         {
             for (int j = 0; j < paintSize; j++)
             {
-                Vector3 _pos = cellPosition + new Vector3(i, j);
+                Vector3 _pos = cellPosition + new Vector3(i, j, 0);
                 TileSprite _tileSprite = DetectTileSprite(_pos);
                 if (_tileSprite)
                 {
@@ -112,7 +122,14 @@ public class GrassGeneratorEditor : EditorWindow
             }
         }
     }
-
+    public void IncreasePainSize()
+    {
+        paintSize++;
+    }
+    public void DecreasePainSize()
+    {
+        paintSize--;
+    }
     public Collider2D Detect(Vector2 _position)
     {
         RaycastHit2D _ray = Physics2D.CircleCast(_position, 0.1f, Vector3.forward, 0.1f, 1 << objectToIgnore);
@@ -168,6 +185,8 @@ public class GrassGeneratorEditor : EditorWindow
         tileSpritePrefab = (TileSprite)EditorGUILayout.ObjectField("grass", tileSpritePrefab, typeof(TileSprite), true);
         keyDelete = (KeyCode)EditorGUILayout.EnumPopup("keyDelete",keyDelete);
         keyPaint = (KeyCode)EditorGUILayout.EnumPopup("keyPaint", keyPaint);
+        keyIncreaseSize = (KeyCode)EditorGUILayout.EnumPopup("keyIncrease", keyIncreaseSize);
+        keyDecreaseSize = (KeyCode)EditorGUILayout.EnumPopup("keyDecrease", keyDecreaseSize);
         objectToIgnore = EditorGUILayout.LayerField("ObjectToDetect", objectToIgnore);
 
         settings.collisionBorder = EditorGUILayout.Toggle("Border", settings.collisionBorder);
@@ -182,7 +201,11 @@ public class GrassGeneratorEditor : EditorWindow
 
         InputToggle(keyPaint, Paint);
         InputToggle(keyDelete, Delete);
+        InputToggle(keyIncreaseSize, IncreasePainSize);
+        InputToggle(keyDecreaseSize, DecreasePainSize);
 
+        Handles.DrawWireCube(cellPosition + ((Vector3.one/2)*(paintSize-1)), Vector2.one * paintSize);
+        Repaint();
         if (!debugCollision) return;
         foreach (TransformTileSprite item in transformList.Values)
         {

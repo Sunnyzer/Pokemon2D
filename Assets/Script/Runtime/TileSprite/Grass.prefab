@@ -135,7 +135,7 @@ MonoBehaviour:
   leftUp: 0
   rightDown: 0
   leftDown: 0
-  currentZone: {fileID: 0}
+  cellZone: {fileID: 0}
 --- !u!50 &-3579038079410926289
 Rigidbody2D:
   serializedVersion: 4

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d241c0619559fc4e81f2d8cf31093a6, type: 3}
+  m_Name: GrassData
+  m_EditorClassIdentifier: 
+  grassTile: {fileID: 0}
+  grassTileRight: {fileID: 0}
+  grassTileUp: {fileID: 0}
+  grassTileLeft: {fileID: 0}
+  grassTileDown: {fileID: 0}
+  grassTileRightDown: {fileID: 0}
+  grassTileRightUp: {fileID: 0}
+  grassTileLeftDown: {fileID: 0}
+  grassTileLeftUp: {fileID: 0}
+  grassTileRightLeft: {fileID: 0}
+  grassTileRightLeftDown: {fileID: 0}
+  grassTileRightLeftUp: {fileID: 0}
+  grassTileDownUp: {fileID: 0}
+  grassTileRightDownUp: {fileID: 0}
+  grassTileLeftDownUp: {fileID: 0}
+  grassTileLeftRightDownRight: {fileID: 0}
+  grassSpriteDRightUp: {fileID: 0}
+  grassSpriteDLeftUp: {fileID: 0}
+  grassSpriteDRightDown: {fileID: 0}
+  grassSpriteDLeftDown: {fileID: 0}
