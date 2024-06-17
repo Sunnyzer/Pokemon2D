@@ -27,7 +27,7 @@ public class GrassGeneratorEditor : EditorWindow
     {
         if(!instance)
         {
-            instance = GetWindow<GrassGeneratorEditor>("Grass Generator");
+            instance = GetWindow<GrassGeneratorEditor>("2D Designer");
             instance.sceneView = SceneView.lastActiveSceneView;
         }
     }
@@ -182,18 +182,18 @@ public class GrassGeneratorEditor : EditorWindow
         SetGridCellPosition();
         Repaint();
 
-        tileSpritePrefab = (TileSprite)EditorGUILayout.ObjectField("grass", tileSpritePrefab, typeof(TileSprite), true);
-        keyDelete = (KeyCode)EditorGUILayout.EnumPopup("keyDelete",keyDelete);
-        keyPaint = (KeyCode)EditorGUILayout.EnumPopup("keyPaint", keyPaint);
-        keyIncreaseSize = (KeyCode)EditorGUILayout.EnumPopup("keyIncrease", keyIncreaseSize);
-        keyDecreaseSize = (KeyCode)EditorGUILayout.EnumPopup("keyDecrease", keyDecreaseSize);
+        tileSpritePrefab = (TileSprite)EditorGUILayout.ObjectField("TileSpritePrefab", tileSpritePrefab, typeof(TileSprite), true);
+        keyDelete = (KeyCode)EditorGUILayout.EnumPopup("KeyDelete",keyDelete);
+        keyPaint = (KeyCode)EditorGUILayout.EnumPopup("KeyPaint", keyPaint);
+        keyIncreaseSize = (KeyCode)EditorGUILayout.EnumPopup("KeyIncrease", keyIncreaseSize);
+        keyDecreaseSize = (KeyCode)EditorGUILayout.EnumPopup("KeyDecrease", keyDecreaseSize);
         objectToIgnore = EditorGUILayout.LayerField("ObjectToDetect", objectToIgnore);
 
-        settings.collisionBorder = EditorGUILayout.Toggle("Border", settings.collisionBorder);
-        settings.collisionInside = EditorGUILayout.Toggle("Inside", settings.collisionInside);
+        settings.collisionBorder = EditorGUILayout.Toggle("Active Border Collision", settings.collisionBorder);
+        settings.collisionInside = EditorGUILayout.Toggle("Active Inside Collision", settings.collisionInside);
         settings.layer = EditorGUILayout.IntField("Order In Layer", settings.layer);
         paintSize = EditorGUILayout.IntField("Paint Size", paintSize);
-        debugCollision = EditorGUILayout.Toggle("Debug Collision", debugCollision);
+        debugCollision = EditorGUILayout.Toggle("Display Collision", debugCollision);
     }
     private void OnSceneGUI(SceneView sc)
     {
